@@ -20,12 +20,12 @@ public class UnitFiring : NetworkBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            tryToFire();
+            tryToFire(playerCamera.transform.rotation);
         }
     }
 
     [Command]
-    private void tryToFire()
+    private void tryToFire(Quaternion rot)
     {
         if (Time.time > (1 / fireRate) + lastFireTime)
         {
@@ -40,7 +40,7 @@ public class UnitFiring : NetworkBehaviour
             */
 
             GameObject projectileInstance = Instantiate(
-                projectilePrefab, projectileSpawnPoint.position, playerCamera.transform.rotation);
+                projectilePrefab, projectileSpawnPoint.position, rot);
 
             Debug.Log(playerCamera.transform.localRotation);
 
