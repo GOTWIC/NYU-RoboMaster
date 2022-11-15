@@ -224,6 +224,7 @@ GameObject:
   - component: {fileID: -355129212503525143}
   - component: {fileID: 1250423878152818697}
   - component: {fileID: -8556559641429207887}
+  - component: {fileID: 1992276408119135451}
   m_Layer: 0
   m_Name: Standard
   m_TagString: Untagged
@@ -278,7 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  clientAuthority: 1
+  clientAuthority: 0
   sendInterval: 0.05
   syncPosition: 1
   syncRotation: 1
@@ -346,4 +347,25 @@ MonoBehaviour:
   syncInterval: 0.1
   projectilePrefab: {fileID: 6725605606642089376, guid: 95cf8566e42ab4f4db6fafa6ae611134, type: 3}
   projectileSpawnPoint: {fileID: 1363915121472009782}
+  playerCamera: {fileID: 6346820747945666836}
   fireRate: 100
+--- !u!114 &1992276408119135451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5896884553695805537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c761308e733c51245b2e8bb4201f46dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secretHandshake: 5947059476636120830
+  serverBroadcastListenPort: 47777
+  enableActiveDiscovery: 1
+  ActiveDiscoveryInterval: 3
+  transport: {fileID: 0}
+  OnServerFound:
+    m_PersistentCalls:
+      m_Calls: []

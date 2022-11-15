@@ -23,6 +23,8 @@ public class PlayerCamera : NetworkBehaviour
 
     void Update()
     {
+        if (!hasAuthority) { return; }
+
         float inputY = Input.GetAxis("Mouse Y") * mouseSensitivityY;
 
         cameraVerticalRotation -= inputY;

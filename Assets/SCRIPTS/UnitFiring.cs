@@ -5,6 +5,7 @@ public class UnitFiring : NetworkBehaviour
 { 
     [SerializeField] private GameObject projectilePrefab = null;
     [SerializeField] private Transform projectileSpawnPoint = null;
+    [SerializeField] private Camera playerCamera = null;
 
     [SerializeField] private float fireRate = 1f;
 
@@ -14,6 +15,8 @@ public class UnitFiring : NetworkBehaviour
     private void Update()
     {
         if (!hasAuthority) { return; }
+
+        //Debug.Log(projectileSpawnPoint.rotation);
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -37,7 +40,9 @@ public class UnitFiring : NetworkBehaviour
             */
 
             GameObject projectileInstance = Instantiate(
-                projectilePrefab, projectileSpawnPoint.position, projectileSpawnPoint.rotation);
+                projectilePrefab, projectileSpawnPoint.position, playerCamera.transform.rotation);
+
+            Debug.Log(playerCamera.transform.localRotation);
 
             //projectileInstance.GetComponent<Rigidbody>().AddForce(transform.forward * 100);
 
