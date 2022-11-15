@@ -29,22 +29,8 @@ public class UnitFiring : NetworkBehaviour
     {
         if (Time.time > (1 / fireRate) + lastFireTime)
         {
-            /*
-            Quaternion projectileRotation = Quaternion.LookRotation(
-                target.getTargetPoint().position - projectileSpawnPoint.position);
-            projectileRotation = transform.rotation;
-            GameObject projectileInstance = Instantiate(
-                projectilePrefab, projectileSpawnPoint.position, projectileRotation);
-
-            NetworkServer.Spawn(projectileInstance, connectionToClient);
-            */
-
             GameObject projectileInstance = Instantiate(
                 projectilePrefab, projectileSpawnPoint.position, rot);
-
-            Debug.Log(playerCamera.transform.localRotation);
-
-            //projectileInstance.GetComponent<Rigidbody>().AddForce(transform.forward * 100);
 
             NetworkServer.Spawn(projectileInstance, connectionToClient);
 
