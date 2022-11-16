@@ -1,10 +1,13 @@
 using UnityEngine;
 using Mirror;
+using System.Net;
 
 public class PlayerMovement : NetworkBehaviour
 {
     [SerializeField] float movementSpeed = 60f;
     [SerializeField] float mouseSensitivityX = 60f;
+
+    [SerializeField] Health health = null;
 
     void Update()
     {
@@ -45,6 +48,9 @@ public class PlayerMovement : NetworkBehaviour
     [Command]
     private void CMDTranslate(Vector3 vec)
     {
+        // If the robot is dead, it cannot translate (but can rotate)
+        if (health.inDeathState()) { return; }
+        
         this.transform.Translate(vec * movementSpeed * Time.deltaTime);
     }
 
@@ -52,5 +58,5 @@ public class PlayerMovement : NetworkBehaviour
     private void CMDRotate(float inp)
     {
         this.transform.Rotate(Vector3.up * inp);
-    } 
+    }
 }

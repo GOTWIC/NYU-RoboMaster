@@ -9,6 +9,8 @@ public class UnitFiring : NetworkBehaviour
 
     [SerializeField] private float fireRate = 1f;
 
+    [SerializeField] Health health = null;
+
     private float lastFireTime = 0f;
 
 
@@ -27,6 +29,11 @@ public class UnitFiring : NetworkBehaviour
     [Command]
     private void tryToFire(Quaternion rot)
     {
+        // Cannot fire if the robot is dead
+        if (health.inDeathState()) { return; }
+
+        // Add Logic where robot has to go to the reload zone to unlock the gun after respawning
+
         if (Time.time > (1 / fireRate) + lastFireTime)
         {
             GameObject projectileInstance = Instantiate(
