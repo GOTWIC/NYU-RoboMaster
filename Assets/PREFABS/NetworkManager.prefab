@@ -92,14 +92,13 @@ MonoBehaviour:
   - {fileID: 6725605606642089376, guid: 95cf8566e42ab4f4db6fafa6ae611134, type: 3}
   showRoomGUI: 1
   minPlayers: 1
-  roomPlayerPrefab: {fileID: 1025141822331966785, guid: 75ead025112270d4983b959a1beb421d, type: 3}
+  roomPlayerPrefab: {fileID: 7395575762281401880, guid: 75ead025112270d4983b959a1beb421d, type: 3}
   RoomScene: Assets/Scenes/Room.unity
   GameplayScene: Assets/Scenes/Main.unity
   _allPlayersReady: 0
   roomSlots: []
   clientIndex: 0
   standard: {fileID: 5896884553695805537, guid: 230091cb70a024248a734d9527536976, type: 3}
-  roomCamera: {fileID: 0}
 --- !u!114 &1748227406070202320
 MonoBehaviour:
   m_ObjectHideFlags: 0
