@@ -1,40 +1,46 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject teamSelection = null;
     [SerializeField] private GameObject robotSelection = null;
-    [SerializeField] private GameObject hosting_joining = null;
+    [SerializeField] private GameObject hostingJoining = null;
+    [SerializeField] private GameObject playerName = null;
 
-    // Start is called before the first frame update
+
+    private static UIManager uiManagerInstance;
+
+
+    private void Awake()
+    {
+        int numMusicPlayers = FindObjectsOfType<UIManager>().Length;
+        if (numMusicPlayers != 1) { Destroy(this.gameObject); }
+        else { DontDestroyOnLoad(gameObject); } 
+    }
+
     void Start()
     {
         HostControlHud.enterRoom += goToRoom;
         HostControlHud.exitRoom += goToHome;
-        hosting_joining.SetActive(true);
+        hostingJoining.SetActive(true);
+        playerName.SetActive(true);
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void goToRoom()
     {
-        hosting_joining.SetActive(false);
+        hostingJoining.SetActive(false);
+        playerName.SetActive(false);
         teamSelection.SetActive(true);
         robotSelection.SetActive(true);
     }
 
     public void goToHome()
     {
-        hosting_joining.SetActive(true);
+        hostingJoining.SetActive(true);
+        playerName.SetActive(true);
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
     }

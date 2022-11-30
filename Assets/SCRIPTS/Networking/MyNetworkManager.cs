@@ -11,6 +11,7 @@ public class MyNetworkManager : NetworkRoomManager
     [SerializeField] private GameObject standard = null;
     [SerializeField] private GameObject hero = null;
 
+
     public override bool OnRoomServerSceneLoadedForPlayer(NetworkConnectionToClient conn, GameObject roomPlayer, GameObject gamePlayer)
     {
         spawnRobot(conn, roomPlayer, gamePlayer);

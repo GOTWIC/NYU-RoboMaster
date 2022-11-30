@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5720328415800572386}
   - component: {fileID: 5602106514688206035}
   - component: {fileID: 1617484701863278474}
-  - component: {fileID: 1748227406070202320}
+  - component: {fileID: 446383402}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -90,16 +90,20 @@ MonoBehaviour:
   spawnPrefabs:
   - {fileID: 5896884553695805537, guid: 230091cb70a024248a734d9527536976, type: 3}
   - {fileID: 6725605606642089376, guid: 95cf8566e42ab4f4db6fafa6ae611134, type: 3}
+  - {fileID: 5896884553695805537, guid: a02ff98353b09e94c9fe4ceec06c6b0a, type: 3}
+  - {fileID: 6725605606642089376, guid: 5bb1990fca2b18244a432ac0d6ec2bc9, type: 3}
   showRoomGUI: 1
   minPlayers: 1
-  roomPlayerPrefab: {fileID: 2039970363050661711, guid: 75ead025112270d4983b959a1beb421d, type: 3}
+  roomPlayerPrefab: {fileID: 2765167331897435961, guid: 75ead025112270d4983b959a1beb421d, type: 3}
   RoomScene: Assets/Scenes/Room.unity
   GameplayScene: Assets/Scenes/Main.unity
   _allPlayersReady: 0
   roomSlots: []
   clientIndex: 0
   standard: {fileID: 5896884553695805537, guid: 230091cb70a024248a734d9527536976, type: 3}
---- !u!114 &1748227406070202320
+  hero: {fileID: 5896884553695805537, guid: a02ff98353b09e94c9fe4ceec06c6b0a, type: 3}
+  UIManager: {fileID: 1713537133847652110, guid: 637baef8b5d381b4fbb4439204946432, type: 3}
+--- !u!114 &446383402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +112,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5720328415800572393}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6442dc8070ceb41f094e44de0bf87274, type: 3}
+  m_Script: {fileID: 11500000, guid: 03bd8890fa0e5534d8e65d52f3360c51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   offsetX: 0
