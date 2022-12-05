@@ -495,7 +495,15 @@ namespace Mirror
                 authenticator.OnClientAuthenticated.AddListener(OnClientAuthenticated);
             }
 
-            networkAddress = "10.0.0.27";
+
+            // networkAddress = "localhost";
+            // WHY THE FUCK DOES THIS LINE EVEN EXIST IN THE DISTRIBUTION????
+            // IT FUCKS UP, LIKE EVERYTHING ?!?!?!?!?!?
+            // TO ALL FUTURE STUDENTS, IF THE PACKAGE IS EVER UPDATED,
+            // DO NOT FORGET TO COMMENT OUT THIS RETARDED ASS LINE
+            // I SPENT THREE FUCKING HOURS WONDERING WHY EVERYTHING WENT TO SHIT
+
+
             NetworkServer.ActivateHostScene();
             RegisterClientMessages();
 

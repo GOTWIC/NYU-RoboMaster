@@ -1,5 +1,6 @@
 using Mirror;
 using System;
+using TMPro;
 using UnityEngine;
 
 
@@ -17,6 +18,8 @@ public class HostControlHud : MonoBehaviour
     private bool startHostEnabled = false;
     private bool startClientEnabled = false;
     private bool networkAddressInputEnabled = false;
+
+    [SerializeField] TMP_InputField joinIPInp = null;
 
     public static event Action enterRoom;
     public static event Action exitRoom;
@@ -164,12 +167,12 @@ public class HostControlHud : MonoBehaviour
         manager.StartClient();
     }
     
-    public void setNetworkAddress(string address)
+    public void setNetworkAddress(TMP_InputField inp)
     {
         if (!networkAddressInputEnabled) { return; }
 
-        manager.networkAddress = address;
+        manager.networkAddress = inp.text;
 
-        Debug.Log(address);
+        Debug.Log(manager.networkAddress);
     }
 }
