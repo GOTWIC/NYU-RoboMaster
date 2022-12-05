@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Port: 6666
+  Port: 7777
   DualMode: 1
   NoDelay: 1
   Interval: 10
@@ -81,7 +81,7 @@ MonoBehaviour:
   offlineScene: 
   onlineScene: Assets/Scenes/Room.unity
   transport: {fileID: 5602106514688206035}
-  networkAddress: localhost
+  networkAddress: 10.18.119.178
   maxConnections: 100
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 5838674632839785148, guid: b270b2a2c02cd5f499ef7cc14f6f51ce, type: 3}
@@ -102,7 +102,6 @@ MonoBehaviour:
   clientIndex: 0
   standard: {fileID: 5896884553695805537, guid: 230091cb70a024248a734d9527536976, type: 3}
   hero: {fileID: 5896884553695805537, guid: a02ff98353b09e94c9fe4ceec06c6b0a, type: 3}
-  UIManager: {fileID: 1713537133847652110, guid: 637baef8b5d381b4fbb4439204946432, type: 3}
 --- !u!114 &446383402
 MonoBehaviour:
   m_ObjectHideFlags: 0

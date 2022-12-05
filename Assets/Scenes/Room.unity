@@ -987,10 +987,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5602106514688206035, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
-      propertyPath: Port
-      value: 7777
-      objectReference: {fileID: 0}
     - target: {fileID: 5720328415800572386, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
       propertyPath: m_RootOrder
       value: 2
