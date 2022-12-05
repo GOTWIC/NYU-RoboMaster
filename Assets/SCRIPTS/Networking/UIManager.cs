@@ -29,8 +29,8 @@ public class UIManager : MonoBehaviour
         HostControlHud.exitRoom += goToHome;
         hostingJoining.SetActive(true);
         playerName.SetActive(true);
-        teamSelection.SetActive(false);
-        robotSelection.SetActive(false);
+        //teamSelection.SetActive(false);
+        //robotSelection.SetActive(false);
 
     }
 
