@@ -148,6 +148,8 @@ public class HostControlHud : MonoBehaviour
 
         enterRoom?.Invoke();
 
+        Debug.Log(manager.networkAddress);
+
         manager.StartHost();
     }
 
@@ -157,6 +159,8 @@ public class HostControlHud : MonoBehaviour
 
         enterRoom?.Invoke();
 
+        Debug.Log(manager.networkAddress);
+
         manager.StartClient();
     }
     
@@ -165,5 +169,7 @@ public class HostControlHud : MonoBehaviour
         if (!networkAddressInputEnabled) { return; }
 
         manager.networkAddress = address;
+
+        Debug.Log(address);
     }
 }
