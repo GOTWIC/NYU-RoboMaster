@@ -495,7 +495,7 @@ namespace Mirror
                 authenticator.OnClientAuthenticated.AddListener(OnClientAuthenticated);
             }
 
-            networkAddress = "localhost";
+            networkAddress = "10.0.0.27";
             NetworkServer.ActivateHostScene();
             RegisterClientMessages();
 
