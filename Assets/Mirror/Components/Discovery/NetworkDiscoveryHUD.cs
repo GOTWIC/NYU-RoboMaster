@@ -38,7 +38,7 @@ namespace Mirror.Discovery
                 StopButtons();
         }
 
-        void DrawGUI()
+        public void DrawGUI()
         {
             GUILayout.BeginArea(new Rect(10, 10, 300, 500));
             GUILayout.BeginHorizontal();

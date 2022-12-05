@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -5,6 +6,7 @@ namespace Mirror.Discovery
 {
     [DisallowMultipleComponent]
     [AddComponentMenu("Network/Network Discovery HUD")]
+    [HelpURL("https://mirror-networking.gitbook.io/docs/components/network-discovery")]
     [RequireComponent(typeof(NetworkDiscovery))]
     public class MyNetworkDiscoveryHUD : MonoBehaviour
     {
@@ -13,6 +15,11 @@ namespace Mirror.Discovery
 
         public NetworkDiscovery networkDiscovery;
 
+        private bool uiReady = false;
+
+        public static event Action enterRoom;
+        public static event Action enterServerFinder;
+
 #if UNITY_EDITOR
         void OnValidate()
         {
@@ -20,7 +27,7 @@ namespace Mirror.Discovery
             {
                 networkDiscovery = GetComponent<NetworkDiscovery>();
                 UnityEditor.Events.UnityEventTools.AddPersistentListener(networkDiscovery.OnServerFound, OnDiscoveredServer);
-                UnityEditor.Undo.RecordObjects(new Object[] { this, networkDiscovery }, "Set NetworkDiscovery");
+                UnityEditor.Undo.RecordObjects(new UnityEngine.Object[] { this, networkDiscovery }, "Set NetworkDiscovery");
             }
         }
 #endif
@@ -31,54 +38,14 @@ namespace Mirror.Discovery
                 return;
 
             if (!NetworkClient.isConnected && !NetworkServer.active && !NetworkClient.active)
+            {
+                uiReady = true;
                 DrawGUI();
+            }
+
 
             if (NetworkServer.active || NetworkClient.active)
                 StopButtons();
-        }
-
-        void DrawGUI()
-        {
-            GUILayout.BeginArea(new Rect(10, 10, 300, 500));
-            GUILayout.BeginHorizontal();
-
-            if (GUILayout.Button("Find Servers"))
-            {
-                discoveredServers.Clear();
-                networkDiscovery.StartDiscovery();
-            }
-
-            // LAN Host
-            if (GUILayout.Button("Start Host"))
-            {
-                discoveredServers.Clear();
-                NetworkManager.singleton.StartHost();
-                networkDiscovery.AdvertiseServer();
-            }
-
-            // Dedicated server
-            if (GUILayout.Button("Start Server"))
-            {
-                discoveredServers.Clear();
-                NetworkManager.singleton.StartServer();
-                networkDiscovery.AdvertiseServer();
-            }
-
-            GUILayout.EndHorizontal();
-
-            // show list of found server
-
-            GUILayout.Label($"Discovered Servers [{discoveredServers.Count}]:");
-
-            // servers
-            scrollViewPos = GUILayout.BeginScrollView(scrollViewPos);
-
-            foreach (ServerResponse info in discoveredServers.Values)
-                if (GUILayout.Button(info.EndPoint.Address.ToString()))
-                    Connect(info);
-
-            GUILayout.EndScrollView();
-            GUILayout.EndArea();
         }
 
         void StopButtons()
@@ -127,5 +94,46 @@ namespace Mirror.Discovery
             // Note that you can check the versioning to decide if you can connect to the server or not using this method
             discoveredServers[info.serverId] = info;
         }
+
+        public void StartHost()
+        {
+            if (!uiReady) { return; }
+            discoveredServers.Clear();
+            NetworkManager.singleton.StartHost();
+            enterRoom?.Invoke();
+            networkDiscovery.AdvertiseServer();
+        }
+
+        public void FindServers()
+        {
+            if (!uiReady) { return; }
+            enterServerFinder?.Invoke();
+            discoveredServers.Clear();
+            networkDiscovery.StartDiscovery();
+        }
+
+        public void DrawGUI()
+        {
+            GUILayout.BeginArea(new Rect(10, 10, 300, 500));
+
+            // show list of found server
+
+            GUILayout.Label($"Discovered Servers [{discoveredServers.Count}]:");
+
+            // servers
+            scrollViewPos = GUILayout.BeginScrollView(scrollViewPos);
+
+            foreach (ServerResponse info in discoveredServers.Values)
+                if (GUILayout.Button(info.EndPoint.Address.ToString()))
+                {
+                    Connect(info);
+                    enterRoom?.Invoke();
+                }
+
+            GUILayout.EndScrollView();
+            GUILayout.EndArea();
+        }
+
+
     }
 }
