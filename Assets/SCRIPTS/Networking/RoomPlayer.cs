@@ -12,9 +12,14 @@ public class RoomPlayer : NetworkBehaviour
     [SyncVar]
     [SerializeField] private string playerName = "Player";
 
+    [SerializeField] private GameObject frame = null;
+    [SerializeField] private GameObject playerCard = null;
+
     private Switch teamSelectionSwitch = null;
     private Switch robotSelectionSwitch = null;
     private Name nameField = null;
+
+    private NetworkConnection conn = null;
 
 
     private void Start()
@@ -23,6 +28,10 @@ public class RoomPlayer : NetworkBehaviour
         teamSelectionSwitch = GameObject.Find("/UI/TeamSelection").GetComponent(typeof(Switch)) as Switch;
         robotSelectionSwitch = GameObject.Find("/UI/RobotSelection").GetComponent(typeof(Switch)) as Switch;
         nameField = GameObject.Find("/NameObject").GetComponent(typeof(Name)) as Name;
+
+        frame = GameObject.Find("/UI/RoomPlayers/Frame");
+
+        spawnPlayerCard();
     }
 
 
@@ -45,6 +54,42 @@ public class RoomPlayer : NetworkBehaviour
         playerName = name;
     }
 
+    [Command]
+    private void CMDSpawnPlayerCard()
+    {
+        conn = GetComponent<NetworkIdentity>().connectionToClient;
+
+        Transform finalSlot = null;
+
+        foreach(Transform slot in frame.transform)
+        {
+            Debug.Log(slot);
+            PlayerCardSlot cardSlotOBJ = slot.GetComponent(typeof(PlayerCardSlot)) as PlayerCardSlot;
+            Debug.Log(cardSlotOBJ.getState());
+            if (!cardSlotOBJ.getState())
+            {
+                finalSlot = slot;
+                cardSlotOBJ.changeState();
+                break;
+            }
+        }
+
+        /*
+        if(finalSlot == null)
+        {
+            return; // Add Logic here later
+        }
+        */
+
+
+        // Spawns on Server
+        // "conn.identity.transform" is how you get transform of the player object
+        GameObject spawnerInstance = Instantiate(playerCard, finalSlot.position, finalSlot.rotation);
+
+        //Spawns on Network
+        NetworkServer.Spawn(spawnerInstance, conn);
+    }
+
     public int getTeam()
     {
         return teamSelection;
@@ -53,5 +98,10 @@ public class RoomPlayer : NetworkBehaviour
     public int getRobot()
     {
         return robotSelection;
+    }
+
+    public void spawnPlayerCard()
+    {
+        CMDSpawnPlayerCard();
     }
 }

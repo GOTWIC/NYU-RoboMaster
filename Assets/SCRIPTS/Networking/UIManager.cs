@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject hostingJoining = null;
     [SerializeField] private GameObject playerName = null;
     [SerializeField] private GameObject background = null;
+    [SerializeField] private GameObject roomPlayers = null;
 
 
     private static UIManager uiManagerInstance;
@@ -58,6 +59,7 @@ public class UIManager : MonoBehaviour
         teamSelection.SetActive(true);
         robotSelection.SetActive(true);
         background.SetActive(true);
+        roomPlayers.SetActive(true);
     }
 
     public void goToServerFinder()
@@ -67,6 +69,7 @@ public class UIManager : MonoBehaviour
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
         background.SetActive(true);
+        roomPlayers.SetActive(false);
     }
 
     
@@ -77,6 +80,7 @@ public class UIManager : MonoBehaviour
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
         background.SetActive(true);
+        roomPlayers.SetActive(false);
     }
     
 

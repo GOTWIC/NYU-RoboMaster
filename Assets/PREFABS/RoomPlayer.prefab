@@ -81,5 +81,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  team: -1
-  teamSelection: {fileID: 0}
+  teamSelection: -1
+  robotSelection: -1
+  playerName: Player
+  frame: {fileID: 417429599261789545, guid: 8b7445a4dd43cc0489379cdecaeac644, type: 3}
+  playerCard: {fileID: 5800574803412757904, guid: 3d392f2741fe31e49b62c0a39f0a96b4, type: 3}
