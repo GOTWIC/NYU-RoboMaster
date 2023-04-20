@@ -1123,10 +1123,10 @@ PrefabInstance:
     - target: {fileID: 1696566980, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
       propertyPath: transport
       value: 
-      objectReference: {fileID: 1696566981}
+      objectReference: {fileID: 0}
     - target: {fileID: 1696566980, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
       propertyPath: serverBroadcastListenPort
-      value: 7777
+      value: 47777
       objectReference: {fileID: 0}
     - target: {fileID: 1617484701863278474, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
       propertyPath: hero
@@ -1138,7 +1138,7 @@ PrefabInstance:
       objectReference: {fileID: 8024595417304967709, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
     - target: {fileID: 1617484701863278474, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
       propertyPath: networkAddress
-      value: 172.20.10.10
+      value: 128.122.34.198
       objectReference: {fileID: 0}
     - target: {fileID: 1617484701863278474, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
       propertyPath: spawnPrefabs.Array.data[2]
@@ -1148,6 +1148,10 @@ PrefabInstance:
       propertyPath: spawnPrefabs.Array.data[3]
       value: 
       objectReference: {fileID: 6725605606642089376, guid: 5bb1990fca2b18244a432ac0d6ec2bc9, type: 3}
+    - target: {fileID: 5602106514688206035, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
+      propertyPath: Port
+      value: 7777
+      objectReference: {fileID: 0}
     - target: {fileID: 5720328415800572386, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4030,17 +4034,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c3b363fe0f31b240862170db84572d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1696566981 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5602106514688206035, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
-  m_PrefabInstance: {fileID: 499322735}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1776040988
