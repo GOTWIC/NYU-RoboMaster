@@ -2,13 +2,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
 using TMPro;
-using System.Text.RegularExpressions;
 
 public class RefereeSystem : NetworkBehaviour
 {
 
     [Header("Configuration")]
-    [SerializeField] private int matchTimeMin = 5;
+    [SerializeField] private float matchTimeMin = 5;
+    [SerializeField] private float EoRDuration = 5;
 
     [Header("Red")]
     [SerializeField] private Health redBaseHealth = null;
@@ -38,7 +38,9 @@ public class RefereeSystem : NetworkBehaviour
     [SerializeField] private GameObject roundEnd = null;
     [SerializeField] private TMP_Text resultText = null;
     [SerializeField] private TMP_Text matchTimer = null;
-   
+
+    private bool transitioning = false;
+    private string buffer = "";
 
     private void Start()
     {
@@ -63,37 +65,57 @@ public class RefereeSystem : NetworkBehaviour
         if(min == 0 && sec == 0) {
             if(redBaseHealth.getCurrentHealth() < blueBaseHealth.getCurrentHealth()){
                 resultText.text = "BLUE TEAM WINS";
-                roundEnd.SetActive(true);
+                blueScore.text = (int.Parse(blueScore.text) + 1).ToString();
             }
 
             if (redBaseHealth.getCurrentHealth() > blueBaseHealth.getCurrentHealth())
             {
                 resultText.text = "RED TEAM WINS";
-                roundEnd.SetActive(true);
+                redScore.text = (int.Parse(redScore.text) + 1).ToString();
             }
 
             if (redBaseHealth.getCurrentHealth() == blueBaseHealth.getCurrentHealth())
             {
                 resultText.text = "ROUND TIED";
-                roundEnd.SetActive(true);
+                blueScore.text = (int.Parse(blueScore.text) + 1).ToString();
+                redScore.text = (int.Parse(redScore.text) + 1).ToString();
             }
+
+            endOfRound();
         }
         
         if(min >= 0 && sec >= 0)
         {
-            matchTimer.text = min.ToString() + ":" + sec.ToString();
+            buffer = (sec < 10) ? "0" : "";            
+            matchTimer.text = min.ToString() + ":" + buffer + sec.ToString();
         }
 
         if(redBaseHealth.getCurrentHealth() == 0) {
             resultText.text = "BLUE TEAM WINS";
-            roundEnd.SetActive(true);
+            endOfRound();
 
         }
 
         if (blueBaseHealth.getCurrentHealth() == 0) {
             resultText.text = "RED TEAM WINS";
-            roundEnd.SetActive(true);
+            endOfRound();
         }
+    }
+
+    public void endOfRound()
+    {
+        if (transitioning) { return; }
+        transitioning = true;
+        roundEnd.SetActive(true);
+        Invoke(nameof(nextRoundSequence), EoRDuration);
+    }
+
+    [Command]
+    public void nextRoundSequence()
+    {
+        // Call NetworkManager to reset here
+        roundEnd.SetActive(false);
+        transitioning = false;
     }
 
     public void setRobotHealthDisplayLink(int team, Health health)

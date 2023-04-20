@@ -15,6 +15,9 @@ public class MyNetworkManager : NetworkRoomManager
     [SerializeField] List<GameObject> redSpawnPoints= new List<GameObject>();
     [SerializeField] List<GameObject> blueSpawnPoints = new List<GameObject>();
 
+    private List<GameObject> roomPlayers;
+    private List<GameObject> gamePlayers;
+
     public int redMemberCount = 0;
     public int blueMemberCount = 0;
 
@@ -38,8 +41,17 @@ public class MyNetworkManager : NetworkRoomManager
 
     public override bool OnRoomServerSceneLoadedForPlayer(NetworkConnectionToClient conn, GameObject roomPlayer, GameObject gamePlayer)
     {
+        // Roomplayer stores basic user options such as team and robot
+        // Gameplayer is the player's actual entity inside the simulation (separate from the robot). Currently only used for positioning
+        storePlayers(roomPlayer, gamePlayer);
         spawnRobot(conn, roomPlayer, gamePlayer);
         return base.OnRoomServerSceneLoadedForPlayer(conn, roomPlayer, gamePlayer);
+    }
+
+    private void storePlayers(GameObject roomPlayer, GameObject gamePlayer)
+    {
+        //roomPlayers.Add(roomPlayer);
+        //gamePlayers.Add(gamePlayer);
     }
 
     private void spawnRobot(NetworkConnectionToClient conn, GameObject roomPlayer, GameObject gamePlayer)
@@ -86,5 +98,10 @@ public class MyNetworkManager : NetworkRoomManager
 
         //Spawns on Network
         NetworkServer.Spawn(spawnerInstance, conn);
+    }
+
+    public void roundReset()
+    {
+
     }
 }
