@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
-using UnityEditor.MemoryProfiler;
 using System;
 
 public class MyNetworkManager : NetworkRoomManager
