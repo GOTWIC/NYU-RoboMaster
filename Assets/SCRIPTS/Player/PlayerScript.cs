@@ -10,7 +10,6 @@ public class PlayerScript : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "Room") { return; }
 
-        return; // befcuase cursing locking is annoying af
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }

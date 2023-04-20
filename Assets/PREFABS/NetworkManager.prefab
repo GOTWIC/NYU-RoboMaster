@@ -30,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.0619087, y: 5.3, z: 2.3876266}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,17 +83,17 @@ MonoBehaviour:
   offlineScene: 
   onlineScene: Assets/Scenes/Room.unity
   transport: {fileID: 5602106514688206035}
-  networkAddress: 10.0.0.27
+  networkAddress: localhost
   maxConnections: 100
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 5838674632839785148, guid: b270b2a2c02cd5f499ef7cc14f6f51ce, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 1
   spawnPrefabs:
-  - {fileID: 5896884553695805537, guid: 230091cb70a024248a734d9527536976, type: 3}
+  - {fileID: 8024595417304967709, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
   - {fileID: 6725605606642089376, guid: 95cf8566e42ab4f4db6fafa6ae611134, type: 3}
-  - {fileID: 5896884553695805537, guid: a02ff98353b09e94c9fe4ceec06c6b0a, type: 3}
   - {fileID: 6725605606642089376, guid: 5bb1990fca2b18244a432ac0d6ec2bc9, type: 3}
+  - {fileID: 8024595417304967709, guid: 56d0d22b0f92d0e478a2882ec4165b63, type: 3}
   showRoomGUI: 1
   minPlayers: 1
   roomPlayerPrefab: {fileID: 2765167331897435961, guid: 75ead025112270d4983b959a1beb421d, type: 3}
@@ -101,8 +102,8 @@ MonoBehaviour:
   _allPlayersReady: 0
   roomSlots: []
   clientIndex: 0
-  standard: {fileID: 5896884553695805537, guid: 230091cb70a024248a734d9527536976, type: 3}
-  hero: {fileID: 5896884553695805537, guid: a02ff98353b09e94c9fe4ceec06c6b0a, type: 3}
+  standard: {fileID: 8024595417304967709, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
+  hero: {fileID: 8024595417304967709, guid: 56d0d22b0f92d0e478a2882ec4165b63, type: 3}
 --- !u!114 &1696566978
 MonoBehaviour:
   m_ObjectHideFlags: 0

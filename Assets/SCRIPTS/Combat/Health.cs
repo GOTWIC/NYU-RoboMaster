@@ -1,14 +1,13 @@
 using UnityEngine;
 using Mirror;
 using System;
-using System.Diagnostics.Contracts;
 
 public class Health : NetworkBehaviour
 {
     [SerializeField] private float maxHealth = 100;
     [SerializeField] private float baseCooldownTime = 5f;
 
-
+    [SerializeField] private string entityType = "None";
 
     [SyncVar(hook = nameof(handleHealthUpdates))]
     [SerializeField] private float currentHealth;
@@ -29,7 +28,8 @@ public class Health : NetworkBehaviour
     [SerializeField] public int timeToRespawn;
 
 
-    public event Action ServerOnDie;
+    public event Action ServerOnRobotDie;
+    public event Action ServerOnBaseDie;
     public event Action<float, float> ClientOnHealthUpdated;
 
     #region Server
@@ -42,6 +42,10 @@ public class Health : NetworkBehaviour
     [ServerCallback]
     public void Update()
     {
+        // For now, if this script is attached to a base, then don't do anything
+        if(entityType == "base") { return; }
+       
+        // Robot respawn logic
         // If the robot is dead and the respawn timer has expired, revive the robot, else update respawn timer.
         if(isDead)
         {
@@ -75,8 +79,16 @@ public class Health : NetworkBehaviour
     [Server]
     public void handleDeath()
     {
+
+        if (entityType == "base") {
+            ServerOnBaseDie?.Invoke();
+            Debug.Log("Base Died");
+            return;
+        }
+
+
         //Invoke Death Logic on other scripts
-        ServerOnDie?.Invoke();
+        ServerOnRobotDie?.Invoke();
 
         numDeaths += 1;
 
@@ -104,6 +116,22 @@ public class Health : NetworkBehaviour
     public int getTimeToRespawn()
     {
         return timeToRespawn;
+    }
+
+    public float getCurrentHealth()
+    {
+        return currentHealth;
+    }
+
+    public float getMaxHealth()
+    {
+        return maxHealth;
+    }
+
+
+    public void Start()
+    {
+        
     }
 
     #endregion

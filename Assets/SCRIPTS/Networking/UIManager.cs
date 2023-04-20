@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject hostingJoining = null;
     [SerializeField] private GameObject playerName = null;
     [SerializeField] private GameObject background = null;
+    [SerializeField] private GameObject logo = null;
 
 
     private static UIManager uiManagerInstance;
@@ -58,6 +59,8 @@ public class UIManager : MonoBehaviour
         teamSelection.SetActive(true);
         robotSelection.SetActive(true);
         background.SetActive(true);
+        logo.SetActive(true);
+
     }
 
     public void goToServerFinder()
@@ -67,6 +70,7 @@ public class UIManager : MonoBehaviour
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
         background.SetActive(true);
+        logo.SetActive(true);
     }
 
     
@@ -77,6 +81,7 @@ public class UIManager : MonoBehaviour
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
         background.SetActive(true);
+        logo.SetActive(true);
     }
     
 
@@ -87,5 +92,6 @@ public class UIManager : MonoBehaviour
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
         background.SetActive(false);
+        logo.SetActive(false);
     }
 }

@@ -4,9 +4,9 @@ using System.Net;
 
 public class PlayerMovement : NetworkBehaviour
 {
-    [SerializeField] float movementSpeed = 60f;
+    [SerializeField] float acceleration = 1f;
+    [SerializeField] float topSpeed = 10f;
     [SerializeField] float mouseSensitivityX = 60f;
-
     [SerializeField] Health health = null;
 
     void Update()
@@ -26,36 +26,35 @@ public class PlayerMovement : NetworkBehaviour
     private void tryToRotate()
     {
         float inputX = Input.GetAxis("Mouse X") * mouseSensitivityX * Time.deltaTime * 10;
-        CMDRotate(inputX);
-
+        ClientRotate(inputX);
     }
 
     private void tryToTranslate()
     {
         if (Input.GetKey(KeyCode.W))
-        { CMDTranslate(Vector3.forward); }
+        { ClientTranslate(transform.forward); }
 
         if (Input.GetKey(KeyCode.S))
-        { CMDTranslate(Vector3.back); }
+        { ClientTranslate(-transform.forward); }
 
         if (Input.GetKey(KeyCode.A))
-        { CMDTranslate(Vector3.left); }
+        { ClientTranslate(-transform.right); }
 
         if (Input.GetKey(KeyCode.D))
-        { CMDTranslate(Vector3.right); }
+        { ClientTranslate(transform.right); }
     }
 
-    [Command]
-    private void CMDTranslate(Vector3 vec)
+    private void ClientTranslate(Vector3 vec)
     {
         // If the robot is dead, it cannot translate (but can rotate)
         if (health.inDeathState()) { return; }
-        
-        this.transform.Translate(vec * movementSpeed * Time.deltaTime);
+
+        if (gameObject.GetComponent<Rigidbody>().velocity.magnitude > topSpeed) { return; }
+
+        gameObject.GetComponent<Rigidbody>().AddForce(vec * acceleration * Time.deltaTime * 10000000);
     }
 
-    [Command]
-    private void CMDRotate(float inp)
+    private void ClientRotate(float inp)
     {
         this.transform.Rotate(Vector3.up * inp);
     }

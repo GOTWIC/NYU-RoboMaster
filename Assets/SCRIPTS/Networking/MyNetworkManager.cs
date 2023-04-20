@@ -42,6 +42,9 @@ public class MyNetworkManager : NetworkRoomManager
         // "conn.identity.transform" is how you get transform of the player object
         GameObject spawnerInstance = Instantiate(robot, gamePlayer.transform.position, gamePlayer.transform.rotation);
 
+        spawnerInstance.GetComponent<Robot>().setTeam(teamSelection);
+        spawnerInstance.GetComponent<Robot>().setType(robotType);
+
         //Spawns on Network
         NetworkServer.Spawn(spawnerInstance, conn);
     }
