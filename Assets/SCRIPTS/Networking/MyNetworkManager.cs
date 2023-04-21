@@ -10,11 +10,11 @@ public class MyNetworkManager : NetworkRoomManager
     [SerializeField] private GameObject hero = null;
 
 
-    [SerializeField] List<GameObject> redSpawnPoints= new List<GameObject>();
+    [SerializeField] List<GameObject> redSpawnPoints = new List<GameObject>();
     [SerializeField] List<GameObject> blueSpawnPoints = new List<GameObject>();
 
-    private List<GameObject> roomPlayers;
-    private List<GameObject> gamePlayers;
+    private List<GameObject> roomPlayers = new List<GameObject>();
+    private List<GameObject> gamePlayers = new List<GameObject>();
 
     public int redMemberCount = 0;
     public int blueMemberCount = 0;
@@ -32,7 +32,7 @@ public class MyNetworkManager : NetworkRoomManager
 
         foreach (GameObject spawnpoint in spawnPoints)
         {
-            if (Int32.Parse(spawnpoint.name.Remove(0, 5)) % 2 == 0) { redSpawnPoints.Add(spawnpoint); }
+            if (Int32.Parse(spawnpoint.name.Remove(0, 5)) % 2 == 1) { redSpawnPoints.Add(spawnpoint); }
             else { blueSpawnPoints.Add(spawnpoint); }
         }
     }
@@ -48,8 +48,8 @@ public class MyNetworkManager : NetworkRoomManager
 
     private void storePlayers(GameObject roomPlayer, GameObject gamePlayer)
     {
-        //roomPlayers.Add(roomPlayer);
-        //gamePlayers.Add(gamePlayer);
+        roomPlayers.Add(roomPlayer);
+        gamePlayers.Add(gamePlayer);
     }
 
     private void spawnRobot(NetworkConnectionToClient conn, GameObject roomPlayer, GameObject gamePlayer)
@@ -96,10 +96,16 @@ public class MyNetworkManager : NetworkRoomManager
 
         //Spawns on Network
         NetworkServer.Spawn(spawnerInstance, conn);
+
+        gamePlayer.GetComponent<PlayerScript>().setRobot(spawnerInstance);
     }
 
-    public void roundReset()
+    public void resetRobotLocations()
     {
-
+        for(int i = 0; i < gamePlayers.Count; i++)
+        {
+            gamePlayers[i].GetComponent<PlayerScript>().getRobot().transform.position = gamePlayers[i].transform.position;
+            gamePlayers[i].GetComponent<PlayerScript>().getRobot().transform.rotation = gamePlayers[i].transform.rotation;
+        }
     }
 }

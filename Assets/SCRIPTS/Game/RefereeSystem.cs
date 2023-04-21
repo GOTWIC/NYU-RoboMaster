@@ -2,20 +2,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
 using TMPro;
+using System;
+using System.Collections.Generic;
 
 public class RefereeSystem : NetworkBehaviour
 {
-
     [Header("Configuration")]
-    [SerializeField] private float matchTimeMin = 5;
-    [SerializeField] private float EoRDuration = 5;
+    [SerializeField] private float matchTimeMin = 2;
+    [SerializeField] private float EoRDuration = 2;
 
     [Header("Red")]
     [SerializeField] private Health redBaseHealth = null;
     [SerializeField] private Image redBaseHealthBarImage = null;
     [SerializeField] private Image redRobot1HealthBarImage = null;
     [SerializeField] private Image redRobot2HealthBarImage = null;
-    [SerializeField] private TMP_Text redScore = null;
+    [SerializeField] private TMP_Text redScoreText = null;
 
     [SerializeField]
     private Health redRobot1Health = null;
@@ -27,7 +28,7 @@ public class RefereeSystem : NetworkBehaviour
     [SerializeField] private Image blueBaseHealthBarImage = null;
     [SerializeField] private Image blueRobot1HealthBarImage = null;
     [SerializeField] private Image blueRobot2HealthBarImage = null;
-    [SerializeField] private TMP_Text blueScore = null;
+    [SerializeField] private TMP_Text blueScoreText = null;
 
     [SerializeField]
     private Health blueRobot1Health = null;
@@ -36,21 +37,52 @@ public class RefereeSystem : NetworkBehaviour
 
     [Header("Misc")]
     [SerializeField] private GameObject roundEnd = null;
+    [SerializeField] private GameObject gameEnd = null;
+    [SerializeField] private GameObject pause = null;
     [SerializeField] private TMP_Text resultText = null;
     [SerializeField] private TMP_Text matchTimer = null;
+    private MyNetworkManager networkManager = null;
 
-    private bool transitioning = false;
+    [SyncVar] private bool transitioning = false;
+    [SyncVar] public bool paused = false;
     private string buffer = "";
+
+    [SyncVar] public int redScore = 0;
+    [SyncVar] public int blueScore = 0;
+
+    private float matchStartTime = 0f;
 
     private void Start()
     {
-        roundEnd.SetActive(false);
+        roundEnd.SetActive(false);  
+        gameEnd.SetActive(false);
+        pause.SetActive(false);
+        networkManager = GameObject.FindWithTag("NetworkManager").GetComponent<MyNetworkManager>();
+        matchStartTime = Time.fixedTime;
     }
 
 
     // Update is called once per frame
     void Update()
     {
+        blueScoreText.text = blueScore.ToString();
+        redScoreText.text = redScore.ToString();
+
+        
+
+        if (paused) { 
+            Time.timeScale = 0;
+            pause.SetActive(true);
+        }
+        else { 
+            Time.timeScale = 1;
+            pause.SetActive(false);
+        }
+
+
+        if (transitioning) { return; }
+
+
         redBaseHealthBarImage.fillAmount = redBaseHealth.getCurrentHealth() / redBaseHealth.getMaxHealth();
         blueBaseHealthBarImage.fillAmount = blueBaseHealth.getCurrentHealth() / blueBaseHealth.getMaxHealth();
         if (redRobot1Health != null) { redRobot1HealthBarImage.fillAmount = redRobot1Health.getCurrentHealth() / redRobot1Health.getMaxHealth(); }
@@ -58,30 +90,31 @@ public class RefereeSystem : NetworkBehaviour
         if (blueRobot1Health != null) { blueRobot1HealthBarImage.fillAmount = blueRobot1Health.getCurrentHealth() / blueRobot1Health.getMaxHealth(); }
         if (blueRobot2Health != null) { blueRobot2HealthBarImage.fillAmount = blueRobot2Health.getCurrentHealth() / blueRobot2Health.getMaxHealth(); }
 
-        int min = (int)(matchTimeMin*60 - Time.fixedTime)/60;
-        int sec = (int)(matchTimeMin*60 - Time.fixedTime) % 60;
+        int min = (int)(matchTimeMin*60 - (Time.fixedTime - matchStartTime)+1) /60;
+        int sec = (int)(matchTimeMin*60 - (Time.fixedTime - matchStartTime)+1) % 60;
 
 
         if(min == 0 && sec == 0) {
+
+            List<string> winners = new List<string>();
+            
             if(redBaseHealth.getCurrentHealth() < blueBaseHealth.getCurrentHealth()){
                 resultText.text = "BLUE TEAM WINS";
-                blueScore.text = (int.Parse(blueScore.text) + 1).ToString();
+                winners.Add("blue");
             }
 
             if (redBaseHealth.getCurrentHealth() > blueBaseHealth.getCurrentHealth())
             {
                 resultText.text = "RED TEAM WINS";
-                redScore.text = (int.Parse(redScore.text) + 1).ToString();
+                winners.Add("red");
             }
 
             if (redBaseHealth.getCurrentHealth() == blueBaseHealth.getCurrentHealth())
             {
                 resultText.text = "ROUND TIED";
-                blueScore.text = (int.Parse(blueScore.text) + 1).ToString();
-                redScore.text = (int.Parse(redScore.text) + 1).ToString();
             }
 
-            endOfRound();
+            endOfRound(winners);
         }
         
         if(min >= 0 && sec >= 0)
@@ -92,30 +125,77 @@ public class RefereeSystem : NetworkBehaviour
 
         if(redBaseHealth.getCurrentHealth() == 0) {
             resultText.text = "BLUE TEAM WINS";
-            endOfRound();
+            endOfRound(new List<string>() { "blue" });
 
         }
 
         if (blueBaseHealth.getCurrentHealth() == 0) {
             resultText.text = "RED TEAM WINS";
-            endOfRound();
+            endOfRound(new List<string>() { "red" });
         }
     }
 
-    public void endOfRound()
+    public void togglePause()
     {
-        if (transitioning) { return; }
-        transitioning = true;
-        roundEnd.SetActive(true);
-        Invoke(nameof(nextRoundSequence), EoRDuration);
+        Debug.Log("toggled");
+        paused = !paused;
     }
 
-    [Command]
+    public void endOfRound(List<string> winners)
+    {
+        if (isServer) {
+            for (int i = 0; i < winners.Count; i++) {
+                if (winners[i] == "red") { redScore += 1; }
+                if (winners[i] == "blue") { blueScore += 1; }
+            }
+        }
+
+        transitioning = true;
+
+        if (redScore < 2 && blueScore < 2)
+        {
+            roundEnd.SetActive(true);
+            if (isServer)
+            {
+                Invoke(nameof(nextRoundSequence), EoRDuration * 0.5f);
+            }
+        }
+
+        else
+        {
+            // End of Game logic
+            gameEnd.SetActive(true);
+        }
+
+        Time.timeScale = 0.5f;
+    }
+
+    [Server]
     public void nextRoundSequence()
     {
-        // Call NetworkManager to reset here
+        networkManager.resetRobotLocations();
+        resetHealths();
+        clientResumeGame(); 
+    }
+
+    [Server]
+    public void resetHealths()
+    {
+        blueBaseHealth.resetHealth();
+        redBaseHealth.resetHealth();
+        if (redRobot1Health) { redRobot1Health.resetHealth(); }
+        if (redRobot2Health) { redRobot2Health.resetHealth(); }
+        if (blueRobot1Health) { blueRobot1Health.resetHealth(); }
+        if (blueRobot2Health) { blueRobot2Health.resetHealth(); }
+    }
+
+    [ClientRpc]
+    public void clientResumeGame()
+    {
+        Time.timeScale = 1f;
         roundEnd.SetActive(false);
         transitioning = false;
+        matchStartTime = Time.fixedTime;
     }
 
     public void setRobotHealthDisplayLink(int team, Health health)
@@ -158,5 +238,15 @@ public class RefereeSystem : NetworkBehaviour
 
     void updateRobotHealthDisplay(Image healthBarImage){
         healthBarImage.transform.parent.gameObject.SetActive(true);
+    }
+
+    public bool isPaused()
+    {
+        return paused;
+    }
+
+    public bool isGameEndActive()
+    {
+        return gameEnd.activeSelf;
     }
 }

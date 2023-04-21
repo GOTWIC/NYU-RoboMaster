@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RefereeSystem
   - Spawn Point
+  - NetworkManager
   layers:
   - Default
   - TransparentFX

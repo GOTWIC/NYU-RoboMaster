@@ -41,11 +41,7 @@ public class Bullet : NetworkBehaviour
         // Return if armor plate is null (didn't hit armor plate)
         if (!armorPlate) { return; }
 
-        // Check if armor plate belongs to a friendly
-        // NOT IMPLEMENTED
-
         // Deal Damage
-        Debug.Log("Hit Armor Plate Confirmed");
         armorPlate.dealDamage(damage);
 
         return;

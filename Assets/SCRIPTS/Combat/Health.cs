@@ -99,6 +99,12 @@ public class Health : NetworkBehaviour
         Debug.Log("Object was destroyed");
     }
 
+    [Server]
+    public void resetHealth()
+    {
+        currentHealth = maxHealth;
+    }
+
     #endregion
 
     #region Client
