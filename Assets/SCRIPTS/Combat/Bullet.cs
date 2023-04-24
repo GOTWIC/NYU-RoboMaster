@@ -15,6 +15,8 @@ public class Bullet : NetworkBehaviour
 
     [SerializeField] List<Collider> ignoredColliders = new List<Collider>();
 
+    [SerializeField] private float heatAccretion = 10;
+
     // Start is called before the first frame update
 
     void Start()
@@ -52,6 +54,11 @@ public class Bullet : NetworkBehaviour
     private void destroySelf()
     {
         NetworkServer.Destroy(gameObject);
+    }
+
+    public float getHeatAccretion()
+    {
+        return heatAccretion;
     }
 
 

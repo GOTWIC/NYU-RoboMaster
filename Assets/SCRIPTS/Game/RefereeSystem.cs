@@ -157,7 +157,7 @@ public class RefereeSystem : NetworkBehaviour
             roundEnd.SetActive(true);
             if (isServer)
             {
-                Invoke(nameof(nextRoundSequence), EoRDuration * 0.5f);
+                Invoke(nameof(nextRoundSequence), EoRDuration);
             }
         }
 
@@ -173,20 +173,16 @@ public class RefereeSystem : NetworkBehaviour
     [Server]
     public void nextRoundSequence()
     {
-        networkManager.resetRobotLocations();
-        resetHealths();
+        networkManager.resetGame();
+        resetBaseHealths();
         clientResumeGame(); 
     }
 
     [Server]
-    public void resetHealths()
+    public void resetBaseHealths()
     {
         blueBaseHealth.resetHealth();
         redBaseHealth.resetHealth();
-        if (redRobot1Health) { redRobot1Health.resetHealth(); }
-        if (redRobot2Health) { redRobot2Health.resetHealth(); }
-        if (blueRobot1Health) { blueRobot1Health.resetHealth(); }
-        if (blueRobot2Health) { blueRobot2Health.resetHealth(); }
     }
 
     [ClientRpc]

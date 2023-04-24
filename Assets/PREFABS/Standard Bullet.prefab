@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2b9b75a27546bd34f82be5f554025414, type: 2}
+  - {fileID: 2100000, guid: c13776b5651d4ca4ba30628d89ab6e2a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -174,3 +174,4 @@ MonoBehaviour:
   ignoredColliders:
   - {fileID: 1714853886132737125, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
   - {fileID: 1714853886132737125, guid: 56d0d22b0f92d0e478a2882ec4165b63, type: 3}
+  heatAccretion: 10

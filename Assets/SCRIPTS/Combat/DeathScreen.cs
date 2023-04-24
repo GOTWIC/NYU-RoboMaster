@@ -1,17 +1,21 @@
 using UnityEngine;
 using Mirror;
 using TMPro;
+using UnityEngine.UI;
 
 public class DeathScreen : NetworkBehaviour
 {
     [SerializeField] Health health = null;
-    [SerializeField] Canvas screen = null;
+    [SerializeField] Image background = null;
+    [SerializeField] Image crosshair = null;
     [SerializeField] TMP_Text text = null;
 
     // Start is called before the first frame update
     void Start()
     {
-        screen.enabled = false;
+        background.enabled = false;
+        text.enabled = false;
+        crosshair.enabled = true;
     }
 
     // Update is called once per frame
@@ -21,7 +25,10 @@ public class DeathScreen : NetworkBehaviour
 
         if (health.inDeathState() == true)
         {
-            screen.enabled = true;
+            background.enabled = true;
+            text.enabled = true;
+            crosshair.enabled = false;
+
             int timeToRespawn = health.timeToRespawn;
             string s = "s";
 
@@ -32,7 +39,9 @@ public class DeathScreen : NetworkBehaviour
 
         else
         {
-            screen.enabled = false;
+            background.enabled = false;
+            text.enabled = false;
+            crosshair.enabled = true;
         }
     }
 }

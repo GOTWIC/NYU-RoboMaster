@@ -100,12 +100,19 @@ public class MyNetworkManager : NetworkRoomManager
         gamePlayer.GetComponent<PlayerScript>().setRobot(spawnerInstance);
     }
 
-    public void resetRobotLocations()
+    public void resetGame()
     {
         for(int i = 0; i < gamePlayers.Count; i++)
         {
+            // Reset Locations
             gamePlayers[i].GetComponent<PlayerScript>().getRobot().transform.position = gamePlayers[i].transform.position;
             gamePlayers[i].GetComponent<PlayerScript>().getRobot().transform.rotation = gamePlayers[i].transform.rotation;
+
+            // Reset Robot Health
+            gamePlayers[i].GetComponent<PlayerScript>().getRobot().GetComponent<Health>().resetHealth();
+            
+            // Reset Robot Firing System
+            gamePlayers[i].GetComponent<PlayerScript>().getRobot().GetComponent<UnitFiring>().resetFiringSystem();
         }
     }
 }

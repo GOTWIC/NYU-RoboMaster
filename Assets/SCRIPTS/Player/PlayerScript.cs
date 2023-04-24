@@ -23,7 +23,10 @@ public class PlayerScript : NetworkBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape) && !refereeSystem.isGameEndActive() && hasAuthority) { refereeSystem.togglePause(); }
 
-        if (Input.GetKeyDown(KeyCode.Delete) && hasAuthority) { Application.Quit(); }
+        if (Input.GetKeyDown(KeyCode.Delete) && hasAuthority) {
+            Debug.Log("Quitting");
+            Application.Quit();
+        }
 
         /*
         if (refereeSystem.isPaused()) {
