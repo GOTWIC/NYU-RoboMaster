@@ -19,11 +19,13 @@ public class PlayerScript : NetworkBehaviour
 
     void Update()
     {
+        if (!hasAuthority) { return; }
+        
         if (SceneManager.GetActiveScene().name == "Room") { return; }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !refereeSystem.isGameEndActive() && hasAuthority) { refereeSystem.togglePause(); }
+        if (Input.GetKeyDown(KeyCode.Escape) && !refereeSystem.isGameEndActive()) { togglePause(); }
 
-        if (Input.GetKeyDown(KeyCode.Delete) && hasAuthority) {
+        if (Input.GetKeyDown(KeyCode.Delete)) {
             Debug.Log("Quitting");
             Application.Quit();
         }
@@ -49,6 +51,13 @@ public class PlayerScript : NetworkBehaviour
     {
         return robot;
     }
+
+    [Command]
+    public void togglePause() {
+        refereeSystem.togglePause();
+    }
+        
+        
 
 
 }

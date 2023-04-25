@@ -37,4 +37,6 @@ public class Robot : NetworkBehaviour
     public void setType(int type){
         this.type = type;
     }
+
+    public int getTeam() { return team; }
 }

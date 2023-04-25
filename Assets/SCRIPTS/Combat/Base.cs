@@ -11,7 +11,7 @@ public class Base : NetworkBehaviour
     [SerializeField] float currentHealth;
 
     [SyncVar]
-    [SerializeField] string team;
+    [SerializeField] int team;
 
     [ServerCallback]
     void Start()
@@ -32,7 +32,12 @@ public class Base : NetworkBehaviour
         
     }
 
-    float getHealth(){
+    public float getHealth(){
         return currentHealth;
+    }
+
+    public int getTeam()
+    {
+        return team;
     }
 }

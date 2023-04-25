@@ -135,8 +135,8 @@ public class RefereeSystem : NetworkBehaviour
         }
     }
 
-    public void togglePause()
-    {
+    [Server]
+    public void togglePause() {
         Debug.Log("toggled");
         paused = !paused;
     }
