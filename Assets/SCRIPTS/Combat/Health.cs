@@ -31,7 +31,7 @@ public class Health : NetworkBehaviour
     [SyncVar]
     [SerializeField] public int timeToRespawn;
 
-    [SerializeField] GameObject shield = null;
+    [SerializeField] public GameObject shield;
 
 
     public event Action ServerOnRobotDie;

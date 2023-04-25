@@ -13,8 +13,8 @@ public class MyNetworkManager : NetworkRoomManager
     [SerializeField] List<GameObject> redSpawnPoints = new List<GameObject>();
     [SerializeField] List<GameObject> blueSpawnPoints = new List<GameObject>();
 
-    private List<GameObject> roomPlayers = new List<GameObject>();
-    private List<GameObject> gamePlayers = new List<GameObject>();
+    [SerializeField] private List<GameObject> roomPlayers = new List<GameObject>();
+    [SerializeField] private List<GameObject> gamePlayers = new List<GameObject>();
 
     public int redMemberCount = 0;
     public int blueMemberCount = 0;
@@ -105,8 +105,7 @@ public class MyNetworkManager : NetworkRoomManager
         for(int i = 0; i < gamePlayers.Count; i++)
         {
             // Reset Locations
-            gamePlayers[i].GetComponent<PlayerScript>().getRobot().transform.position = gamePlayers[i].transform.position;
-            gamePlayers[i].GetComponent<PlayerScript>().getRobot().transform.rotation = gamePlayers[i].transform.rotation;
+            gamePlayers[i].GetComponent<PlayerScript>().getRobot().GetComponent<Robot>().resetRobot(gamePlayers[i].transform);
 
             // Reset Robot Health
             gamePlayers[i].GetComponent<PlayerScript>().getRobot().GetComponent<Health>().resetHealth();

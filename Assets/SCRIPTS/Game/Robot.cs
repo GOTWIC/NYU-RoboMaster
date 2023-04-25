@@ -39,4 +39,11 @@ public class Robot : NetworkBehaviour
     }
 
     public int getTeam() { return team; }
+
+    [ClientRpc]
+    public void resetRobot(Transform transform) {
+        Debug.Log("Resetting Robot Position");
+        gameObject.transform.position = transform.position;
+        gameObject.transform.rotation = transform.rotation;
+    }
 }

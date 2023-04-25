@@ -54,8 +54,6 @@ public class UnitFiring : NetworkBehaviour
 
         updateAmmoCount();
 
-        if (heatAccretion > heatThreshold) { Debug.Log("Overheated"); }
-
         heatAccretionImage.fillAmount = Math.Min(heatAccretion / heatThreshold, 1f);
     }
 
@@ -83,8 +81,8 @@ public class UnitFiring : NetworkBehaviour
         // Cannot fire if the robot is dead
         if (health.inDeathState()) { return; }
         
-        // Cannot fire if the robot is overheated
-        if (heatAccretion > heatThreshold) { return; }
+        // Cannot fire if the robot is overheated or if shooting surpasses heat threshold
+        if (heatAccretion + projectilePrefab.GetComponent<Bullet>().getHeatAccretion() > heatThreshold) { return; }
 
         // Cannot fire if the robot is out of ammo
         if (ammo <= 0) { return; }
