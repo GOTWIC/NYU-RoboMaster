@@ -1,0 +1,2464 @@
+fileFormatVersion: 2
+guid: e46284df7d939014585da1959b9ed4f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: rune_normal_15
+  - first:
+      213: 21300002
+    second: buff_2020_addhp_5
+  - first:
+      213: 21300004
+    second: buff_2020_rune_small
+  - first:
+      213: 21300006
+    second: buff_2020_addhp_10
+  - first:
+      213: 21300008
+    second: buff_2022_attack25
+  - first:
+      213: 21300010
+    second: buff_cooling
+  - first:
+      213: 21300012
+    second: buff_2022_fly_green
+  - first:
+      213: 21300014
+    second: rune_2022_14
+  - first:
+      213: 21300016
+    second: buff_2022_cool_5
+  - first:
+      213: 21300018
+    second: buff_2020_cool_3
+  - first:
+      213: 21300020
+    second: border_time_red
+  - first:
+      213: 21300022
+    second: buff_2020_cool_2
+  - first:
+      213: 21300024
+    second: buff_bullet
+  - first:
+      213: 21300026
+    second: rune_2022_18
+  - first:
+      213: 21300028
+    second: buff_2020_addhp_2
+  - first:
+      213: 21300030
+    second: buff_flyslope
+  - first:
+      213: 21300032
+    second: buff_2020_cirle_green
+  - first:
+      213: 21300034
+    second: rune_2022_12
+  - first:
+      213: 21300036
+    second: buff_2022_cool_3
+  - first:
+      213: 21300038
+    second: buff_2020_cirle_cyan
+  - first:
+      213: 21300040
+    second: buff_2020_cirle_empty
+  - first:
+      213: 21300042
+    second: border_time_blue
+  - first:
+      213: 21300044
+    second: rune_big_2022
+  - first:
+      213: 21300046
+    second: buff_2022_cool_2
+  - first:
+      213: 21300048
+    second: buff_centralPoint_stage1
+  - first:
+      213: 21300050
+    second: buff_2020_rune_big
+  - first:
+      213: 21300052
+    second: buff_2020_fly_cyan
+  - first:
+      213: 21300054
+    second: rune_2022_42_12
+  - first:
+      213: 21300056
+    second: buff_lightdefendence
+  - first:
+      213: 21300058
+    second: buff_heavydefendence
+  - first:
+      213: 21300060
+    second: border_time_green
+  - first:
+      213: 21300062
+    second: buff_smallrune
+  - first:
+      213: 21300064
+    second: buff_2020_cool_5
+  - first:
+      213: 21300066
+    second: buff_2020_shield_100
+  - first:
+      213: 21300068
+    second: buff_2020_fly_green
+  - first:
+      213: 21300070
+    second: buff_2020_shield_50
+  - first:
+      213: 21300072
+    second: buff_2022_fly_cyan
+  - first:
+      213: 21300074
+    second: rune_2022_16
+  - first:
+      213: 21300076
+    second: buff_2020_42
+  - first:
+      213: 21300078
+    second: rune_2022_42_13
+  - first:
+      213: 21300080
+    second: rune_2022_42_11
+  - first:
+      213: 21300082
+    second: buffBigRune
+  - first:
+      213: 21300084
+    second: buff_restore
+  - first:
+      213: 21300086
+    second: buff_defendence80percent
+  - first:
+      213: 21300088
+    second: rune_2022_42_14
+  - first:
+      213: 21300090
+    second: rune_normal_12
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rune_normal_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 94
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: -14, y: -6}
+        - {x: -21, y: -8}
+        - {x: -23, y: -26}
+        - {x: -21, y: -28}
+        - {x: 16, y: -28}
+        - {x: 22, y: -24}
+        - {x: 23, y: -17}
+        - {x: 23, y: -6}
+      - - {x: -9.999999, y: 27}
+        - {x: -14, y: 20}
+        - {x: -14, y: 3}
+        - {x: -9.999999, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 21}
+        - {x: -3, y: 27}
+      - - {x: 7, y: 27}
+        - {x: 5, y: 26}
+        - {x: 2, y: 19}
+        - {x: 2, y: 3}
+        - {x: 6, y: 2}
+        - {x: 14, y: 2}
+        - {x: 14, y: 20}
+        - {x: 12, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e8943e8334426babf4c2e0faa9e31e
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_addhp_5
+      rect:
+        serializedVersion: 2
+        x: 495.0761
+        y: 0.07612038
+        width: 49.84776
+        height: 56.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4560229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -28.5}
+        - {x: -25, y: -10.5}
+        - {x: -25, y: 14.5}
+        - {x: -9.000002, y: 28.5}
+        - {x: 16, y: 28.5}
+        - {x: 25, y: 13.5}
+        - {x: 25, y: -20.5}
+        - {x: 19, y: -28.5}
+      physicsShape:
+      - - {x: -0.000001907349, y: -27.5}
+        - {x: 7.999998, y: -28.5}
+        - {x: 14, y: -28.5}
+        - {x: 18, y: -27.5}
+        - {x: 18, y: -4.500002}
+        - {x: -19, y: -4.500002}
+        - {x: -19, y: -24.5}
+        - {x: -14, y: -28.5}
+        - {x: -9.000002, y: -28.5}
+        - {x: -6.000002, y: -27.5}
+        - {x: -1.000002, y: -22.5}
+        - {x: -2.000002, y: -24.5}
+        - {x: -2.000002, y: -25.5}
+      - - {x: -20, y: 10.5}
+        - {x: -20, y: -0.5000019}
+        - {x: 15, y: -0.5000019}
+        - {x: 20, y: 0.4999981}
+        - {x: 20, y: 8.499998}
+        - {x: 5.999998, y: 23.5}
+        - {x: -13, y: 23.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f34c988e6841e0bfb946325a3ad5e3
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_rune_small
+      rect:
+        serializedVersion: 2
+        x: 514.0761
+        y: 61.07612
+        width: 46.88097
+        height: 59.89713
+      alignment: 9
+      pivot: {x: 0.5103111, y: 0.4661973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.48339, y: -30.02469}
+        - {x: -23.51661, y: -30.02469}
+        - {x: -23.51661, y: 9.975313}
+        - {x: -22.51661, y: 19.97531}
+        - {x: -18.51661, y: 29.97531}
+        - {x: 18.48339, y: 29.97531}
+        - {x: 23.48339, y: 27.97532}
+        - {x: 23.48339, y: -26.02469}
+      physicsShape:
+      - - {x: 22.48339, y: -9.024687}
+        - {x: 21.48339, y: -8.024687}
+        - {x: -4.516607, y: -8.024687}
+        - {x: -19.51661, y: -12.02469}
+        - {x: -21.51661, y: -20.02469}
+        - {x: -21.51661, y: -29.02468}
+        - {x: 17.48339, y: -29.02468}
+        - {x: 22.48339, y: -23.02469}
+      - - {x: -9.516606, y: 24.97531}
+        - {x: -13.51661, y: 17.97531}
+        - {x: -13.51661, y: 0.9753132}
+        - {x: -9.516606, y: -0.02468681}
+        - {x: -1.516607, y: -0.02468681}
+        - {x: -1.516607, y: 18.97531}
+        - {x: -2.516607, y: 24.97531}
+      - - {x: 7.483393, y: 24.97531}
+        - {x: 5.483392, y: 23.97531}
+        - {x: 2.483393, y: 16.97531}
+        - {x: 2.483393, y: 0.9753132}
+        - {x: 6.483393, y: -0.02468681}
+        - {x: 14.48339, y: -0.02468681}
+        - {x: 14.48339, y: 17.97531}
+        - {x: 12.48339, y: 24.97531}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6314499903dc4190822e200b5af1d7f0
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_addhp_10
+      rect:
+        serializedVersion: 2
+        x: 440.0761
+        y: 0.07612038
+        width: 50.89713
+        height: 56.84776
+      alignment: 9
+      pivot: {x: 0.4896912, y: 0.4560229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.52469, y: -28.5}
+        - {x: -25.52469, y: -6.500002}
+        - {x: -25.52469, y: 13.5}
+        - {x: -16.52469, y: 28.5}
+        - {x: 8.475313, y: 28.5}
+        - {x: 25.47531, y: 21.5}
+        - {x: 25.47531, y: -28.5}
+      physicsShape:
+      - - {x: 22.47531, y: -8.500002}
+        - {x: 8.475313, y: -4.500002}
+        - {x: -21.52469, y: -4.500002}
+        - {x: -22.52469, y: -10.5}
+        - {x: -22.52469, y: -14.5}
+        - {x: -21.52469, y: -25.5}
+        - {x: -21.52469, y: -28.5}
+        - {x: 21.47531, y: -28.5}
+        - {x: 24.47531, y: -23.5}
+        - {x: 24.47531, y: -11.5}
+      - - {x: -20.52468, y: 10.5}
+        - {x: -20.52468, y: -0.5000019}
+        - {x: 14.47531, y: -0.5000019}
+        - {x: 19.47531, y: 0.4999981}
+        - {x: 19.47531, y: 8.499998}
+        - {x: 5.475313, y: 23.5}
+        - {x: -13.52469, y: 23.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6382d4c15e7542b1a93310dbb3664715
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2022_attack25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 25, y: 15}
+        - {x: 24, y: 20}
+        - {x: 9.999999, y: 30}
+        - {x: -6, y: 30}
+        - {x: -15, y: 26}
+        - {x: -22, y: 19}
+        - {x: -26, y: 9.999999}
+        - {x: -26, y: -4}
+        - {x: -23, y: -13}
+        - {x: -23, y: -26}
+        - {x: -21, y: -28}
+        - {x: 17, y: -28}
+        - {x: 22, y: -24}
+        - {x: 26, y: -5}
+        - {x: 26, y: 8}
+      - - {x: -13, y: 13}
+        - {x: -7, y: 18}
+        - {x: -9.999999, y: 13}
+        - {x: -13, y: 9}
+      - - {x: 9, y: 17}
+        - {x: 13, y: 15}
+        - {x: 12, y: 17}
+        - {x: 6, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87be8367af341c79091d643a05468f8
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_cooling
+      rect:
+        serializedVersion: 2
+        x: 252.0761
+        y: 400
+        width: 58.92388
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4908686, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.53806, y: -30}
+        - {x: -29.53806, y: -28}
+        - {x: -29.53806, y: 27}
+        - {x: -17.53806, y: 30}
+        - {x: 18.46194, y: 30}
+        - {x: 29.46194, y: 22}
+        - {x: 29.46194, y: -25}
+        - {x: 24.46194, y: -30}
+      physicsShape:
+      - - {x: 10.46194, y: -21}
+        - {x: 14.46194, y: -22}
+        - {x: 22.46194, y: -19}
+        - {x: 23.46194, y: -13}
+        - {x: 26.46194, y: -9}
+        - {x: 26.46194, y: 17}
+        - {x: 20.46194, y: 19}
+        - {x: 11.46194, y: 21}
+        - {x: 10.46194, y: 18}
+        - {x: 13.46194, y: 23}
+        - {x: 9.46194, y: 26}
+        - {x: 6.461941, y: 28}
+        - {x: -2.538059, y: 28}
+        - {x: -10.53806, y: 24}
+        - {x: -9.538059, y: 20}
+        - {x: -10.53806, y: 22}
+        - {x: -22.53806, y: 19}
+        - {x: -25.53806, y: 12}
+        - {x: -25.53806, y: -9.999999}
+        - {x: -23.53806, y: -11}
+        - {x: -19.53806, y: -11}
+        - {x: -21.53806, y: -11}
+        - {x: -25.53806, y: -16}
+        - {x: -25.53806, y: -20}
+        - {x: -20.53806, y: -29}
+        - {x: 6.461941, y: -29}
+        - {x: 11.46194, y: -25}
+        - {x: 10.46194, y: -22}
+        - {x: 4.46194, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f626d8d538414e44be8508308e36460f
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2022_fly_green
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 24, y: 2}
+        - {x: 14, y: 11}
+        - {x: 7, y: 15}
+        - {x: -2, y: 15}
+        - {x: -26, y: -2}
+        - {x: -26, y: -12}
+        - {x: 23, y: -12}
+        - {x: 26, y: -9}
+        - {x: 26, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d105e5bb449c4133ab96b6774afbeb76
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 18, y: -4}
+        - {x: 23, y: 0}
+        - {x: 26, y: 3}
+        - {x: 26, y: 12}
+        - {x: 23, y: 20}
+        - {x: 11, y: 30}
+        - {x: -9, y: 30}
+        - {x: -16, y: 28}
+        - {x: -23, y: 19}
+        - {x: -26, y: 9}
+        - {x: -26, y: 2}
+        - {x: -22, y: 0}
+        - {x: -14, y: -6}
+        - {x: -20, y: -9.999999}
+        - {x: -26, y: -28}
+        - {x: 19, y: -28}
+        - {x: 23, y: -24}
+        - {x: 24, y: -7}
+      - - {x: -13, y: 13}
+        - {x: -9, y: 17}
+        - {x: -6, y: 19}
+        - {x: -11, y: 18}
+        - {x: -14, y: 15}
+      - - {x: 5, y: 19}
+        - {x: 9.999999, y: 17}
+        - {x: 5, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5163bcb3b9443db260a96357b00a51
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2022_cool_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 94
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: -8, y: -6}
+        - {x: -17, y: -7}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: 9, y: -28}
+        - {x: 14, y: -24}
+        - {x: 16, y: -8}
+        - {x: 16, y: -6}
+      - - {x: 17, y: 20}
+        - {x: 11, y: 24}
+        - {x: -15, y: 24}
+        - {x: -15, y: 9.999999}
+        - {x: -9.999999, y: 3}
+        - {x: -5, y: 0}
+        - {x: 19, y: 0}
+        - {x: 23, y: 3}
+        - {x: 23, y: 7}
+        - {x: 21, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c5bf8fadb64e75821e323b18686273
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_cool_3
+      rect:
+        serializedVersion: 2
+        x: 148.0564
+        y: 430.0513
+        width: 52.86751
+        height: 57.87257
+      alignment: 9
+      pivot: {x: 0.4907292, y: 0.5174937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.49013, y: -28.9876}
+        - {x: -26.49013, y: -23.9876}
+        - {x: -26.49013, y: 29.0124}
+        - {x: 20.50987, y: 29.0124}
+        - {x: 26.50988, y: 20.0124}
+        - {x: 26.50988, y: -12.9876}
+        - {x: 16.50987, y: -27.9876}
+        - {x: 9.509874, y: -28.9876}
+      physicsShape:
+      - - {x: 3.509874, y: -4.987597}
+        - {x: -16.49013, y: -5.987597}
+        - {x: -18.49013, y: -14.9876}
+        - {x: -18.49013, y: -27.9876}
+        - {x: -8.490126, y: -28.98759}
+        - {x: 8.509874, y: -28.98759}
+        - {x: 14.50987, y: -26.9876}
+        - {x: 16.50987, y: -13.9876}
+        - {x: 16.50987, y: -7.987597}
+        - {x: 13.50987, y: -4.987597}
+      - - {x: -15.49012, y: 25.0124}
+        - {x: -15.49012, y: 15.0124}
+        - {x: -14.49013, y: 13.0124}
+        - {x: -12.49013, y: 4.012403}
+        - {x: -9.490126, y: 1.012403}
+        - {x: 19.50987, y: 1.012403}
+        - {x: 22.50987, y: 2.012403}
+        - {x: 22.50987, y: 11.0124}
+        - {x: 20.50987, y: 13.0124}
+        - {x: 16.50987, y: 21.0124}
+        - {x: 10.50987, y: 25.0124}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f542b944278a413cbbfe817c5b1d7cd6
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: border_time_red
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -45}
+        - {x: -45, y: 38}
+        - {x: -42, y: 45}
+        - {x: 27, y: 45}
+        - {x: 45, y: 26}
+        - {x: 45, y: -45}
+      physicsShape:
+      - - {x: 39, y: 26}
+        - {x: 24, y: 37}
+        - {x: 14, y: 42}
+        - {x: -17, y: 42}
+        - {x: -38, y: 25}
+        - {x: -42, y: 17}
+        - {x: -42, y: -19}
+        - {x: -41, y: -27}
+        - {x: -18, y: -42}
+        - {x: 13, y: -42}
+        - {x: 25, y: -39}
+        - {x: 37, y: -24}
+        - {x: 42, y: -16}
+        - {x: 42, y: 11}
+      - - {x: -17, y: -30}
+        - {x: -25, y: -23}
+        - {x: -31, y: -14}
+        - {x: -34, y: -2}
+        - {x: -30, y: 17}
+        - {x: -14, y: 31}
+        - {x: 2, y: 34}
+        - {x: 17, y: 30}
+        - {x: 25, y: 23}
+        - {x: 31, y: 14}
+        - {x: 34, y: -2}
+        - {x: 30, y: -17}
+        - {x: 23, y: -25}
+        - {x: 14, y: -31}
+        - {x: 2, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de557e352749d9a0e6fae636ed32da
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_cool_2
+      rect:
+        serializedVersion: 2
+        x: 410.0564
+        y: 316.0761
+        width: 52.86751
+        height: 57.84776
+      alignment: 9
+      pivot: {x: 0.4907292, y: 0.5172867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.49013, y: -29}
+        - {x: -26.49013, y: -14}
+        - {x: -26.49013, y: 14}
+        - {x: -23.49013, y: 25}
+        - {x: -10.49013, y: 29}
+        - {x: 15.50987, y: 29}
+        - {x: 26.50988, y: 18}
+        - {x: 26.50988, y: -7.000002}
+        - {x: 18.50987, y: -28}
+        - {x: 13.50987, y: -29}
+      physicsShape:
+      - - {x: 14.50987, y: -5.000002}
+        - {x: 3.509874, y: -5.000002}
+        - {x: -14.49013, y: -9.000001}
+        - {x: -16.49013, y: -11}
+        - {x: -18.49013, y: -19}
+        - {x: -18.49013, y: -28}
+        - {x: -13.49013, y: -29}
+        - {x: 11.50987, y: -29}
+        - {x: 16.50987, y: -27}
+        - {x: 16.50987, y: -9.000001}
+      - - {x: -15.49012, y: 25}
+        - {x: -15.49012, y: 15}
+        - {x: -14.49013, y: 13}
+        - {x: -12.49013, y: 3.999998}
+        - {x: -9.490126, y: 0.9999981}
+        - {x: 19.50987, y: 0.9999981}
+        - {x: 22.50987, y: 1.999998}
+        - {x: 22.50987, y: 11}
+        - {x: 20.50987, y: 13}
+        - {x: 16.50987, y: 21}
+        - {x: 10.50987, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9743b0d9d9c8494bbcc78df4ea72bc76
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_bullet
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 252
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -30}
+        - {x: -30, y: -30}
+        - {x: -30, y: 30}
+        - {x: 29, y: 30}
+        - {x: 30, y: 29}
+        - {x: 30, y: -29}
+      physicsShape:
+      - - {x: -19, y: -9.999999}
+        - {x: -25, y: -16}
+        - {x: -25, y: -21}
+        - {x: -18, y: -25}
+        - {x: 26, y: -25}
+        - {x: 26, y: -9.999999}
+      - - {x: -21, y: 7}
+        - {x: -26, y: 1}
+        - {x: -26, y: -4}
+        - {x: -20, y: -8}
+        - {x: 26, y: -8}
+        - {x: 26, y: 7}
+      - - {x: -19, y: 25}
+        - {x: -25, y: 21}
+        - {x: -25, y: 13}
+        - {x: -24, y: 11}
+        - {x: -15, y: 9}
+        - {x: 20, y: 9}
+        - {x: 26, y: 9.999999}
+        - {x: 26, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac0510b45db43bbb8bc0c64fb77895a
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 84
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 12, y: -6}
+        - {x: 8, y: -8}
+        - {x: 6, y: -13}
+        - {x: 6, y: -17}
+        - {x: 5, y: -15}
+        - {x: 7, y: -9.999999}
+        - {x: 9.999999, y: 0}
+        - {x: 23, y: 0}
+        - {x: 26, y: 3}
+        - {x: 26, y: 17}
+        - {x: 14, y: 30}
+        - {x: -18, y: 30}
+        - {x: -26, y: 13}
+        - {x: -26, y: -24}
+        - {x: -25, y: -28}
+        - {x: 20, y: -28}
+        - {x: 26, y: -19}
+        - {x: 26, y: -11}
+        - {x: 21, y: -5}
+      - - {x: -13, y: 13}
+        - {x: -9, y: 17}
+        - {x: -6, y: 19}
+        - {x: -11, y: 18}
+        - {x: -14, y: 15}
+      - - {x: 5, y: 19}
+        - {x: 9.999999, y: 17}
+        - {x: 5, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fb0c9c8afb45cb921fb2622626adf2
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_addhp_2
+      rect:
+        serializedVersion: 2
+        x: 549.0761
+        y: 0.07612038
+        width: 49.84776
+        height: 56.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4560229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -28.5}
+        - {x: -25, y: -20.5}
+        - {x: -25, y: 12.5}
+        - {x: -19, y: 28.5}
+        - {x: 16, y: 28.5}
+        - {x: 25, y: 24.5}
+        - {x: 25, y: -22.5}
+        - {x: 23, y: -28.5}
+      physicsShape:
+      - - {x: -19, y: -10.5}
+        - {x: -19, y: -27.5}
+        - {x: -14, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 18, y: -27.5}
+        - {x: 18, y: -6.500002}
+        - {x: 8.999998, y: -4.500002}
+        - {x: -12, y: -4.500002}
+        - {x: -18, y: -6.500002}
+      - - {x: -20, y: 10.5}
+        - {x: -20, y: -0.5000019}
+        - {x: 15, y: -0.5000019}
+        - {x: 20, y: 0.4999981}
+        - {x: 20, y: 8.499998}
+        - {x: 5.999998, y: 23.5}
+        - {x: -13, y: 23.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7179fffc9745f1bf3da99e3b51aeac
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_flyslope
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 444.0761
+        width: 60
+        height: 50.91096
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4895582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -25.5316}
+        - {x: -30, y: -25.5316}
+        - {x: -30, y: -0.5316029}
+        - {x: 25, y: 25.4684}
+        - {x: 30, y: 25.4684}
+        - {x: 30, y: -24.5316}
+      physicsShape:
+      - - {x: 25, y: 23.4684}
+        - {x: 16, y: 20.4684}
+        - {x: -30, y: -3.531603}
+        - {x: -30, y: -24.5316}
+        - {x: 28, y: -24.5316}
+        - {x: 30, y: -22.5316}
+        - {x: 30, y: 21.4684}
+        - {x: 29, y: 23.4684}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e549e24ed649f3855a651fd5e3ddad
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_cirle_green
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 84
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -40}
+        - {x: -40, y: -26}
+        - {x: -40, y: 31}
+        - {x: -38, y: 40}
+        - {x: 23, y: 40}
+        - {x: 40, y: 23}
+        - {x: 40, y: -26}
+        - {x: 25, y: -40}
+      physicsShape:
+      - - {x: 33, y: 29}
+        - {x: 21, y: 37}
+        - {x: 15, y: 40}
+        - {x: -18, y: 40}
+        - {x: -28, y: 33}
+        - {x: -39, y: 22}
+        - {x: -40, y: 17}
+        - {x: -40, y: -19}
+        - {x: -34, y: -30}
+        - {x: -18, y: -40}
+        - {x: 22, y: -40}
+        - {x: 39, y: -22}
+        - {x: 40, y: -16}
+        - {x: 40, y: 15}
+      - - {x: -20, y: -24}
+        - {x: -28, y: -12}
+        - {x: -30, y: 7}
+        - {x: -24, y: 20}
+        - {x: -13, y: 28}
+        - {x: 5, y: 30}
+        - {x: 16, y: 26}
+        - {x: 27, y: 14}
+        - {x: 29, y: 6}
+        - {x: 30, y: -7}
+        - {x: 24, y: -20}
+        - {x: 12, y: -28}
+        - {x: -7, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868199b45127478594b0a256d9a2290b
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 168
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 12, y: -6}
+        - {x: 7, y: -9.999999}
+        - {x: 6, y: -14}
+        - {x: 7, y: -9.999999}
+        - {x: 9.999999, y: 0}
+        - {x: 23, y: 0}
+        - {x: 26, y: 3}
+        - {x: 26, y: 17}
+        - {x: 14, y: 30}
+        - {x: -18, y: 30}
+        - {x: -26, y: 13}
+        - {x: -26, y: -22}
+        - {x: -25, y: -27}
+        - {x: -21, y: -28}
+        - {x: 21, y: -28}
+        - {x: 26, y: -19}
+        - {x: 26, y: -12}
+        - {x: 21, y: -5}
+      - - {x: -13, y: 13}
+        - {x: -9, y: 17}
+        - {x: -6, y: 19}
+        - {x: -11, y: 18}
+        - {x: -14, y: 15}
+      - - {x: 5, y: 19}
+        - {x: 9.999999, y: 17}
+        - {x: 5, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c7b5e455e4a58b2dcdf1383c71da5
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2022_cool_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 168
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: -8, y: -6}
+        - {x: -15, y: -8}
+        - {x: -17, y: -15}
+        - {x: -17, y: -28}
+        - {x: 12, y: -28}
+        - {x: 16, y: -26}
+        - {x: 16, y: -11}
+        - {x: 15, y: -6}
+      - - {x: 17, y: 20}
+        - {x: 11, y: 24}
+        - {x: -15, y: 24}
+        - {x: -15, y: 9.999999}
+        - {x: -9.999999, y: 3}
+        - {x: -5, y: 0}
+        - {x: 19, y: 0}
+        - {x: 23, y: 3}
+        - {x: 23, y: 7}
+        - {x: 21, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8f1043575c4722aa8640a6ea9512a5
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_cirle_cyan
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 84
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -40}
+        - {x: -40, y: -26}
+        - {x: -40, y: 31}
+        - {x: -38, y: 40}
+        - {x: 23, y: 40}
+        - {x: 40, y: 23}
+        - {x: 40, y: -26}
+        - {x: 25, y: -40}
+      physicsShape:
+      - - {x: 33, y: 29}
+        - {x: 21, y: 37}
+        - {x: 15, y: 40}
+        - {x: -18, y: 40}
+        - {x: -28, y: 33}
+        - {x: -39, y: 22}
+        - {x: -40, y: 17}
+        - {x: -40, y: -19}
+        - {x: -34, y: -30}
+        - {x: -18, y: -40}
+        - {x: 22, y: -40}
+        - {x: 39, y: -22}
+        - {x: 40, y: -16}
+        - {x: 40, y: 15}
+      - - {x: -20, y: -24}
+        - {x: -28, y: -12}
+        - {x: -30, y: 7}
+        - {x: -24, y: 20}
+        - {x: -13, y: 28}
+        - {x: 5, y: 30}
+        - {x: 16, y: 26}
+        - {x: 27, y: 14}
+        - {x: 29, y: 6}
+        - {x: 30, y: -7}
+        - {x: 24, y: -20}
+        - {x: 12, y: -28}
+        - {x: -7, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cfe15e965e4d3ba004d425de21be3b
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_cirle_empty
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 168
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -40}
+        - {x: -40, y: -26}
+        - {x: -40, y: 31}
+        - {x: -38, y: 40}
+        - {x: 23, y: 40}
+        - {x: 40, y: 23}
+        - {x: 40, y: -26}
+        - {x: 25, y: -40}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc0fd0fe1e46d9bdbf65a4b358cede
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: border_time_blue
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -45}
+        - {x: -45, y: 38}
+        - {x: -42, y: 45}
+        - {x: 27, y: 45}
+        - {x: 45, y: 26}
+        - {x: 45, y: -45}
+      physicsShape:
+      - - {x: 39, y: 26}
+        - {x: 24, y: 37}
+        - {x: 14, y: 42}
+        - {x: -17, y: 42}
+        - {x: -38, y: 25}
+        - {x: -42, y: 17}
+        - {x: -42, y: -19}
+        - {x: -41, y: -27}
+        - {x: -18, y: -42}
+        - {x: 13, y: -42}
+        - {x: 25, y: -39}
+        - {x: 37, y: -24}
+        - {x: 42, y: -16}
+        - {x: 42, y: 11}
+      - - {x: -17, y: -30}
+        - {x: -25, y: -23}
+        - {x: -31, y: -14}
+        - {x: -34, y: -2}
+        - {x: -30, y: 17}
+        - {x: -14, y: 31}
+        - {x: 2, y: 34}
+        - {x: 17, y: 30}
+        - {x: 25, y: 23}
+        - {x: 31, y: 14}
+        - {x: 34, y: -2}
+        - {x: 30, y: -17}
+        - {x: 23, y: -25}
+        - {x: 14, y: -31}
+        - {x: 2, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a091b54c0e34ba983e957ac5897d000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_big_2022
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 14, y: -6}
+        - {x: -8, y: -6}
+        - {x: -19, y: -14}
+        - {x: -19, y: -26}
+        - {x: -17, y: -28}
+        - {x: 11, y: -28}
+        - {x: 14, y: -27}
+        - {x: 15, y: -22}
+        - {x: 15, y: -7}
+      - - {x: -9.999999, y: 27}
+        - {x: -14, y: 20}
+        - {x: -14, y: 3}
+        - {x: -9.999999, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 21}
+        - {x: -3, y: 27}
+      - - {x: 7, y: 27}
+        - {x: 5, y: 26}
+        - {x: 2, y: 19}
+        - {x: 2, y: 3}
+        - {x: 6, y: 2}
+        - {x: 14, y: 2}
+        - {x: 14, y: 20}
+        - {x: 12, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e19be5a1a68402caaa9e7d0ef60bb8a
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2022_cool_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 0, y: -6}
+        - {x: -15, y: -9}
+        - {x: -17, y: -17}
+        - {x: -17, y: -28}
+        - {x: 13, y: -28}
+        - {x: 16, y: -22}
+        - {x: 16, y: -8}
+        - {x: 15, y: -6}
+      - - {x: 17, y: 20}
+        - {x: 11, y: 24}
+        - {x: -15, y: 24}
+        - {x: -15, y: 9.999999}
+        - {x: -9.999999, y: 3}
+        - {x: -5, y: 0}
+        - {x: 19, y: 0}
+        - {x: 23, y: 3}
+        - {x: 23, y: 7}
+        - {x: 21, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12caa8f49d0c43298a8f15e548669604
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_centralPoint_stage1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 178
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -40}
+        - {x: -40, y: -26}
+        - {x: -40, y: 31}
+        - {x: -38, y: 40}
+        - {x: 23, y: 40}
+        - {x: 40, y: 23}
+        - {x: 40, y: -26}
+        - {x: 25, y: -40}
+      physicsShape:
+      - - {x: 40, y: 13}
+        - {x: 38, y: 21}
+        - {x: 24, y: 36}
+        - {x: 14, y: 40}
+        - {x: -18, y: 40}
+        - {x: -32, y: 29}
+        - {x: -36, y: 24}
+        - {x: -40, y: 15}
+        - {x: -40, y: -18}
+        - {x: -29, y: -32}
+        - {x: -17, y: -40}
+        - {x: 15, y: -40}
+        - {x: 21, y: -37}
+        - {x: 36, y: -24}
+        - {x: 40, y: -14}
+      - - {x: -11, y: -30}
+        - {x: -25, y: -19}
+        - {x: -30, y: -11}
+        - {x: -30, y: 9}
+        - {x: -11, y: 30}
+        - {x: 11, y: 30}
+        - {x: 25, y: 19}
+        - {x: 30, y: 11}
+        - {x: 30, y: -11}
+        - {x: 19, y: -25}
+        - {x: 11, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adff18c9716413dae42fedc044669f6
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_rune_big
+      rect:
+        serializedVersion: 2
+        x: 514.0267
+        y: 125.0761
+        width: 41.89713
+        height: 59.89713
+      alignment: 9
+      pivot: {x: 0.5005893, y: 0.4661973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.02469, y: -30.02469}
+        - {x: -20.97531, y: -30.02469}
+        - {x: -20.97531, y: 27.97532}
+        - {x: -16.97531, y: 29.97531}
+        - {x: 16.02469, y: 29.97531}
+        - {x: 21.02469, y: 26.97531}
+        - {x: 21.02469, y: -26.02469}
+      physicsShape:
+      - - {x: 1.024689, y: -8.024687}
+        - {x: -15.97531, y: -12.02469}
+        - {x: -17.97531, y: -17.02468}
+        - {x: -17.97531, y: -29.02468}
+        - {x: 14.02469, y: -29.02468}
+        - {x: 15.02469, y: -26.02469}
+        - {x: 15.02469, y: -12.02469}
+        - {x: 11.02469, y: -8.024687}
+      - - {x: -9.97531, y: 24.97531}
+        - {x: -13.97531, y: 17.97531}
+        - {x: -13.97531, y: 0.9753132}
+        - {x: -9.97531, y: -0.02468681}
+        - {x: -1.975311, y: -0.02468681}
+        - {x: -1.975311, y: 18.97531}
+        - {x: -2.975311, y: 24.97531}
+      - - {x: 7.024689, y: 24.97531}
+        - {x: 5.024688, y: 23.97531}
+        - {x: 2.024689, y: 16.97531}
+        - {x: 2.024689, y: 0.9753132}
+        - {x: 6.024689, y: -0.02468681}
+        - {x: 14.02469, y: -0.02468681}
+        - {x: 14.02469, y: 17.97531}
+        - {x: 12.02469, y: 24.97531}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f346eb4564447acc5b95fa602ef41
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_fly_cyan
+      rect:
+        serializedVersion: 2
+        x: 603.0761
+        y: 0.07612038
+        width: 55.84776
+        height: 35.84776
+      alignment: 9
+      pivot: {x: 0.5358116, y: 0.4442086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -18}
+        - {x: -28, y: -17}
+        - {x: -28, y: -6.999998}
+        - {x: -26, y: 7.000002}
+        - {x: 2.999998, y: 18}
+        - {x: 28, y: 18}
+        - {x: 28, y: -18}
+      physicsShape:
+      - - {x: -24, y: -12}
+        - {x: -22, y: -14}
+        - {x: 24, y: -14}
+        - {x: 24, y: 14}
+        - {x: -12, y: 14}
+        - {x: -19, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d7afcd74554bbe9956110709dceefe
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_42_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 178
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 12, y: 30}
+        - {x: -6, y: 30}
+        - {x: -16, y: 28}
+        - {x: -23, y: 19}
+        - {x: -26, y: 9}
+        - {x: -26, y: 2}
+        - {x: -16, y: -5}
+        - {x: -22, y: -17}
+        - {x: -23, y: -27}
+        - {x: -21, y: -28}
+        - {x: 20, y: -28}
+        - {x: 26, y: -21}
+        - {x: 26, y: 15}
+        - {x: 16, y: 28}
+      - - {x: 6, y: -15}
+        - {x: 6, y: -11}
+        - {x: 7, y: -9.999999}
+        - {x: 6, y: -9.999999}
+        - {x: 5, y: -14}
+        - {x: 7, y: -16}
+        - {x: 5, y: -16}
+      - - {x: -13, y: 13}
+        - {x: -7, y: 18}
+        - {x: -9.999999, y: 13}
+        - {x: -13, y: 9}
+      - - {x: 9, y: 17}
+        - {x: 13, y: 15}
+        - {x: 12, y: 17}
+        - {x: 6, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ab0c1db92f418897f785215fd2bd3f
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_lightdefendence
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 316
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -30}
+        - {x: -30, y: -28}
+        - {x: -30, y: 30}
+        - {x: 30, y: 30}
+        - {x: 30, y: -26}
+        - {x: 27, y: -30}
+      physicsShape:
+      - - {x: 2, y: 27}
+        - {x: -5, y: 27}
+        - {x: -27, y: 19}
+        - {x: -27, y: -6}
+        - {x: -21, y: -20}
+        - {x: -6, y: -27}
+        - {x: 12, y: -27}
+        - {x: 23, y: -9.999999}
+        - {x: 26, y: 2}
+        - {x: 26, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b29f4433fe4050ba0d20271fc63ebf
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_heavydefendence
+      rect:
+        serializedVersion: 2
+        x: 436.0761
+        y: 440.0268
+        width: 53.89713
+        height: 53.93975
+      alignment: 9
+      pivot: {x: 0.499542, y: 0.4815234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.02468, y: -15.99662}
+        - {x: -27.02468, y: -4.996624}
+        - {x: -27.02468, y: 20.00338}
+        - {x: -3.024683, y: 27.00338}
+        - {x: 5.975317, y: 27.00338}
+        - {x: 26.97532, y: 17.00338}
+        - {x: 26.97532, y: 0.003376007}
+        - {x: 22.97532, y: -14.99662}
+        - {x: 12.97532, y: -26.99662}
+        - {x: -7.024683, y: -26.99662}
+      physicsShape:
+      - - {x: 3.975317, y: 27.00338}
+        - {x: -1.024683, y: 27.00338}
+        - {x: -27.02468, y: 16.00338}
+        - {x: -27.02468, y: 4.003376}
+        - {x: -24.02468, y: -8.996624}
+        - {x: -9.024683, y: -26.99662}
+        - {x: 8.975317, y: -26.99662}
+        - {x: 25.97532, y: 0.003376007}
+        - {x: 26.97532, y: 4.003376}
+        - {x: 26.97532, y: 16.00338}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee73d9dbf8647a2925add103d1e4d78
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: border_time_green
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -45}
+        - {x: -45, y: 38}
+        - {x: -42, y: 45}
+        - {x: 27, y: 45}
+        - {x: 45, y: 26}
+        - {x: 45, y: -45}
+      physicsShape:
+      - - {x: 39, y: 26}
+        - {x: 24, y: 37}
+        - {x: 14, y: 42}
+        - {x: -17, y: 42}
+        - {x: -38, y: 25}
+        - {x: -42, y: 17}
+        - {x: -42, y: -19}
+        - {x: -41, y: -27}
+        - {x: -18, y: -42}
+        - {x: 13, y: -42}
+        - {x: 25, y: -39}
+        - {x: 37, y: -24}
+        - {x: 42, y: -16}
+        - {x: 42, y: 11}
+      - - {x: -17, y: -30}
+        - {x: -25, y: -23}
+        - {x: -31, y: -14}
+        - {x: -34, y: -2}
+        - {x: -30, y: 17}
+        - {x: -14, y: 31}
+        - {x: 2, y: 34}
+        - {x: 17, y: 30}
+        - {x: 25, y: 23}
+        - {x: 31, y: 14}
+        - {x: 34, y: -2}
+        - {x: 30, y: -17}
+        - {x: 23, y: -25}
+        - {x: 14, y: -31}
+        - {x: 2, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bcd239528c4b1f919cd3ed96ec890c
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_smallrune
+      rect:
+        serializedVersion: 2
+        x: 378.0761
+        y: 380
+        width: 53.89713
+        height: 60
+      alignment: 9
+      pivot: {x: 0.499542, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.02468, y: -30}
+        - {x: -27.02468, y: -29}
+        - {x: -27.02468, y: -5}
+        - {x: -16.02468, y: 28}
+        - {x: -11.02468, y: 30}
+        - {x: 13.97532, y: 30}
+        - {x: 26.97532, y: 12}
+        - {x: 26.97532, y: -24}
+        - {x: 24.97532, y: -30}
+      physicsShape:
+      - - {x: 5.975317, y: 26}
+        - {x: -7.024683, y: 26}
+        - {x: -19.02468, y: 3}
+        - {x: -19.02468, y: -20}
+        - {x: -9.024683, y: -27}
+        - {x: 9.975316, y: -27}
+        - {x: 18.97532, y: -19}
+        - {x: 18.97532, y: -8}
+        - {x: 13.97532, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5dbcfd61bf4873ac0a6584124aa9e3
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_cool_5
+      rect:
+        serializedVersion: 2
+        x: 436.0564
+        y: 378.0761
+        width: 52.86751
+        height: 57.84776
+      alignment: 9
+      pivot: {x: 0.4907292, y: 0.5172867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.50987, y: -29}
+        - {x: -26.49013, y: -29}
+        - {x: -26.49013, y: 29}
+        - {x: 19.50987, y: 29}
+        - {x: 26.50988, y: 19}
+        - {x: 26.50988, y: -12}
+      physicsShape:
+      - - {x: -16.49013, y: -11}
+        - {x: -18.49013, y: -26}
+        - {x: -17.49013, y: -29}
+        - {x: 9.509873, y: -29}
+        - {x: 16.50987, y: -26}
+        - {x: 16.50987, y: -5.000002}
+        - {x: 1.509874, y: -5.000002}
+        - {x: -14.49013, y: -9.000001}
+      - - {x: -15.49012, y: 25}
+        - {x: -15.49012, y: 15}
+        - {x: -14.49013, y: 13}
+        - {x: -12.49013, y: 3.999998}
+        - {x: -9.490126, y: 0.9999981}
+        - {x: 19.50987, y: 0.9999981}
+        - {x: 22.50987, y: 1.999998}
+        - {x: 22.50987, y: 11}
+        - {x: 20.50987, y: 13}
+        - {x: 16.50987, y: 21}
+        - {x: 10.50987, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7916ec01a9ec4e819e71412f39ea5cd6
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_shield_100
+      rect:
+        serializedVersion: 2
+        x: 565.0267
+        y: 61.02675
+        width: 43.9465
+        height: 51.89713
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5004756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.999998, y: -25.97532}
+        - {x: -22, y: -17.97532}
+        - {x: -22, y: 23.02468}
+        - {x: -13, y: 26.02468}
+        - {x: 16, y: 26.02468}
+        - {x: 22, y: 20.02468}
+        - {x: 22, y: -12.97532}
+        - {x: 12, y: -25.97532}
+      physicsShape:
+      - - {x: -5.999998, y: 22.02468}
+        - {x: -18, y: 16.02468}
+        - {x: -18, y: -2.975319}
+        - {x: -14, y: -11.97532}
+        - {x: -6.999998, y: -17.97532}
+        - {x: -0.9999981, y: -21.97532}
+        - {x: 14, y: -21.97532}
+        - {x: 18, y: -8.975319}
+        - {x: 18, y: 20.02468}
+        - {x: 10, y: 22.02468}
+      - - {x: -0.9999981, y: 3.024681}
+        - {x: -1.999998, y: 2.024681}
+        - {x: 1.000002, y: 2.024681}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054c016489f44c79afe6da69e6445e98
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_fly_green
+      rect:
+        serializedVersion: 2
+        x: 663.0761
+        y: 0.07612038
+        width: 55.84776
+        height: 35.84776
+      alignment: 9
+      pivot: {x: 0.5358116, y: 0.4442086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -18}
+        - {x: -28, y: -17}
+        - {x: -28, y: -6.999998}
+        - {x: -26, y: 7.000002}
+        - {x: 2.999998, y: 18}
+        - {x: 28, y: 18}
+        - {x: 28, y: -18}
+      physicsShape:
+      - - {x: -24, y: -12}
+        - {x: -22, y: -14}
+        - {x: 24, y: -14}
+        - {x: 24, y: 14}
+        - {x: -12, y: 14}
+        - {x: -19, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c86620415d4f928862ce6452001c28
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_shield_50
+      rect:
+        serializedVersion: 2
+        x: 474.0268
+        y: 252.0268
+        width: 43.9465
+        height: 51.89713
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5004756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.999998, y: -25.97532}
+        - {x: -22, y: -17.97532}
+        - {x: -22, y: 23.02468}
+        - {x: -13, y: 26.02468}
+        - {x: 16, y: 26.02468}
+        - {x: 22, y: 20.02468}
+        - {x: 22, y: -12.97532}
+        - {x: 12, y: -25.97532}
+      physicsShape:
+      - - {x: -5.999998, y: 22.02468}
+        - {x: -18, y: 16.02468}
+        - {x: -18, y: -2.975319}
+        - {x: -14, y: -11.97532}
+        - {x: -6.999998, y: -17.97532}
+        - {x: -0.9999981, y: -21.97532}
+        - {x: 14, y: -21.97532}
+        - {x: 18, y: -8.975319}
+        - {x: 18, y: 20.02468}
+        - {x: 10, y: 22.02468}
+      - - {x: 3.000002, y: 10.02468}
+        - {x: 4.000002, y: 9.024681}
+        - {x: 5.000001, y: -4.975318}
+        - {x: 2.000002, y: -8.975319}
+        - {x: 3.000002, y: -8.975319}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebe5c284bbe433fb46225e12aec5156
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2022_fly_cyan
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 262
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 24, y: 2}
+        - {x: 14, y: 11}
+        - {x: 7, y: 15}
+        - {x: -2, y: 15}
+        - {x: -26, y: -2}
+        - {x: -26, y: -12}
+        - {x: 23, y: -12}
+        - {x: 26, y: -9}
+        - {x: 26, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd9806a622144de9dadb8563ef370c9
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 262
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 7, y: -9.999999}
+        - {x: 6, y: -13}
+        - {x: 6, y: -17}
+        - {x: 5, y: -15}
+        - {x: 7, y: -9.999999}
+        - {x: 9.999999, y: 0}
+        - {x: 23, y: 0}
+        - {x: 26, y: 3}
+        - {x: 26, y: 17}
+        - {x: 14, y: 30}
+        - {x: -18, y: 30}
+        - {x: -26, y: 13}
+        - {x: -26, y: -28}
+        - {x: 18, y: -28}
+        - {x: 23, y: -24}
+        - {x: 26, y: -7}
+        - {x: 11, y: -4}
+      - - {x: -13, y: 13}
+        - {x: -9, y: 17}
+        - {x: -6, y: 19}
+        - {x: -11, y: 18}
+        - {x: -14, y: 15}
+      - - {x: 5, y: 19}
+        - {x: 9.999999, y: 17}
+        - {x: 5, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab0a7aeda6f46a3b2d576ecca99dc54
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_2020_42
+      rect:
+        serializedVersion: 2
+        x: 252.0761
+        y: 336.0761
+        width: 59.84776
+        height: 59.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -27}
+        - {x: -30, y: -16}
+        - {x: -30, y: 17}
+        - {x: -17, y: 30}
+        - {x: 30, y: 30}
+        - {x: 30, y: -26}
+        - {x: 20, y: -30}
+        - {x: -13, y: -30}
+      physicsShape:
+      - - {x: -12, y: 26}
+        - {x: -26, y: 17}
+        - {x: -26, y: -12}
+        - {x: -19, y: -26}
+        - {x: 5.999998, y: -26}
+        - {x: 16, y: -24}
+        - {x: 26, y: -17}
+        - {x: 26, y: 16}
+        - {x: 16, y: 26}
+      - - {x: -9.000002, y: -13}
+        - {x: -3.000002, y: -13}
+        - {x: -2.000002, y: -11}
+        - {x: -5.000001, y: -13}
+        - {x: -5.000001, y: -15}
+        - {x: -6.000002, y: -14}
+      - - {x: 3.999998, y: -12}
+        - {x: 12, y: -13}
+        - {x: 14, y: -10}
+        - {x: 8.999998, y: -13}
+      - - {x: -13, y: 8.999998}
+        - {x: -5.000001, y: 13}
+        - {x: -2.000002, y: 9.999997}
+        - {x: 1.999998, y: 9.999997}
+        - {x: 4.999998, y: 13}
+        - {x: 4.999998, y: 15}
+        - {x: 13, y: 11}
+        - {x: 11, y: 13}
+        - {x: 6.999998, y: 13}
+        - {x: 5.999998, y: 12}
+        - {x: -6.000002, y: 12}
+        - {x: -13, y: 4.999998}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a604cce8163445d3907a1c56cc7c3e49
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_42_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 26, y: -2}
+        - {x: 26, y: 9}
+        - {x: 23, y: 20}
+        - {x: 11, y: 30}
+        - {x: -9, y: 30}
+        - {x: -16, y: 28}
+        - {x: -23, y: 19}
+        - {x: -26, y: 9}
+        - {x: -26, y: 2}
+        - {x: -16, y: -5}
+        - {x: -24, y: -16}
+        - {x: -24, y: -28}
+        - {x: 19, y: -28}
+        - {x: 26, y: -14}
+        - {x: 26, y: -11}
+        - {x: 24, y: -8}
+      - - {x: 6, y: -15}
+        - {x: 7, y: -9.999999}
+        - {x: 6, y: -9}
+        - {x: 4, y: -14}
+        - {x: 7, y: -17}
+        - {x: 8, y: -17}
+        - {x: 8, y: -16}
+        - {x: 5, y: -16}
+      - - {x: -13, y: 13}
+        - {x: -7, y: 18}
+        - {x: -9.999999, y: 13}
+        - {x: -13, y: 9}
+      - - {x: 9, y: 17}
+        - {x: 13, y: 15}
+        - {x: 12, y: 17}
+        - {x: 6, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f54a96dab5444a6a0348f9d5cc221a8
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_42_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 346
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 26, y: 11}
+        - {x: 23, y: 20}
+        - {x: 15, y: 26}
+        - {x: 9, y: 30}
+        - {x: -6, y: 30}
+        - {x: -16, y: 28}
+        - {x: -23, y: 19}
+        - {x: -26, y: 9}
+        - {x: -26, y: 1}
+        - {x: -18, y: -7}
+        - {x: -26, y: -27}
+        - {x: -24, y: -28}
+        - {x: 17, y: -28}
+        - {x: 19, y: -26}
+        - {x: 22, y: -7}
+        - {x: 26, y: -1}
+      - - {x: 6, y: -15}
+        - {x: 9.999999, y: -18}
+        - {x: 9.999999, y: -17}
+      - - {x: -13, y: 13}
+        - {x: -7, y: 18}
+        - {x: -9.999999, y: 13}
+        - {x: -13, y: 9}
+      - - {x: 9, y: 17}
+        - {x: 13, y: 15}
+        - {x: 12, y: 17}
+        - {x: 6, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff99c4e5d0464f4db45b0cabbdc72b64
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buffBigRune
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 380
+        width: 58
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -30}
+        - {x: -29, y: -20}
+        - {x: -29, y: 21}
+        - {x: -7, y: 30}
+        - {x: 15, y: 30}
+        - {x: 29, y: 23}
+        - {x: 29, y: -21}
+        - {x: 28, y: -24}
+        - {x: 11, y: -30}
+      physicsShape:
+      - - {x: 11, y: 25}
+        - {x: -12, y: 25}
+        - {x: -23, y: 20}
+        - {x: -23, y: -16}
+        - {x: -22, y: -16}
+        - {x: -2, y: -25}
+        - {x: 1, y: -25}
+        - {x: 3, y: -24}
+        - {x: 23, y: -16}
+        - {x: 24, y: -13}
+        - {x: 24, y: 16}
+      - - {x: -7, y: 1}
+        - {x: -2, y: 7}
+        - {x: 6, y: -3}
+        - {x: 4, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe441d1f6f47a58d6b67fcf5dacea3
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_restore
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 430
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -30}
+        - {x: -30, y: -30}
+        - {x: -30, y: 30}
+        - {x: 26, y: 30}
+        - {x: 30, y: 21}
+      physicsShape:
+      - - {x: -9, y: 25}
+        - {x: -13, y: 23}
+        - {x: -26, y: 8}
+        - {x: -26, y: -19}
+        - {x: -14, y: -26}
+        - {x: 25, y: -26}
+        - {x: 25, y: 17}
+        - {x: 20, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42410e60047e496b817e1d9ae7800d4e
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff_defendence80percent
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 252
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -30}
+        - {x: -30, y: -24}
+        - {x: -30, y: 30}
+        - {x: 30, y: 30}
+        - {x: 30, y: -21}
+        - {x: 23, y: -30}
+      physicsShape:
+      - - {x: 2, y: 27}
+        - {x: -5, y: 27}
+        - {x: -27, y: 19}
+        - {x: -27, y: -6}
+        - {x: -21, y: -20}
+        - {x: -6, y: -27}
+        - {x: 12, y: -27}
+        - {x: 23, y: -9.999999}
+        - {x: 26, y: 2}
+        - {x: 26, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0112473555dd44f0a9aa3c781b834e9e
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_2022_42_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 346
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 26, y: -5}
+        - {x: 26, y: 16}
+        - {x: 18, y: 30}
+        - {x: -6, y: 30}
+        - {x: -16, y: 28}
+        - {x: -23, y: 19}
+        - {x: -26, y: 9}
+        - {x: -26, y: 2}
+        - {x: -16, y: -5}
+        - {x: -22, y: -17}
+        - {x: -26, y: -28}
+        - {x: 19, y: -28}
+        - {x: 23, y: -24}
+        - {x: 24, y: -7}
+      - - {x: 6, y: -15}
+        - {x: 6, y: -11}
+        - {x: 7, y: -9.999999}
+        - {x: 7, y: -9}
+        - {x: 13, y: -9}
+        - {x: 13, y: -8}
+        - {x: 5, y: -16}
+      - - {x: -13, y: 13}
+        - {x: -7, y: 18}
+        - {x: -9.999999, y: 13}
+        - {x: -13, y: 9}
+      - - {x: 9, y: 17}
+        - {x: 13, y: 15}
+        - {x: 12, y: 17}
+        - {x: 6, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2edaa49107846ed958d3ff48618f867
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune_normal_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 252
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -40}
+        - {x: -40, y: 40}
+        - {x: 40, y: 40}
+        - {x: 40, y: -40}
+      physicsShape:
+      - - {x: 9, y: -6}
+        - {x: 6, y: -9.999999}
+        - {x: 5, y: -14}
+        - {x: 5, y: -6}
+        - {x: -14, y: -6}
+        - {x: -22, y: -8}
+        - {x: -23, y: -26}
+        - {x: -21, y: -28}
+        - {x: 20, y: -28}
+        - {x: 23, y: -24}
+        - {x: 23, y: -8}
+        - {x: 22, y: -6}
+      - - {x: -9.999999, y: 27}
+        - {x: -14, y: 20}
+        - {x: -14, y: 3}
+        - {x: -9.999999, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 21}
+        - {x: -3, y: 27}
+      - - {x: 7, y: 27}
+        - {x: 5, y: 26}
+        - {x: 2, y: 19}
+        - {x: 2, y: 3}
+        - {x: 6, y: 2}
+        - {x: 14, y: 2}
+        - {x: 14, y: 20}
+        - {x: 12, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729cbd9b57a84f778f4477b368d757bc
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      buff_flyslope: 21300030
+      buff_2022_cool_3: 21300036
+      rune_2022_14: 21300014
+      border_time_blue: 21300042
+      rune_2022_42_14: 21300088
+      buff_2020_addhp_2: 21300028
+      border_time_green: 21300060
+      buff_2020_42: 21300076
+      buff_centralPoint_stage1: 21300048
+      rune_2022_16: 21300074
+      buff_bullet: 21300024
+      buff_2020_cirle_empty: 21300040
+      buff_2020_cool_2: 21300022
+      buff_2020_addhp_10: 21300006
+      buff_smallrune: 21300062
+      buff_2020_shield_50: 21300070
+      rune_normal_15: 21300000
+      buff_2020_fly_green: 21300068
+      rune_big_2022: 21300044
+      buff_heavydefendence: 21300058
+      buff_2020_addhp_5: 21300002
+      buff_2020_cirle_green: 21300032
+      buff_2020_cool_5: 21300064
+      buff_2020_shield_100: 21300066
+      buff_2020_cool_3: 21300018
+      buff_lightdefendence: 21300056
+      rune_2022_42_11: 21300080
+      buff_restore: 21300084
+      buff_2020_rune_small: 21300004
+      rune_2022_42_12: 21300054
+      buff_defendence80percent: 21300086
+      rune_2022_18: 21300026
+      rune_normal_12: 21300090
+      buff_2022_cool_2: 21300046
+      buff_2022_fly_cyan: 21300072
+      buffBigRune: 21300082
+      rune_2022_42_13: 21300078
+      buff_cooling: 21300010
+      buff_2022_fly_green: 21300012
+      buff_2022_cool_5: 21300016
+      buff_2020_rune_big: 21300050
+      buff_2022_attack25: 21300008
+      border_time_red: 21300020
+      rune_2022_12: 21300034
+      buff_2020_cirle_cyan: 21300038
+      buff_2020_fly_cyan: 21300052
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

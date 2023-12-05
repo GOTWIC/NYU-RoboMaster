@@ -1,0 +1,3419 @@
+fileFormatVersion: 2
+guid: cad53ac9b01e1fd4186088ca9719aadc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: blue_wingman_guard_alive
+  - first:
+      213: 21300002
+    second: red_wingman_border
+  - first:
+      213: 21300004
+    second: red_wingman_guard
+  - first:
+      213: 21300006
+    second: blue_wingman_blood_dead
+  - first:
+      213: 21300008
+    second: red_wingman_outpost_dead
+  - first:
+      213: 21300010
+    second: blue_wingman_blood_normal
+  - first:
+      213: 21300012
+    second: red_wingman_guard_name
+  - first:
+      213: 21300014
+    second: blue_wingman_outpost_alive
+  - first:
+      213: 21300016
+    second: blue_guard
+  - first:
+      213: 21300018
+    second: nologin
+  - first:
+      213: 21300020
+    second: red_wingman_outpost_alive
+  - first:
+      213: 21300022
+    second: red_wingman_border_invincible
+  - first:
+      213: 21300024
+    second: red_wingman_blood_low
+  - first:
+      213: 21300026
+    second: red_wingman_bg_invincible
+  - first:
+      213: 21300028
+    second: blue_guard_avatar
+  - first:
+      213: 21300030
+    second: red_wingman_outpost
+  - first:
+      213: 21300032
+    second: red_guard_en
+  - first:
+      213: 21300034
+    second: blue_wingman_guard_dead
+  - first:
+      213: 21300036
+    second: blue_wingman_bg_invincible
+  - first:
+      213: 21300038
+    second: blue_wingman_bg
+  - first:
+      213: 21300040
+    second: wingman_bullet_light
+  - first:
+      213: 21300042
+    second: blue_guard_en
+  - first:
+      213: 21300044
+    second: blue_wingman_blood_bg
+  - first:
+      213: 21300046
+    second: red_wingman_blood_normal
+  - first:
+      213: 21300048
+    second: red_wingman_guard_alive
+  - first:
+      213: 21300050
+    second: red_wingman_blood_dead
+  - first:
+      213: 21300052
+    second: blue_wingman_blood_abnormal
+  - first:
+      213: 21300054
+    second: blue_wingman_blood_invincible
+  - first:
+      213: 21300056
+    second: red_wingman_border_dead
+  - first:
+      213: 21300058
+    second: red_outpost_avatar
+  - first:
+      213: 21300060
+    second: wingman_bullet_dark
+  - first:
+      213: 21300062
+    second: blue_wingman_blood_bg_dead
+  - first:
+      213: 21300064
+    second: offline
+  - first:
+      213: 21300066
+    second: red_wingman_blood_bg
+  - first:
+      213: 21300068
+    second: blue_wingman_blood_low
+  - first:
+      213: 21300070
+    second: blue_wingman_guard
+  - first:
+      213: 21300072
+    second: red_wingman_bg_dead
+  - first:
+      213: 21300074
+    second: red_wingman_blood_invincible
+  - first:
+      213: 21300076
+    second: blue_bullet
+  - first:
+      213: 21300078
+    second: blue_wingman_outpost_dead
+  - first:
+      213: 21300080
+    second: blue_outpost
+  - first:
+      213: 21300082
+    second: blue_wingman_bullet
+  - first:
+      213: 21300084
+    second: red_wingman_bullet
+  - first:
+      213: 21300086
+    second: blue_wingman_outpost_name
+  - first:
+      213: 21300088
+    second: red_wingman_blood_bg_dead
+  - first:
+      213: 21300090
+    second: red_wingman_outpost_name
+  - first:
+      213: 21300092
+    second: red_guard
+  - first:
+      213: 21300094
+    second: red_wingman_blood_abnormal
+  - first:
+      213: 21300096
+    second: blue_wingman_border_invincible
+  - first:
+      213: 21300098
+    second: red_bullet
+  - first:
+      213: 21300100
+    second: red_guard_avatar
+  - first:
+      213: 21300102
+    second: blue_outpost_avatar
+  - first:
+      213: 21300104
+    second: blue_wingman_guard_name
+  - first:
+      213: 21300106
+    second: blue_wingman_bg_dead
+  - first:
+      213: 21300108
+    second: blue_wingman_outpost
+  - first:
+      213: 21300110
+    second: red_wingman_guard_dead
+  - first:
+      213: 21300112
+    second: sendoff
+  - first:
+      213: 21300114
+    second: blue_wingman_border
+  - first:
+      213: 21300116
+    second: red_wingman_bg
+  - first:
+      213: 21300118
+    second: blue_wingman_border_dead
+  - first:
+      213: 21300120
+    second: red_outpost
+  - first:
+      213: 21300122
+    second: wingman_bullet
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue_wingman_guard_alive
+      rect:
+        serializedVersion: 2
+        x: 919.0761
+        y: 470.0761
+        width: 197.9239
+        height: 200.8477
+      alignment: 9
+      pivot: {x: 0.2724476, y: 0.666793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.03806, y: -100.5}
+        - {x: -99.03807, y: -26.5}
+        - {x: -99.03807, y: 68.5}
+        - {x: -88.03806, y: 96.5}
+        - {x: -57.03806, y: 100.5}
+        - {x: 27.96194, y: 100.5}
+        - {x: 36.96194, y: 98.5}
+        - {x: 76.96194, y: 83.5}
+        - {x: 98.96194, y: 79.5}
+        - {x: 98.96194, y: -36.5}
+        - {x: 75.96194, y: -76.5}
+        - {x: 51.96194, y: -100.5}
+      physicsShape:
+      - - {x: 25.96194, y: -84.49999}
+        - {x: 33.96194, y: -79.5}
+        - {x: 51.96194, y: -65.49999}
+        - {x: 61.96193, y: -55.5}
+        - {x: 62.96193, y: -42.5}
+        - {x: 57.96194, y: -33.49999}
+        - {x: 77.96194, y: -19.5}
+        - {x: 93.96194, y: -6.499996}
+        - {x: 98.96194, y: -7.5}
+        - {x: 98.96194, y: 69.5}
+        - {x: 92.96194, y: 73.5}
+        - {x: 76.96194, y: 68.5}
+        - {x: 73.96193, y: 62.5}
+        - {x: 65.96194, y: 59.5}
+        - {x: 29.96194, y: 65.5}
+        - {x: 13.96193, y: 91.5}
+        - {x: 12.96194, y: 92.5}
+        - {x: -0.03806305, y: 92.5}
+        - {x: -15.03806, y: 89.5}
+        - {x: -22.03806, y: 84.5}
+        - {x: -26.03806, y: 80.5}
+        - {x: -27.03806, y: 74.5}
+        - {x: -38.03806, y: 79.5}
+        - {x: -48.03806, y: 80.5}
+        - {x: -67.03806, y: 78.5}
+        - {x: -79.03806, y: 62.5}
+        - {x: -82.03806, y: 54.5}
+        - {x: -83.03806, y: 47.5}
+        - {x: -74.03806, y: 24.5}
+        - {x: -84.03806, y: 13.5}
+        - {x: -84.03806, y: 2.5}
+        - {x: -73.03806, y: -4.5}
+        - {x: -67.03806, y: -27.5}
+        - {x: -62.03806, y: -34.5}
+        - {x: -14.03806, y: -47.5}
+        - {x: -15.03806, y: -50.5}
+        - {x: -10.03806, y: -64.49999}
+        - {x: -26.03806, y: -75.5}
+        - {x: -25.03806, y: -90.5}
+        - {x: -22.03806, y: -94.5}
+        - {x: -15.03806, y: -95.5}
+        - {x: -5.038067, y: -95.5}
+        - {x: 3.961933, y: -87.49999}
+        - {x: 14.96193, y: -82.5}
+        - {x: 20.96194, y: -84.49999}
+      - - {x: -60.03806, y: 23.5}
+        - {x: -62.03806, y: 28.5}
+        - {x: -61.03806, y: 22.5}
+        - {x: -60.03806, y: 22.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa461137b98645ec8a0a2c4b5a389b91
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_border
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.07612038
+        width: 288
+        height: 259.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6077554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -140, y: -128}
+        - {x: -144, y: -124}
+        - {x: -144, y: 124}
+        - {x: -137, y: 130}
+        - {x: 38, y: 130}
+        - {x: 47, y: 124}
+        - {x: 49, y: 119}
+        - {x: 63, y: 90.99998}
+        - {x: 65, y: 88.99998}
+        - {x: 73, y: 73.99998}
+        - {x: 86, y: 47.99998}
+        - {x: 88, y: 45.99998}
+        - {x: 136, y: -44.00002}
+        - {x: 142, y: -57.00002}
+        - {x: 144, y: -60.00002}
+        - {x: 144, y: -130}
+        - {x: -135, y: -130}
+      physicsShape:
+      - - {x: 16, y: 111}
+        - {x: 12, y: 114}
+        - {x: -144, y: 114}
+        - {x: -144, y: -114}
+        - {x: 131, y: -114}
+        - {x: 133, y: -113}
+        - {x: 133, y: -110}
+        - {x: 130, y: -101}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e6462446364bceb1a85cdf2799b7aa
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_guard
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 528.0761
+        width: 212.9239
+        height: 220.8055
+      alignment: 9
+      pivot: {x: 0.7514423, y: 0.642755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77.46194, y: -72.4789}
+        - {x: -106.4619, y: -39.4789}
+        - {x: -106.4619, y: 87.5211}
+        - {x: -95.46194, y: 92.5211}
+        - {x: -72.46194, y: 94.5211}
+        - {x: -34.46194, y: 110.5211}
+        - {x: 28.53806, y: 110.5211}
+        - {x: 85.53806, y: 100.5211}
+        - {x: 106.5381, y: 69.5211}
+        - {x: 106.5381, y: -11.4789}
+        - {x: 86.53806, y: -51.4789}
+        - {x: 65.53806, y: -69.4789}
+        - {x: 53.53806, y: -110.4789}
+        - {x: -12.46194, y: -110.4789}
+        - {x: -43.46194, y: -106.4789}
+      physicsShape:
+      - - {x: 6.538063, y: -65.4789}
+        - {x: 13.53807, y: -47.4789}
+        - {x: 20.53806, y: -45.4789}
+        - {x: 41.53806, y: -40.4789}
+        - {x: 58.53806, y: -35.47889}
+        - {x: 62.53806, y: -30.4789}
+        - {x: 69.53806, y: -19.4789}
+        - {x: 78.53806, y: -3.478897}
+        - {x: 80.53806, y: 2.521103}
+        - {x: 80.53806, y: 10.5211}
+        - {x: 69.53806, y: 16.5211}
+        - {x: 78.53806, y: 37.5211}
+        - {x: 80.53806, y: 48.5211}
+        - {x: 80.53806, y: 53.5211}
+        - {x: 68.53806, y: 73.5211}
+        - {x: 61.53806, y: 77.5211}
+        - {x: 24.53806, y: 79.5211}
+        - {x: 12.53806, y: 88.5211}
+        - {x: -8.461937, y: 90.5211}
+        - {x: -15.46194, y: 90.5211}
+        - {x: -22.46194, y: 86.5211}
+        - {x: -25.46194, y: 68.5211}
+        - {x: -33.46194, y: 62.5211}
+        - {x: -70.46194, y: 56.5211}
+        - {x: -79.46194, y: 63.5211}
+        - {x: -89.46194, y: 71.5211}
+        - {x: -106.4619, y: 68.5211}
+        - {x: -106.4619, y: -10.4789}
+        - {x: -91.46194, y: -13.4789}
+        - {x: -82.46194, y: -21.47889}
+        - {x: -55.46194, y: -36.4789}
+        - {x: -65.46193, y: -46.4789}
+        - {x: -65.46193, y: -56.4789}
+        - {x: -56.46194, y: -67.47889}
+        - {x: -36.46194, y: -81.4789}
+        - {x: -29.46194, y: -86.47889}
+        - {x: -23.46194, y: -87.47889}
+        - {x: -14.46194, y: -84.4789}
+        - {x: -0.4619331, y: -96.4789}
+        - {x: 3.538063, y: -97.4789}
+        - {x: 15.53806, y: -97.4789}
+        - {x: 22.53806, y: -90.4789}
+        - {x: 21.53806, y: -78.4789}
+        - {x: 17.53806, y: -74.47889}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef57daacf4c4ee5bbdf500afa9bde74
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_blood_dead
+      rect:
+        serializedVersion: 2
+        x: 244.0168
+        y: 832.0761
+        width: 239.9664
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: -26}
+        - {x: -120, y: -26}
+        - {x: -120, y: -16}
+        - {x: -105, y: 26}
+        - {x: 120, y: 26}
+        - {x: 120, y: 16}
+      physicsShape:
+      - - {x: 118, y: 26}
+        - {x: -93.00001, y: 26}
+        - {x: -99, y: 22}
+        - {x: -119, y: -17}
+        - {x: -119, y: -25}
+        - {x: -117, y: -26}
+        - {x: 92.99999, y: -26}
+        - {x: 96.99999, y: -21}
+        - {x: 119, y: 14}
+        - {x: 119, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe137272512e4621945ddcac6c0353ee
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_outpost_dead
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 233.0761
+        width: 181.9239
+        height: 232.8477
+      alignment: 9
+      pivot: {x: 0.7915398, y: 0.6438708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.03806, y: -116.5}
+        - {x: -90.96194, y: -116.5}
+        - {x: -90.96194, y: -48.5}
+        - {x: -54.96194, y: 99.5}
+        - {x: -40.96194, y: 116.5}
+        - {x: 3.038063, y: 116.5}
+        - {x: 14.03806, y: 112.5}
+        - {x: 43.03806, y: 94.5}
+        - {x: 73.03806, y: 12.5}
+        - {x: 74.03806, y: -45.5}
+        - {x: 91.03806, y: -67.5}
+        - {x: 91.03806, y: -111.5}
+      physicsShape:
+      - - {x: 65.03806, y: -99.5}
+        - {x: 75.03806, y: -94.5}
+        - {x: 75.03806, y: -77.5}
+        - {x: 74.03806, y: -70.5}
+        - {x: 66.03806, y: -62.5}
+        - {x: 59.03806, y: -56.5}
+        - {x: 58.03806, y: -46.49999}
+        - {x: 57.03806, y: -29.5}
+        - {x: 55.03806, y: -17.5}
+        - {x: 57.03806, y: -15.5}
+        - {x: 57.03806, y: 1.5}
+        - {x: 56.03806, y: 5.5}
+        - {x: 54.03806, y: 14.5}
+        - {x: 51.03806, y: 20.5}
+        - {x: 44.03806, y: 40.5}
+        - {x: 42.03806, y: 48.5}
+        - {x: 38.03806, y: 60.5}
+        - {x: 34.03806, y: 71.5}
+        - {x: 30.03806, y: 78.5}
+        - {x: 28.03806, y: 85.5}
+        - {x: 25.03806, y: 91.5}
+        - {x: 16.03806, y: 96.5}
+        - {x: 10.03807, y: 100.5}
+        - {x: 4.038067, y: 102.5}
+        - {x: -0.9619331, y: 104.5}
+        - {x: -15.96194, y: 109.5}
+        - {x: -19.96193, y: 109.5}
+        - {x: -23.96194, y: 108.5}
+        - {x: -26.96193, y: 107.5}
+        - {x: -36.96194, y: 97.5}
+        - {x: -41.96194, y: 85.5}
+        - {x: -44.96193, y: 76.5}
+        - {x: -45.96193, y: 69.5}
+        - {x: -66.96193, y: -19.5}
+        - {x: -72.96194, y: -45.5}
+        - {x: -72.96194, y: -49.5}
+        - {x: -71.96194, y: -55.5}
+        - {x: -75.96194, y: -79.5}
+        - {x: -78.96194, y: -96.5}
+        - {x: -80.96192, y: -109.5}
+        - {x: -74.96194, y: -116.5}
+        - {x: 39.03806, y: -116.5}
+        - {x: 60.03806, y: -107.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbaa83981a548a5900ce23ffe1cfb80
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_blood_normal
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 427
+        width: 252
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: -32}
+        - {x: -126, y: -32}
+        - {x: -126, y: -7}
+        - {x: -104, y: 28}
+        - {x: -99, y: 32}
+        - {x: 126, y: 32}
+        - {x: 126, y: -1}
+      physicsShape:
+      - - {x: -98.99999, y: 26}
+        - {x: -119, y: -13}
+        - {x: -119, y: -22}
+        - {x: -117, y: -26}
+        - {x: 94, y: -26}
+        - {x: 119, y: 8}
+        - {x: 119, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c9997fcdc0440c9190045a10e14b52
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_guard_name
+      rect:
+        serializedVersion: 2
+        x: 1903.076
+        y: 0.02675056
+        width: 101.8726
+        height: 46.89713
+      alignment: 9
+      pivot: {x: 0.009068992, y: 0.3832484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.0124, y: -23.47531}
+        - {x: -51.0124, y: -10.47531}
+        - {x: -51.0124, y: 19.52469}
+        - {x: -45.0124, y: 23.52469}
+        - {x: 34.9876, y: 23.52469}
+        - {x: 50.9876, y: 17.52469}
+        - {x: 50.9876, y: -23.47531}
+      physicsShape:
+      - - {x: -13.0124, y: 20.52469}
+        - {x: -30.0124, y: 20.52469}
+        - {x: -46.0124, y: 16.52469}
+        - {x: -48.0124, y: 15.52469}
+        - {x: -48.0124, y: 9.524686}
+        - {x: -42.0124, y: -4.475313}
+        - {x: -2.012402, y: -4.475313}
+        - {x: -2.012402, y: 4.524686}
+        - {x: -5.012402, y: 16.52469}
+      - - {x: 34.9876, y: 8.524687}
+        - {x: 32.9876, y: 15.52469}
+        - {x: 28.9876, y: 20.52469}
+        - {x: 17.9876, y: 20.52469}
+        - {x: 1.987598, y: 18.52469}
+        - {x: 0.9875984, y: 16.52469}
+        - {x: 0.9875984, y: 1.524687}
+        - {x: 8.987595, y: -4.475313}
+        - {x: 34.9876, y: -4.475313}
+        - {x: 37.9876, y: 0.5246868}
+        - {x: 37.9876, y: 6.524687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aa396acfff49d1a033f5c43ce7252f
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_outpost_alive
+      rect:
+        serializedVersion: 2
+        x: 706.0761
+        y: 737.0761
+        width: 186.8618
+        height: 228.8477
+      alignment: 9
+      pivot: {x: 0.2457639, y: 0.655125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.49299, y: -114.5}
+        - {x: -93.50701, y: -114.5}
+        - {x: -93.50701, y: -69.49999}
+        - {x: -80.50701, y: -46.5}
+        - {x: -77.50701, y: -1.5}
+        - {x: -51.50701, y: 90.5}
+        - {x: -13.50701, y: 114.5}
+        - {x: 38.49299, y: 114.5}
+        - {x: 48.49299, y: 102.5}
+        - {x: 64.49299, y: 55.5}
+        - {x: 87.49299, y: -42.5}
+        - {x: 93.49299, y: -99.5}
+      physicsShape:
+      - - {x: 69.49298, y: -57.5}
+        - {x: 70.49298, y: -51.5}
+        - {x: 70.49298, y: -47.5}
+        - {x: 67.49299, y: -33.5}
+        - {x: 65.49299, y: -25.5}
+        - {x: 59.49298, y: 0.5}
+        - {x: 57.49298, y: 8.500002}
+        - {x: 54.49299, y: 21.5}
+        - {x: 52.49299, y: 29.5}
+        - {x: 46.49299, y: 55.5}
+        - {x: 44.49298, y: 63.5}
+        - {x: 41.49299, y: 73.5}
+        - {x: 39.49299, y: 79.5}
+        - {x: 34.49299, y: 95.5}
+        - {x: 22.49299, y: 107.5}
+        - {x: 12.49298, y: 107.5}
+        - {x: -10.50701, y: 99.5}
+        - {x: -18.50701, y: 94.5}
+        - {x: -28.50701, y: 88.5}
+        - {x: -34.50701, y: 72.5}
+        - {x: -36.50701, y: 69.5}
+        - {x: -44.50701, y: 45.5}
+        - {x: -59.50701, y: -0.5}
+        - {x: -59.50701, y: -17.5}
+        - {x: -58.50701, y: -25.5}
+        - {x: -59.50701, y: -31.49999}
+        - {x: -60.50701, y: -48.5}
+        - {x: -61.50701, y: -58.5}
+        - {x: -68.50701, y: -64.5}
+        - {x: -76.50701, y: -72.49999}
+        - {x: -77.50701, y: -79.5}
+        - {x: -77.50701, y: -96.5}
+        - {x: -67.50701, y: -101.5}
+        - {x: -62.50701, y: -103.5}
+        - {x: -62.50701, y: -108.5}
+        - {x: -60.50701, y: -110.5}
+        - {x: -49.50701, y: -114.5}
+        - {x: 74.49299, y: -114.5}
+        - {x: 78.49299, y: -111.5}
+        - {x: 76.49299, y: -98.49998}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e53d911a4b94a188a27725d4a29257f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_guard
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 797.0267
+        width: 77.97325
+        height: 37.97325
+      alignment: 9
+      pivot: {x: 1.025993, y: 0.4733135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.01337, y: -19.01337}
+        - {x: -38.98663, y: -19.01337}
+        - {x: -38.98663, y: 4.986626}
+        - {x: -32.98663, y: 18.98663}
+        - {x: 39.01337, y: 18.98663}
+        - {x: 39.01337, y: -18.01337}
+      physicsShape:
+      - - {x: 0.01337433, y: 16.98663}
+        - {x: -18.98662, y: 16.98663}
+        - {x: -27.98663, y: 14.98663}
+        - {x: -30.98663, y: 9.986626}
+        - {x: -34.98663, y: -8.013374}
+        - {x: -31.98662, y: -11.01337}
+        - {x: -1.986622, y: -11.01337}
+        - {x: 6.013374, y: 6.986626}
+        - {x: 6.013374, y: 14.98663}
+      - - {x: 24.01337, y: 16.98663}
+        - {x: 12.01337, y: 15.98663}
+        - {x: 8.013374, y: 8.986625}
+        - {x: -0.9866257, y: -1.013374}
+        - {x: -0.9866257, y: -9.013374}
+        - {x: 34.01337, y: -9.013374}
+        - {x: 37.01337, y: -2.013374}
+        - {x: 37.01337, y: 15.98663}
+        - {x: 36.01337, y: 16.98663}
+      - - {x: 19.01337, y: -1.013374}
+        - {x: 15.01337, y: -1.013374}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac65021f70b4ff887ace78bf10d22f7
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nologin
+      rect:
+        serializedVersion: 2
+        x: 1690.076
+        y: 246.0761
+        width: 38.84776
+        height: 42.84776
+      alignment: 9
+      pivot: {x: 0.4871293, y: 0.4883308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: -21.5}
+        - {x: -19.5, y: -17.5}
+        - {x: -19.5, y: 15.5}
+        - {x: -11.5, y: 21.5}
+        - {x: 15.5, y: 21.5}
+        - {x: 19.5, y: 17.5}
+        - {x: 19.5, y: -21.5}
+      physicsShape:
+      - - {x: 3.500002, y: 17.5}
+        - {x: -2.499998, y: 17.5}
+        - {x: -7.499998, y: 16.5}
+        - {x: -15.5, y: 8.500002}
+        - {x: -15.5, y: -16.5}
+        - {x: 14.5, y: -16.5}
+        - {x: 14.5, y: 8.500002}
+        - {x: 6.500002, y: 16.5}
+      - - {x: 0.5000019, y: 8.500002}
+        - {x: 2.500002, y: 7.500002}
+        - {x: -2.499998, y: 7.500002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db88726aea145809acf35057e46dbe6
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_outpost_alive
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 0.07612038
+        width: 181.9239
+        height: 232.8477
+      alignment: 9
+      pivot: {x: 0.7915398, y: 0.6438708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.03806, y: -116.5}
+        - {x: -90.96194, y: -116.5}
+        - {x: -90.96194, y: -48.5}
+        - {x: -54.96194, y: 99.5}
+        - {x: -40.96194, y: 116.5}
+        - {x: 3.038063, y: 116.5}
+        - {x: 14.03806, y: 112.5}
+        - {x: 43.03806, y: 94.5}
+        - {x: 73.03806, y: 12.5}
+        - {x: 74.03806, y: -45.5}
+        - {x: 91.03806, y: -67.5}
+        - {x: 91.03806, y: -111.5}
+      physicsShape:
+      - - {x: 65.03806, y: -99.5}
+        - {x: 75.03806, y: -94.5}
+        - {x: 75.03806, y: -77.5}
+        - {x: 74.03806, y: -70.5}
+        - {x: 66.03806, y: -62.5}
+        - {x: 59.03806, y: -56.5}
+        - {x: 58.03806, y: -46.49999}
+        - {x: 57.03806, y: -29.5}
+        - {x: 55.03806, y: -17.5}
+        - {x: 57.03806, y: -15.5}
+        - {x: 57.03806, y: 1.5}
+        - {x: 56.03806, y: 5.5}
+        - {x: 54.03806, y: 14.5}
+        - {x: 51.03806, y: 20.5}
+        - {x: 44.03806, y: 40.5}
+        - {x: 42.03806, y: 48.5}
+        - {x: 38.03806, y: 60.5}
+        - {x: 34.03806, y: 71.5}
+        - {x: 30.03806, y: 78.5}
+        - {x: 28.03806, y: 85.5}
+        - {x: 25.03806, y: 91.5}
+        - {x: 16.03806, y: 96.5}
+        - {x: 10.03807, y: 100.5}
+        - {x: 4.038067, y: 102.5}
+        - {x: -0.9619331, y: 104.5}
+        - {x: -15.96194, y: 109.5}
+        - {x: -19.96193, y: 109.5}
+        - {x: -23.96194, y: 108.5}
+        - {x: -26.96193, y: 107.5}
+        - {x: -36.96194, y: 97.5}
+        - {x: -41.96194, y: 85.5}
+        - {x: -44.96193, y: 76.5}
+        - {x: -45.96193, y: 69.5}
+        - {x: -66.96193, y: -19.5}
+        - {x: -72.96194, y: -45.5}
+        - {x: -72.96194, y: -49.5}
+        - {x: -71.96194, y: -55.5}
+        - {x: -75.96194, y: -79.5}
+        - {x: -78.96194, y: -96.5}
+        - {x: -80.96192, y: -109.5}
+        - {x: -74.96194, y: -116.5}
+        - {x: 39.03806, y: -116.5}
+        - {x: 60.03806, y: -107.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd88e0876b694b20b942a5a87c3c2349
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_border_invincible
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264.0761
+        width: 288
+        height: 259.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6077554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -140, y: -128}
+        - {x: -144, y: -124}
+        - {x: -144, y: 124}
+        - {x: -137, y: 130}
+        - {x: 32, y: 130}
+        - {x: 37, y: 129}
+        - {x: 42, y: 127}
+        - {x: 48, y: 119}
+        - {x: 57, y: 102}
+        - {x: 64, y: 86.99998}
+        - {x: 66, y: 84.99998}
+        - {x: 120, y: -17.00002}
+        - {x: 127, y: -32.00002}
+        - {x: 129, y: -34.00002}
+        - {x: 137, y: -49.00002}
+        - {x: 144, y: -64.00002}
+        - {x: 144, y: -130}
+        - {x: -135, y: -130}
+      physicsShape:
+      - - {x: 15, y: 114}
+        - {x: -144, y: 114}
+        - {x: -144, y: -114}
+        - {x: 129, y: -114}
+        - {x: 131, y: -113}
+        - {x: 131, y: -108}
+        - {x: 128, y: -96.00002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f7b49708b84ea4a1e6c2ab20d38c4a
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_blood_low
+      rect:
+        serializedVersion: 2
+        x: 1510.027
+        y: 190.0761
+        width: 243.9465
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5096437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105, y: -26}
+        - {x: -122, y: 17}
+        - {x: -122, y: 24}
+        - {x: -121, y: 26}
+        - {x: 95, y: 26}
+        - {x: 122, y: -16}
+        - {x: 122, y: -26}
+      physicsShape:
+      - - {x: -121, y: 19}
+        - {x: -117, y: 9.000002}
+        - {x: -93, y: -26}
+        - {x: 121, y: -26}
+        - {x: 121, y: -18}
+        - {x: 118, y: -8.999998}
+        - {x: 94, y: 26}
+        - {x: -121, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711c35b6b4ac44c1a29c984d2c56543f
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_bg_invincible
+      rect:
+        serializedVersion: 2
+        x: 919.0621
+        y: 675.0761
+        width: 224.9111
+        height: 55.84776
+      alignment: 9
+      pivot: {x: 0.4310053, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.5177, y: -21}
+        - {x: -112.5177, y: 12}
+        - {x: -112.5177, y: 28}
+        - {x: 83.48232, y: 28}
+        - {x: 111.4823, y: -19}
+        - {x: 112.4823, y: -24}
+        - {x: 112.4823, y: -27}
+        - {x: 110.4823, y: -28}
+        - {x: -100.5177, y: -28}
+      physicsShape:
+      - - {x: 43.48231, y: 28}
+        - {x: 43.48231, y: 22}
+        - {x: 46.48232, y: 18}
+        - {x: 54.48232, y: -11}
+        - {x: 48.48232, y: -28}
+        - {x: 111.4823, y: -28}
+        - {x: 111.4823, y: -19.99999}
+        - {x: 84.48232, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0624d199a8f44237859240e86f2675c6
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_guard_avatar
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 888.0267
+        width: 48
+        height: 47.93034
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5001686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -23.99192}
+        - {x: -24, y: -11.99192}
+        - {x: -24, y: 24.00808}
+        - {x: 18, y: 24.00808}
+        - {x: 24, y: 20.00808}
+        - {x: 24, y: -23.99192}
+      physicsShape:
+      - - {x: -9.999999, y: 16.00808}
+        - {x: -16, y: 13.00808}
+        - {x: -18, y: 8.00808}
+        - {x: -18, y: 2.00808}
+        - {x: -17, y: 1.00808}
+        - {x: -12, y: -15.99192}
+        - {x: 15, y: -15.99192}
+        - {x: 17, y: -14.99192}
+        - {x: 17, y: 13.00808}
+        - {x: 9, y: 16.00808}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11413e5679844909bbc13705fd539bc
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_outpost
+      rect:
+        serializedVersion: 2
+        x: 584.0761
+        y: 264.0761
+        width: 192.8477
+        height: 243.8056
+      alignment: 9
+      pivot: {x: 0.8292753, y: 0.5821191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: 15.0211}
+        - {x: 79.5, y: 3.021095}
+        - {x: 79.5, y: -40.9789}
+        - {x: 94.5, y: -56.9789}
+        - {x: 96.5, y: -68.9789}
+        - {x: 96.5, y: -112.9789}
+        - {x: 92.5, y: -121.9789}
+        - {x: -96.5, y: -121.9789}
+        - {x: -96.5, y: -66.9789}
+        - {x: -94.5, y: -41.9789}
+        - {x: -57.5, y: 99.0211}
+        - {x: -44.50001, y: 117.0211}
+        - {x: -38.5, y: 122.0211}
+        - {x: 22.5, y: 122.0211}
+        - {x: 55.5, y: 90.0211}
+      physicsShape:
+      - - {x: 64.5, y: -102.9789}
+        - {x: 69.5, y: -98.9789}
+        - {x: 69.5, y: -78.9789}
+        - {x: 68.5, y: -73.9789}
+        - {x: 58.5, y: -63.9789}
+        - {x: 55.5, y: -57.9789}
+        - {x: 53.5, y: -45.9789}
+        - {x: 52.5, y: -36.9789}
+        - {x: 51.5, y: -35.9789}
+        - {x: 51.5, y: -1.978905}
+        - {x: 49.5, y: 6.021095}
+        - {x: 30.5, y: 63.02109}
+        - {x: 24.5, y: 76.0211}
+        - {x: 22.5, y: 82.0211}
+        - {x: 18.5, y: 87.02109}
+        - {x: 9.500004, y: 92.0211}
+        - {x: -0.5, y: 97.0211}
+        - {x: -9.499992, y: 100.0211}
+        - {x: -20.5, y: 104.0211}
+        - {x: -24.5, y: 104.0211}
+        - {x: -33.5, y: 102.0211}
+        - {x: -42.49999, y: 92.0211}
+        - {x: -44.49999, y: 85.0211}
+        - {x: -51.5, y: 64.0211}
+        - {x: -75.5, y: -37.9789}
+        - {x: -78.5, y: -50.9789}
+        - {x: -78.5, y: -54.9789}
+        - {x: -77.5, y: -60.9789}
+        - {x: -85.5, y: -108.9789}
+        - {x: -85.5, y: -114.9789}
+        - {x: -81.5, y: -119.9789}
+        - {x: -79.5, y: -121.9789}
+        - {x: 31.5, y: -121.9789}
+        - {x: 47.5, y: -115.9789}
+        - {x: 54.5, y: -112.9789}
+        - {x: 62.5, y: -102.9789}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce5844040bf4d2da04a75269bb6ac98
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_guard_en
+      rect:
+        serializedVersion: 2
+        x: 781.0267
+        y: 264.0761
+        width: 79.9465
+        height: 33.87257
+      alignment: 9
+      pivot: {x: -0.0003345819, y: 0.4701114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: -9.012403}
+        - {x: -40, y: 4.987597}
+        - {x: -40, y: 11.9876}
+        - {x: -35, y: 16.9876}
+        - {x: 36, y: 16.9876}
+        - {x: 40, y: 7.987597}
+        - {x: 40, y: -17.0124}
+        - {x: -31, y: -17.0124}
+      physicsShape:
+      - - {x: -30, y: -7.012403}
+        - {x: -29, y: -10.0124}
+        - {x: -26, y: -10.0124}
+        - {x: -24, y: -8.012403}
+        - {x: -25, y: -5.012403}
+        - {x: -28, y: -5.012403}
+      - - {x: -23, y: 3.987596}
+        - {x: -20, y: 2.987597}
+        - {x: -17, y: 2.987597}
+        - {x: -13, y: 5.987597}
+        - {x: -13, y: 6.987597}
+        - {x: -19, y: 14.9876}
+        - {x: -33, y: 14.9876}
+        - {x: -38, y: 13.9876}
+        - {x: -38, y: 5.987597}
+        - {x: -34, y: -2.012403}
+        - {x: -16, y: -10.0124}
+        - {x: -8, y: -10.0124}
+        - {x: -8, y: -4.012403}
+        - {x: -9, y: -1.012403}
+        - {x: -15, y: 2.987597}
+        - {x: -22, y: 2.987597}
+      - - {x: 8, y: 14.9876}
+        - {x: 2, y: 14.9876}
+        - {x: 1, y: 12.9876}
+        - {x: 1, y: 10.9876}
+        - {x: -6, y: 14.9876}
+        - {x: -12, y: 14.9876}
+        - {x: -13, y: 13.9876}
+        - {x: -13, y: 4.987597}
+        - {x: -6, y: -10.0124}
+        - {x: 16, y: -10.0124}
+        - {x: 17, y: -8.012403}
+        - {x: 17, y: -0.01240349}
+        - {x: 13, y: 13.9876}
+      - - {x: 11, y: 14.9876}
+        - {x: 11, y: 6.987597}
+        - {x: 22, y: -10.0124}
+        - {x: 35, y: -10.0124}
+        - {x: 36, y: -9.012403}
+        - {x: 37, y: -6.012403}
+        - {x: 37, y: 10.9876}
+        - {x: 34, y: 14.9876}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c689296c4ac4d6590f2676f11a492a5
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_guard_dead
+      rect:
+        serializedVersion: 2
+        x: 1253.076
+        y: 0.07612038
+        width: 197.9239
+        height: 200.8477
+      alignment: 9
+      pivot: {x: 0.2724476, y: 0.666793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.03806, y: -100.5}
+        - {x: -99.03807, y: -26.5}
+        - {x: -99.03807, y: 68.5}
+        - {x: -88.03806, y: 96.5}
+        - {x: -57.03806, y: 100.5}
+        - {x: 27.96194, y: 100.5}
+        - {x: 36.96194, y: 98.5}
+        - {x: 76.96194, y: 83.5}
+        - {x: 98.96194, y: 79.5}
+        - {x: 98.96194, y: -36.5}
+        - {x: 75.96194, y: -76.5}
+        - {x: 51.96194, y: -100.5}
+      physicsShape:
+      - - {x: 25.96194, y: -84.49999}
+        - {x: 33.96194, y: -79.5}
+        - {x: 51.96194, y: -65.49999}
+        - {x: 61.96193, y: -55.5}
+        - {x: 62.96193, y: -42.5}
+        - {x: 57.96194, y: -33.49999}
+        - {x: 77.96194, y: -19.5}
+        - {x: 93.96194, y: -6.499996}
+        - {x: 98.96194, y: -7.5}
+        - {x: 98.96194, y: 69.5}
+        - {x: 92.96194, y: 73.5}
+        - {x: 76.96194, y: 68.5}
+        - {x: 73.96193, y: 62.5}
+        - {x: 65.96194, y: 59.5}
+        - {x: 29.96194, y: 65.5}
+        - {x: 13.96193, y: 91.5}
+        - {x: 12.96194, y: 92.5}
+        - {x: -0.03806305, y: 92.5}
+        - {x: -15.03806, y: 89.5}
+        - {x: -22.03806, y: 84.5}
+        - {x: -26.03806, y: 80.5}
+        - {x: -27.03806, y: 74.5}
+        - {x: -38.03806, y: 79.5}
+        - {x: -48.03806, y: 80.5}
+        - {x: -67.03806, y: 78.5}
+        - {x: -79.03806, y: 62.5}
+        - {x: -82.03806, y: 54.5}
+        - {x: -83.03806, y: 47.5}
+        - {x: -74.03806, y: 24.5}
+        - {x: -84.03806, y: 13.5}
+        - {x: -84.03806, y: 2.5}
+        - {x: -73.03806, y: -4.5}
+        - {x: -67.03806, y: -27.5}
+        - {x: -62.03806, y: -34.5}
+        - {x: -14.03806, y: -47.5}
+        - {x: -15.03806, y: -50.5}
+        - {x: -10.03806, y: -64.49999}
+        - {x: -26.03806, y: -75.5}
+        - {x: -25.03806, y: -90.5}
+        - {x: -22.03806, y: -94.5}
+        - {x: -15.03806, y: -95.5}
+        - {x: -5.038067, y: -95.5}
+        - {x: 3.961933, y: -87.49999}
+        - {x: 14.96193, y: -82.5}
+        - {x: 20.96194, y: -84.49999}
+      - - {x: -60.03806, y: 23.5}
+        - {x: -62.03806, y: 28.5}
+        - {x: -61.03806, y: 22.5}
+        - {x: -60.03806, y: 22.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8743943290814d4caed0515710c980f4
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_bg_invincible
+      rect:
+        serializedVersion: 2
+        x: 1254.027
+        y: 273.0761
+        width: 225.8971
+        height: 55.84776
+      alignment: 9
+      pivot: {x: 0.5665112, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102.0247, y: -28}
+        - {x: -112.9753, y: -28}
+        - {x: -112.9753, y: -18}
+        - {x: -82.97531, y: 28}
+        - {x: 113.0247, y: 28}
+        - {x: 113.0247, y: 7.000004}
+        - {x: 105.0247, y: -21}
+      physicsShape:
+      - - {x: -43.97531, y: 26}
+        - {x: -44.97531, y: 28}
+        - {x: -79.97531, y: 28}
+        - {x: -90.9753, y: 18}
+        - {x: -111.9753, y: -19}
+        - {x: -111.9753, y: -28}
+        - {x: -53.97531, y: -28}
+        - {x: -50.97531, y: -25}
+        - {x: -51.9753, y: -22}
+        - {x: -43.97531, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12cf2fd9b464cd993db49e163856660
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_bg
+      rect:
+        serializedVersion: 2
+        x: 292.0268
+        y: 772.0761
+        width: 225.8971
+        height: 55.84776
+      alignment: 9
+      pivot: {x: 0.5665112, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102.0247, y: -28}
+        - {x: -112.9753, y: -28}
+        - {x: -112.9753, y: -18}
+        - {x: -82.97531, y: 28}
+        - {x: 113.0247, y: 28}
+        - {x: 113.0247, y: 7.000004}
+        - {x: 105.0247, y: -21}
+      physicsShape:
+      - - {x: -43.97531, y: 26}
+        - {x: -44.97531, y: 28}
+        - {x: -79.97531, y: 28}
+        - {x: -90.9753, y: 18}
+        - {x: -111.9753, y: -19}
+        - {x: -111.9753, y: -28}
+        - {x: -53.97531, y: -28}
+        - {x: -50.97531, y: -25}
+        - {x: -51.9753, y: -22}
+        - {x: -43.97531, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3bd89124d74e07b4d5f1666662f03b
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingman_bullet_light
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 841
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -9.999999, y: 9.999999}
+        - {x: -9.999999, y: -9.999999}
+        - {x: 8, y: -9.999999}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cace0c54a544e890841539ec932780
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_guard_en
+      rect:
+        serializedVersion: 2
+        x: 1597.051
+        y: 246.0267
+        width: 88.9124
+        height: 33.9465
+      alignment: 9
+      pivot: {x: 0.8991849, y: 0.4705419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.49249, y: -17}
+        - {x: -44.50751, y: -17}
+        - {x: -44.50751, y: 2.000002}
+        - {x: -38.50751, y: 17}
+        - {x: 44.49249, y: 17}
+        - {x: 44.49249, y: -16}
+      physicsShape:
+      - - {x: -38.50751, y: -6.999998}
+        - {x: -37.50751, y: -9.999998}
+        - {x: -34.50751, y: -9.999998}
+        - {x: -32.50751, y: -7.999998}
+        - {x: -33.50751, y: -4.999998}
+        - {x: -36.50751, y: -4.999998}
+      - - {x: -11.50751, y: 5.000002}
+        - {x: -11.50751, y: 14}
+        - {x: -15.50751, y: 15}
+        - {x: -29.50751, y: 15}
+        - {x: -37.50751, y: 7.000002}
+        - {x: -37.50751, y: -2.999998}
+        - {x: -25.50751, y: -9.999998}
+        - {x: -16.50751, y: -9.999998}
+        - {x: -14.50751, y: -6.999998}
+        - {x: -15.50751, y: -0.9999981}
+        - {x: -18.50751, y: 2.000002}
+      - - {x: 14.49249, y: 15}
+        - {x: 8.492487, y: 15}
+        - {x: 6.492485, y: 13}
+        - {x: 4.492485, y: 15}
+        - {x: -6.507515, y: 15}
+        - {x: -10.50751, y: 14}
+        - {x: -14.50751, y: 1.000002}
+        - {x: -14.50751, y: -7.999998}
+        - {x: -13.50751, y: -9.999998}
+        - {x: 7.492485, y: -9.999998}
+        - {x: 15.49249, y: 0.000001907349}
+        - {x: 16.49249, y: 9.000001}
+        - {x: 16.49249, y: 14}
+      - - {x: 15.49249, y: 15}
+        - {x: 15.49249, y: -9.999998}
+        - {x: 29.49249, y: -9.999998}
+        - {x: 41.49249, y: 9.000001}
+        - {x: 41.49249, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b65c75d17c4355a2df891b82b66ed1
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_blood_bg
+      rect:
+        serializedVersion: 2
+        x: 1377.017
+        y: 393.0761
+        width: 239.9664
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: -26}
+        - {x: -120, y: -26}
+        - {x: -120, y: -16}
+        - {x: -105, y: 26}
+        - {x: 120, y: 26}
+        - {x: 120, y: 16}
+      physicsShape:
+      - - {x: 115, y: 26}
+        - {x: -92, y: 26}
+        - {x: -100, y: 23}
+        - {x: -119, y: -17}
+        - {x: -119, y: -26}
+        - {x: 93.99999, y: -26}
+        - {x: 119, y: 16}
+        - {x: 119, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a89f637cd44eec9a7526da77ecbb8e
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_blood_normal
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 0
+        width: 252
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117, y: -32}
+        - {x: -126, y: -1}
+        - {x: -126, y: 32}
+        - {x: 101, y: 32}
+        - {x: 126, y: -8}
+        - {x: 126, y: -32}
+      physicsShape:
+      - - {x: -115, y: 26}
+        - {x: -119, y: 24}
+        - {x: -119, y: 18}
+        - {x: -117, y: 11}
+        - {x: -96, y: -26}
+        - {x: 119, y: -26}
+        - {x: 119, y: -9}
+        - {x: 101, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b47944d84374e979207cd64f27ccf30
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_guard_alive
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 0.07612038
+        width: 187.9523
+        height: 185.8971
+      alignment: 9
+      pivot: {x: 0.7661518, y: 0.7204193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.97614, y: -57.02469}
+        - {x: -93.97615, y: -11.02469}
+        - {x: -93.97615, y: 75.97531}
+        - {x: -32.97615, y: 92.97531}
+        - {x: 84.02385, y: 92.97531}
+        - {x: 94.02385, y: 73.97531}
+        - {x: 94.02385, y: -36.02469}
+        - {x: 56.02385, y: -93.02469}
+        - {x: -7.976151, y: -93.02469}
+        - {x: -17.97615, y: -89.02469}
+      physicsShape:
+      - - {x: 23.02385, y: -54.02469}
+        - {x: 37.02385, y: -42.02469}
+        - {x: 57.02385, y: -39.02468}
+        - {x: 75.02385, y: -31.02469}
+        - {x: 79.02385, y: -18.02468}
+        - {x: 82.02385, y: -4.024689}
+        - {x: 89.02385, y: -1.024689}
+        - {x: 91.02385, y: 1.975311}
+        - {x: 93.02385, y: 8.975311}
+        - {x: 93.02385, y: 11.97531}
+        - {x: 83.02385, y: 19.97531}
+        - {x: 92.02385, y: 47.97531}
+        - {x: 89.02385, y: 61.97531}
+        - {x: 76.02385, y: 77.97531}
+        - {x: 58.02385, y: 80.97531}
+        - {x: 33.02385, y: 84.97531}
+        - {x: 25.02385, y: 89.97531}
+        - {x: 4.023853, y: 91.97531}
+        - {x: -2.976147, y: 91.97531}
+        - {x: -6.976151, y: 88.97531}
+        - {x: -13.97615, y: 76.97531}
+        - {x: -10.97615, y: 65.97531}
+        - {x: -19.97615, y: 63.97531}
+        - {x: -56.97614, y: 57.97531}
+        - {x: -77.97615, y: 71.97531}
+        - {x: -86.97615, y: 69.97531}
+        - {x: -91.97615, y: 69.97531}
+        - {x: -93.97615, y: 68.97531}
+        - {x: -93.97615, y: -8.024685}
+        - {x: -85.97615, y: -8.024685}
+        - {x: -56.97614, y: -27.02469}
+        - {x: -41.97614, y: -36.02469}
+        - {x: -51.97615, y: -44.02469}
+        - {x: -52.97615, y: -56.02469}
+        - {x: -38.97615, y: -70.02469}
+        - {x: -17.97615, y: -85.02469}
+        - {x: -12.97615, y: -85.02469}
+        - {x: -6.976151, y: -83.02469}
+        - {x: 5.023849, y: -86.02469}
+        - {x: 15.02385, y: -93.02467}
+        - {x: 29.02385, y: -93.02467}
+        - {x: 34.02385, y: -91.02469}
+        - {x: 35.02385, y: -76.02468}
+        - {x: 26.02385, y: -69.02469}
+      - - {x: 68.02385, y: 22.97531}
+        - {x: 71.02385, y: 27.97531}
+        - {x: 71.02385, y: 28.97531}
+        - {x: 73.02385, y: 28.97531}
+        - {x: 74.02385, y: 30.97531}
+        - {x: 72.02385, y: 29.97531}
+        - {x: 71.02385, y: 24.97531}
+        - {x: 69.02385, y: 22.97531}
+        - {x: 70.02385, y: 21.97531}
+        - {x: 69.02385, y: 22.97531}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c38410d5e403abddd4e03ea958465
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_blood_dead
+      rect:
+        serializedVersion: 2
+        x: 0.005970955
+        y: 792.0761
+        width: 239.9881
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 9.000004}
+        - {x: -120, y: 12}
+        - {x: -120, y: 26}
+        - {x: 95.99999, y: 26}
+        - {x: 111, y: 3.000004}
+        - {x: 120, y: -15}
+        - {x: 120, y: -22}
+        - {x: 117, y: -26}
+        - {x: -94.00001, y: -26}
+      physicsShape:
+      - - {x: -116, y: 26}
+        - {x: -119, y: 22}
+        - {x: -119, y: 14}
+        - {x: -98, y: -22}
+        - {x: -95.00001, y: -26}
+        - {x: 119, y: -26}
+        - {x: 119, y: -16}
+        - {x: 102, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2371fd2552436fa70df911d833d11c
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_blood_abnormal
+      rect:
+        serializedVersion: 2
+        x: 0.0168047
+        y: 904.0761
+        width: 239.9664
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: -26}
+        - {x: -120, y: -26}
+        - {x: -120, y: -16}
+        - {x: -105, y: 26}
+        - {x: 120, y: 26}
+        - {x: 120, y: 16}
+      physicsShape:
+      - - {x: -113, y: 26}
+        - {x: -119, y: 25}
+        - {x: -119, y: -24}
+        - {x: -118, y: -26}
+        - {x: 93.99999, y: -26}
+        - {x: 119, y: -0.9999962}
+        - {x: 119, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e240e2132127409288b7149bae30b822
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_blood_invincible
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 205
+        width: 252
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: -32}
+        - {x: -126, y: -32}
+        - {x: -126, y: -7}
+        - {x: -104, y: 28}
+        - {x: -99, y: 32}
+        - {x: 126, y: 32}
+        - {x: 126, y: -1}
+      physicsShape:
+      - - {x: -94, y: 26}
+        - {x: -119, y: -12}
+        - {x: -119, y: -26}
+        - {x: 100, y: -26}
+        - {x: 119, y: -24}
+        - {x: 119, y: 25}
+        - {x: 118, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0713d80d38934638b6317f8544a4696f
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_border_dead
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528.0761
+        width: 288
+        height: 259.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6077554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -140, y: -128}
+        - {x: -144, y: -124}
+        - {x: -144, y: 124}
+        - {x: -137, y: 130}
+        - {x: 37, y: 130}
+        - {x: 42, y: 128}
+        - {x: 48, y: 122}
+        - {x: 55, y: 109}
+        - {x: 65, y: 87.99998}
+        - {x: 67, y: 85.99998}
+        - {x: 77, y: 64.99998}
+        - {x: 79, y: 62.99998}
+        - {x: 89, y: 41.99998}
+        - {x: 91, y: 39.99998}
+        - {x: 101, y: 18.99998}
+        - {x: 103, y: 16.99998}
+        - {x: 115, y: -6.000015}
+        - {x: 126, y: -29.00002}
+        - {x: 128, y: -31.00001}
+        - {x: 140, y: -54.00002}
+        - {x: 144, y: -63.00002}
+        - {x: 144, y: -130}
+        - {x: -135, y: -130}
+      physicsShape:
+      - - {x: 131, y: -114}
+        - {x: 131, y: -101}
+        - {x: 22, y: 114}
+        - {x: -144, y: 114}
+        - {x: -144, y: -114}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2b2f99c0b848018c0479b3e639037e
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_outpost_avatar
+      rect:
+        serializedVersion: 2
+        x: 1484.076
+        y: 288
+        width: 43.84776
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -24}
+        - {x: -22, y: -22}
+        - {x: -22, y: 6}
+        - {x: -18, y: 24}
+        - {x: 15, y: 24}
+        - {x: 22, y: 5}
+        - {x: 22, y: -24}
+      physicsShape:
+      - - {x: -7.999998, y: 18}
+        - {x: -14, y: -5}
+        - {x: -14, y: -18}
+        - {x: 14, y: -18}
+        - {x: 14, y: -13}
+        - {x: 10, y: 18}
+      - - {x: 0.000001907349, y: -9}
+        - {x: 0.000001907349, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1d9636657347edaff22ef6d1c87c16
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingman_bullet_dark
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 839
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33283ee191be4abb916232d14e9a92b5
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_blood_bg_dead
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 449.0761
+        width: 288
+        height: 34.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3127911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -135, y: -17.53806}
+        - {x: -144, y: -10.53806}
+        - {x: -144, y: 17.46194}
+        - {x: 144, y: 17.46194}
+        - {x: 144, y: -17.53806}
+      physicsShape:
+      - - {x: -144, y: 17.46194}
+        - {x: -144, y: -11.53806}
+        - {x: -134, y: -16.53806}
+        - {x: 144, y: -16.53806}
+        - {x: 144, y: 17.46194}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bec88a4592649ba93dbbdf48a7f21ba
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline
+      rect:
+        serializedVersion: 2
+        x: 781.0363
+        y: 302.0513
+        width: 41.92743
+        height: 47.89737
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -24}
+        - {x: -21, y: -24}
+        - {x: -21, y: 15}
+        - {x: -5, y: 24}
+        - {x: 18, y: 24}
+        - {x: 21, y: 22}
+        - {x: 21, y: -20}
+      physicsShape:
+      - - {x: -1, y: -5.000001}
+        - {x: 4, y: -7.000002}
+        - {x: 7, y: -9.000002}
+        - {x: 11, y: -10}
+        - {x: 17, y: -9.000002}
+        - {x: 17, y: 13}
+        - {x: 6, y: 20}
+        - {x: 0, y: 20}
+        - {x: -4, y: 18}
+        - {x: -5, y: 12}
+        - {x: -5, y: 8.999998}
+        - {x: -2, y: 5.999998}
+        - {x: 0, y: 5.999998}
+        - {x: 1, y: 4.999998}
+        - {x: -4, y: 6.999998}
+        - {x: -6, y: 9.999997}
+        - {x: -17, y: 9.999997}
+        - {x: -17, y: -13}
+        - {x: -7, y: -20}
+        - {x: 1, y: -20}
+        - {x: 5, y: -18}
+        - {x: 5, y: -8.000002}
+        - {x: 2, y: -6.000002}
+        - {x: 0, y: -6.000002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38eeaac7f0a40e9994c2a0f4d5e3032
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_blood_bg
+      rect:
+        serializedVersion: 2
+        x: 0.005970955
+        y: 848.0761
+        width: 239.9881
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 9.000004}
+        - {x: -120, y: 12}
+        - {x: -120, y: 26}
+        - {x: 95.99999, y: 26}
+        - {x: 111, y: 3.000004}
+        - {x: 120, y: -15}
+        - {x: 120, y: -22}
+        - {x: 117, y: -26}
+        - {x: -94.00001, y: -26}
+      physicsShape:
+      - - {x: -119, y: 26}
+        - {x: -119, y: 11}
+        - {x: -100, y: -25}
+        - {x: -98, y: -26}
+        - {x: 119, y: -26}
+        - {x: 119, y: -12}
+        - {x: 107, y: 13}
+        - {x: 92.99999, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e53a25571a14a69a43a6ce46354a25c
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_blood_low
+      rect:
+        serializedVersion: 2
+        x: 1121.027
+        y: 495.0761
+        width: 243.9465
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5096437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120, y: -26}
+        - {x: -122, y: -25}
+        - {x: -122, y: -16}
+        - {x: -96, y: 26}
+        - {x: 122, y: 26}
+        - {x: 122, y: 19}
+        - {x: 99, y: -26}
+      physicsShape:
+      - - {x: -96, y: 26}
+        - {x: -121, y: -14}
+        - {x: -121, y: -25}
+        - {x: -119, y: -26}
+        - {x: 94, y: -26}
+        - {x: 121, y: 16}
+        - {x: 121, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bba39fad55b45d29eec46aac9032356
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_guard
+      rect:
+        serializedVersion: 2
+        x: 706.0761
+        y: 512.0761
+        width: 208.9239
+        height: 220.8055
+      alignment: 9
+      pivot: {x: 0.2341708, y: 0.642755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.53806, y: -51.4789}
+        - {x: -104.5381, y: -12.4789}
+        - {x: -104.5381, y: 63.5211}
+        - {x: -94.53806, y: 87.5211}
+        - {x: -71.53806, y: 101.5211}
+        - {x: -43.53806, y: 110.5211}
+        - {x: 23.46194, y: 110.5211}
+        - {x: 39.46194, y: 104.5211}
+        - {x: 104.4619, y: 89.5211}
+        - {x: 104.4619, y: -34.4789}
+        - {x: 78.46194, y: -71.4789}
+        - {x: 44.46194, y: -104.4789}
+        - {x: 18.46194, y: -110.4789}
+        - {x: -54.53806, y: -110.4789}
+      physicsShape:
+      - - {x: 66.46194, y: -49.4789}
+        - {x: 69.46194, y: -40.4789}
+        - {x: 63.46193, y: -31.4789}
+        - {x: 56.46194, y: -32.4789}
+        - {x: 87.46194, y: -10.4789}
+        - {x: 94.46194, y: -5.478897}
+        - {x: 104.4619, y: -4.478897}
+        - {x: 104.4619, y: 75.5211}
+        - {x: 97.46194, y: 77.5211}
+        - {x: 91.46192, y: 77.5211}
+        - {x: 78.46192, y: 68.5211}
+        - {x: 72.46194, y: 65.5211}
+        - {x: 34.46194, y: 70.5211}
+        - {x: 26.46194, y: 82.5211}
+        - {x: 24.46193, y: 91.5211}
+        - {x: 18.46194, y: 98.5211}
+        - {x: 5.461937, y: 98.5211}
+        - {x: -10.53806, y: 95.5211}
+        - {x: -17.53806, y: 90.5211}
+        - {x: -22.53806, y: 84.5211}
+        - {x: -32.53806, y: 85.5211}
+        - {x: -42.53806, y: 87.5211}
+        - {x: -62.53806, y: 84.5211}
+        - {x: -75.53806, y: 66.5211}
+        - {x: -77.53806, y: 60.5211}
+        - {x: -75.53806, y: 39.5211}
+        - {x: -67.53806, y: 27.5211}
+        - {x: -78.53806, y: 18.5211}
+        - {x: -78.53806, y: 7.521103}
+        - {x: -65.53806, y: -20.4789}
+        - {x: -57.53806, y: -29.4789}
+        - {x: -47.53806, y: -34.4789}
+        - {x: -31.53806, y: -37.4789}
+        - {x: -15.53807, y: -43.4789}
+        - {x: -8.538063, y: -52.4789}
+        - {x: -20.53806, y: -69.4789}
+        - {x: -18.53806, y: -88.47889}
+        - {x: -12.53807, y: -89.47889}
+        - {x: -0.538063, y: -89.47889}
+        - {x: 13.46194, y: -77.4789}
+        - {x: 30.46193, y: -80.4789}
+        - {x: 56.46194, y: -61.4789}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ea22a761834b2081461149be35a093
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_bg_dead
+      rect:
+        serializedVersion: 2
+        x: 897.0621
+        y: 737.0761
+        width: 224.9111
+        height: 55.84776
+      alignment: 9
+      pivot: {x: 0.4310053, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.5177, y: -21}
+        - {x: -112.5177, y: 12}
+        - {x: -112.5177, y: 28}
+        - {x: 83.48232, y: 28}
+        - {x: 111.4823, y: -19}
+        - {x: 112.4823, y: -24}
+        - {x: 112.4823, y: -27}
+        - {x: 110.4823, y: -28}
+        - {x: -100.5177, y: -28}
+      physicsShape:
+      - - {x: 43.48231, y: 28}
+        - {x: 43.48231, y: 22}
+        - {x: 46.48232, y: 18}
+        - {x: 54.48232, y: -11}
+        - {x: 48.48232, y: -28}
+        - {x: 111.4823, y: -28}
+        - {x: 111.4823, y: -19.99999}
+        - {x: 84.48232, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b58ef38605949a68bdf1cda334b3210
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_blood_invincible
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 68
+        width: 252
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117, y: -32}
+        - {x: -126, y: -1}
+        - {x: -126, y: 32}
+        - {x: 101, y: 32}
+        - {x: 126, y: -8}
+        - {x: 126, y: -32}
+      physicsShape:
+      - - {x: -119, y: 26}
+        - {x: -119, y: 13}
+        - {x: -118, y: 8}
+        - {x: -98.99999, y: -20}
+        - {x: -91.99999, y: -26}
+        - {x: 116, y: -26}
+        - {x: 119, y: -24}
+        - {x: 119, y: 21}
+        - {x: 96, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdb8b8f16234a1c840811f5cf8eb024
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_bullet
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 399
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -9.999999, y: 9.999999}
+        - {x: -9.999999, y: -9.999999}
+        - {x: 8, y: -9.999999}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3fd80f1bab48b99610ab1a74f44879
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_outpost_dead
+      rect:
+        serializedVersion: 2
+        x: 876.0761
+        y: 0.07612038
+        width: 186.8618
+        height: 228.8477
+      alignment: 9
+      pivot: {x: 0.2457639, y: 0.655125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.49299, y: -114.5}
+        - {x: -93.50701, y: -114.5}
+        - {x: -93.50701, y: -69.49999}
+        - {x: -80.50701, y: -46.5}
+        - {x: -77.50701, y: -1.5}
+        - {x: -51.50701, y: 90.5}
+        - {x: -13.50701, y: 114.5}
+        - {x: 38.49299, y: 114.5}
+        - {x: 48.49299, y: 102.5}
+        - {x: 64.49299, y: 55.5}
+        - {x: 87.49299, y: -42.5}
+        - {x: 93.49299, y: -99.5}
+      physicsShape:
+      - - {x: 69.49298, y: -57.5}
+        - {x: 70.49298, y: -51.5}
+        - {x: 70.49298, y: -47.5}
+        - {x: 67.49299, y: -33.5}
+        - {x: 65.49299, y: -25.5}
+        - {x: 59.49298, y: 0.5}
+        - {x: 57.49298, y: 8.500002}
+        - {x: 54.49299, y: 21.5}
+        - {x: 52.49299, y: 29.5}
+        - {x: 46.49299, y: 55.5}
+        - {x: 44.49298, y: 63.5}
+        - {x: 41.49299, y: 73.5}
+        - {x: 39.49299, y: 79.5}
+        - {x: 34.49299, y: 95.5}
+        - {x: 22.49299, y: 107.5}
+        - {x: 12.49298, y: 107.5}
+        - {x: -10.50701, y: 99.5}
+        - {x: -18.50701, y: 94.5}
+        - {x: -28.50701, y: 88.5}
+        - {x: -34.50701, y: 72.5}
+        - {x: -36.50701, y: 69.5}
+        - {x: -44.50701, y: 45.5}
+        - {x: -59.50701, y: -0.5}
+        - {x: -59.50701, y: -17.5}
+        - {x: -58.50701, y: -25.5}
+        - {x: -59.50701, y: -31.49999}
+        - {x: -60.50701, y: -48.5}
+        - {x: -61.50701, y: -58.5}
+        - {x: -68.50701, y: -64.5}
+        - {x: -76.50701, y: -72.49999}
+        - {x: -77.50701, y: -79.5}
+        - {x: -77.50701, y: -96.5}
+        - {x: -67.50701, y: -101.5}
+        - {x: -62.50701, y: -103.5}
+        - {x: -62.50701, y: -108.5}
+        - {x: -60.50701, y: -110.5}
+        - {x: -49.50701, y: -114.5}
+        - {x: 74.49299, y: -114.5}
+        - {x: 78.49299, y: -111.5}
+        - {x: 76.49299, y: -98.49998}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d2e6ddd803403d90096785ece3bf7e
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_outpost
+      rect:
+        serializedVersion: 2
+        x: 1369.036
+        y: 495.0761
+        width: 116.8876
+        height: 37.89713
+      alignment: 9
+      pivot: {x: 0.6841078, y: 0.4729615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.51992, y: -19.02468}
+        - {x: -58.48008, y: -19.02468}
+        - {x: -58.48008, y: 8.975317}
+        - {x: -54.48008, y: 18.97532}
+        - {x: 58.51992, y: 18.97532}
+        - {x: 58.51992, y: 4.975317}
+        - {x: 51.51992, y: -11.02468}
+      physicsShape:
+      - - {x: 21.51992, y: 5.975317}
+        - {x: 21.51992, y: 13.97532}
+        - {x: 19.51992, y: 16.97532}
+        - {x: 5.519917, y: 16.97532}
+        - {x: -10.48008, y: 13.97532}
+        - {x: -13.48008, y: 10.97532}
+        - {x: -14.48008, y: 13.97532}
+        - {x: -19.48008, y: 16.97532}
+        - {x: -25.48008, y: 16.97532}
+        - {x: -32.48008, y: 11.97532}
+        - {x: -36.48008, y: 16.97532}
+        - {x: -48.48008, y: 13.97532}
+        - {x: -52.48008, y: -2.024683}
+        - {x: -52.48008, y: -10.02468}
+        - {x: -49.48008, y: -11.02468}
+        - {x: -24.48008, y: -11.02468}
+        - {x: -22.48008, y: -10.02468}
+        - {x: -12.48008, y: -11.02468}
+        - {x: 12.51992, y: -11.02468}
+      - - {x: 54.51992, y: 8.975316}
+        - {x: 48.51991, y: 16.97532}
+        - {x: 25.51992, y: 16.97532}
+        - {x: 17.51992, y: 8.975316}
+        - {x: 17.51992, y: -8.024683}
+        - {x: 21.51992, y: -11.02468}
+        - {x: 45.51992, y: -11.02468}
+        - {x: 48.51991, y: -10.02468}
+        - {x: 54.51992, y: 1.975317}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45fe5b6f9a4431abb48d1f32eeb08c6
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_bullet
+      rect:
+        serializedVersion: 2
+        x: 897.0002
+        y: 797
+        width: 220.9236
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5793846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.5379, y: -20}
+        - {x: -110.4621, y: -20}
+        - {x: -110.4621, y: -4}
+        - {x: -92.46206, y: 18}
+        - {x: -89.46207, y: 20}
+        - {x: 110.5379, y: 20}
+        - {x: 110.5379, y: 1}
+      physicsShape:
+      - - {x: -87.46205, y: 20}
+        - {x: -92.46206, y: 16}
+        - {x: -109.4621, y: -14}
+        - {x: -109.4621, y: -17}
+        - {x: -107.4621, y: -20}
+        - {x: -45.46206, y: -20}
+        - {x: -43.46206, y: -11}
+        - {x: -43.46206, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e847cae2c44a4f9a9242f5a4bc86c7
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_bullet
+      rect:
+        serializedVersion: 2
+        x: 1121.076
+        y: 607
+        width: 220.9179
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4206263, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.5351, y: -20}
+        - {x: -110.5351, y: 6}
+        - {x: -110.5351, y: 20}
+        - {x: 99.46491, y: 20}
+        - {x: 110.4649, y: -11}
+        - {x: 110.4649, y: -20}
+      physicsShape:
+      - - {x: 43.46492, y: 20}
+        - {x: 43.46492, y: 8}
+        - {x: 47.46492, y: -17}
+        - {x: 48.46492, y: -20}
+        - {x: 109.4649, y: -20}
+        - {x: 109.4649, y: 3}
+        - {x: 90.46491, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b21fad7c7ed4aa99ee66dc5acce3cba
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_outpost_name
+      rect:
+        serializedVersion: 2
+        x: 1758.036
+        y: 196.0267
+        width: 143.9208
+        height: 46.9465
+      alignment: 9
+      pivot: {x: 0.7015227, y: 0.3828454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.99669, y: -23.5}
+        - {x: -71.99669, y: -22.5}
+        - {x: -71.99669, y: -20.5}
+        - {x: -64.99669, y: 15.5}
+        - {x: -48.99669, y: 23.5}
+        - {x: 67.00331, y: 23.5}
+        - {x: 72.00331, y: 22.5}
+        - {x: 72.00331, y: 2.500002}
+        - {x: 64.00331, y: -23.5}
+      physicsShape:
+      - - {x: -16.99669, y: 9.500001}
+        - {x: -16.99669, y: 13.5}
+        - {x: -21.99669, y: 20.5}
+        - {x: -43.99668, y: 20.5}
+        - {x: -47.99669, y: 19.5}
+        - {x: -58.99669, y: 15.5}
+        - {x: -60.99669, y: 10.5}
+        - {x: -60.99669, y: -3.499998}
+        - {x: -59.99669, y: -4.499998}
+        - {x: -23.99669, y: -4.499998}
+      - - {x: 27.00331, y: 14.5}
+        - {x: 27.00331, y: 20.5}
+        - {x: -16.99669, y: 20.5}
+        - {x: -19.99669, y: 5.500002}
+        - {x: -19.99669, y: -3.499998}
+        - {x: -17.99669, y: -4.499998}
+        - {x: 18.00331, y: -4.499998}
+        - {x: 20.00331, y: -2.499998}
+        - {x: 24.00331, y: 6.500002}
+      - - {x: 34.00331, y: -4.499998}
+        - {x: 38.00331, y: -4.499998}
+        - {x: 47.00331, y: 7.500002}
+        - {x: 47.00331, y: 14.5}
+        - {x: 43.00331, y: 18.5}
+        - {x: 40.00331, y: 19.5}
+        - {x: 31.00331, y: 19.5}
+        - {x: 25.00331, y: 14.5}
+        - {x: 24.00331, y: 8.500002}
+        - {x: 24.00331, y: -4.499998}
+        - {x: 29.00331, y: -4.499998}
+        - {x: 32.00331, y: -1.499998}
+        - {x: 32.00331, y: 1.500002}
+        - {x: 32.00331, y: -2.499998}
+      - - {x: 55.00331, y: 20.5}
+        - {x: 51.00331, y: 18.5}
+        - {x: 46.00331, y: 1.500002}
+        - {x: 46.00331, y: -4.499998}
+        - {x: 61.00331, y: -4.499998}
+        - {x: 69.00331, y: -1.499998}
+        - {x: 69.00331, y: 15.5}
+        - {x: 65.00331, y: 20.5}
+      - - {x: -37.99668, y: 4.500001}
+        - {x: -38.99669, y: 5.500002}
+        - {x: -30.99669, y: 5.500002}
+        - {x: -31.99669, y: 4.500001}
+        - {x: -30.99669, y: 2.500002}
+        - {x: -29.99669, y: 3.500002}
+        - {x: -32.99669, y: 6.500002}
+        - {x: -36.99669, y: 6.500002}
+        - {x: -40.99669, y: 2.500002}
+        - {x: -39.99669, y: 0.5000019}
+        - {x: -38.99669, y: 1.500002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb533e8c587e40958381ab83a1c6894d
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_blood_bg_dead
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960.0761
+        width: 288
+        height: 34.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3127911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 135, y: -17.53806}
+        - {x: -144, y: -17.53806}
+        - {x: -144, y: 17.46194}
+        - {x: 144, y: 17.46194}
+        - {x: 144, y: -10.53806}
+      physicsShape:
+      - - {x: -144, y: 17.46194}
+        - {x: -144, y: -16.53806}
+        - {x: 135, y: -16.53806}
+        - {x: 144, y: -10.53806}
+        - {x: 144, y: 17.46194}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b5479a0614331b76ea84d93e163b9
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_outpost_name
+      rect:
+        serializedVersion: 2
+        x: 488.0761
+        y: 832.0267
+        width: 145.8876
+        height: 46.9465
+      alignment: 9
+      pivot: {x: 0.3079349, y: 0.3828454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.01992, y: -19.5}
+        - {x: -73.01992, y: 4.500002}
+        - {x: -73.01992, y: 23.5}
+        - {x: 66.98008, y: 23.5}
+        - {x: 72.98008, y: -0.4999981}
+        - {x: 72.98008, y: -23.5}
+        - {x: -62.01992, y: -23.5}
+      physicsShape:
+      - - {x: -41.01992, y: 5.500002}
+        - {x: -35.01992, y: 5.500002}
+        - {x: -35.01992, y: 2.500002}
+        - {x: -32.01992, y: -4.499998}
+        - {x: -25.01992, y: -4.499998}
+        - {x: -25.01992, y: 11.5}
+        - {x: -28.01992, y: 20.5}
+        - {x: -65.01992, y: 20.5}
+        - {x: -69.01992, y: 12.5}
+        - {x: -69.01992, y: 4.500001}
+        - {x: -62.01992, y: -4.499998}
+        - {x: -34.01992, y: -4.499998}
+        - {x: -34.01992, y: 0.5000019}
+        - {x: -36.01992, y: 5.500002}
+      - - {x: 14.98008, y: 16.5}
+        - {x: 10.98008, y: 18.5}
+        - {x: 7.98008, y: 20.5}
+        - {x: -11.01992, y: 20.5}
+        - {x: -27.01992, y: 16.5}
+        - {x: -27.01992, y: 10.5}
+        - {x: -20.01992, y: -4.499998}
+        - {x: 18.98008, y: -4.499998}
+        - {x: 18.98008, y: 6.500002}
+      - - {x: 30.98008, y: -1.499998}
+        - {x: 32.98008, y: -4.499998}
+        - {x: 38.98007, y: -4.499998}
+        - {x: 38.98007, y: 10.5}
+        - {x: 28.98008, y: 19.5}
+        - {x: 19.98008, y: 19.5}
+        - {x: 16.98008, y: 15.5}
+        - {x: 16.98008, y: 5.500002}
+        - {x: 22.98008, y: -4.499998}
+        - {x: 28.98008, y: -4.499998}
+        - {x: 30.98008, y: -2.499998}
+        - {x: 30.98008, y: -0.4999986}
+        - {x: 29.98008, y: 4.500001}
+      - - {x: 38.98007, y: 20.5}
+        - {x: 37.98008, y: 19.5}
+        - {x: 37.98008, y: 12.5}
+        - {x: 45.98008, y: -4.499998}
+        - {x: 53.98008, y: -4.499998}
+        - {x: 60.98008, y: 1.500002}
+        - {x: 60.98008, y: 11.5}
+        - {x: 47.98008, y: 20.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495aaf3d542142ae8578ecfc2bb781a8
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_guard
+      rect:
+        serializedVersion: 2
+        x: 1510.043
+        y: 246.0335
+        width: 82.95709
+        height: 37.93975
+      alignment: 9
+      pivot: {x: 0.03564604, y: 0.4735535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.52145, y: -13.00337}
+        - {x: -41.52145, y: 7.996626}
+        - {x: -41.52145, y: 15.99663}
+        - {x: -28.52145, y: 18.99663}
+        - {x: 25.47855, y: 18.99663}
+        - {x: 39.47855, y: -2.003374}
+        - {x: 41.47855, y: -7.003374}
+        - {x: 41.47855, y: -16.00338}
+        - {x: 39.47855, y: -19.00337}
+        - {x: -25.52145, y: -19.00337}
+      physicsShape:
+      - - {x: -4.521454, y: 16.99663}
+        - {x: -26.52145, y: 16.99663}
+        - {x: -38.52145, y: 15.99663}
+        - {x: -38.52145, y: -4.003374}
+        - {x: -29.52145, y: -11.00337}
+        - {x: 0.4785461, y: -11.00337}
+        - {x: 1.478542, y: -10.00337}
+        - {x: 1.478542, y: 2.996626}
+      - - {x: 26.47855, y: 16.99663}
+        - {x: 8.478546, y: 16.99663}
+        - {x: 0.4785461, y: 13.99662}
+        - {x: 0.4785461, y: 0.9966259}
+        - {x: 1.478542, y: -6.003374}
+        - {x: 4.478542, y: -9.003374}
+        - {x: 35.47855, y: -9.003374}
+        - {x: 36.47855, y: -7.003374}
+        - {x: 36.47855, y: 0.9966259}
+        - {x: 34.47854, y: 5.996626}
+      - - {x: 18.47855, y: -1.003374}
+        - {x: 14.47854, y: -1.003374}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c823533cdb34bfa904ba3554b9fa18e
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_blood_abnormal
+      rect:
+        serializedVersion: 2
+        x: 1121.006
+        y: 551.0761
+        width: 239.9881
+        height: 51.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -119, y: 9.000004}
+        - {x: -120, y: 12}
+        - {x: -120, y: 26}
+        - {x: 95.99999, y: 26}
+        - {x: 111, y: 3.000004}
+        - {x: 120, y: -15}
+        - {x: 120, y: -22}
+        - {x: 117, y: -26}
+        - {x: -94.00001, y: -26}
+      physicsShape:
+      - - {x: -118, y: 26}
+        - {x: -119, y: 22}
+        - {x: -119, y: 18}
+        - {x: -109, y: -4.999996}
+        - {x: -94.00001, y: -26}
+        - {x: 115, y: -26}
+        - {x: 119, y: -25}
+        - {x: 119, y: -16}
+        - {x: 102, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5d50cbb9be44cbb9400f114237186f
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_border_invincible
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0.07612038
+        width: 288
+        height: 259.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6077554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 136, y: -130}
+        - {x: -144, y: -130}
+        - {x: -144, y: -63.00002}
+        - {x: -142, y: -58.00002}
+        - {x: -133, y: -41.00002}
+        - {x: -131, y: -39.00002}
+        - {x: -124, y: -24.00002}
+        - {x: -61, y: 94.99998}
+        - {x: -53, y: 110}
+        - {x: -45, y: 124}
+        - {x: -42, y: 127}
+        - {x: -37, y: 129}
+        - {x: -32, y: 130}
+        - {x: 136, y: 130}
+        - {x: 143, y: 125}
+        - {x: 144, y: 123}
+        - {x: 144, y: -123}
+        - {x: 143, y: -125}
+      physicsShape:
+      - - {x: -120, y: -87.00002}
+        - {x: -132, y: -112}
+        - {x: -130, y: -114}
+        - {x: 144, y: -114}
+        - {x: 144, y: 114}
+        - {x: -15, y: 114}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a47559d17fb49018b1f830177ffd620
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_bullet
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 288
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -9.999999, y: 9.999999}
+        - {x: -9.999999, y: -9.999999}
+        - {x: 8, y: -9.999999}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9071a207d540919ac1ecd30626c8bb
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_guard_avatar
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 841.0429
+        width: 48
+        height: 47.91418
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -24}
+        - {x: -24, y: -24}
+        - {x: -24, y: 24}
+        - {x: 24, y: 24}
+        - {x: 24, y: -12}
+      physicsShape:
+      - - {x: 8, y: 16}
+        - {x: -17, y: 16}
+        - {x: -17, y: -16}
+        - {x: 15, y: -16}
+        - {x: 18, y: -6}
+        - {x: 18, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ef002695e1457aae41e5ce41743d23
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_outpost_avatar
+      rect:
+        serializedVersion: 2
+        x: 1250.076
+        y: 693
+        width: 43.84776
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -24}
+        - {x: -22, y: -22}
+        - {x: -22, y: 6}
+        - {x: -18, y: 24}
+        - {x: 15, y: 24}
+        - {x: 22, y: 5}
+        - {x: 22, y: -24}
+      physicsShape:
+      - - {x: -7.999998, y: 18}
+        - {x: -14, y: -5}
+        - {x: -14, y: -18}
+        - {x: 14, y: -18}
+        - {x: 14, y: -13}
+        - {x: 10, y: 18}
+      - - {x: 0.000001907349, y: -9}
+        - {x: 0.000001907349, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760368322c6647238def6e9c5e074506
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_guard_name
+      rect:
+        serializedVersion: 2
+        x: 1148.048
+        y: 651.0267
+        width: 97.91601
+        height: 46.89713
+      alignment: 9
+      pivot: {x: 1.031009, y: 0.3832484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.99429, y: -23.47531}
+        - {x: -37.00571, y: -23.47531}
+        - {x: -36.00571, y: -18.47531}
+        - {x: -35.00571, y: -16.47531}
+        - {x: -37.00571, y: -18.47531}
+        - {x: -49.00571, y: -18.47531}
+        - {x: -49.00571, y: -10.47531}
+        - {x: -40.00571, y: 18.52469}
+        - {x: -38.00571, y: 23.52469}
+        - {x: 11.99429, y: 23.52469}
+        - {x: 11.99429, y: 17.52469}
+        - {x: 10.99429, y: 14.52469}
+        - {x: 11.99429, y: 15.52469}
+        - {x: 11.99429, y: 17.52469}
+        - {x: 13.99429, y: 21.52469}
+        - {x: 26.99429, y: 23.52469}
+        - {x: 48.99429, y: 23.52469}
+        - {x: 48.99429, y: -17.47531}
+      physicsShape:
+      - - {x: 6.994289, y: 16.52469}
+        - {x: 4.994289, y: 20.52469}
+        - {x: -21.0057, y: 20.52469}
+        - {x: -34.0057, y: 17.52468}
+        - {x: -41.00571, y: 5.524687}
+        - {x: -41.00571, y: -4.475313}
+        - {x: -3.005711, y: -4.475313}
+        - {x: 0.9942894, y: -2.475313}
+        - {x: 6.994289, y: 11.52469}
+      - - {x: 45.99429, y: 8.524687}
+        - {x: 39.99429, y: 10.52469}
+        - {x: 45.99429, y: 12.52469}
+        - {x: 45.99429, y: 16.52469}
+        - {x: 44.99429, y: 20.52469}
+        - {x: 34.99429, y: 20.52469}
+        - {x: 10.99429, y: 17.52468}
+        - {x: 8.994293, y: 5.524687}
+        - {x: 8.994293, y: -4.475313}
+        - {x: 14.99429, y: -4.475313}
+        - {x: 17.99429, y: -3.475313}
+        - {x: 20.99429, y: -4.475313}
+        - {x: 37.99429, y: -4.475313}
+        - {x: 42.99429, y: -0.4753137}
+        - {x: 45.99429, y: 4.524686}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ede458c4034e06ad40bf9fde55920c
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_bg_dead
+      rect:
+        serializedVersion: 2
+        x: 1254.027
+        y: 333.0761
+        width: 225.8971
+        height: 55.84776
+      alignment: 9
+      pivot: {x: 0.5665112, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102.0247, y: -28}
+        - {x: -112.9753, y: -28}
+        - {x: -112.9753, y: -18}
+        - {x: -82.97531, y: 28}
+        - {x: 113.0247, y: 28}
+        - {x: 113.0247, y: 7.000004}
+        - {x: 105.0247, y: -21}
+      physicsShape:
+      - - {x: -43.97531, y: 26}
+        - {x: -44.97531, y: 28}
+        - {x: -79.97531, y: 28}
+        - {x: -90.9753, y: 18}
+        - {x: -111.9753, y: -19}
+        - {x: -111.9753, y: -28}
+        - {x: -53.97531, y: -28}
+        - {x: -50.97531, y: -25}
+        - {x: -51.9753, y: -22}
+        - {x: -43.97531, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5adbd67d48244a5a8763b1bfa34b1a2
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_outpost
+      rect:
+        serializedVersion: 2
+        x: 509.0761
+        y: 528.0761
+        width: 192.8478
+        height: 239.8056
+      alignment: 9
+      pivot: {x: 0.2122082, y: 0.5918289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -89.50001, y: -119.9789}
+        - {x: -96.50001, y: -112.9789}
+        - {x: -96.50001, y: -66.9789}
+        - {x: -81.50001, y: -43.9789}
+        - {x: -79.50001, y: 1.021095}
+        - {x: -74.50001, y: 23.0211}
+        - {x: -55.50001, y: 88.0211}
+        - {x: -32.50001, y: 111.0211}
+        - {x: -13.50001, y: 120.0211}
+        - {x: 52.5, y: 120.0211}
+        - {x: 78.49999, y: 40.0211}
+        - {x: 96.49999, y: -67.9789}
+        - {x: 96.49999, y: -119.9789}
+      physicsShape:
+      - - {x: 77.49999, y: -62.9789}
+        - {x: 79.49999, y: -56.9789}
+        - {x: 78.49998, y: -47.9789}
+        - {x: 72.49999, y: -26.9789}
+        - {x: 68.49999, y: -10.9789}
+        - {x: 66.49999, y: -0.9789028}
+        - {x: 64.49998, y: 7.021096}
+        - {x: 58.49999, y: 33.0211}
+        - {x: 56.49999, y: 41.0211}
+        - {x: 51.49998, y: 62.02109}
+        - {x: 47.49999, y: 74.0211}
+        - {x: 42.49998, y: 91.0211}
+        - {x: 30.49998, y: 102.0211}
+        - {x: 20.49999, y: 102.0211}
+        - {x: -0.5000076, y: 95.02109}
+        - {x: -18.50001, y: 85.0211}
+        - {x: -21.50001, y: 82.02109}
+        - {x: -30.50001, y: 60.0211}
+        - {x: -40.50001, y: 31.0211}
+        - {x: -44.50001, y: 19.0211}
+        - {x: -51.50001, y: -3.978905}
+        - {x: -51.50001, y: -37.9789}
+        - {x: -52.50001, y: -38.9789}
+        - {x: -54.50001, y: -54.9789}
+        - {x: -57.50001, y: -65.9789}
+        - {x: -68.50001, y: -75.9789}
+        - {x: -69.50001, y: -80.9789}
+        - {x: -69.50001, y: -100.9789}
+        - {x: -66.50001, y: -103.9789}
+        - {x: -54.50001, y: -109.9789}
+        - {x: -55.50001, y: -114.9789}
+        - {x: -48.50001, y: -118.9789}
+        - {x: -41.50001, y: -119.9789}
+        - {x: 82.49999, y: -119.9789}
+        - {x: 85.49999, y: -117.9789}
+        - {x: 85.49999, y: -103.9789}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801d2b7586e846c1ad1118bf27b7d7b8
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_guard_dead
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 237.0761
+        width: 187.9523
+        height: 185.8971
+      alignment: 9
+      pivot: {x: 0.7661518, y: 0.7204193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.97614, y: -57.02469}
+        - {x: -93.97615, y: -11.02469}
+        - {x: -93.97615, y: 75.97531}
+        - {x: -32.97615, y: 92.97531}
+        - {x: 84.02385, y: 92.97531}
+        - {x: 94.02385, y: 73.97531}
+        - {x: 94.02385, y: -36.02469}
+        - {x: 56.02385, y: -93.02469}
+        - {x: -7.976151, y: -93.02469}
+        - {x: -17.97615, y: -89.02469}
+      physicsShape:
+      - - {x: 23.02385, y: -54.02469}
+        - {x: 37.02385, y: -42.02469}
+        - {x: 57.02385, y: -39.02468}
+        - {x: 75.02385, y: -31.02469}
+        - {x: 79.02385, y: -18.02468}
+        - {x: 82.02385, y: -4.024689}
+        - {x: 89.02385, y: -1.024689}
+        - {x: 91.02385, y: 1.975311}
+        - {x: 93.02385, y: 8.975311}
+        - {x: 93.02385, y: 11.97531}
+        - {x: 83.02385, y: 19.97531}
+        - {x: 92.02385, y: 47.97531}
+        - {x: 89.02385, y: 61.97531}
+        - {x: 76.02385, y: 77.97531}
+        - {x: 58.02385, y: 80.97531}
+        - {x: 33.02385, y: 84.97531}
+        - {x: 25.02385, y: 89.97531}
+        - {x: 4.023853, y: 91.97531}
+        - {x: -2.976147, y: 91.97531}
+        - {x: -6.976151, y: 88.97531}
+        - {x: -13.97615, y: 76.97531}
+        - {x: -10.97615, y: 65.97531}
+        - {x: -19.97615, y: 63.97531}
+        - {x: -56.97614, y: 57.97531}
+        - {x: -77.97615, y: 71.97531}
+        - {x: -86.97615, y: 69.97531}
+        - {x: -91.97615, y: 69.97531}
+        - {x: -93.97615, y: 68.97531}
+        - {x: -93.97615, y: -8.024685}
+        - {x: -85.97615, y: -8.024685}
+        - {x: -56.97614, y: -27.02469}
+        - {x: -41.97614, y: -36.02469}
+        - {x: -51.97615, y: -44.02469}
+        - {x: -52.97615, y: -56.02469}
+        - {x: -38.97615, y: -70.02469}
+        - {x: -17.97615, y: -85.02469}
+        - {x: -12.97615, y: -85.02469}
+        - {x: -6.976151, y: -83.02469}
+        - {x: 5.023849, y: -86.02469}
+        - {x: 15.02385, y: -93.02467}
+        - {x: 29.02385, y: -93.02467}
+        - {x: 34.02385, y: -91.02469}
+        - {x: 35.02385, y: -76.02468}
+        - {x: 26.02385, y: -69.02469}
+      - - {x: 68.02385, y: 22.97531}
+        - {x: 71.02385, y: 27.97531}
+        - {x: 71.02385, y: 28.97531}
+        - {x: 73.02385, y: 28.97531}
+        - {x: 74.02385, y: 30.97531}
+        - {x: 72.02385, y: 29.97531}
+        - {x: 71.02385, y: 24.97531}
+        - {x: 69.02385, y: 22.97531}
+        - {x: 70.02385, y: 21.97531}
+        - {x: 69.02385, y: 22.97531}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84190beb3aa547cfaaf0e8a4cc9a47cb
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sendoff
+      rect:
+        serializedVersion: 2
+        x: 781.0761
+        y: 354.0761
+        width: 40.89713
+        height: 40.89713
+      alignment: 9
+      pivot: {x: 0.5116223, y: 0.5116223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.52468, y: -20.52468}
+        - {x: -20.52468, y: -12.52468}
+        - {x: -20.52468, y: 15.47532}
+        - {x: -12.52468, y: 20.47532}
+        - {x: 10.47532, y: 20.47532}
+        - {x: 14.47532, y: 19.47532}
+        - {x: 20.47532, y: 11.47532}
+        - {x: 20.47532, y: -17.52468}
+        - {x: 10.47532, y: -20.52468}
+      physicsShape:
+      - - {x: -8.524683, y: 16.47532}
+        - {x: -15.52468, y: 7.475317}
+        - {x: -15.52468, y: -7.524683}
+        - {x: -8.524683, y: -15.52468}
+        - {x: 8.475317, y: -15.52468}
+        - {x: 16.47532, y: -8.524683}
+        - {x: 16.47532, y: 14.47532}
+        - {x: 9.475317, y: 16.47532}
+      - - {x: 8.475317, y: -1.524683}
+        - {x: 5.475317, y: -5.524683}
+        - {x: 2.475317, y: -7.524683}
+        - {x: -1.524683, y: -7.524683}
+      - - {x: -7.524683, y: 2.475317}
+        - {x: -4.524683, y: 6.475317}
+        - {x: -1.524683, y: 8.475317}
+        - {x: 2.475317, y: 8.475317}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78eb33d203e44678a94d58581b4fa1d3
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_border
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0.07612038
+        width: 288
+        height: 259.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6077554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137, y: -130}
+        - {x: -144, y: -130}
+        - {x: -144, y: -60.00002}
+        - {x: -136, y: -44.00002}
+        - {x: -80, y: 60.99998}
+        - {x: -73, y: 73.99998}
+        - {x: -57, y: 104}
+        - {x: -55, y: 106}
+        - {x: -46, y: 124}
+        - {x: -43, y: 127}
+        - {x: -38, y: 129}
+        - {x: -33, y: 130}
+        - {x: 135, y: 130}
+        - {x: 140, y: 128}
+        - {x: 144, y: 124}
+        - {x: 144, y: -124}
+      physicsShape:
+      - - {x: -16, y: 111}
+        - {x: -130, y: -101}
+        - {x: -133, y: -109}
+        - {x: -133, y: -113}
+        - {x: -131, y: -114}
+        - {x: 144, y: -114}
+        - {x: 144, y: 114}
+        - {x: -12, y: 114}
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc6ba8aa374e42a482f733e45b3d1e
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_wingman_bg
+      rect:
+        serializedVersion: 2
+        x: 1758.062
+        y: 136.0761
+        width: 224.9111
+        height: 55.84776
+      alignment: 9
+      pivot: {x: 0.4310053, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.5177, y: -21}
+        - {x: -112.5177, y: 12}
+        - {x: -112.5177, y: 28}
+        - {x: 83.48232, y: 28}
+        - {x: 111.4823, y: -19}
+        - {x: 112.4823, y: -24}
+        - {x: 112.4823, y: -27}
+        - {x: 110.4823, y: -28}
+        - {x: -100.5177, y: -28}
+      physicsShape:
+      - - {x: 43.48231, y: 28}
+        - {x: 43.48231, y: 22}
+        - {x: 46.48232, y: 18}
+        - {x: 54.48232, y: -11}
+        - {x: 48.48232, y: -28}
+        - {x: 111.4823, y: -28}
+        - {x: 111.4823, y: -19.99999}
+        - {x: 84.48232, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863d28acd46946feb7928fb653edf346
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_wingman_border_dead
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 264.0761
+        width: 288
+        height: 259.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6077554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: -130}
+        - {x: -144, y: -130}
+        - {x: -144, y: -59.00002}
+        - {x: -143, y: -56.00002}
+        - {x: -131, y: -33.00002}
+        - {x: -129, y: -31.00001}
+        - {x: -118, y: -8.000015}
+        - {x: -106, y: 14.99998}
+        - {x: -104, y: 16.99998}
+        - {x: -94, y: 37.99998}
+        - {x: -92, y: 39.99998}
+        - {x: -82, y: 60.99998}
+        - {x: -80, y: 62.99998}
+        - {x: -70, y: 83.99998}
+        - {x: -68, y: 85.99998}
+        - {x: -50, y: 122}
+        - {x: -43, y: 128}
+        - {x: -36, y: 130}
+        - {x: 130, y: 130}
+        - {x: 135, y: 129}
+        - {x: 138, y: 128}
+        - {x: 144, y: 121}
+        - {x: 144, y: -121}
+        - {x: 138, y: -128}
+      physicsShape:
+      - - {x: -17, y: 114}
+        - {x: -133, y: -103}
+        - {x: -133, y: -113}
+        - {x: -132, y: -114}
+        - {x: 142, y: -114}
+        - {x: 144, y: -112}
+        - {x: 144, y: 112}
+        - {x: 142, y: 114}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03e2a40b79748e0831e625fdb00f9ef
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_outpost
+      rect:
+        serializedVersion: 2
+        x: 1250.043
+        y: 651.0761
+        width: 116.881
+        height: 37.89713
+      alignment: 9
+      pivot: {x: 0.3161943, y: 0.4729615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.48339, y: -19.02468}
+        - {x: -58.48339, y: 4.975317}
+        - {x: -58.48339, y: 16.97532}
+        - {x: -56.48339, y: 18.97532}
+        - {x: 45.51661, y: 18.97532}
+        - {x: 58.51661, y: 11.97532}
+        - {x: 58.51661, y: -19.02468}
+      physicsShape:
+      - - {x: -12.48339, y: -11.02468}
+        - {x: 16.51661, y: -11.02468}
+        - {x: 18.51661, y: -10.02468}
+        - {x: 18.51661, y: -3.024683}
+        - {x: 13.51661, y: 13.97532}
+        - {x: 5.516607, y: 16.97532}
+        - {x: -11.48339, y: 16.97532}
+        - {x: -20.48339, y: 14.97532}
+        - {x: -29.48339, y: 16.97532}
+        - {x: -34.48339, y: 16.97532}
+        - {x: -36.48339, y: 12.97532}
+        - {x: -46.48339, y: 16.97532}
+        - {x: -48.48339, y: 16.97532}
+        - {x: -55.48339, y: 10.97532}
+        - {x: -55.48339, y: 8.975316}
+        - {x: -54.48339, y: 5.975317}
+        - {x: -45.48339, y: -11.02468}
+        - {x: -18.48339, y: -11.02468}
+        - {x: -16.48339, y: -9.024683}
+        - {x: -16.48339, y: -6.024683}
+      - - {x: 37.51661, y: 16.97532}
+        - {x: 32.51661, y: 16.97532}
+        - {x: 30.51661, y: 14.97532}
+        - {x: 32.51661, y: 6.975317}
+        - {x: 29.51661, y: 11.97532}
+        - {x: 19.51661, y: 16.97532}
+        - {x: 14.51661, y: 16.97532}
+        - {x: 13.51661, y: 14.97532}
+        - {x: 13.51661, y: 4.975317}
+        - {x: 21.51661, y: -10.02468}
+        - {x: 24.51661, y: -11.02468}
+        - {x: 50.51661, y: -11.02468}
+        - {x: 52.51661, y: -10.02468}
+        - {x: 52.51661, y: -4.024683}
+        - {x: 47.51661, y: 10.97532}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba1dd6c0cb34d089f5c97869360150e
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingman_bullet
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 888
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -9.999999, y: 9.999999}
+        - {x: -9.999999, y: -9.999999}
+        - {x: 8, y: -9.999999}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fd2f82634e453a919c023665f2dc17
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blue_guard_en: 21300042
+      red_wingman_guard_alive: 21300048
+      blue_wingman_bullet: 21300082
+      blue_wingman_blood_invincible: 21300054
+      red_wingman_bullet: 21300084
+      red_guard_avatar: 21300100
+      red_wingman_blood_dead: 21300050
+      red_wingman_outpost: 21300030
+      nologin: 21300018
+      red_wingman_guard_name: 21300012
+      red_wingman_blood_abnormal: 21300094
+      blue_wingman_blood_dead: 21300006
+      red_wingman_blood_bg: 21300066
+      red_wingman_outpost_alive: 21300020
+      blue_wingman_blood_abnormal: 21300052
+      sendoff: 21300112
+      red_outpost: 21300120
+      red_wingman_blood_low: 21300024
+      blue_wingman_outpost_dead: 21300078
+      blue_outpost: 21300080
+      red_wingman_bg_invincible: 21300026
+      red_wingman_blood_invincible: 21300074
+      blue_wingman_blood_bg_dead: 21300062
+      blue_wingman_border: 21300114
+      blue_wingman_guard_name: 21300104
+      blue_wingman_blood_normal: 21300010
+      red_wingman_bg_dead: 21300072
+      red_guard: 21300092
+      blue_wingman_outpost: 21300108
+      blue_guard: 21300016
+      red_wingman_border_invincible: 21300022
+      blue_wingman_border_dead: 21300118
+      blue_outpost_avatar: 21300102
+      wingman_bullet_dark: 21300060
+      wingman_bullet: 21300122
+      blue_wingman_bg_invincible: 21300036
+      red_wingman_blood_normal: 21300046
+      wingman_bullet_light: 21300040
+      blue_wingman_bg_dead: 21300106
+      red_wingman_outpost_name: 21300090
+      red_wingman_border_dead: 21300056
+      blue_wingman_bg: 21300038
+      red_bullet: 21300098
+      blue_wingman_outpost_name: 21300086
+      red_wingman_outpost_dead: 21300008
+      blue_guard_avatar: 21300028
+      red_wingman_bg: 21300116
+      red_wingman_guard_dead: 21300110
+      blue_wingman_border_invincible: 21300096
+      blue_wingman_guard_dead: 21300034
+      red_wingman_border: 21300002
+      blue_wingman_outpost_alive: 21300014
+      offline: 21300064
+      blue_bullet: 21300076
+      blue_wingman_guard_alive: 21300000
+      red_outpost_avatar: 21300058
+      blue_wingman_guard: 21300070
+      red_wingman_guard: 21300004
+      red_guard_en: 21300032
+      blue_wingman_blood_low: 21300068
+      blue_wingman_blood_bg: 21300044
+      red_wingman_blood_bg_dead: 21300088
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

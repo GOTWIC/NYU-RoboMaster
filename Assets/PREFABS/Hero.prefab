@@ -2318,6 +2318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeroSimplifiedV1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49af5a5b99683704c9c71b5cd4bec64d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 951636146637939270, guid: 49af5a5b99683704c9c71b5cd4bec64d, type: 3}
       propertyPath: m_Layer
       value: 9

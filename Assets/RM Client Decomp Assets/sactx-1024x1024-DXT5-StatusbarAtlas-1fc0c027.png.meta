@@ -1,0 +1,2238 @@
+fileFormatVersion: 2
+guid: 669d1145d37bdbb4d831b5aa30473b1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: red_statusbar_id_border
+  - first:
+      213: 21300002
+    second: statusbar_expbar
+  - first:
+      213: 21300004
+    second: blue_statusbar_avatar_enginner_invincible
+  - first:
+      213: 21300006
+    second: blue_statusbar_avatar_infantry
+  - first:
+      213: 21300008
+    second: statusbar_energy
+  - first:
+      213: 21300010
+    second: red_statusbar_avatar_enginner
+  - first:
+      213: 21300012
+    second: red_statusbar_avatar_enginner_invincible
+  - first:
+      213: 21300014
+    second: red_statusbar_level_1
+  - first:
+      213: 21300016
+    second: blue_statusbar_level_2
+  - first:
+      213: 21300018
+    second: red_statusbar_avatar_infantry_invincible
+  - first:
+      213: 21300020
+    second: statusbar_signallamp_full
+  - first:
+      213: 21300022
+    second: red_statusbar_blood_slid_addbuff
+  - first:
+      213: 21300024
+    second: red_statusbar_avatar_infantry
+  - first:
+      213: 21300026
+    second: statusbar_bullet_border
+  - first:
+      213: 21300028
+    second: blue_statusbar_blood_slid_addbuff
+  - first:
+      213: 21300030
+    second: blue_statusbar_blood_slid_low
+  - first:
+      213: 21300032
+    second: red_statusbar_blood_slid
+  - first:
+      213: 21300034
+    second: statusbar_signallamp_low
+  - first:
+      213: 21300036
+    second: red_statusbar_blood_slid_low
+  - first:
+      213: 21300038
+    second: blue_statusbar_id_border
+  - first:
+      213: 21300040
+    second: red_statusbar_level_3
+  - first:
+      213: 21300042
+    second: statusbar_warning_red
+  - first:
+      213: 21300044
+    second: statusbar_signallamp_middle
+  - first:
+      213: 21300046
+    second: statusbar_signallamp_high
+  - first:
+      213: 21300048
+    second: red_statusbar_avatar_empty
+  - first:
+      213: 21300050
+    second: red_statusbar_avatar_hero_invincible
+  - first:
+      213: 21300052
+    second: statusbar_signallamp_yellow_single
+  - first:
+      213: 21300054
+    second: statusbar_bullet_icon_red
+  - first:
+      213: 21300056
+    second: blue_statusbar_expbar_bg
+  - first:
+      213: 21300058
+    second: blue_statusbar_level_1
+  - first:
+      213: 21300060
+    second: blue_statusbar_avatar_empty
+  - first:
+      213: 21300062
+    second: red_statusbar_blood_background
+  - first:
+      213: 21300064
+    second: blue_statusbar_blood_background
+  - first:
+      213: 21300066
+    second: blue_statusbar_avatar_infantry_invincible
+  - first:
+      213: 21300068
+    second: statusbar_energy_background
+  - first:
+      213: 21300070
+    second: red_statusbar_avatar_hero
+  - first:
+      213: 21300072
+    second: blue_statusbar_blood_slid
+  - first:
+      213: 21300074
+    second: blue_statusbar_avatar_hero_invincible
+  - first:
+      213: 21300076
+    second: red_statusbar_level_2
+  - first:
+      213: 21300078
+    second: blue_statusbar_avatar_hero
+  - first:
+      213: 21300080
+    second: statusbar_signallamp_green_single
+  - first:
+      213: 21300082
+    second: statusbar_signallamp_red_single
+  - first:
+      213: 21300084
+    second: blue_statusbar_level_3
+  - first:
+      213: 21300086
+    second: red_statusbar_expbar_bg
+  - first:
+      213: 21300088
+    second: blue_statusbar_avatar_enginner
+  - first:
+      213: 21300090
+    second: statusbar_bullet_icon
+  - first:
+      213: 21300092
+    second: statusbar_warning_yellow
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red_statusbar_id_border
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: -64}
+        - {x: -64, y: -61}
+        - {x: -64, y: 44}
+        - {x: -41, y: 64}
+        - {x: 57, y: 64}
+        - {x: 64, y: 59}
+        - {x: 64, y: -48}
+        - {x: 55, y: -64}
+      physicsShape:
+      - - {x: 42, y: 13}
+        - {x: 35, y: 27}
+        - {x: 16, y: 42}
+        - {x: -13, y: 42}
+        - {x: -18, y: 40}
+        - {x: -36, y: 25}
+        - {x: -42, y: 11}
+        - {x: -42, y: -12}
+        - {x: -39, y: -20}
+        - {x: -26, y: -36}
+        - {x: -12, y: -42}
+        - {x: 7, y: -42}
+        - {x: 18, y: -39}
+        - {x: 26, y: -37}
+        - {x: 42, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc38457bdfc746d9b12f95f04e806b5c
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_expbar
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 278
+        width: 23
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -44}
+        - {x: -11.5, y: 44}
+        - {x: 11.5, y: 44}
+        - {x: 11.5, y: -44}
+      physicsShape:
+      - - {x: 1.5, y: 44}
+        - {x: -5.5, y: 38}
+        - {x: -11.5, y: 20}
+        - {x: -11.5, y: -24}
+        - {x: -0.5, y: -44}
+        - {x: 11.5, y: -44}
+        - {x: 11.5, y: -36}
+        - {x: 3.5, y: -9}
+        - {x: 11.5, y: 36}
+        - {x: 11.5, y: 44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2651037d66ac4dce9e19e8332eef9c5e
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_avatar_enginner_invincible
+      rect:
+        serializedVersion: 2
+        x: 0.0761205
+        y: 408
+        width: 162.8477
+        height: 133.9239
+      alignment: 9
+      pivot: {x: 0.542985, y: 0.5674866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.49999, y: -66.96194}
+        - {x: -81.49999, y: -39.96194}
+        - {x: -81.49999, y: 58.03806}
+        - {x: -51.49999, y: 67.03806}
+        - {x: 61.50001, y: 67.03806}
+        - {x: 81.50001, y: 48.03806}
+        - {x: 81.50001, y: -16.96194}
+        - {x: 53.50001, y: -66.96194}
+      physicsShape:
+      - - {x: 70.50001, y: -3.961937}
+        - {x: 52.50001, y: 3.038063}
+        - {x: 50.50001, y: 21.03806}
+        - {x: 66.5, y: 25.03806}
+        - {x: 72.50001, y: 29.03806}
+        - {x: 73.50001, y: 34.03806}
+        - {x: 73.50001, y: 41.03806}
+        - {x: 56.5, y: 54.03806}
+        - {x: 27.50001, y: 66.03806}
+        - {x: 15.50001, y: 66.03806}
+        - {x: 11.50001, y: 63.03806}
+        - {x: 9.500008, y: 56.03806}
+        - {x: -23.49999, y: 56.03806}
+        - {x: -33.49999, y: 52.03806}
+        - {x: -56.49999, y: 43.03806}
+        - {x: -61.49999, y: 39.03806}
+        - {x: -61.49999, y: 30.03806}
+        - {x: -68.49999, y: 18.03806}
+        - {x: -71.49999, y: 7.038063}
+        - {x: -71.49999, y: -16.96194}
+        - {x: -70.49999, y: -24.96194}
+        - {x: -63.49999, y: -37.96194}
+        - {x: -48.49999, y: -55.96194}
+        - {x: -33.49999, y: -64.96194}
+        - {x: -23.49999, y: -66.96194}
+        - {x: 39.50001, y: -66.96194}
+        - {x: 67.5, y: -16.96194}
+        - {x: 72.50001, y: -5.961936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d01bb8d5144682aaa638e5b9a0f594
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_avatar_infantry
+      rect:
+        serializedVersion: 2
+        x: 167.0761
+        y: 821
+        width: 156.8477
+        height: 126.9239
+      alignment: 9
+      pivot: {x: 0.5255025, y: 0.5987841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.49999, y: -63.46194}
+        - {x: -78.49999, y: -30.46194}
+        - {x: -78.49999, y: 56.53806}
+        - {x: -44.49999, y: 63.53806}
+        - {x: 26.50001, y: 63.53806}
+        - {x: 78.50001, y: 20.53806}
+        - {x: 78.50001, y: -16.46194}
+        - {x: 59.50001, y: -63.46194}
+      physicsShape:
+      - - {x: 67.50001, y: -0.4619408}
+        - {x: 49.50001, y: 6.538059}
+        - {x: 56.5, y: 25.53806}
+        - {x: 43.50001, y: 31.53806}
+        - {x: 22.50001, y: 49.53806}
+        - {x: 13.50001, y: 55.53806}
+        - {x: -5.499992, y: 60.53806}
+        - {x: -31.49999, y: 60.53806}
+        - {x: -66.49999, y: 50.53806}
+        - {x: -71.49999, y: 44.53806}
+        - {x: -70.49999, y: 40.53806}
+        - {x: -69.49998, y: 37.53806}
+        - {x: -60.49999, y: 37.53806}
+        - {x: -70.49999, y: 32.53806}
+        - {x: -75.49998, y: 25.53806}
+        - {x: -75.49998, y: -3.461941}
+        - {x: -74.49999, y: -10.46194}
+        - {x: -70.49999, y: -28.46194}
+        - {x: -65.49999, y: -37.46194}
+        - {x: -47.49999, y: -55.46194}
+        - {x: -29.49999, y: -63.46194}
+        - {x: 36.50001, y: -63.46194}
+        - {x: 64.5, y: -13.46194}
+        - {x: 69.50001, y: -2.46194}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930c94c43d934a8787adae64e3f214cb
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_energy
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 419
+        width: 300
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 19, y: 0, z: 24, w: 0}
+      outline:
+      - - {x: -150, y: -15}
+        - {x: -150, y: 15}
+        - {x: 150, y: 15}
+        - {x: 150, y: -15}
+      physicsShape:
+      - - {x: -132, y: 6}
+        - {x: -134, y: 4}
+        - {x: -134, y: -4}
+        - {x: -132, y: -6}
+        - {x: 129, y: -6}
+        - {x: 134, y: 3}
+        - {x: 134, y: 5}
+        - {x: 132, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a429577de54381b9d1569b5fcf7526
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_avatar_enginner
+      rect:
+        serializedVersion: 2
+        x: 334.0761
+        y: 408
+        width: 156.8477
+        height: 133.9239
+      alignment: 9
+      pivot: {x: 0.5286903, y: 0.5674866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.49999, y: -66.96194}
+        - {x: -78.49999, y: -59.96194}
+        - {x: -78.49999, y: 57.03806}
+        - {x: -75.49999, y: 67.03806}
+        - {x: 58.50001, y: 67.03806}
+        - {x: 78.50001, y: 42.03806}
+        - {x: 78.50001, y: -21.96194}
+        - {x: 52.50001, y: -66.96194}
+      physicsShape:
+      - - {x: 67.50001, y: -3.961937}
+        - {x: 49.50001, y: 2.038063}
+        - {x: 47.5, y: 11.03806}
+        - {x: 46.50001, y: 21.03806}
+        - {x: 54.50001, y: 22.03806}
+        - {x: 70.50001, y: 29.03806}
+        - {x: 70.50001, y: 41.03806}
+        - {x: 53.5, y: 54.03806}
+        - {x: 24.50001, y: 66.03806}
+        - {x: 11.50001, y: 66.03806}
+        - {x: 5.500008, y: 58.03806}
+        - {x: -26.49999, y: 56.03806}
+        - {x: -52.49999, y: 47.03806}
+        - {x: -66.49999, y: 39.03806}
+        - {x: -64.49999, y: 34.03806}
+        - {x: -68.49998, y: 23.03806}
+        - {x: -74.49999, y: 8.038063}
+        - {x: -74.49999, y: -15.96194}
+        - {x: -70.49999, y: -31.96194}
+        - {x: -65.49999, y: -40.96194}
+        - {x: -47.49999, y: -58.96194}
+        - {x: -37.49999, y: -62.96194}
+        - {x: -28.49999, y: -66.96194}
+        - {x: 36.50001, y: -66.96194}
+        - {x: 64.5, y: -16.96194}
+        - {x: 69.50001, y: -5.961936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9214c04460fa42f697f71725f216c72f
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_avatar_enginner_invincible
+      rect:
+        serializedVersion: 2
+        x: 167.0761
+        y: 408
+        width: 162.8477
+        height: 133.9239
+      alignment: 9
+      pivot: {x: 0.5460553, y: 0.5674866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.49999, y: -66.96194}
+        - {x: -81.49999, y: -39.96194}
+        - {x: -81.49999, y: 58.03806}
+        - {x: -51.49999, y: 67.03806}
+        - {x: 61.50001, y: 67.03806}
+        - {x: 81.50001, y: 48.03806}
+        - {x: 81.50001, y: -16.96194}
+        - {x: 53.50001, y: -66.96194}
+      physicsShape:
+      - - {x: 70.50001, y: -3.961937}
+        - {x: 52.50001, y: 3.038063}
+        - {x: 50.5, y: 21.03806}
+        - {x: 66.5, y: 25.03806}
+        - {x: 72.50001, y: 29.03806}
+        - {x: 73.50001, y: 34.03806}
+        - {x: 73.50001, y: 41.03806}
+        - {x: 56.5, y: 54.03806}
+        - {x: 27.50001, y: 66.03806}
+        - {x: 15.50001, y: 66.03806}
+        - {x: 11.50001, y: 63.03806}
+        - {x: 9.500008, y: 56.03806}
+        - {x: -23.49999, y: 56.03806}
+        - {x: -33.49999, y: 52.03806}
+        - {x: -56.49999, y: 43.03806}
+        - {x: -61.49999, y: 39.03806}
+        - {x: -61.49999, y: 30.03806}
+        - {x: -68.49999, y: 18.03806}
+        - {x: -71.49999, y: 7.038063}
+        - {x: -71.49999, y: -16.96194}
+        - {x: -70.49999, y: -24.96194}
+        - {x: -63.49999, y: -37.96194}
+        - {x: -48.49999, y: -55.96194}
+        - {x: -33.49999, y: -64.96194}
+        - {x: -23.49999, y: -66.96194}
+        - {x: 39.50001, y: -66.96194}
+        - {x: 67.5, y: -16.96194}
+        - {x: 72.50001, y: -5.961936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5cc55dbeb342188ddf3d490f23c264
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_level_1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 580
+        width: 48
+        height: 45.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5226039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -22.96194}
+        - {x: -24, y: -20.96194}
+        - {x: -24, y: 20.03806}
+        - {x: -23, y: 23.03806}
+        - {x: 19, y: 23.03806}
+        - {x: 24, y: 21.03806}
+        - {x: 24, y: -22.96194}
+      physicsShape:
+      - - {x: 9.999999, y: 19.03806}
+        - {x: -7, y: 19.03806}
+        - {x: -18, y: 14.03806}
+        - {x: -18, y: -10.96194}
+        - {x: -14, y: -16.96194}
+        - {x: 9.999999, y: -16.96194}
+        - {x: 18, y: -8.96194}
+        - {x: 18, y: 10.03806}
+        - {x: 17, y: 13.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c754ce407143ffaa111a1b62056b77
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_level_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 228
+        width: 48
+        height: 45.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5226039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -22.96194}
+        - {x: -24, y: -20.96194}
+        - {x: -24, y: 20.03806}
+        - {x: -23, y: 23.03806}
+        - {x: 19, y: 23.03806}
+        - {x: 24, y: 21.03806}
+        - {x: 24, y: -22.96194}
+      physicsShape:
+      - - {x: 9.999999, y: 19.03806}
+        - {x: -7, y: 19.03806}
+        - {x: -18, y: 14.03806}
+        - {x: -18, y: -10.96194}
+        - {x: -14, y: -16.96194}
+        - {x: 9.999999, y: -16.96194}
+        - {x: 18, y: -8.96194}
+        - {x: 18, y: 10.03806}
+        - {x: 17, y: 13.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd5b7a0004043829ea442ba33e81dd6
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_avatar_infantry_invincible
+      rect:
+        serializedVersion: 2
+        x: 0.0761205
+        y: 546
+        width: 162.8477
+        height: 132.9239
+      alignment: 9
+      pivot: {x: 0.5460553, y: 0.5717558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.49999, y: -66.46194}
+        - {x: -81.49999, y: -64.46194}
+        - {x: -81.49999, y: 38.53806}
+        - {x: -54.49999, y: 66.53806}
+        - {x: 30.50001, y: 66.53806}
+        - {x: 42.50001, y: 60.53806}
+        - {x: 81.50001, y: 16.53806}
+        - {x: 81.50001, y: -23.46194}
+        - {x: 67.50002, y: -66.46194}
+      physicsShape:
+      - - {x: 70.50001, y: -3.461937}
+        - {x: 52.50001, y: 3.538063}
+        - {x: 56.5, y: 21.53806}
+        - {x: 53.5, y: 24.53806}
+        - {x: 40.50001, y: 32.53806}
+        - {x: 28.50001, y: 45.53806}
+        - {x: 8.500008, y: 55.53806}
+        - {x: -2.499991, y: 56.53806}
+        - {x: -14.49999, y: 57.53806}
+        - {x: -28.49999, y: 57.53806}
+        - {x: -63.49999, y: 47.53806}
+        - {x: -68.49999, y: 42.53806}
+        - {x: -66.49999, y: 34.53806}
+        - {x: -72.49998, y: 25.53806}
+        - {x: -72.49998, y: -19.46194}
+        - {x: -64.49999, y: -37.46194}
+        - {x: -48.49999, y: -55.46194}
+        - {x: -33.49999, y: -64.46194}
+        - {x: -23.49999, y: -66.46194}
+        - {x: 39.50001, y: -66.46194}
+        - {x: 67.5, y: -16.46194}
+        - {x: 72.50001, y: -5.461936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27067f759bba44e9b203beee5f153c0e
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_signallamp_full
+      rect:
+        serializedVersion: 2
+        x: 495.0268
+        y: 453.0761
+        width: 51.89713
+        height: 55.89713
+      alignment: 9
+      pivot: {x: 0.5004757, y: 0.4995584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.024687, y: -28.02468}
+        - {x: -25.97531, y: -28.02468}
+        - {x: -25.97531, y: -2.024683}
+        - {x: -7.975313, y: 27.97532}
+        - {x: 26.02469, y: 27.97532}
+        - {x: 26.02469, y: -16.02468}
+      physicsShape:
+      - - {x: 2.024687, y: 17.97532}
+        - {x: -3.975313, y: 15.97532}
+        - {x: -16.97531, y: -9.024683}
+        - {x: -16.97531, y: -16.02468}
+        - {x: -15.97531, y: -18.02468}
+        - {x: -0.9753132, y: -18.02468}
+        - {x: 17.02469, y: 7.975317}
+        - {x: 17.02469, y: 17.97532}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a11c98198ad45bb82fe2158332cd664
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_blood_slid_addbuff
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272.0268
+        width: 378.9239
+        height: 63.9465
+      alignment: 9
+      pivot: {x: 0.50142, y: 0.5000001}
+      border: {x: 10, y: 0, z: 34.92389, w: 0}
+      outline:
+      - - {x: -187.4619, y: -32}
+        - {x: -189.4619, y: -29}
+        - {x: -189.4619, y: 28}
+        - {x: -187.4619, y: 31}
+        - {x: -184.4619, y: 32}
+        - {x: 186.5381, y: 32}
+        - {x: 189.5381, y: 31}
+        - {x: 189.5381, y: 4.000004}
+        - {x: 180.5381, y: -28}
+        - {x: 169.5381, y: -32}
+      physicsShape:
+      - - {x: -181.4619, y: 22}
+        - {x: -181.4619, y: -19.99999}
+        - {x: -179.4619, y: -22}
+        - {x: 159.538, y: -22}
+        - {x: 179.5381, y: 10}
+        - {x: 179.5381, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7977720ac439477b931689af66948e09
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_avatar_infantry
+      rect:
+        serializedVersion: 2
+        x: 328.0761
+        y: 683
+        width: 156.8477
+        height: 126.9239
+      alignment: 9
+      pivot: {x: 0.5286903, y: 0.5987841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.49999, y: -63.46194}
+        - {x: -78.49999, y: -30.46194}
+        - {x: -78.49999, y: 56.53806}
+        - {x: -44.49999, y: 63.53806}
+        - {x: 26.50001, y: 63.53806}
+        - {x: 78.50001, y: 20.53806}
+        - {x: 78.50001, y: -16.46194}
+        - {x: 59.50001, y: -63.46194}
+      physicsShape:
+      - - {x: 67.50001, y: -0.4619408}
+        - {x: 49.50001, y: 6.538059}
+        - {x: 56.50001, y: 25.53806}
+        - {x: 43.50001, y: 31.53806}
+        - {x: 22.50001, y: 49.53806}
+        - {x: 13.50001, y: 55.53806}
+        - {x: -5.499991, y: 60.53806}
+        - {x: -31.49999, y: 60.53806}
+        - {x: -66.49999, y: 50.53806}
+        - {x: -71.49999, y: 44.53806}
+        - {x: -70.49999, y: 40.53806}
+        - {x: -69.49999, y: 37.53806}
+        - {x: -60.49999, y: 37.53806}
+        - {x: -70.49999, y: 32.53806}
+        - {x: -75.49998, y: 25.53806}
+        - {x: -75.49998, y: -3.461941}
+        - {x: -74.49999, y: -10.46194}
+        - {x: -70.49999, y: -28.46194}
+        - {x: -65.49999, y: -37.46194}
+        - {x: -47.49999, y: -55.46194}
+        - {x: -29.49999, y: -63.46194}
+        - {x: 36.50001, y: -63.46194}
+        - {x: 64.5, y: -13.46194}
+        - {x: 69.50001, y: -2.46194}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4521c5a1774f84ac497f1c02a632b7
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_bullet_border
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 359
+        width: 200
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: -28}
+        - {x: -100, y: -28}
+        - {x: -100, y: 28}
+        - {x: 70, y: 28}
+        - {x: 74, y: 24}
+        - {x: 100, y: -21}
+      physicsShape:
+      - - {x: -100, y: 28}
+        - {x: -100, y: -28}
+        - {x: -25, y: -28}
+        - {x: -26, y: -25}
+        - {x: -16, y: 27}
+        - {x: -16, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14364279b06471c9e19843fac3d60c0
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_blood_slid_addbuff
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340.0268
+        width: 378.9239
+        height: 63.9465
+      alignment: 9
+      pivot: {x: 0.50142, y: 0.5000001}
+      border: {x: 10, y: 0, z: 33.92389, w: 0}
+      outline:
+      - - {x: 165.5381, y: -32}
+        - {x: -189.4619, y: -32}
+        - {x: -189.4619, y: 30.00001}
+        - {x: -187.4619, y: 31}
+        - {x: -184.4619, y: 32}
+        - {x: 179.5381, y: 32}
+        - {x: 189.5381, y: 29}
+        - {x: 189.5381, y: 3.000004}
+        - {x: 188.5381, y: -3.999996}
+      physicsShape:
+      - - {x: -181.4619, y: 22}
+        - {x: -181.4619, y: -19.99999}
+        - {x: -179.4619, y: -22}
+        - {x: 159.538, y: -22}
+        - {x: 179.5381, y: 10}
+        - {x: 179.5381, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164fbae5d47e4213b27128d07f9d9672
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_blood_slid_low
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.02675098
+        width: 380
+        height: 63.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 10, y: 0, z: 33, w: 0}
+      outline:
+      - - {x: -186, y: -32}
+        - {x: -190, y: -29}
+        - {x: -190, y: 29}
+        - {x: -186, y: 32}
+        - {x: 184, y: 32}
+        - {x: 190, y: 30.00001}
+        - {x: 190, y: 5.000004}
+        - {x: 169, y: -28}
+        - {x: 163, y: -32}
+      physicsShape:
+      - - {x: -182, y: 22}
+        - {x: -182, y: -22}
+        - {x: 163, y: -22}
+        - {x: 182, y: 19}
+        - {x: 182, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b4e8be58714c41b1d979e89781f118
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_blood_slid
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68.02675
+        width: 380
+        height: 63.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 11, y: 0, z: 33, w: 0}
+      outline:
+      - - {x: -186, y: -32}
+        - {x: -190, y: -29}
+        - {x: -190, y: 29}
+        - {x: -186, y: 32}
+        - {x: 184, y: 32}
+        - {x: 190, y: 30.00001}
+        - {x: 190, y: 5.000004}
+        - {x: 169, y: -28}
+        - {x: 163, y: -32}
+      physicsShape:
+      - - {x: -182, y: 22}
+        - {x: -182, y: -22}
+        - {x: 163, y: -22}
+        - {x: 182, y: 19}
+        - {x: 182, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b05cd69dd2f41d488e879a888ccdd42
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_signallamp_low
+      rect:
+        serializedVersion: 2
+        x: 904.0761
+        y: 0
+        width: 48.88097
+        height: 49.92388
+      alignment: 9
+      pivot: {x: 0.6530942, y: 0.6409758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.48339, y: -24.96194}
+        - {x: -24.51661, y: -24.96194}
+        - {x: -24.51661, y: 14.03806}
+        - {x: 9.483395, y: 25.03806}
+        - {x: 24.48339, y: 25.03806}
+      physicsShape:
+      - - {x: 8.483395, y: 25.03806}
+        - {x: -9.516605, y: -1.961939}
+        - {x: -9.516605, y: -10.96194}
+        - {x: 5.483395, y: -10.96194}
+        - {x: 12.48339, y: -8.961939}
+        - {x: 23.48339, y: 14.03806}
+        - {x: 23.48339, y: 22.03806}
+        - {x: 22.48339, y: 25.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931469671240413a8a46d725636b17d8
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_blood_slid_low
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136.0267
+        width: 380
+        height: 63.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 10, y: 0, z: 33, w: 0}
+      outline:
+      - - {x: -186, y: -32}
+        - {x: -190, y: -29}
+        - {x: -190, y: 29}
+        - {x: -186, y: 32}
+        - {x: 184, y: 32}
+        - {x: 190, y: 30.00001}
+        - {x: 190, y: 5.000004}
+        - {x: 169, y: -28}
+        - {x: 163, y: -32}
+      physicsShape:
+      - - {x: -182, y: 22}
+        - {x: -182, y: -22}
+        - {x: 163, y: -22}
+        - {x: 182, y: 19}
+        - {x: 182, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2220bade0bbc4e26bc43df20a4c1b747
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_id_border
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 131
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: -64}
+        - {x: -64, y: -61}
+        - {x: -64, y: 44}
+        - {x: -41, y: 64}
+        - {x: 57, y: 64}
+        - {x: 64, y: 59}
+        - {x: 64, y: -48}
+        - {x: 55, y: -64}
+      physicsShape:
+      - - {x: 42, y: 13}
+        - {x: 35, y: 27}
+        - {x: 16, y: 42}
+        - {x: -13, y: 42}
+        - {x: -18, y: 40}
+        - {x: -36, y: 25}
+        - {x: -42, y: 11}
+        - {x: -42, y: -12}
+        - {x: -39, y: -20}
+        - {x: -26, y: -36}
+        - {x: -12, y: -42}
+        - {x: 7, y: -42}
+        - {x: 18, y: -39}
+        - {x: 26, y: -37}
+        - {x: 42, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32d24ae5a9a4867bd59bd181ee83bd7
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_level_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 634
+        width: 48
+        height: 45.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5226039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -22.96194}
+        - {x: -24, y: -20.96194}
+        - {x: -24, y: 20.03806}
+        - {x: -23, y: 23.03806}
+        - {x: 19, y: 23.03806}
+        - {x: 24, y: 21.03806}
+        - {x: 24, y: -22.96194}
+      physicsShape:
+      - - {x: 9.999999, y: 19.03806}
+        - {x: -7, y: 19.03806}
+        - {x: -18, y: 14.03806}
+        - {x: -18, y: -10.96194}
+        - {x: -14, y: -16.96194}
+        - {x: 9.999999, y: -16.96194}
+        - {x: 18, y: -8.96194}
+        - {x: 18, y: 10.03806}
+        - {x: 17, y: 13.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4053f8c234d2435dbaee42f48b9b3075
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_warning_red
+      rect:
+        serializedVersion: 2
+        x: 334.0761
+        y: 580
+        width: 61.8876
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4996782, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.01992, y: -36}
+        - {x: -31.01992, y: -31}
+        - {x: -31.01992, y: 32}
+        - {x: -23.01992, y: 36}
+        - {x: 25.98008, y: 36}
+        - {x: 30.98008, y: 33}
+        - {x: 30.98008, y: -3}
+        - {x: 22.98008, y: -36}
+      physicsShape:
+      - - {x: 18.98008, y: 24}
+        - {x: -1.019918, y: 27}
+        - {x: -14.01992, y: 27}
+        - {x: -16.01992, y: 26}
+        - {x: -21.01992, y: -9.999999}
+        - {x: -21.01992, y: -23}
+        - {x: -18.01992, y: -25}
+        - {x: 3.980082, y: -28}
+        - {x: 12.98008, y: -28}
+        - {x: 15.98008, y: -26}
+        - {x: 20.98008, y: 9.999999}
+        - {x: 20.98008, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cfbae14b994bb7b60317d1e3b588e1
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_signallamp_middle
+      rect:
+        serializedVersion: 2
+        x: 456.0761
+        y: 580
+        width: 52.84776
+        height: 49.92388
+      alignment: 9
+      pivot: {x: 0.5851503, y: 0.6409758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -24.96194}
+        - {x: -26.5, y: -24.96194}
+        - {x: -26.5, y: 12.03806}
+        - {x: -21.5, y: 25.03806}
+        - {x: 26.5, y: 25.03806}
+        - {x: 26.5, y: -20.96194}
+      physicsShape:
+      - - {x: 5.500002, y: 25.03806}
+        - {x: -12.5, y: -0.9619389}
+        - {x: -12.5, y: -8.961939}
+        - {x: -11.5, y: -10.96194}
+        - {x: 3.500002, y: -10.96194}
+        - {x: 20.5, y: 14.03806}
+        - {x: 20.5, y: 23.03806}
+        - {x: 17.5, y: 25.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e24da79c84b379259d71fcd658378
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_signallamp_high
+      rect:
+        serializedVersion: 2
+        x: 565.0761
+        y: 580.0267
+        width: 47.84776
+        height: 45.9465
+      alignment: 9
+      pivot: {x: 0.5417993, y: 0.6088223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -23}
+        - {x: -24, y: -18}
+        - {x: -24, y: 4.000002}
+        - {x: -12, y: 23}
+        - {x: 19, y: 23}
+        - {x: 24, y: 22}
+        - {x: 24, y: -1.999998}
+        - {x: 22, y: -12}
+        - {x: 11, y: -23}
+      physicsShape:
+      - - {x: 2.000004, y: 23}
+        - {x: -14, y: -4.999997}
+        - {x: -14, y: -13}
+        - {x: 2.000004, y: -13}
+        - {x: 18, y: 15}
+        - {x: 18, y: 23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b581a548a5004440a5320fcfb0876ff9
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_avatar_empty
+      rect:
+        serializedVersion: 2
+        x: 328.0761
+        y: 814
+        width: 156.8477
+        height: 126.9239
+      alignment: 9
+      pivot: {x: 0.5286903, y: 0.5987841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.49999, y: -63.46194}
+        - {x: -78.49999, y: -55.46194}
+        - {x: -78.49999, y: 36.53806}
+        - {x: -70.49999, y: 63.53806}
+        - {x: 20.50001, y: 63.53806}
+        - {x: 78.50001, y: 11.53806}
+        - {x: 78.50001, y: -15.46194}
+        - {x: 70.50001, y: -61.46194}
+        - {x: 59.50001, y: -63.46194}
+      physicsShape:
+      - - {x: 67.50001, y: -0.4619408}
+        - {x: 49.50001, y: 11.53806}
+        - {x: 42.50001, y: 29.53806}
+        - {x: 36.50001, y: 36.53806}
+        - {x: 22.50001, y: 50.53806}
+        - {x: 5.500008, y: 57.53806}
+        - {x: -1.499992, y: 59.53806}
+        - {x: -26.49999, y: 59.53806}
+        - {x: -38.49999, y: 55.53806}
+        - {x: -51.49999, y: 47.53806}
+        - {x: -61.49999, y: 36.53806}
+        - {x: -71.49999, y: 21.53806}
+        - {x: -74.49999, y: 11.53806}
+        - {x: -74.49999, y: -12.46194}
+        - {x: -70.49999, y: -28.46194}
+        - {x: -65.49999, y: -37.46194}
+        - {x: -47.49999, y: -54.46193}
+        - {x: -37.49999, y: -59.46194}
+        - {x: -28.49999, y: -63.46194}
+        - {x: 37.50001, y: -63.46194}
+        - {x: 69.50001, y: -4.461941}
+        - {x: 69.50001, y: -1.461941}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e0acc39078469da83049fdae66da58
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_avatar_hero_invincible
+      rect:
+        serializedVersion: 2
+        x: 0.0761205
+        y: 683
+        width: 162.8477
+        height: 132.9239
+      alignment: 9
+      pivot: {x: 0.5460553, y: 0.5717558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.49999, y: -66.46194}
+        - {x: -81.49999, y: -36.46194}
+        - {x: -81.49999, y: 25.53806}
+        - {x: -79.49999, y: 38.53806}
+        - {x: -44.49999, y: 66.53806}
+        - {x: 47.50001, y: 66.53806}
+        - {x: 81.50001, y: 2.538063}
+        - {x: 81.50001, y: -27.46194}
+        - {x: 53.50001, y: -66.46194}
+      physicsShape:
+      - - {x: 70.50001, y: -3.461937}
+        - {x: 52.50001, y: 2.538063}
+        - {x: 49.50001, y: 18.53806}
+        - {x: 40.50001, y: 32.53806}
+        - {x: 24.50001, y: 47.53806}
+        - {x: 5.500008, y: 56.53806}
+        - {x: -20.49999, y: 56.53806}
+        - {x: -33.49999, y: 53.53806}
+        - {x: -65.49998, y: 37.53806}
+        - {x: -71.49999, y: 5.538063}
+        - {x: -71.49999, y: -20.46194}
+        - {x: -68.49999, y: -29.46194}
+        - {x: -59.49998, y: -43.46193}
+        - {x: -48.49999, y: -54.46194}
+        - {x: -33.49999, y: -64.46194}
+        - {x: -25.49999, y: -66.46194}
+        - {x: 39.50001, y: -66.46194}
+        - {x: 67.5, y: -16.46194}
+        - {x: 72.50001, y: -5.461936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca9bbe355349d78c347ca41a801dfa
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_signallamp_yellow_single
+      rect:
+        serializedVersion: 2
+        x: 816.0267
+        y: 132.0761
+        width: 51.89713
+        height: 55.89713
+      alignment: 9
+      pivot: {x: 0.5197446, y: 0.4995584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.97531, y: -28.02468}
+        - {x: -25.97532, y: -27.02468}
+        - {x: -25.97532, y: -3.024683}
+        - {x: -24.97531, y: 5.975317}
+        - {x: -7.975313, y: 27.97532}
+        - {x: 26.02469, y: 27.97532}
+        - {x: 26.02469, y: -5.024683}
+        - {x: 7.024687, y: -28.02468}
+      physicsShape:
+      - - {x: -15.97531, y: -18.02468}
+        - {x: -0.9753132, y: -18.02468}
+        - {x: 16.02468, y: 7.975317}
+        - {x: 16.02468, y: 17.97532}
+        - {x: 2.024687, y: 17.97532}
+        - {x: -15.97531, y: 6.975317}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e1f8fb61f246a285508b72798bfeac
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_bullet_icon_red
+      rect:
+        serializedVersion: 2
+        x: 603.0267
+        y: 453.0268
+        width: 42.9465
+        height: 43.92193
+      alignment: 9
+      pivot: {x: 0.5116425, y: 0.5002797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -21.98772}
+        - {x: -21.5, y: -17.98772}
+        - {x: -21.5, y: 20.01228}
+        - {x: -19.5, y: 22.01228}
+        - {x: 21.5, y: 22.01228}
+        - {x: 21.5, y: -17.98772}
+        - {x: 14.5, y: -21.98772}
+      physicsShape:
+      - - {x: -13.5, y: 14.01228}
+        - {x: -13.5, y: -13.98772}
+        - {x: 13.5, y: -13.98772}
+        - {x: 13.5, y: 11.01228}
+        - {x: 10.5, y: 14.01228}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1477766eca464988e762637e552a75
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_expbar_bg
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 132
+        width: 32
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -46}
+        - {x: -16, y: -36}
+        - {x: -16, y: 33}
+        - {x: -12, y: 46}
+        - {x: 16, y: 46}
+        - {x: 16, y: -46}
+      physicsShape:
+      - - {x: 4, y: 20}
+        - {x: 16, y: 42}
+        - {x: 16, y: 46}
+        - {x: -4, y: 46}
+        - {x: -16, y: 26}
+        - {x: -16, y: -26}
+        - {x: -4, y: -46}
+        - {x: 16, y: -46}
+        - {x: 16, y: -43}
+        - {x: -3, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0593f905d344108d321da045a7926a
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_level_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 228
+        width: 48
+        height: 45.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5226039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -22.96194}
+        - {x: -24, y: -20.96194}
+        - {x: -24, y: 20.03806}
+        - {x: -23, y: 23.03806}
+        - {x: 19, y: 23.03806}
+        - {x: 24, y: 21.03806}
+        - {x: 24, y: -22.96194}
+      physicsShape:
+      - - {x: 9.999999, y: 19.03806}
+        - {x: -7, y: 19.03806}
+        - {x: -18, y: 14.03806}
+        - {x: -18, y: -10.96194}
+        - {x: -14, y: -16.96194}
+        - {x: 9.999999, y: -16.96194}
+        - {x: 18, y: -8.96194}
+        - {x: 18, y: 10.03806}
+        - {x: 17, y: 13.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb719df515bb481886892dfe79e81b18
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_avatar_empty
+      rect:
+        serializedVersion: 2
+        x: 384.0761
+        y: 0
+        width: 156.8477
+        height: 126.9239
+      alignment: 9
+      pivot: {x: 0.5286903, y: 0.5987841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.49999, y: -63.46194}
+        - {x: -78.49999, y: -55.46194}
+        - {x: -78.49999, y: 36.53806}
+        - {x: -70.49999, y: 63.53806}
+        - {x: 20.50001, y: 63.53806}
+        - {x: 78.50001, y: 11.53806}
+        - {x: 78.50001, y: -15.46194}
+        - {x: 70.50001, y: -61.46194}
+        - {x: 59.50001, y: -63.46194}
+      physicsShape:
+      - - {x: 67.50001, y: -0.4619408}
+        - {x: 49.50001, y: 11.53806}
+        - {x: 42.50001, y: 29.53806}
+        - {x: 36.50001, y: 36.53806}
+        - {x: 22.50001, y: 50.53806}
+        - {x: 5.500008, y: 57.53806}
+        - {x: -1.499992, y: 59.53806}
+        - {x: -26.49999, y: 59.53806}
+        - {x: -38.49999, y: 55.53806}
+        - {x: -51.49999, y: 47.53806}
+        - {x: -61.49999, y: 36.53806}
+        - {x: -71.49999, y: 21.53806}
+        - {x: -74.49999, y: 11.53806}
+        - {x: -74.49999, y: -12.46194}
+        - {x: -70.49999, y: -28.46194}
+        - {x: -65.49999, y: -37.46194}
+        - {x: -47.49999, y: -54.46193}
+        - {x: -37.49999, y: -59.46194}
+        - {x: -28.49999, y: -63.46194}
+        - {x: 37.50001, y: -63.46194}
+        - {x: 69.50001, y: -4.461941}
+        - {x: 69.50001, y: -1.461941}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059b63f637df416f89b61b7b8946fe54
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_blood_background
+      rect:
+        serializedVersion: 2
+        x: 384.0761
+        y: 263.0268
+        width: 361.9071
+        height: 43.89713
+      alignment: 9
+      pivot: {x: 0.5026812, y: 0.5005624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -180.0297, y: -21.97531}
+        - {x: -181.0297, y: -19.97531}
+        - {x: -181.0297, y: 22.02469}
+        - {x: 179.9703, y: 22.02469}
+        - {x: 180.9703, y: 16.02469}
+        - {x: 177.9703, y: 6.024687}
+        - {x: 159.9703, y: -21.97531}
+      physicsShape:
+      - - {x: -181.0297, y: 22.02469}
+        - {x: -181.0297, y: -21.97531}
+        - {x: 160.9703, y: -21.97531}
+        - {x: 178.9703, y: -1.975313}
+        - {x: 179.9703, y: 4.024687}
+        - {x: 179.9703, y: 22.02469}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389101ef9ec541d3aa77c2af31a1cfb1
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_blood_background
+      rect:
+        serializedVersion: 2
+        x: 383.0761
+        y: 311.0268
+        width: 361.9071
+        height: 43.89713
+      alignment: 9
+      pivot: {x: 0.499918, y: 0.5005624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -180.0297, y: -21.97531}
+        - {x: -181.0297, y: -19.97531}
+        - {x: -181.0297, y: 22.02469}
+        - {x: 179.9703, y: 22.02469}
+        - {x: 180.9703, y: 16.02469}
+        - {x: 177.9703, y: 6.024687}
+        - {x: 159.9703, y: -21.97531}
+      physicsShape:
+      - - {x: -181.0297, y: 22.02469}
+        - {x: -181.0297, y: -21.97531}
+        - {x: 160.9703, y: -21.97531}
+        - {x: 178.9703, y: -1.975313}
+        - {x: 179.9703, y: 4.024687}
+        - {x: 179.9703, y: 22.02469}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ce07257d9402d8ef2cc520cc515cb
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_avatar_infantry_invincible
+      rect:
+        serializedVersion: 2
+        x: 167.0761
+        y: 546
+        width: 162.8477
+        height: 132.9239
+      alignment: 9
+      pivot: {x: 0.542985, y: 0.5717558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.49999, y: -66.46194}
+        - {x: -81.49999, y: -64.46194}
+        - {x: -81.49999, y: 38.53806}
+        - {x: -54.49999, y: 66.53806}
+        - {x: 30.50001, y: 66.53806}
+        - {x: 42.50001, y: 60.53806}
+        - {x: 81.50001, y: 16.53806}
+        - {x: 81.50001, y: -23.46194}
+        - {x: 67.50001, y: -66.46194}
+      physicsShape:
+      - - {x: 70.50001, y: -3.461937}
+        - {x: 52.50001, y: 3.538063}
+        - {x: 56.5, y: 21.53806}
+        - {x: 53.50001, y: 24.53806}
+        - {x: 40.5, y: 32.53806}
+        - {x: 28.50001, y: 45.53806}
+        - {x: 8.500008, y: 55.53806}
+        - {x: -2.499992, y: 56.53806}
+        - {x: -14.49999, y: 57.53806}
+        - {x: -28.49999, y: 57.53806}
+        - {x: -63.49999, y: 47.53806}
+        - {x: -68.49999, y: 42.53806}
+        - {x: -66.49998, y: 34.53806}
+        - {x: -72.49998, y: 25.53806}
+        - {x: -72.49998, y: -19.46194}
+        - {x: -64.49999, y: -37.46194}
+        - {x: -48.49999, y: -55.46194}
+        - {x: -33.49999, y: -64.46194}
+        - {x: -23.49999, y: -66.46194}
+        - {x: 39.50001, y: -66.46194}
+        - {x: 67.5, y: -16.46194}
+        - {x: 72.50001, y: -5.461936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb3df7c347241129422777d3213e50e
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_energy_background
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 546
+        width: 300
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150, y: -15}
+        - {x: -150, y: 15}
+        - {x: 150, y: 15}
+        - {x: 150, y: -15}
+      physicsShape:
+      - - {x: -134, y: 6}
+        - {x: -134, y: -6}
+        - {x: 133, y: -6}
+        - {x: 133, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3df0505c64bbc89411e9a7790a8d1
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_avatar_hero
+      rect:
+        serializedVersion: 2
+        x: 545.0761
+        y: 0
+        width: 156.8477
+        height: 126.9239
+      alignment: 9
+      pivot: {x: 0.5286903, y: 0.5987841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: -63.46194}
+        - {x: -78.49999, y: -33.46194}
+        - {x: -78.49999, y: 24.53806}
+        - {x: -71.49999, y: 40.53806}
+        - {x: -53.49999, y: 52.53806}
+        - {x: -37.49999, y: 63.53806}
+        - {x: 22.50001, y: 63.53806}
+        - {x: 58.50001, y: 57.53806}
+        - {x: 78.50001, y: 16.53806}
+        - {x: 78.50001, y: -42.46194}
+        - {x: 69.50001, y: -60.46194}
+        - {x: 52.50001, y: -63.46194}
+      physicsShape:
+      - - {x: 48.50001, y: 11.53806}
+        - {x: 47.5, y: 21.53806}
+        - {x: 27.50001, y: 48.53806}
+        - {x: 13.50001, y: 55.53806}
+        - {x: -2.499992, y: 59.53806}
+        - {x: -22.49999, y: 59.53806}
+        - {x: -38.49999, y: 55.53806}
+        - {x: -54.49999, y: 46.53806}
+        - {x: -70.49999, y: 40.53806}
+        - {x: -68.49998, y: 26.53806}
+        - {x: -74.49999, y: 11.53806}
+        - {x: -74.49999, y: -16.46194}
+        - {x: -70.49999, y: -26.46194}
+        - {x: -67.49999, y: -34.46194}
+        - {x: -48.49999, y: -56.46194}
+        - {x: -31.49999, y: -63.46194}
+        - {x: 37.50001, y: -63.46194}
+        - {x: 69.50001, y: -4.461941}
+        - {x: 69.50001, y: -1.461941}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044035424531429e9ea1ce15a77073c0
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_blood_slid
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204.0267
+        width: 380
+        height: 63.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 10, y: 0, z: 33, w: 0}
+      outline:
+      - - {x: -186, y: -32}
+        - {x: -190, y: -29}
+        - {x: -190, y: 29}
+        - {x: -186, y: 32}
+        - {x: 184, y: 32}
+        - {x: 190, y: 30.00001}
+        - {x: 190, y: 5.000004}
+        - {x: 169, y: -28}
+        - {x: 163, y: -32}
+      physicsShape:
+      - - {x: -182, y: 22}
+        - {x: -182, y: -22}
+        - {x: 163, y: -22}
+        - {x: 182, y: 19}
+        - {x: 182, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcaa9df7126462ebc21e2b50b8f2e32
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_avatar_hero_invincible
+      rect:
+        serializedVersion: 2
+        x: 0.0761205
+        y: 820
+        width: 162.8477
+        height: 132.9239
+      alignment: 9
+      pivot: {x: 0.542985, y: 0.5717558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.49999, y: -66.46194}
+        - {x: -81.49999, y: -36.46194}
+        - {x: -81.49999, y: 25.53806}
+        - {x: -79.49999, y: 38.53806}
+        - {x: -44.49999, y: 66.53806}
+        - {x: 47.50001, y: 66.53806}
+        - {x: 81.50001, y: 2.538063}
+        - {x: 81.50001, y: -27.46194}
+        - {x: 53.50001, y: -66.46194}
+      physicsShape:
+      - - {x: 70.50001, y: -3.461937}
+        - {x: 52.50001, y: 2.538063}
+        - {x: 49.50001, y: 18.53806}
+        - {x: 40.5, y: 32.53806}
+        - {x: 24.50001, y: 47.53806}
+        - {x: 5.500008, y: 56.53806}
+        - {x: -20.49999, y: 56.53806}
+        - {x: -33.49999, y: 53.53806}
+        - {x: -65.49999, y: 37.53806}
+        - {x: -71.49999, y: 5.538063}
+        - {x: -71.49999, y: -20.46194}
+        - {x: -68.49999, y: -29.46194}
+        - {x: -59.49999, y: -43.46193}
+        - {x: -48.49999, y: -54.46194}
+        - {x: -33.49999, y: -64.46194}
+        - {x: -25.49999, y: -66.46194}
+        - {x: 39.50001, y: -66.46194}
+        - {x: 67.5, y: -16.46194}
+        - {x: 72.50001, y: -5.461936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2b0b9ff52843098b56980efb8b6a4b
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_level_2
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 453
+        width: 48
+        height: 45.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5226039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -22.96194}
+        - {x: -24, y: -20.96194}
+        - {x: -24, y: 20.03806}
+        - {x: -23, y: 23.03806}
+        - {x: 19, y: 23.03806}
+        - {x: 24, y: 21.03806}
+        - {x: 24, y: -22.96194}
+      physicsShape:
+      - - {x: 9.999999, y: 19.03806}
+        - {x: -7, y: 19.03806}
+        - {x: -18, y: 14.03806}
+        - {x: -18, y: -10.96194}
+        - {x: -14, y: -16.96194}
+        - {x: 9.999999, y: -16.96194}
+        - {x: 18, y: -8.96194}
+        - {x: 18, y: 10.03806}
+        - {x: 17, y: 13.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e64215c29d4ae3b35baf77b7d86c5b
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_avatar_hero
+      rect:
+        serializedVersion: 2
+        x: 384.0761
+        y: 131
+        width: 156.8477
+        height: 126.9239
+      alignment: 9
+      pivot: {x: 0.5286903, y: 0.5987841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.49999, y: -63.46194}
+        - {x: -78.49999, y: -41.46194}
+        - {x: -78.49999, y: 56.53806}
+        - {x: -53.49999, y: 63.53806}
+        - {x: 31.50001, y: 63.53806}
+        - {x: 78.50001, y: 13.53806}
+        - {x: 78.50001, y: -11.46194}
+        - {x: 77.50001, y: -13.46194}
+        - {x: 55.50001, y: -52.46194}
+        - {x: 48.50001, y: -63.46194}
+      physicsShape:
+      - - {x: 67.50001, y: -0.4619408}
+        - {x: 48.50001, y: 11.53806}
+        - {x: 46.50001, y: 21.53806}
+        - {x: 36.50001, y: 36.53806}
+        - {x: 26.50001, y: 46.53806}
+        - {x: 13.50001, y: 55.53806}
+        - {x: 0.5000076, y: 59.53806}
+        - {x: -22.49999, y: 59.53806}
+        - {x: -30.49999, y: 58.53806}
+        - {x: -68.49998, y: 40.53806}
+        - {x: -71.49999, y: 20.53806}
+        - {x: -74.49999, y: 7.53806}
+        - {x: -74.49999, y: -16.46194}
+        - {x: -67.49999, y: -34.46194}
+        - {x: -48.49999, y: -56.46194}
+        - {x: -30.49999, y: -63.46194}
+        - {x: 36.50001, y: -63.46194}
+        - {x: 64.5, y: -13.46194}
+        - {x: 69.50001, y: -2.46194}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0822c38345040e2b3d93e963916d53e
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_signallamp_green_single
+      rect:
+        serializedVersion: 2
+        x: 400.0268
+        y: 580.0761
+        width: 51.89713
+        height: 55.89713
+      alignment: 9
+      pivot: {x: 0.5004757, y: 0.4995584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.97531, y: -28.02468}
+        - {x: -25.97531, y: -27.02468}
+        - {x: -25.97531, y: -3.024683}
+        - {x: -24.97531, y: 5.975317}
+        - {x: -7.975313, y: 27.97532}
+        - {x: 26.02469, y: 27.97532}
+        - {x: 26.02469, y: -5.024683}
+        - {x: 7.024687, y: -28.02468}
+      physicsShape:
+      - - {x: -15.97531, y: -18.02468}
+        - {x: -0.9753132, y: -18.02468}
+        - {x: 16.02469, y: 7.975317}
+        - {x: 16.02469, y: 17.97532}
+        - {x: 2.024687, y: 17.97532}
+        - {x: -15.97531, y: 6.975317}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177ff20d266a4a8cbba2792bec5122c2
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_signallamp_red_single
+      rect:
+        serializedVersion: 2
+        x: 677.0761
+        y: 132
+        width: 62.84776
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5079558, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: -32}
+        - {x: -31.5, y: -25}
+        - {x: -31.5, y: 11}
+        - {x: -12.5, y: 32}
+        - {x: 31.5, y: 32}
+        - {x: 31.5, y: -11}
+        - {x: 22.5, y: -32}
+      physicsShape:
+      - - {x: 0.5000038, y: 18}
+        - {x: -15.5, y: -9}
+        - {x: -15.5, y: -16}
+        - {x: -14.5, y: -18}
+        - {x: 0.5000038, y: -18}
+        - {x: 16.5, y: 7}
+        - {x: 16.5, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5f6454ef9e41139eea925d741c8d44
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_level_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 684
+        width: 48
+        height: 45.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5226039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -22.96194}
+        - {x: -24, y: -20.96194}
+        - {x: -24, y: 20.03806}
+        - {x: -23, y: 23.03806}
+        - {x: 19, y: 23.03806}
+        - {x: 24, y: 21.03806}
+        - {x: 24, y: -22.96194}
+      physicsShape:
+      - - {x: 9.999999, y: 19.03806}
+        - {x: -7, y: 19.03806}
+        - {x: -18, y: 14.03806}
+        - {x: -18, y: -10.96194}
+        - {x: -14, y: -16.96194}
+        - {x: 9.999999, y: -16.96194}
+        - {x: 18, y: -8.96194}
+        - {x: 18, y: 10.03806}
+        - {x: 17, y: 13.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba62b3e6bfd42a0bc93177b02a04427
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_statusbar_expbar_bg
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 132
+        width: 32
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -46}
+        - {x: -16, y: -36}
+        - {x: -16, y: 33}
+        - {x: -12, y: 46}
+        - {x: 16, y: 46}
+        - {x: 16, y: -46}
+      physicsShape:
+      - - {x: 4, y: 20}
+        - {x: 16, y: 42}
+        - {x: 16, y: 46}
+        - {x: -4, y: 46}
+        - {x: -16, y: 26}
+        - {x: -16, y: -26}
+        - {x: -4, y: -46}
+        - {x: 16, y: -46}
+        - {x: 16, y: -43}
+        - {x: -3, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4059e780a2d444f5ad8405f46342316b
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_statusbar_avatar_enginner
+      rect:
+        serializedVersion: 2
+        x: 167.0761
+        y: 683
+        width: 156.8477
+        height: 133.9239
+      alignment: 9
+      pivot: {x: 0.5286903, y: 0.5674866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.49999, y: -66.96194}
+        - {x: -78.49999, y: -59.96194}
+        - {x: -78.49999, y: 57.03806}
+        - {x: -75.49999, y: 67.03806}
+        - {x: 58.50001, y: 67.03806}
+        - {x: 78.50001, y: 42.03806}
+        - {x: 78.50001, y: -21.96194}
+        - {x: 52.50001, y: -66.96194}
+      physicsShape:
+      - - {x: 67.50001, y: -3.961937}
+        - {x: 49.50001, y: 2.038063}
+        - {x: 47.5, y: 11.03806}
+        - {x: 46.50001, y: 21.03806}
+        - {x: 54.50001, y: 22.03806}
+        - {x: 70.50001, y: 29.03806}
+        - {x: 70.50001, y: 41.03806}
+        - {x: 53.5, y: 54.03806}
+        - {x: 24.50001, y: 66.03806}
+        - {x: 11.50001, y: 66.03806}
+        - {x: 5.500008, y: 58.03806}
+        - {x: -26.49999, y: 56.03806}
+        - {x: -52.49999, y: 47.03806}
+        - {x: -66.49999, y: 39.03806}
+        - {x: -64.49999, y: 34.03806}
+        - {x: -68.49998, y: 23.03806}
+        - {x: -74.49999, y: 8.038063}
+        - {x: -74.49999, y: -15.96194}
+        - {x: -70.49999, y: -31.96194}
+        - {x: -65.49999, y: -40.96194}
+        - {x: -47.49999, y: -58.96194}
+        - {x: -37.49999, y: -62.96194}
+        - {x: -28.49999, y: -66.96194}
+        - {x: 36.50001, y: -66.96194}
+        - {x: 64.5, y: -16.96194}
+        - {x: 69.50001, y: -5.961936}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e608584f545f9be50bee3360e0608
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_bullet_icon
+      rect:
+        serializedVersion: 2
+        x: 957.0267
+        y: 0.02675104
+        width: 42.9465
+        height: 43.92193
+      alignment: 9
+      pivot: {x: 0.5116425, y: 0.5002797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -21.98772}
+        - {x: -21.5, y: -17.98772}
+        - {x: -21.5, y: 20.01228}
+        - {x: -19.5, y: 22.01228}
+        - {x: 21.5, y: 22.01228}
+        - {x: 21.5, y: -17.98772}
+        - {x: 14.5, y: -21.98772}
+      physicsShape:
+      - - {x: -13.5, y: 14.01228}
+        - {x: -13.5, y: -13.98772}
+        - {x: 13.5, y: -13.98772}
+        - {x: 13.5, y: 11.01228}
+        - {x: 10.5, y: 14.01228}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8629de321f7c4518a6a43b7b9564ebcb
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statusbar_warning_yellow
+      rect:
+        serializedVersion: 2
+        x: 838.0761
+        y: 0
+        width: 61.8876
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4996782, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.01992, y: -36}
+        - {x: -31.01992, y: -31}
+        - {x: -31.01992, y: 32}
+        - {x: -23.01992, y: 36}
+        - {x: 25.98008, y: 36}
+        - {x: 30.98008, y: 33}
+        - {x: 30.98008, y: -3}
+        - {x: 22.98008, y: -36}
+      physicsShape:
+      - - {x: 18.98008, y: 24}
+        - {x: -1.019918, y: 27}
+        - {x: -14.01992, y: 27}
+        - {x: -16.01992, y: 26}
+        - {x: -21.01992, y: -9.999999}
+        - {x: -21.01992, y: -23}
+        - {x: -18.01992, y: -25}
+        - {x: 3.980082, y: -28}
+        - {x: 12.98008, y: -28}
+        - {x: 15.98008, y: -26}
+        - {x: 20.98008, y: 9.999999}
+        - {x: 20.98008, y: 22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bd5711c0114c4bbc0b4cb60e2fc399
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blue_statusbar_level_2: 21300016
+      red_statusbar_avatar_empty: 21300048
+      blue_statusbar_avatar_infantry_invincible: 21300066
+      red_statusbar_id_border: 21300000
+      red_statusbar_expbar_bg: 21300086
+      blue_statusbar_avatar_infantry: 21300006
+      statusbar_signallamp_full: 21300020
+      red_statusbar_blood_slid_addbuff: 21300022
+      blue_statusbar_blood_background: 21300064
+      blue_statusbar_blood_slid_low: 21300030
+      statusbar_signallamp_yellow_single: 21300052
+      red_statusbar_avatar_infantry_invincible: 21300018
+      red_statusbar_avatar_enginner: 21300010
+      red_statusbar_level_2: 21300076
+      statusbar_energy: 21300008
+      blue_statusbar_avatar_enginner: 21300088
+      statusbar_warning_red: 21300042
+      statusbar_expbar: 21300002
+      red_statusbar_avatar_enginner_invincible: 21300012
+      blue_statusbar_expbar_bg: 21300056
+      red_statusbar_avatar_hero_invincible: 21300050
+      red_statusbar_avatar_infantry: 21300024
+      red_statusbar_avatar_hero: 21300070
+      blue_statusbar_avatar_hero_invincible: 21300074
+      statusbar_warning_yellow: 21300092
+      red_statusbar_blood_slid_low: 21300036
+      statusbar_signallamp_red_single: 21300082
+      blue_statusbar_id_border: 21300038
+      statusbar_signallamp_high: 21300046
+      blue_statusbar_blood_slid_addbuff: 21300028
+      blue_statusbar_blood_slid: 21300072
+      statusbar_bullet_border: 21300026
+      statusbar_signallamp_low: 21300034
+      red_statusbar_level_3: 21300040
+      blue_statusbar_avatar_empty: 21300060
+      statusbar_bullet_icon_red: 21300054
+      statusbar_signallamp_middle: 21300044
+      red_statusbar_blood_background: 21300062
+      blue_statusbar_avatar_hero: 21300078
+      blue_statusbar_level_3: 21300084
+      blue_statusbar_level_1: 21300058
+      statusbar_bullet_icon: 21300090
+      blue_statusbar_avatar_enginner_invincible: 21300004
+      red_statusbar_level_1: 21300014
+      red_statusbar_blood_slid: 21300032
+      statusbar_signallamp_green_single: 21300080
+      statusbar_energy_background: 21300068
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

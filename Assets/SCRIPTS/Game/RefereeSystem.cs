@@ -83,12 +83,12 @@ public class RefereeSystem : NetworkBehaviour
         if (transitioning) { return; }
 
 
-        redBaseHealthBarImage.fillAmount = redBaseHealth.getCurrentHealth() / redBaseHealth.getMaxHealth();
-        blueBaseHealthBarImage.fillAmount = blueBaseHealth.getCurrentHealth() / blueBaseHealth.getMaxHealth();
-        if (redRobot1Health != null) { redRobot1HealthBarImage.fillAmount = redRobot1Health.getCurrentHealth() / redRobot1Health.getMaxHealth(); }
-        if (redRobot2Health != null) { redRobot2HealthBarImage.fillAmount = redRobot2Health.getCurrentHealth() / redRobot2Health.getMaxHealth(); }
-        if (blueRobot1Health != null) { blueRobot1HealthBarImage.fillAmount = blueRobot1Health.getCurrentHealth() / blueRobot1Health.getMaxHealth(); }
-        if (blueRobot2Health != null) { blueRobot2HealthBarImage.fillAmount = blueRobot2Health.getCurrentHealth() / blueRobot2Health.getMaxHealth(); }
+        redBaseHealthBarImage.rectTransform.sizeDelta = new Vector2(840 * redBaseHealth.getCurrentHealth() / redBaseHealth.getMaxHealth(), 84);
+        blueBaseHealthBarImage.rectTransform.sizeDelta = new Vector2(840 * blueBaseHealth.getCurrentHealth() / blueBaseHealth.getMaxHealth(), 84);
+        if (redRobot1Health != null) redRobot1HealthBarImage.rectTransform.sizeDelta = new Vector3(840 * redRobot1Health.getCurrentHealth() / redRobot1Health.getMaxHealth(), 84);
+        if (redRobot2Health != null) redRobot2HealthBarImage.fillAmount = redRobot2Health.getCurrentHealth() / redRobot2Health.getMaxHealth();
+        if (blueRobot1Health != null) blueRobot1HealthBarImage.fillAmount = blueRobot1Health.getCurrentHealth() / blueRobot1Health.getMaxHealth();
+        if (blueRobot2Health != null) blueRobot2HealthBarImage.fillAmount = blueRobot2Health.getCurrentHealth() / blueRobot2Health.getMaxHealth();
 
         int min = (int)(matchTimeMin*60 - (Time.fixedTime - matchStartTime)+1) /60;
         int sec = (int)(matchTimeMin*60 - (Time.fixedTime - matchStartTime)+1) % 60;

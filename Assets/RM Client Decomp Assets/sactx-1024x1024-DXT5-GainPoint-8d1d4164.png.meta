@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: c25d9131a3c1ca646a15d1f36c4a899b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Elements-BloodPack-Mid-Active-Blue@2x
+  - first:
+      213: 21300002
+    second: Elements-BloodPack-EnergyBar-R--Border@2x_0
+  - first:
+      213: 21300004
+    second: hp_middle_red_full
+  - first:
+      213: 21300006
+    second: Elements-BloodPack-PackVolumn-Blue-Active@2x
+  - first:
+      213: 21300008
+    second: Elements-BloodPack-PackVolumn-Blue-Norm@2x
+  - first:
+      213: 21300010
+    second: Elements-BloodPack-Mid-Norm@2x
+  - first:
+      213: 21300012
+    second: Elements-BloodPack-EnergyBar-L-Border@2x_0
+  - first:
+      213: 21300014
+    second: hp_middle_blue_full
+  - first:
+      213: 21300016
+    second: Elements-BloodPack-EnergyBar-L-Fill-Norm@2x_0
+  - first:
+      213: 21300018
+    second: Elements-BloodPack-BoardNum-L@2x
+  - first:
+      213: 21300020
+    second: Elements-BloodPack-EnergyBar-R--Fill-Blue@2x_0
+  - first:
+      213: 21300022
+    second: Elements-BloodPack-Mid-Active-Red@2x
+  - first:
+      213: 21300024
+    second: Elements-BloodPack-EnergyBar-R--Fill-Norm@2x_0
+  - first:
+      213: 21300026
+    second: Elements-BloodPack-EnergyBar-L-Fill-Red@2x_0
+  - first:
+      213: 21300028
+    second: Elements-BloodPack-EnergyBar-L-Base@2x_0
+  - first:
+      213: 21300030
+    second: Elements-BloodPack-BoardNum-R@2x
+  - first:
+      213: 21300032
+    second: Elements-BloodPack-PackVolumn-Red-Norm@2x
+  - first:
+      213: 21300034
+    second: Elements-BloodPack-PackVolumn-Red-Active@2x
+  - first:
+      213: 21300036
+    second: Elements-BloodPack-EnergyBar-R--Base@2x_0
+  - first:
+      213: 21300038
+    second: Elements-BloodPack-Mid-Loading@2x
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elements-BloodPack-Mid-Active-Blue@2x
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 354
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: -23, y: -13}
+        - {x: -19, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 6}
+        - {x: 11, y: 21}
+        - {x: 7, y: 23}
+        - {x: -13, y: 23}
+        - {x: -23, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe05a21b1924b2087546dede06f2ded
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-R--Border@2x_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 610
+        width: 204
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 15, w: 0}
+      outline:
+      - - {x: -102, y: -8}
+        - {x: -102, y: 8}
+        - {x: 102, y: 8}
+        - {x: 102, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29baf7dccdb14689a77f09796213fd53
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_middle_red_full
+      rect:
+        serializedVersion: 2
+        x: 0.07612228
+        y: 0.07612228
+        width: 349.8478
+        height: 349.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.99998, y: -75.00002}
+        - {x: 76.99998, y: -142}
+        - {x: 71.99998, y: -163}
+        - {x: 60.99998, y: -173}
+        - {x: 45.99998, y: -175}
+        - {x: -57.00002, y: -175}
+        - {x: -64.00002, y: -174}
+        - {x: -77.00002, y: -154}
+        - {x: -76.00002, y: -143}
+        - {x: -173, y: -64.00002}
+        - {x: -175, y: -51.00002}
+        - {x: -175, y: 57.99998}
+        - {x: -163, y: 71.99998}
+        - {x: -153, y: 73.99998}
+        - {x: -144, y: 74.99998}
+        - {x: -75.00002, y: 74.99998}
+        - {x: -76.00002, y: 142}
+        - {x: -72.00002, y: 163}
+        - {x: -61.00002, y: 173}
+        - {x: -46.00002, y: 175}
+        - {x: 49.99998, y: 175}
+        - {x: 63.99998, y: 173}
+        - {x: 77.99998, y: 154}
+        - {x: 74.99998, y: 142}
+        - {x: 144, y: 75.99998}
+        - {x: 164, y: 72.99998}
+        - {x: 175, y: 57.99998}
+        - {x: 175, y: -49.00002}
+        - {x: 173, y: -64.00002}
+        - {x: 154, y: -77.00002}
+      physicsShape:
+      - - {x: 152, y: 56.99998}
+        - {x: 47.99998, y: 152}
+        - {x: -54.00001, y: 152}
+        - {x: -76.00002, y: 69.99998}
+        - {x: -152, y: 50.99998}
+        - {x: -152, y: -53.00001}
+        - {x: -68.00002, y: -75.00002}
+        - {x: -52.00002, y: -152}
+        - {x: 47.99998, y: -152}
+        - {x: 52.99998, y: -142}
+        - {x: 64.99998, y: -71.00002}
+        - {x: 152, y: -51.00002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ec30e5dd754ef1bdc982e9aff0ede8
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-PackVolumn-Blue-Active@2x
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -100}
+        - {x: -100, y: 100}
+        - {x: 100, y: 100}
+        - {x: 100, y: -100}
+      physicsShape:
+      - - {x: -44, y: 49}
+        - {x: -48, y: 45}
+        - {x: -49, y: 34}
+        - {x: -49, y: -46}
+        - {x: -46, y: -49}
+        - {x: 49, y: -49}
+        - {x: 49, y: 43}
+        - {x: 45, y: 49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d4e1ed9653492f83b8302e455c832f
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-PackVolumn-Blue-Norm@2x
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 242
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -100}
+        - {x: -100, y: 100}
+        - {x: 100, y: 100}
+        - {x: 100, y: -100}
+      physicsShape:
+      - - {x: -40, y: 42}
+        - {x: -42, y: 41}
+        - {x: -42, y: -37}
+        - {x: -35, y: -42}
+        - {x: 37, y: -42}
+        - {x: 42, y: -38}
+        - {x: 42, y: 42}
+      - - {x: -35, y: 34}
+        - {x: 34, y: 35}
+        - {x: 35, y: -34}
+        - {x: -34, y: -34}
+      - - {x: -13, y: 30}
+        - {x: -20, y: 26}
+        - {x: -20, y: 4}
+        - {x: -17, y: 2}
+        - {x: 20, y: 2}
+        - {x: 20, y: 23}
+        - {x: 17, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1796445995487380d7a5013c473899
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-Mid-Norm@2x
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 354
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: -23, y: -13}
+        - {x: -19, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 6}
+        - {x: 11, y: 21}
+        - {x: 7, y: 23}
+        - {x: -13, y: 23}
+        - {x: -23, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ef0b63a0514cee9c85dc49aa61e9fd
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-L-Border@2x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 742
+        width: 204
+        height: 16
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -102, y: -8}
+        - {x: -102, y: 8}
+        - {x: 102, y: 8}
+        - {x: 102, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283cd97b7e7a44e9a9fe66e9cce14753
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_middle_blue_full
+      rect:
+        serializedVersion: 2
+        x: 354.0761
+        y: 0.07612228
+        width: 349.8478
+        height: 349.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.99998, y: -75.00002}
+        - {x: 76.99998, y: -142}
+        - {x: 71.99998, y: -163}
+        - {x: 60.99998, y: -173}
+        - {x: 45.99998, y: -175}
+        - {x: -57.00002, y: -175}
+        - {x: -64.00002, y: -174}
+        - {x: -77.00002, y: -154}
+        - {x: -76.00002, y: -143}
+        - {x: -173, y: -64.00002}
+        - {x: -175, y: -51.00002}
+        - {x: -175, y: 57.99998}
+        - {x: -163, y: 71.99998}
+        - {x: -153, y: 73.99998}
+        - {x: -144, y: 74.99998}
+        - {x: -75.00002, y: 74.99998}
+        - {x: -76.00002, y: 142}
+        - {x: -72.00002, y: 163}
+        - {x: -61.00002, y: 173}
+        - {x: -46.00002, y: 175}
+        - {x: 49.99998, y: 175}
+        - {x: 63.99998, y: 173}
+        - {x: 77.99998, y: 154}
+        - {x: 74.99998, y: 142}
+        - {x: 144, y: 75.99998}
+        - {x: 164, y: 72.99998}
+        - {x: 175, y: 57.99998}
+        - {x: 175, y: -49.00002}
+        - {x: 173, y: -64.00002}
+        - {x: 154, y: -77.00002}
+      physicsShape:
+      - - {x: 152, y: 56.99998}
+        - {x: 47.99998, y: 152}
+        - {x: -54.00001, y: 152}
+        - {x: -76.00002, y: 69.99998}
+        - {x: -152, y: 50.99998}
+        - {x: -152, y: -53.00001}
+        - {x: -68.00002, y: -75.00002}
+        - {x: -52.00002, y: -152}
+        - {x: 47.99998, y: -152}
+        - {x: 52.99998, y: -142}
+        - {x: 64.99998, y: -71.00002}
+        - {x: 152, y: -51.00002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562da8b79add4e74acd527528e4fd302
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-L-Fill-Norm@2x_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 650
+        width: 199
+        height: 16
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 10, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -99.5, y: -8}
+        - {x: -99.5, y: 8}
+        - {x: 99.5, y: 8}
+        - {x: 99.5, y: -8}
+      physicsShape:
+      - - {x: -99.5, y: 8}
+        - {x: -99.5, y: -1}
+        - {x: -97.49998, y: -7}
+        - {x: -94.5, y: -8}
+        - {x: 99.5, y: -8}
+        - {x: 99.5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f7bca231e442b7a73df5c5e14a0a23
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-BoardNum-L@2x
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 112
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: -24}
+        - {x: -56, y: 24}
+        - {x: 56, y: 24}
+        - {x: 56, y: -24}
+      physicsShape:
+      - - {x: -56, y: -24}
+        - {x: -39, y: -24}
+        - {x: -40, y: -21}
+        - {x: -54, y: -2}
+        - {x: -56, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c7dd9f61ab4b81986ae63922d5737f
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-R--Fill-Blue@2x_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 630
+        width: 204
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 15, w: 0}
+      outline:
+      - - {x: -102, y: -8}
+        - {x: -102, y: 8}
+        - {x: 102, y: 8}
+        - {x: 102, y: -8}
+      physicsShape:
+      - - {x: -102, y: 8}
+        - {x: -102, y: -8}
+        - {x: 98, y: -8}
+        - {x: 98, y: 0}
+        - {x: 91, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed79feb40e3459c9d115a7e2edba241
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-Mid-Active-Red@2x
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 486
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: -23, y: -13}
+        - {x: -19, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 6}
+        - {x: 11, y: 21}
+        - {x: 7, y: 23}
+        - {x: -13, y: 23}
+        - {x: -23, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ac683ab0e041659b313ac5c5e06961
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-R--Fill-Norm@2x_0
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 486
+        width: 200
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 1, z: 10, w: 0}
+      outline:
+      - - {x: -100, y: -8}
+        - {x: -100, y: 8}
+        - {x: 100, y: 8}
+        - {x: 100, y: -8}
+      physicsShape:
+      - - {x: -100, y: 8}
+        - {x: -100, y: -8}
+        - {x: 100, y: -8}
+        - {x: 100, y: 0}
+        - {x: 93, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652f1419442f45529aee7e8da417990c
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-L-Fill-Red@2x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 762
+        width: 204
+        height: 16
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -102, y: -8}
+        - {x: -102, y: 8}
+        - {x: 102, y: 8}
+        - {x: 102, y: -8}
+      physicsShape:
+      - - {x: -98, y: 8}
+        - {x: -98, y: 4}
+        - {x: -97, y: 1}
+        - {x: -93, y: -6}
+        - {x: -90, y: -8}
+        - {x: 102, y: -8}
+        - {x: 102, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8506a01815bf4aa28236dac373c346a5
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-L-Base@2x_0
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 618
+        width: 204
+        height: 16
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 15, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -102, y: -8}
+        - {x: -102, y: 8}
+        - {x: 102, y: 8}
+        - {x: 102, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ce687e89ff46308c0fb71e0c3df279
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-BoardNum-R@2x
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 558
+        width: 112
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: -24}
+        - {x: -56, y: 24}
+        - {x: 56, y: 24}
+        - {x: 56, y: -24}
+      physicsShape:
+      - - {x: 52, y: -24}
+        - {x: 56, y: -24}
+        - {x: 56, y: -18}
+        - {x: 53, y: -19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5d59cd42424f25b2edb299cad9d304
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-PackVolumn-Red-Norm@2x
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -100}
+        - {x: -100, y: 100}
+        - {x: 100, y: 100}
+        - {x: 100, y: -100}
+      physicsShape:
+      - - {x: -40, y: 42}
+        - {x: -42, y: 41}
+        - {x: -42, y: -37}
+        - {x: -35, y: -42}
+        - {x: 37, y: -42}
+        - {x: 42, y: -38}
+        - {x: 42, y: 42}
+      - - {x: -35, y: 34}
+        - {x: 34, y: 35}
+        - {x: 35, y: -34}
+        - {x: -34, y: -34}
+      - - {x: -13, y: 30}
+        - {x: -20, y: 26}
+        - {x: -20, y: 4}
+        - {x: -17, y: 2}
+        - {x: 20, y: 2}
+        - {x: 20, y: 23}
+        - {x: 17, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e1f431ffbd4798abd2f5038d7ac21f
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-PackVolumn-Red-Active@2x
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 354
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -100}
+        - {x: -100, y: 100}
+        - {x: 100, y: 100}
+        - {x: 100, y: -100}
+      physicsShape:
+      - - {x: -44, y: 49}
+        - {x: -48, y: 45}
+        - {x: -49, y: 34}
+        - {x: -49, y: -46}
+        - {x: -46, y: -49}
+        - {x: 49, y: -49}
+        - {x: 49, y: 43}
+        - {x: 45, y: 49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18c8f2969274d66b7030197d52083e8
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-EnergyBar-R--Base@2x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 782
+        width: 204
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 15, w: 0}
+      outline:
+      - - {x: -102, y: -8}
+        - {x: -102, y: 8}
+        - {x: 102, y: 8}
+        - {x: 102, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428768e6f5f347118c3245e6f005039b
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-BloodPack-Mid-Loading@2x
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: -42, y: -42}
+        - {x: 42, y: -42}
+        - {x: 42, y: 36}
+        - {x: 39, y: 42}
+        - {x: -35, y: 42}
+        - {x: -42, y: 40}
+      - - {x: -23, y: -27}
+        - {x: -28, y: -15}
+        - {x: -24, y: -17}
+        - {x: -15, y: -28}
+      - - {x: 17, y: -24}
+        - {x: 28, y: -15}
+        - {x: 23, y: -28}
+        - {x: 17, y: -28}
+      - - {x: -28, y: 23}
+        - {x: -15, y: 28}
+        - {x: -17, y: 24}
+        - {x: -24, y: 17}
+      - - {x: 26, y: 15}
+        - {x: 24, y: 17}
+        - {x: 28, y: 15}
+        - {x: 29, y: 14}
+        - {x: 28, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c7ca8cdaeb40c4bc9357fcf29da387
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Elements-BloodPack-BoardNum-R@2x: 21300030
+      Elements-BloodPack-PackVolumn-Red-Active@2x: 21300034
+      Elements-BloodPack-EnergyBar-L-Fill-Red@2x_0: 21300026
+      hp_middle_blue_full: 21300014
+      Elements-BloodPack-EnergyBar-R--Fill-Blue@2x_0: 21300020
+      Elements-BloodPack-EnergyBar-L-Fill-Norm@2x_0: 21300016
+      Elements-BloodPack-Mid-Active-Red@2x: 21300022
+      Elements-BloodPack-PackVolumn-Red-Norm@2x: 21300032
+      Elements-BloodPack-BoardNum-L@2x: 21300018
+      Elements-BloodPack-Mid-Active-Blue@2x: 21300000
+      Elements-BloodPack-Mid-Loading@2x: 21300038
+      Elements-BloodPack-EnergyBar-R--Base@2x_0: 21300036
+      Elements-BloodPack-PackVolumn-Blue-Norm@2x: 21300008
+      Elements-BloodPack-EnergyBar-R--Border@2x_0: 21300002
+      Elements-BloodPack-Mid-Norm@2x: 21300010
+      Elements-BloodPack-EnergyBar-R--Fill-Norm@2x_0: 21300024
+      Elements-BloodPack-EnergyBar-L-Border@2x_0: 21300012
+      Elements-BloodPack-EnergyBar-L-Base@2x_0: 21300028
+      Elements-BloodPack-PackVolumn-Blue-Active@2x: 21300006
+      hp_middle_red_full: 21300004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

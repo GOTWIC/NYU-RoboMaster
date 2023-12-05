@@ -40,13 +40,10 @@ public class Bullet : NetworkBehaviour
         // Check if bullet collided with an armor plate
         ArmorPlate armorPlate = other.collider.GetComponentInParent<ArmorPlate>();
 
-        // Return if armor plate is null (didn't hit armor plate)
-        if (!armorPlate) { return; }
-
-        // Deal Damage
-        armorPlate.dealDamage(damage);
-
-        return;
+        // If hit armor plate, deal damage
+        if (armorPlate) {
+            armorPlate.dealDamage(damage);
+        }
 
     }
 

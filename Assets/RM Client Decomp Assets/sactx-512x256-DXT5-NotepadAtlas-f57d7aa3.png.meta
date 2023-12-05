@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: f6e5d5af5896d3b47942fd917ede6891
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: notepad_score_right_0
+  - first:
+      213: 21300002
+    second: notepad_score_left_1
+  - first:
+      213: 21300004
+    second: notepad_score_left_3
+  - first:
+      213: 21300006
+    second: notepad_round_2
+  - first:
+      213: 21300008
+    second: notepad_score_right_1
+  - first:
+      213: 21300010
+    second: notepad_round_left_bg
+  - first:
+      213: 21300012
+    second: notepad_round_5
+  - first:
+      213: 21300014
+    second: notepad_score_left_0
+  - first:
+      213: 21300016
+    second: notepad_score_right_3
+  - first:
+      213: 21300018
+    second: notepad_round_3
+  - first:
+      213: 21300020
+    second: notepad_round_right_bg
+  - first:
+      213: 21300022
+    second: notepad_score_left_2
+  - first:
+      213: 21300024
+    second: notepad_round_middle_bg
+  - first:
+      213: 21300026
+    second: notepad_score_right_2
+  - first:
+      213: 21300028
+    second: notepad_round_4
+  - first:
+      213: 21300030
+    second: notepad_round_1
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: notepad_score_right_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 110
+        width: 45.97325
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5220428, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.01338, y: -24}
+        - {x: -22.98662, y: -24}
+        - {x: -22.98662, y: 18}
+        - {x: -14.98662, y: 24}
+        - {x: 19.01338, y: 24}
+        - {x: 23.01338, y: 23}
+        - {x: 23.01338, y: -14}
+      physicsShape:
+      - - {x: 0.01337624, y: 13}
+        - {x: -6.986624, y: 11}
+        - {x: -9.986624, y: 3}
+        - {x: -9.986624, y: -9.999999}
+        - {x: -7.986624, y: -13}
+        - {x: 4.013376, y: -13}
+        - {x: 12.01338, y: -3}
+        - {x: 12.01338, y: 8}
+        - {x: 11.01338, y: 13}
+      - - {x: 0.01337624, y: -3}
+        - {x: 0.01337624, y: -4}
+        - {x: -0.9866238, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b6b2acbd804bc291a2fe646c289126
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_score_left_1
+      rect:
+        serializedVersion: 2
+        x: 50.02675
+        y: 190
+        width: 43.9465
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5455099, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -23}
+        - {x: -22, y: -5}
+        - {x: -22, y: 24}
+        - {x: 22, y: 24}
+        - {x: 22, y: -24}
+        - {x: -14, y: -24}
+      physicsShape:
+      - - {x: -5.999998, y: 13}
+        - {x: -5.999998, y: 5}
+        - {x: 3.000002, y: -13}
+        - {x: 10, y: -13}
+        - {x: 10, y: -2}
+        - {x: 7.000001, y: 12}
+        - {x: 4.000002, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65f46d72ef0482a98237ab7b07223ce
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_score_left_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 45.92388
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5226039, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.96194, y: -24}
+        - {x: -22.96194, y: -19}
+        - {x: -22.96194, y: 22}
+        - {x: -18.96194, y: 24}
+        - {x: 23.03806, y: 24}
+        - {x: 23.03806, y: -24}
+      physicsShape:
+      - - {x: -8.96194, y: 13}
+        - {x: -9.961941, y: 9.999999}
+        - {x: -9.961941, y: -11}
+        - {x: -2.961941, y: -13}
+        - {x: 10.03806, y: -13}
+        - {x: 11.03806, y: -9.999999}
+        - {x: 11.03806, y: 9.999999}
+        - {x: 4.038059, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9159b0b63984a3588cb6463faa23aa0
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 110
+        width: 88
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -12}
+        - {x: -44, y: 12}
+        - {x: 44, y: 12}
+        - {x: 44, y: -12}
+      physicsShape:
+      - - {x: 2, y: 7}
+        - {x: -9, y: 4}
+        - {x: -26, y: 7}
+        - {x: -32, y: 7}
+        - {x: -34, y: 3}
+        - {x: -34, y: -6}
+        - {x: 9.999999, y: -6}
+        - {x: 9.999999, y: 7}
+      - - {x: 30, y: 7}
+        - {x: 24, y: 7}
+        - {x: 23, y: 6}
+        - {x: 23, y: -6}
+        - {x: 31, y: -6}
+        - {x: 32, y: -4}
+        - {x: 32, y: 6}
+      - - {x: 13, y: 0}
+        - {x: 14, y: -3}
+        - {x: 18, y: -3}
+        - {x: 20, y: -1}
+        - {x: 19, y: 2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4263e8c970254baeb2a81f095f98912e
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_score_right_1
+      rect:
+        serializedVersion: 2
+        x: 346.0268
+        y: 110
+        width: 43.92193
+        height: 47.92388
+      alignment: 9
+      pivot: {x: 0.4547443, y: 0.5007942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.01228, y: -23.96194}
+        - {x: -21.98772, y: -23.96194}
+        - {x: -21.98772, y: 24.03806}
+        - {x: 17.01228, y: 24.03806}
+        - {x: 22.01228, y: 19.03806}
+        - {x: 22.01228, y: 1.038059}
+        - {x: 16.01228, y: -14.96194}
+        - {x: 14.01228, y: -19.96194}
+      physicsShape:
+      - - {x: 4.012283, y: 12.03806}
+        - {x: -2.987717, y: 12.03806}
+        - {x: -5.987717, y: 9.038059}
+        - {x: -8.987717, y: -8.961941}
+        - {x: -8.987717, y: -9.96194}
+        - {x: -6.987716, y: -11.96194}
+        - {x: -3.987717, y: -11.96194}
+        - {x: -0.9877167, y: -9.96194}
+        - {x: 5.012283, y: 3.038059}
+        - {x: 5.012283, y: 10.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cff6fd7d20348b3b3cd306df3f84562
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_left_bg
+      rect:
+        serializedVersion: 2
+        x: 418.006
+        y: 0
+        width: 87.98805
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -28}
+        - {x: -44, y: 18}
+        - {x: -44, y: 27}
+        - {x: -43, y: 28}
+        - {x: 16, y: 28}
+        - {x: 44, y: -18}
+        - {x: 44, y: -26}
+        - {x: 42, y: -28}
+      physicsShape:
+      - - {x: 13, y: 28}
+        - {x: -5.999996, y: 28}
+        - {x: -4.999996, y: 25}
+        - {x: 18, y: -25}
+        - {x: 16, y: -27}
+        - {x: 16, y: -28}
+        - {x: 42, y: -28}
+        - {x: 43, y: -25}
+        - {x: 43, y: -21}
+        - {x: 17, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2feb655ff4484948840e4c5e1cc4500c
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 162
+        width: 88
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -12}
+        - {x: -44, y: 12}
+        - {x: 44, y: 12}
+        - {x: 44, y: -12}
+      physicsShape:
+      - - {x: 2, y: 7}
+        - {x: -9, y: 4}
+        - {x: -26, y: 7}
+        - {x: -32, y: 7}
+        - {x: -34, y: 3}
+        - {x: -34, y: -6}
+        - {x: 9.999999, y: -6}
+        - {x: 9.999999, y: 7}
+      - - {x: 25, y: 7}
+        - {x: 23, y: 6}
+        - {x: 23, y: -4}
+        - {x: 24, y: -6}
+        - {x: 31, y: -6}
+        - {x: 32, y: -4}
+        - {x: 32, y: 6}
+        - {x: 31, y: 7}
+      - - {x: 13, y: 0}
+        - {x: 14, y: -3}
+        - {x: 18, y: -3}
+        - {x: 20, y: -1}
+        - {x: 19, y: 2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfef0e6d2694c91aebdb634c30b9fdc
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_score_left_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 110
+        width: 46.92388
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5114667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.46194, y: -24}
+        - {x: -23.46194, y: -16}
+        - {x: -23.46194, y: 22}
+        - {x: -21.46194, y: 24}
+        - {x: 14.53806, y: 24}
+        - {x: 23.53806, y: 4}
+        - {x: 23.53806, y: -24}
+      physicsShape:
+      - - {x: -8.461939, y: 13}
+        - {x: -10.46194, y: 8}
+        - {x: -10.46194, y: -9.999999}
+        - {x: -2.461939, y: -13}
+        - {x: 11.53806, y: -13}
+        - {x: 11.53806, y: 0}
+        - {x: 4.538061, y: 13}
+      - - {x: -1.461939, y: 4}
+        - {x: -0.4619389, y: 4}
+        - {x: -0.4619389, y: 2}
+        - {x: 0.5380611, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506be6e2f5f446caabf5b6ff7e47b7ee
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_score_right_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 110
+        width: 46.92388
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5114667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.46194, y: -24}
+        - {x: -23.46194, y: -23}
+        - {x: -23.46194, y: 22}
+        - {x: -16.46194, y: 24}
+        - {x: 18.53806, y: 24}
+        - {x: 23.53806, y: 14}
+        - {x: 23.53806, y: -15}
+        - {x: 17.53806, y: -24}
+      physicsShape:
+      - - {x: 11.53806, y: 8}
+        - {x: 8.538061, y: 13}
+        - {x: -1.461939, y: 13}
+        - {x: -8.461939, y: 9}
+        - {x: -7.461939, y: 6}
+        - {x: -9.461938, y: 2}
+        - {x: -9.461938, y: -11}
+        - {x: -8.461939, y: -13}
+        - {x: 2.538061, y: -13}
+        - {x: 5.538061, y: -12}
+        - {x: 9.538061, y: -9}
+        - {x: 11.53806, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cddd4544a441d3b5a21cdce06f616d
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 138
+        width: 88
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -12}
+        - {x: -44, y: 12}
+        - {x: 44, y: 12}
+        - {x: 44, y: -12}
+      physicsShape:
+      - - {x: 2, y: 7}
+        - {x: -9, y: 4}
+        - {x: -26, y: 7}
+        - {x: -32, y: 7}
+        - {x: -34, y: 3}
+        - {x: -34, y: -6}
+        - {x: 9.999999, y: -6}
+        - {x: 9.999999, y: 7}
+      - - {x: 24, y: 7}
+        - {x: 23, y: 4}
+        - {x: 23, y: -6}
+        - {x: 32, y: -6}
+        - {x: 32, y: 4}
+        - {x: 29, y: 7}
+      - - {x: 13, y: 0}
+        - {x: 14, y: -3}
+        - {x: 18, y: -3}
+        - {x: 20, y: -1}
+        - {x: 19, y: 2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d537af10817040a7ade733b00079aefd
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_right_bg
+      rect:
+        serializedVersion: 2
+        x: 418.0268
+        y: 60
+        width: 87.97282
+        height: 56
+      alignment: 9
+      pivot: {x: 0.4998504, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.01316, y: -28}
+        - {x: -44.01316, y: -25}
+        - {x: -44.01316, y: -20}
+        - {x: -19.01316, y: 28}
+        - {x: 43.98684, y: 28}
+        - {x: 43.98684, y: 24}
+        - {x: 40.98684, y: 16}
+        - {x: 29.98684, y: -5}
+        - {x: 14.98684, y: -28}
+      physicsShape:
+      - - {x: -14.01316, y: 28}
+        - {x: -26.01316, y: 9.999999}
+        - {x: -41.01316, y: -16}
+        - {x: -43.01316, y: -23}
+        - {x: -43.01316, y: -27}
+        - {x: -41.01316, y: -28}
+        - {x: -16.01316, y: -28}
+        - {x: -16.01316, y: -23}
+        - {x: 5.986839, y: 27}
+        - {x: 5.986839, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad86b304dc1472d9d193c47fe031d5e
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_score_left_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 110
+        width: 46.92388
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5114667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.46194, y: -22}
+        - {x: -23.46194, y: -18}
+        - {x: -23.46194, y: 24}
+        - {x: 19.53806, y: 24}
+        - {x: 22.53806, y: 12}
+        - {x: 23.53806, y: -5}
+        - {x: 23.53806, y: -24}
+        - {x: -21.46194, y: -24}
+      physicsShape:
+      - - {x: 9.538061, y: 8}
+        - {x: 2.538061, y: 13}
+        - {x: -5.461939, y: 13}
+        - {x: -10.46194, y: 12}
+        - {x: -10.46194, y: -12}
+        - {x: -5.461939, y: -13}
+        - {x: 11.53806, y: -13}
+        - {x: 11.53806, y: -9}
+        - {x: 9.538061, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679c024e17fb40cda0602d428ba4f86c
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_middle_bg
+      rect:
+        serializedVersion: 2
+        x: 0.05972672
+        y: 0.07612038
+        width: 413.9135
+        height: 105.9239
+      alignment: 9
+      pivot: {x: 0.4999602, y: 0.4335555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.01648, y: -53.03806}
+        - {x: -207.0165, y: 24.96194}
+        - {x: -207.0165, y: 52.96194}
+        - {x: 206.9835, y: 52.96194}
+        - {x: 206.9835, y: 36.96194}
+        - {x: 185.9835, y: 24.96194}
+        - {x: 67.98352, y: -31.03806}
+        - {x: 44.98352, y: -53.03806}
+      physicsShape:
+      - - {x: 63.98352, y: 0.9619408}
+        - {x: 58.98352, y: -7.038059}
+        - {x: 28.98352, y: -29.03806}
+        - {x: -46.01648, y: -28.03806}
+        - {x: -65.01648, y: 1.961941}
+        - {x: -69.01648, y: 2.96194}
+        - {x: -72.01648, y: 2.96194}
+        - {x: -72.01648, y: -1.038059}
+        - {x: -63.01648, y: -25.03806}
+        - {x: -49.01648, y: -37.03806}
+        - {x: 41.98352, y: -37.03806}
+        - {x: 51.98352, y: -36.03806}
+        - {x: 69.98352, y: -4.038059}
+        - {x: 69.98352, y: 2.96194}
+        - {x: 66.98351, y: 2.96194}
+      - - {x: -50.01648, y: 31.96194}
+        - {x: -49.01648, y: 28.96194}
+        - {x: 45.98352, y: 28.96194}
+        - {x: 47.98352, y: 30.96194}
+        - {x: 46.98352, y: 33.96194}
+        - {x: -48.01648, y: 33.96194}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d7c68d8d8a46baa4176c6c44c5456c
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_score_right_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 46.97325
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5109291, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.51338, y: -24}
+        - {x: -23.48662, y: -24}
+        - {x: -23.48662, y: 22}
+        - {x: -18.48662, y: 24}
+        - {x: 21.51338, y: 24}
+        - {x: 23.51338, y: 18}
+        - {x: 23.51338, y: -18}
+        - {x: 19.51338, y: -23}
+      physicsShape:
+      - - {x: -10.48662, y: 13}
+        - {x: -10.48662, y: -13}
+        - {x: 5.513376, y: -13}
+        - {x: 11.51338, y: -12}
+        - {x: 11.51338, y: 8}
+        - {x: 8.513376, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59484c916adc457f80e4bb0b3c40bb45
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 162
+        width: 88
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -12}
+        - {x: -44, y: 12}
+        - {x: 44, y: 12}
+        - {x: 44, y: -12}
+      physicsShape:
+      - - {x: 2, y: 7}
+        - {x: -9, y: 4}
+        - {x: -26, y: 7}
+        - {x: -32, y: 7}
+        - {x: -34, y: 3}
+        - {x: -34, y: -6}
+        - {x: 9.999999, y: -6}
+        - {x: 9.999999, y: 7}
+      - - {x: 24, y: 5}
+        - {x: 23, y: 0}
+        - {x: 23, y: -4}
+        - {x: 26, y: -6}
+        - {x: 33, y: -6}
+        - {x: 33, y: 6}
+        - {x: 30, y: 7}
+        - {x: 28, y: 7}
+      - - {x: 13, y: 0}
+        - {x: 14, y: -3}
+        - {x: 18, y: -3}
+        - {x: 20, y: -1}
+        - {x: 19, y: 2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630b8ebda70244288939ec6a6fbbf0c9
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepad_round_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 166
+        width: 88
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -12}
+        - {x: -44, y: 12}
+        - {x: 44, y: 12}
+        - {x: 44, y: -12}
+      physicsShape:
+      - - {x: 2, y: 7}
+        - {x: -9, y: 4}
+        - {x: -26, y: 7}
+        - {x: -32, y: 7}
+        - {x: -34, y: 3}
+        - {x: -34, y: -6}
+        - {x: 9.999999, y: -6}
+        - {x: 9.999999, y: 7}
+      - - {x: 26, y: 7}
+        - {x: 24, y: 5}
+        - {x: 24, y: -5}
+        - {x: 27, y: -6}
+        - {x: 30, y: -6}
+        - {x: 31, y: -4}
+        - {x: 31, y: 5}
+        - {x: 29, y: 7}
+      - - {x: 13, y: 0}
+        - {x: 14, y: -3}
+        - {x: 18, y: -3}
+        - {x: 20, y: -1}
+        - {x: 19, y: 2}
+        - {x: 15, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38b7a9aea394078ae8a2f1aeb9dffef
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      notepad_round_3: 21300018
+      notepad_round_middle_bg: 21300024
+      notepad_round_left_bg: 21300010
+      notepad_score_left_0: 21300014
+      notepad_round_1: 21300030
+      notepad_score_left_3: 21300004
+      notepad_score_right_3: 21300016
+      notepad_score_right_0: 21300000
+      notepad_round_5: 21300012
+      notepad_round_right_bg: 21300020
+      notepad_score_right_2: 21300026
+      notepad_round_4: 21300028
+      notepad_score_left_2: 21300022
+      notepad_score_left_1: 21300002
+      notepad_round_2: 21300006
+      notepad_score_right_1: 21300008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

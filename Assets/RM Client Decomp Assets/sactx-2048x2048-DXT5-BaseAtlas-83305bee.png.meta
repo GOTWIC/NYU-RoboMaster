@@ -1,0 +1,1754 @@
+fileFormatVersion: 2
+guid: 7e5291e4b763c654bb5ebae93b12885c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: red_base_border_normal
+  - first:
+      213: 21300002
+    second: red_base_blood_bottom
+  - first:
+      213: 21300004
+    second: red_base_armor_full
+  - first:
+      213: 21300006
+    second: red_base_blood_border
+  - first:
+      213: 21300008
+    second: red_base_blood_invincible
+  - first:
+      213: 21300010
+    second: blue_base_blood_light
+  - first:
+      213: 21300012
+    second: blue_base_cover
+  - first:
+      213: 21300014
+    second: red_base_border_invincible
+  - first:
+      213: 21300016
+    second: blue_base_blood_top_full
+  - first:
+      213: 21300018
+    second: red_base_blood_top
+  - first:
+      213: 21300020
+    second: blue_base_border_invincible
+  - first:
+      213: 21300022
+    second: red_base_armor
+  - first:
+      213: 21300024
+    second: red_base_name_shade
+  - first:
+      213: 21300026
+    second: Elements-Blood-Base-Shiled-Blue-Base@2x
+  - first:
+      213: 21300028
+    second: blue_base_blood_border
+  - first:
+      213: 21300030
+    second: blue_base_blood_middle
+  - first:
+      213: 21300032
+    second: 7mins-bg-Mask@2x
+  - first:
+      213: 21300034
+    second: blue_base_armor_full
+  - first:
+      213: 21300036
+    second: red_base_cover
+  - first:
+      213: 21300038
+    second: blue_base_blood_bottom
+  - first:
+      213: 21300040
+    second: red_base_blood_light
+  - first:
+      213: 21300042
+    second: blue_base_armor
+  - first:
+      213: 21300044
+    second: red_base_blood_middle_full
+  - first:
+      213: 21300046
+    second: red_base_blood_top_full
+  - first:
+      213: 21300048
+    second: blue_base_blood_middle_lowhp_0
+  - first:
+      213: 21300050
+    second: blue_base_name_shade
+  - first:
+      213: 21300052
+    second: blue_base_blood_top
+  - first:
+      213: 21300054
+    second: blue_base_armor_new
+  - first:
+      213: 21300056
+    second: base_college_icon
+  - first:
+      213: 21300058
+    second: blue_base_border_normal
+  - first:
+      213: 21300060
+    second: red_base_blood_middle
+  - first:
+      213: 21300062
+    second: red_base_blood_middle_lowhp_0
+  - first:
+      213: 21300064
+    second: blue_base_blood_middle_full
+  - first:
+      213: 21300066
+    second: red_base_armor_new
+  - first:
+      213: 21300068
+    second: blue_base_blood_invincible
+  - first:
+      213: 21300070
+    second: Elements-Blood-Base-Shiled-Red-Base@2x
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red_base_border_normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 533.9239
+        height: 224
+      alignment: 9
+      pivot: {x: 0.50569, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 263.0381, y: -112}
+        - {x: -266.9619, y: -112}
+        - {x: -266.9619, y: 112}
+        - {x: 162.0381, y: 112}
+        - {x: 169.0381, y: 109}
+        - {x: 177.0381, y: 101}
+        - {x: 182.0381, y: 91}
+        - {x: 185.0381, y: 90}
+        - {x: 187.0381, y: 88}
+        - {x: 187.0381, y: 83}
+        - {x: 191.0381, y: 81}
+        - {x: 191.0381, y: 77}
+        - {x: 189.0381, y: 75}
+        - {x: 195.0381, y: 67}
+        - {x: 197.0381, y: 60}
+        - {x: 201.0381, y: 50}
+        - {x: 208.0381, y: 35}
+        - {x: 210.0381, y: 35}
+        - {x: 216.0381, y: 29}
+        - {x: 215.038, y: 22}
+        - {x: 218.0381, y: 22}
+        - {x: 219.0381, y: 19}
+        - {x: 216.0381, y: 17}
+        - {x: 218.0381, y: 13}
+        - {x: 221.0381, y: 11}
+        - {x: 223.0381, y: 9}
+        - {x: 223.0381, y: 1}
+        - {x: 235.0381, y: -20}
+        - {x: 240.038, y: -25}
+        - {x: 241.0381, y: -30}
+        - {x: 243.0381, y: -32}
+        - {x: 243.0381, y: -39}
+        - {x: 242.0381, y: -40}
+        - {x: 248.0381, y: -50}
+        - {x: 250.0381, y: -52}
+        - {x: 250.0381, y: -57}
+        - {x: 260.0381, y: -76}
+        - {x: 267.0381, y: -83}
+        - {x: 267.0381, y: -88}
+        - {x: 266.0381, y: -91}
+        - {x: 266.0381, y: -101}
+        - {x: 265.0381, y: -104}
+      physicsShape:
+      - - {x: -226.9619, y: 20}
+        - {x: -227.9619, y: 89}
+        - {x: -225.9619, y: 106}
+        - {x: -119.9619, y: 106}
+        - {x: -117.9619, y: 108}
+        - {x: -117.9619, y: 112}
+        - {x: -260.9619, y: 112}
+        - {x: -266.9619, y: 106}
+        - {x: -266.9619, y: -106}
+        - {x: -265.9619, y: -107}
+        - {x: -259.9619, y: -112}
+        - {x: -225.9619, y: -112}
+        - {x: -222.9619, y: -110}
+        - {x: -226.9619, y: -97.99999}
+        - {x: -229.9619, y: -51}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e78b0828524642b1a3c138050620a4
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_bottom
+      rect:
+        serializedVersion: 2
+        x: 0.02675247
+        y: 1723.076
+        width: 836.9733
+        height: 71.87257
+      alignment: 9
+      pivot: {x: 0.4742962, y: 0.5276545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -415.5134, y: 17.9876}
+        - {x: -417.5134, y: 20.9876}
+        - {x: -417.5134, y: 23.9876}
+        - {x: -418.5134, y: 24.9876}
+        - {x: -418.5134, y: 27.9876}
+        - {x: -416.5134, y: 32.9876}
+        - {x: -411.5134, y: 35.9876}
+        - {x: 418.4866, y: 35.9876}
+        - {x: 418.4866, y: -36.0124}
+        - {x: -378.5134, y: -36.0124}
+        - {x: -379.5134, y: -35.0124}
+        - {x: -381.5134, y: -35.0124}
+        - {x: -391.5134, y: -25.0124}
+        - {x: -397.5134, y: -13.0124}
+        - {x: -399.5134, y: -11.0124}
+        - {x: -401.5134, y: -6.012402}
+        - {x: -403.5134, y: -4.012402}
+        - {x: -404.5134, y: -1.012402}
+        - {x: -406.5134, y: 0.9875984}
+        - {x: -408.5134, y: 5.987598}
+        - {x: -410.5134, y: 7.987598}
+      physicsShape:
+      - - {x: -415.5134, y: 35.9876}
+        - {x: -417.5134, y: 30.9876}
+        - {x: -417.5134, y: 16.9876}
+        - {x: -390.5134, y: -28.0124}
+        - {x: -379.5134, y: -36.0124}
+        - {x: 418.4866, y: -36.0124}
+        - {x: 418.4866, y: 35.9876}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9580bd75e660440c958d93853c63d7c2
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_armor_full
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1371
+        width: 96
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -52}
+        - {x: -48, y: 52}
+        - {x: 48, y: 52}
+        - {x: 48, y: -52}
+      physicsShape:
+      - - {x: 11, y: 36}
+        - {x: -39, y: 36}
+        - {x: -43, y: 30}
+        - {x: -44, y: 28}
+        - {x: -44, y: 22}
+        - {x: -17, y: -26}
+        - {x: -14, y: -36}
+        - {x: 48, y: -36}
+        - {x: 48, y: -29}
+        - {x: 14, y: 34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba70ad329fd04399ab3dcd8f108d21a8
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_border
+      rect:
+        serializedVersion: 2
+        x: 0.02675247
+        y: 1803.076
+        width: 836.9733
+        height: 71.87257
+      alignment: 9
+      pivot: {x: 0.4742962, y: 0.5276545}
+      border: {x: 1.973248, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -384.5134, y: -36.0124}
+        - {x: -418.5134, y: 9.987598}
+        - {x: -418.5134, y: 33.9876}
+        - {x: -411.5134, y: 35.9876}
+        - {x: 418.4866, y: 35.9876}
+        - {x: 418.4866, y: -36.0124}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2455ea7b448a4bda8244bd1569a7cc70
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_invincible
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 671
+        width: 880
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -440, y: -52}
+        - {x: -440, y: 52}
+        - {x: 440, y: 52}
+        - {x: 440, y: -52}
+      physicsShape:
+      - - {x: -391, y: 34}
+        - {x: -397, y: 31}
+        - {x: -397, y: 9.999999}
+        - {x: -362, y: -38}
+        - {x: 440, y: -38}
+        - {x: 440, y: 35}
+        - {x: -388, y: 35}
+      - - {x: -385, y: 16}
+        - {x: -378, y: 28}
+        - {x: 428, y: 28}
+        - {x: 428, y: -32}
+        - {x: -352, y: -32}
+        - {x: -353, y: -31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c6f28a307745009b084d64141ecbab
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_light
+      rect:
+        serializedVersion: 2
+        x: 888.0761
+        y: 895.0761
+        width: 909.8972
+        height: 79.84776
+      alignment: 9
+      pivot: {x: 0.5142602, y: 0.6001906}
+      border: {x: 2.92388, y: 0, z: 1.973274, w: 0}
+      outline:
+      - - {x: 415.9753, y: -40}
+        - {x: -450.0247, y: -40}
+        - {x: -455.0247, y: -37}
+        - {x: -455.0247, y: 35}
+        - {x: -452.0247, y: 40}
+        - {x: 405.9753, y: 40}
+        - {x: 454.9753, y: 39}
+        - {x: 454.9753, y: 18}
+        - {x: 427.9753, y: -30}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e90743d180426d8dcc926b116fb317
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_cover
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1251
+        width: 128
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -56}
+        - {x: -64, y: 56}
+        - {x: 64, y: 56}
+        - {x: 64, y: -56}
+      physicsShape:
+      - - {x: -46, y: 38}
+        - {x: -46, y: -38}
+        - {x: 6, y: -38}
+        - {x: 46, y: 33}
+        - {x: 46, y: 37}
+        - {x: 44, y: 38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375170a797f54f618d86802e61303e76
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_border_invincible
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 671
+        width: 533.9239
+        height: 224
+      alignment: 9
+      pivot: {x: 0.50569, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 263.0381, y: -112}
+        - {x: -266.9619, y: -112}
+        - {x: -266.9619, y: 112}
+        - {x: 162.0381, y: 112}
+        - {x: 169.0381, y: 109}
+        - {x: 177.0381, y: 101}
+        - {x: 182.0381, y: 91}
+        - {x: 185.0381, y: 90}
+        - {x: 187.0381, y: 88}
+        - {x: 187.0381, y: 83}
+        - {x: 191.0381, y: 81}
+        - {x: 191.0381, y: 77}
+        - {x: 189.0381, y: 75}
+        - {x: 195.0381, y: 67}
+        - {x: 197.0381, y: 60}
+        - {x: 201.0381, y: 50}
+        - {x: 208.0381, y: 35}
+        - {x: 210.0381, y: 35}
+        - {x: 216.0381, y: 29}
+        - {x: 215.038, y: 22}
+        - {x: 218.0381, y: 22}
+        - {x: 219.0381, y: 19}
+        - {x: 216.0381, y: 17}
+        - {x: 218.0381, y: 13}
+        - {x: 221.0381, y: 11}
+        - {x: 223.0381, y: 9}
+        - {x: 223.0381, y: 1}
+        - {x: 235.0381, y: -20}
+        - {x: 240.038, y: -25}
+        - {x: 241.0381, y: -30}
+        - {x: 243.0381, y: -32}
+        - {x: 243.0381, y: -39}
+        - {x: 242.0381, y: -40}
+        - {x: 248.0381, y: -50}
+        - {x: 250.0381, y: -52}
+        - {x: 250.0381, y: -57}
+        - {x: 260.0381, y: -76}
+        - {x: 267.0381, y: -83}
+        - {x: 267.0381, y: -88}
+        - {x: 266.0381, y: -91}
+        - {x: 266.0381, y: -101}
+        - {x: 265.0381, y: -104}
+      physicsShape:
+      - - {x: -226.9619, y: 20}
+        - {x: -227.9619, y: 89}
+        - {x: -225.9619, y: 106}
+        - {x: -119.9619, y: 106}
+        - {x: -117.9619, y: 108}
+        - {x: -117.9619, y: 112}
+        - {x: -260.9619, y: 112}
+        - {x: -266.9619, y: 106}
+        - {x: -266.9619, y: -106}
+        - {x: -265.9619, y: -107}
+        - {x: -259.9619, y: -112}
+        - {x: -225.9619, y: -112}
+        - {x: -222.9619, y: -110}
+        - {x: -226.9619, y: -97.99999}
+        - {x: -229.9619, y: -51}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41087f0a4e14ca29151008cdc882f44
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_top_full
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1103
+        width: 840
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 80, w: 0}
+      outline:
+      - - {x: -420, y: -42}
+        - {x: -420, y: 42}
+        - {x: 420, y: 42}
+        - {x: 420, y: -42}
+      physicsShape:
+      - - {x: -420, y: 36}
+        - {x: -420, y: -36}
+        - {x: 382, y: -36}
+        - {x: 416, y: 12}
+        - {x: 416, y: 33}
+        - {x: 415, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a96d7668bd047fba3faf54475e137a1
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_top
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1195
+        width: 840
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 39, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -420, y: -42}
+        - {x: -420, y: 42}
+        - {x: 420, y: 42}
+        - {x: 420, y: -42}
+      physicsShape:
+      - - {x: -420, y: 28}
+        - {x: -385, y: -32}
+        - {x: -381, y: -36}
+        - {x: 420, y: -36}
+        - {x: 420, y: 36}
+        - {x: -420, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f26fd2b636e41438524c210f8b4fce6
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_border_invincible
+      rect:
+        serializedVersion: 2
+        x: 542.0761
+        y: 439
+        width: 533.9239
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4943099, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -265.0381, y: -104}
+        - {x: -266.0381, y: -101}
+        - {x: -266.0381, y: -91}
+        - {x: -267.0381, y: -88}
+        - {x: -267.0381, y: -85}
+        - {x: -265.0381, y: -83}
+        - {x: -263.0381, y: -83}
+        - {x: -250.0381, y: -57}
+        - {x: -250.0381, y: -51}
+        - {x: -246.0381, y: -47}
+        - {x: -243.0381, y: -42}
+        - {x: -244.0381, y: -31}
+        - {x: -238.038, y: -24}
+        - {x: -236.0381, y: -25}
+        - {x: -227.0381, y: -8}
+        - {x: -227.0381, y: -6}
+        - {x: -223.0381, y: 1}
+        - {x: -223.0381, y: 8}
+        - {x: -221.0381, y: 10}
+        - {x: -220.0381, y: 10}
+        - {x: -216.0381, y: 17}
+        - {x: -219.0381, y: 19}
+        - {x: -219.0381, y: 20}
+        - {x: -215.038, y: 28}
+        - {x: -211.0381, y: 33}
+        - {x: -209.0381, y: 34}
+        - {x: -197.0381, y: 57}
+        - {x: -197.0381, y: 60}
+        - {x: -195.0381, y: 68}
+        - {x: -191.0381, y: 71}
+        - {x: -191.0381, y: 80}
+        - {x: -187.0381, y: 88}
+        - {x: -185.0381, y: 90}
+        - {x: -183.0381, y: 90}
+        - {x: -177.0381, y: 101}
+        - {x: -169.0381, y: 109}
+        - {x: -162.0381, y: 112}
+        - {x: 266.9619, y: 112}
+        - {x: 266.9619, y: -112}
+        - {x: -263.0381, y: -112}
+        - {x: -263.0381, y: -106}
+      physicsShape:
+      - - {x: 260.9619, y: 112}
+        - {x: 108.9619, y: 112}
+        - {x: 109.9619, y: 109}
+        - {x: 115.9619, y: 106}
+        - {x: 226.9619, y: 106}
+        - {x: 226.9619, y: 91}
+        - {x: 228.9619, y: 74}
+        - {x: 227.9619, y: 61}
+        - {x: 228.9619, y: 30}
+        - {x: 227.9619, y: 19}
+        - {x: 228.9619, y: 7}
+        - {x: 228.9619, y: -61}
+        - {x: 227.9619, y: -85}
+        - {x: 219.9619, y: -108}
+        - {x: 224.9619, y: -112}
+        - {x: 262.9619, y: -112}
+        - {x: 266.9619, y: -106}
+        - {x: 266.9619, y: 106}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7686c10227384178a8dd9f5420c3ef20
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_armor
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 671
+        width: 100
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -80}
+        - {x: -50, y: 80}
+        - {x: 50, y: 80}
+        - {x: 50, y: -80}
+      physicsShape:
+      - - {x: 18, y: 32}
+        - {x: 14, y: 38}
+        - {x: -50, y: 38}
+        - {x: -50, y: 32}
+        - {x: -45, y: 20}
+        - {x: -14, y: -30}
+        - {x: 50, y: -30}
+        - {x: 50, y: -24}
+        - {x: 45, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1719af2191147beaae03b7e6f15845f
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_name_shade
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1195
+        width: 60
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -16}
+        - {x: -30, y: 16}
+        - {x: 30, y: 16}
+        - {x: 30, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53927d48314a4ebb9777eab524f09aa2
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-Blood-Base-Shiled-Blue-Base@2x
+      rect:
+        serializedVersion: 2
+        x: 1538.268
+        y: 671
+        width: 220.7316
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4563545, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.36607, y: -20}
+        - {x: -110.6339, y: -20}
+        - {x: -110.6339, y: 3}
+        - {x: -106.6339, y: 20}
+        - {x: 109.3661, y: 20}
+        - {x: 110.3661, y: 19}
+        - {x: 110.3661, y: 10}
+      physicsShape:
+      - - {x: 108.3661, y: 20}
+        - {x: 47.36607, y: 20}
+        - {x: 43.36606, y: 16}
+        - {x: 43.36606, y: -20}
+        - {x: 89.36606, y: -20}
+        - {x: 96.36606, y: -11}
+        - {x: 109.3661, y: 12}
+        - {x: 109.3661, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651952a2d29840399904d93e8ce99166
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_border
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1563.076
+        width: 836.9733
+        height: 71.89713
+      alignment: 9
+      pivot: {x: 0.5257038, y: 0.5274742}
+      border: {x: 0, y: 0, z: 1.973267, w: 0}
+      outline:
+      - - {x: -418.4866, y: -36.02468}
+        - {x: -418.4866, y: 35.97532}
+        - {x: 418.5134, y: 35.97532}
+        - {x: 418.5134, y: 12.97532}
+        - {x: 405.5134, y: -23.02468}
+        - {x: 381.5134, y: -35.02468}
+        - {x: 378.5134, y: -36.02468}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04154e735b3b461aa1e90541867f25dc
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_middle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1643.076
+        width: 840
+        height: 71.63099
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5015131}
+      border: {x: 0, y: 0, z: 39, w: 0}
+      outline:
+      - - {x: 382, y: -35.89161}
+        - {x: -420, y: -35.89161}
+        - {x: -420, y: 36.10839}
+        - {x: 420, y: 36.10839}
+        - {x: 420, y: 27.10839}
+        - {x: 417, y: 22.10839}
+        - {x: 415, y: 20.10839}
+        - {x: 413, y: 15.10839}
+        - {x: 411, y: 13.10839}
+        - {x: 409, y: 8.108387}
+        - {x: 407, y: 6.108387}
+        - {x: 402, y: -3.891613}
+        - {x: 400, y: -5.891613}
+        - {x: 398, y: -10.89161}
+        - {x: 396, y: -12.89161}
+        - {x: 394, y: -17.89161}
+        - {x: 392, y: -19.89161}
+        - {x: 390, y: -24.89161}
+        - {x: 388, y: -26.89161}
+        - {x: 387, y: -29.89161}
+        - {x: 385, y: -31.89161}
+        - {x: 384, y: -34.89161}
+      physicsShape:
+      - - {x: -420, y: 36.10839}
+        - {x: -420, y: -35.89161}
+        - {x: 383, y: -35.89161}
+        - {x: 396, y: -27.89161}
+        - {x: 420, y: 28.10839}
+        - {x: 420, y: 36.10839}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f740f887f8746c6aa72d4ddd50eee16
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7mins-bg-Mask@2x
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.07611084
+        width: 2048
+        height: 262.9239
+      alignment: 9
+      pivot: {x: 0.5, y: -1.190748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 159, y: -85.53806}
+        - {x: 157, y: -83.53806}
+        - {x: 157, y: -81.53806}
+        - {x: 155, y: -79.53806}
+        - {x: 152, y: -79.53806}
+        - {x: 150, y: -81.53806}
+        - {x: 143, y: -81.53806}
+        - {x: 141, y: -83.53806}
+        - {x: 130, y: -83.53806}
+        - {x: 128, y: -85.53806}
+        - {x: 119, y: -85.53806}
+        - {x: 116, y: -88.53806}
+        - {x: 108, y: -88.53806}
+        - {x: 106, y: -90.53806}
+        - {x: 95, y: -90.53806}
+        - {x: 93, y: -92.53806}
+        - {x: 82, y: -92.53806}
+        - {x: 79, y: -95.53806}
+        - {x: 66, y: -95.53806}
+        - {x: 64, y: -97.53806}
+        - {x: 49, y: -97.53806}
+        - {x: 47, y: -99.53806}
+        - {x: -47, y: -99.53806}
+        - {x: -49, y: -97.53806}
+        - {x: -64, y: -97.53806}
+        - {x: -66, y: -95.53806}
+        - {x: -79, y: -95.53806}
+        - {x: -82, y: -92.53806}
+        - {x: -93, y: -92.53806}
+        - {x: -95, y: -90.53806}
+        - {x: -106, y: -90.53806}
+        - {x: -108, y: -88.53806}
+        - {x: -116, y: -88.53806}
+        - {x: -119, y: -85.53806}
+        - {x: -128, y: -85.53806}
+        - {x: -130, y: -83.53806}
+        - {x: -141, y: -83.53806}
+        - {x: -143, y: -81.53806}
+        - {x: -150, y: -81.53806}
+        - {x: -152, y: -79.53806}
+        - {x: -155, y: -79.53806}
+        - {x: -157, y: -81.53806}
+        - {x: -157, y: -84.53806}
+        - {x: -159, y: -85.53806}
+        - {x: -170, y: -95.53806}
+        - {x: -170, y: -96.53806}
+        - {x: -175, y: -100.5381}
+        - {x: -176, y: -100.5381}
+        - {x: -177, y: -102.5381}
+        - {x: -181, y: -105.5381}
+        - {x: -184, y: -105.5381}
+        - {x: -188, y: -109.5381}
+        - {x: -190, y: -109.5381}
+        - {x: -192, y: -111.5381}
+        - {x: -194, y: -111.5381}
+        - {x: -196, y: -113.5381}
+        - {x: -199, y: -113.5381}
+        - {x: -201, y: -115.5381}
+        - {x: -205, y: -115.5381}
+        - {x: -207, y: -117.5381}
+        - {x: -209, y: -117.5381}
+        - {x: -210, y: -119.5381}
+        - {x: -212, y: -120.5381}
+        - {x: -218, y: -120.5381}
+        - {x: -220, y: -122.5381}
+        - {x: -227, y: -122.5381}
+        - {x: -229, y: -124.5381}
+        - {x: -238, y: -124.5381}
+        - {x: -241, y: -127.5381}
+        - {x: -252, y: -127.5381}
+        - {x: -254, y: -129.5381}
+        - {x: -276, y: -129.5381}
+        - {x: -278, y: -131.5381}
+        - {x: -1022, y: -131.5381}
+        - {x: -1024, y: -129.5381}
+        - {x: -1024, y: 131.4619}
+        - {x: 1024, y: 131.4619}
+        - {x: 1024, y: -129.5381}
+        - {x: 1022, y: -131.5381}
+        - {x: 278, y: -131.5381}
+        - {x: 276, y: -129.5381}
+        - {x: 254, y: -129.5381}
+        - {x: 252, y: -127.5381}
+        - {x: 241, y: -127.5381}
+        - {x: 238, y: -124.5381}
+        - {x: 229, y: -124.5381}
+        - {x: 227, y: -122.5381}
+        - {x: 220, y: -122.5381}
+        - {x: 218, y: -120.5381}
+        - {x: 211, y: -120.5381}
+        - {x: 210, y: -117.5381}
+        - {x: 207, y: -117.5381}
+        - {x: 205, y: -115.5381}
+        - {x: 201, y: -115.5381}
+        - {x: 199, y: -113.5381}
+        - {x: 196, y: -113.5381}
+        - {x: 194, y: -111.5381}
+        - {x: 192, y: -111.5381}
+        - {x: 190, y: -109.5381}
+        - {x: 188, y: -109.5381}
+        - {x: 184, y: -105.5381}
+        - {x: 181, y: -105.5381}
+        - {x: 177, y: -101.5381}
+        - {x: 171, y: -98.53806}
+        - {x: 170, y: -96.53806}
+        - {x: 160, y: -85.53806}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37873a7145e94be6b91d831f6be7abbf
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_armor_full
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1371
+        width: 96
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -52}
+        - {x: -48, y: 52}
+        - {x: 48, y: 52}
+        - {x: 48, y: -52}
+      physicsShape:
+      - - {x: 37, y: 36}
+        - {x: -9.999999, y: 36}
+        - {x: -48, y: -25}
+        - {x: -48, y: -35}
+        - {x: -47, y: -36}
+        - {x: 3, y: -36}
+        - {x: 12, y: -34}
+        - {x: 44, y: 20}
+        - {x: 44, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca01b5221da94461bf5f860ded353ad4
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_cover
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1379
+        width: 128
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -56}
+        - {x: -64, y: 56}
+        - {x: 64, y: 56}
+        - {x: 64, y: -56}
+      physicsShape:
+      - - {x: -44, y: 38}
+        - {x: -46, y: 36}
+        - {x: -41, y: 25}
+        - {x: -9, y: -30}
+        - {x: -4, y: -38}
+        - {x: 44, y: -38}
+        - {x: 46, y: -36}
+        - {x: 46, y: 36}
+        - {x: 44, y: 38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7ad9b3c8d14278a7fb14fbe461e2a5
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_bottom
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 783
+        width: 880
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -440, y: -52}
+        - {x: -440, y: 52}
+        - {x: 440, y: 52}
+        - {x: 440, y: -52}
+      physicsShape:
+      - - {x: -440, y: 34}
+        - {x: -440, y: -38}
+        - {x: 362, y: -38}
+        - {x: 396, y: 11}
+        - {x: 396, y: 31}
+        - {x: 394, y: 34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55694ac17d87427d85f92c2215c3b1db
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_light
+      rect:
+        serializedVersion: 2
+        x: 0.02675247
+        y: 1015.076
+        width: 909.8972
+        height: 79.84776
+      alignment: 9
+      pivot: {x: 0.4857398, y: 0.6001906}
+      border: {x: 1.973248, y: 0, z: 2.923908, w: 0}
+      outline:
+      - - {x: -322.9753, y: -40}
+        - {x: -417.9754, y: -39}
+        - {x: -426.9753, y: -29}
+        - {x: -454.9753, y: 21}
+        - {x: -454.9753, y: 36}
+        - {x: -448.9753, y: 40}
+        - {x: 451.0247, y: 40}
+        - {x: 455.0246, y: 37}
+        - {x: 455.0246, y: -35}
+        - {x: 452.0247, y: -40}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf0e401c15b485dbff6a689c60f2509
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_armor
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 983
+        width: 100
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -80}
+        - {x: -50, y: 80}
+        - {x: 50, y: 80}
+        - {x: 50, y: -80}
+      physicsShape:
+      - - {x: -15, y: 38}
+        - {x: -50, y: 21}
+        - {x: -50, y: -29}
+        - {x: -49, y: -30}
+        - {x: 14, y: -30}
+        - {x: 45, y: 21}
+        - {x: 50, y: 33}
+        - {x: 50, y: 38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ae6a83f355428d8829fd8f6b4488c5
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_middle_full
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 996
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -498, y: -80}
+        - {x: -498, y: 80}
+        - {x: 498, y: 80}
+        - {x: 498, y: -80}
+      physicsShape:
+      - - {x: -484, y: 38}
+        - {x: -486, y: 33}
+        - {x: -486, y: 17}
+        - {x: -457, y: -30}
+        - {x: 498, y: -30}
+        - {x: 498, y: 38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dbb256aad74091af080f39e556cf88
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_top_full
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 983
+        width: 840
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 80, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -420, y: -42}
+        - {x: -420, y: 42}
+        - {x: 420, y: 42}
+        - {x: 420, y: -42}
+      physicsShape:
+      - - {x: -414, y: 36}
+        - {x: -416, y: 31}
+        - {x: -416, y: 16}
+        - {x: -388, y: -28}
+        - {x: -378, y: -36}
+        - {x: 420, y: -36}
+        - {x: 420, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2886f4f6078a4717b2f653c1e4d32efd
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_middle_lowhp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1287
+        width: 840
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 39, w: 0}
+      outline:
+      - - {x: -420, y: -42}
+        - {x: -420, y: 42}
+        - {x: 420, y: 42}
+        - {x: 420, y: -42}
+      physicsShape:
+      - - {x: 420, y: 34}
+        - {x: -420, y: 34}
+        - {x: -420, y: -34}
+        - {x: 383, y: -34}
+        - {x: 386, y: -32}
+        - {x: 393, y: -20}
+        - {x: 420, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309c945e3e6345b9b0675c0fe4756031
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_name_shade
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1499
+        width: 60
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -16}
+        - {x: -30, y: 16}
+        - {x: 30, y: 16}
+        - {x: 30, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f14cf4cd6154bca9267d9a6318f13b3
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_top
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1379
+        width: 840
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 39, w: 0}
+      outline:
+      - - {x: -420, y: -42}
+        - {x: -420, y: 42}
+        - {x: 420, y: 42}
+        - {x: 420, y: -42}
+      physicsShape:
+      - - {x: -420, y: 36}
+        - {x: -420, y: -36}
+        - {x: 381, y: -36}
+        - {x: 383, y: -35}
+        - {x: 420, y: 28}
+        - {x: 420, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dbcadb68cd487e844ed45861874de1
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_armor_new
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1883.027
+        width: 452
+        height: 47.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 210, y: -24}
+        - {x: -226, y: -24}
+        - {x: -226, y: 9.000002}
+        - {x: -209, y: 24}
+        - {x: 221, y: 24}
+        - {x: 226, y: 20}
+        - {x: 226, y: -0.9999981}
+      physicsShape:
+      - - {x: 221, y: 15}
+        - {x: 220, y: 18}
+        - {x: -204, y: 18}
+        - {x: -207, y: 16}
+        - {x: -221, y: -7.999998}
+        - {x: -224, y: -16}
+        - {x: -222, y: -18}
+        - {x: 205, y: -18}
+        - {x: 212, y: -8.999998}
+        - {x: 221, y: 4.000002}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94901d9157934909866886364d1024f1
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_college_icon
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1251
+        width: 120
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: -60}
+        - {x: -60, y: 60}
+        - {x: 60, y: 60}
+        - {x: 60, y: -60}
+      physicsShape:
+      - - {x: 60, y: -21}
+        - {x: 60, y: 19}
+        - {x: 56, y: 26}
+        - {x: 52, y: 38}
+        - {x: 27, y: 58}
+        - {x: 19, y: 60}
+        - {x: -15, y: 60}
+        - {x: -34, y: 53}
+        - {x: -54, y: 35}
+        - {x: -60, y: 19}
+        - {x: -60, y: -22}
+        - {x: -51, y: -37}
+        - {x: -34, y: -53}
+        - {x: -19, y: -60}
+        - {x: 15, y: -60}
+        - {x: 21, y: -58}
+        - {x: 39, y: -51}
+        - {x: 56, y: -29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d705b26b614ce3a27d1cd93a216b4e
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_border_normal
+      rect:
+        serializedVersion: 2
+        x: 1084.076
+        y: 439
+        width: 533.9239
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4943099, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -265.0381, y: -104}
+        - {x: -266.0381, y: -101}
+        - {x: -266.0381, y: -91}
+        - {x: -267.0381, y: -88}
+        - {x: -267.0381, y: -85}
+        - {x: -265.0381, y: -83}
+        - {x: -263.0381, y: -83}
+        - {x: -250.0381, y: -57}
+        - {x: -250.0381, y: -51}
+        - {x: -246.0381, y: -47}
+        - {x: -243.0381, y: -42}
+        - {x: -244.0381, y: -31}
+        - {x: -238.038, y: -24}
+        - {x: -236.0381, y: -25}
+        - {x: -227.0381, y: -8}
+        - {x: -227.0381, y: -6}
+        - {x: -223.0381, y: 1}
+        - {x: -223.0381, y: 8}
+        - {x: -221.0381, y: 10}
+        - {x: -220.0381, y: 10}
+        - {x: -216.0381, y: 17}
+        - {x: -219.0381, y: 19}
+        - {x: -219.0381, y: 20}
+        - {x: -215.038, y: 28}
+        - {x: -211.0381, y: 33}
+        - {x: -209.0381, y: 34}
+        - {x: -197.0381, y: 57}
+        - {x: -197.0381, y: 60}
+        - {x: -195.0381, y: 68}
+        - {x: -191.0381, y: 71}
+        - {x: -191.0381, y: 80}
+        - {x: -187.0381, y: 88}
+        - {x: -185.0381, y: 90}
+        - {x: -183.0381, y: 90}
+        - {x: -177.0381, y: 101}
+        - {x: -169.0381, y: 109}
+        - {x: -162.0381, y: 112}
+        - {x: 266.9619, y: 112}
+        - {x: 266.9619, y: -112}
+        - {x: -263.0381, y: -112}
+        - {x: -263.0381, y: -106}
+      physicsShape:
+      - - {x: 260.9619, y: 112}
+        - {x: 108.9619, y: 112}
+        - {x: 109.9619, y: 109}
+        - {x: 115.9619, y: 106}
+        - {x: 226.9619, y: 106}
+        - {x: 226.9619, y: 91}
+        - {x: 228.9619, y: 74}
+        - {x: 227.9619, y: 61}
+        - {x: 228.9619, y: 30}
+        - {x: 227.9619, y: 19}
+        - {x: 228.9619, y: 7}
+        - {x: 228.9619, y: -61}
+        - {x: 227.9619, y: -85}
+        - {x: 219.9619, y: -108}
+        - {x: 224.9619, y: -112}
+        - {x: 262.9619, y: -112}
+        - {x: 266.9619, y: -106}
+        - {x: 266.9619, y: 106}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e3a097535c4a5a8222bff51fab243e
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_middle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1471
+        width: 840
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 39, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -420, y: -42}
+        - {x: -420, y: 42}
+        - {x: 420, y: 42}
+        - {x: 420, y: -42}
+      physicsShape:
+      - - {x: -420, y: 27}
+        - {x: -386, y: -36}
+        - {x: 420, y: -36}
+        - {x: 420, y: 36}
+        - {x: -420, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca244714ff04cb4a76c2f55a3dcda64
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_blood_middle_lowhp_0
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1103
+        width: 840
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 39, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -420, y: -42}
+        - {x: -420, y: 42}
+        - {x: 420, y: 42}
+        - {x: 420, y: -42}
+      physicsShape:
+      - - {x: -420, y: 26}
+        - {x: -387, y: -32}
+        - {x: -383, y: -34}
+        - {x: 420, y: -34}
+        - {x: 420, y: 34}
+        - {x: -420, y: 34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d355f315344c6bad8b9305d0ed0c6a
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_middle_full
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 271
+        width: 996
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -498, y: -80}
+        - {x: -498, y: 80}
+        - {x: 498, y: 80}
+        - {x: 498, y: -80}
+      physicsShape:
+      - - {x: 484, y: 38}
+        - {x: -498, y: 38}
+        - {x: -498, y: -30}
+        - {x: 448, y: -30}
+        - {x: 456, y: -28}
+        - {x: 486, y: 17}
+        - {x: 486, y: 35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a370b2318523474e8ce17efb89039f06
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_base_armor_new
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1195.027
+        width: 452
+        height: 47.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -215, y: -19}
+        - {x: -226, y: 2.000002}
+        - {x: -226, y: 21}
+        - {x: -221, y: 24}
+        - {x: 211, y: 24}
+        - {x: 226, y: 1.000002}
+        - {x: 226, y: -24}
+        - {x: -210, y: -24}
+      physicsShape:
+      - - {x: -219, y: 18}
+        - {x: -221, y: 14}
+        - {x: -221, y: 2.000002}
+        - {x: -213, y: -18}
+        - {x: 224, y: -18}
+        - {x: 224, y: -11}
+        - {x: 208, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a10b114b2f40b98b9fc208a17612aa
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_base_blood_invincible
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 903
+        width: 880
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -440, y: -52}
+        - {x: -440, y: 52}
+        - {x: 440, y: 52}
+        - {x: 440, y: -52}
+      physicsShape:
+      - - {x: 394, y: 35}
+        - {x: -440, y: 35}
+        - {x: -440, y: -38}
+        - {x: 359, y: -38}
+        - {x: 367, y: -30}
+        - {x: 397, y: 14}
+        - {x: 397, y: 29}
+      - - {x: -436, y: -24}
+        - {x: -428, y: 28}
+        - {x: 379, y: 28}
+        - {x: 385, y: 16}
+        - {x: 352, y: -32}
+        - {x: -427, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622eef63fa404de193f9869b82f20486
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elements-Blood-Base-Shiled-Red-Base@2x
+      rect:
+        serializedVersion: 2
+        x: 1112.006
+        y: 1251
+        width: 220.9179
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5431612, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.46493, y: -20}
+        - {x: -110.4649, y: 10}
+        - {x: -110.4649, y: 18}
+        - {x: -108.4649, y: 20}
+        - {x: 105.5351, y: 20}
+        - {x: 108.5351, y: 11}
+        - {x: 110.5351, y: -6}
+        - {x: 110.5351, y: -20}
+      physicsShape:
+      - - {x: -48.46493, y: 20}
+        - {x: -108.4649, y: 20}
+        - {x: -109.4649, y: 17}
+        - {x: -109.4649, y: 13}
+        - {x: -90.46493, y: -20}
+        - {x: -43.46492, y: -20}
+        - {x: -43.46492, y: 7}
+        - {x: -46.46493, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5fecd97069407ea5bdf0605c201316
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      red_base_blood_light: 21300040
+      red_base_blood_top_full: 21300046
+      red_base_blood_middle_lowhp_0: 21300062
+      blue_base_cover: 21300012
+      red_base_armor_full: 21300004
+      blue_base_armor_new: 21300054
+      blue_base_border_normal: 21300058
+      blue_base_blood_middle_lowhp_0: 21300048
+      blue_base_blood_middle_full: 21300064
+      blue_base_blood_light: 21300010
+      red_base_armor_new: 21300066
+      Elements-Blood-Base-Shiled-Red-Base@2x: 21300070
+      red_base_blood_middle_full: 21300044
+      red_base_border_normal: 21300000
+      red_base_blood_bottom: 21300002
+      blue_base_blood_border: 21300028
+      blue_base_blood_top_full: 21300016
+      red_base_blood_border: 21300006
+      red_base_blood_top: 21300018
+      Elements-Blood-Base-Shiled-Blue-Base@2x: 21300026
+      blue_base_blood_top: 21300052
+      7mins-bg-Mask@2x: 21300032
+      red_base_blood_middle: 21300060
+      red_base_armor: 21300022
+      red_base_border_invincible: 21300014
+      red_base_name_shade: 21300024
+      red_base_blood_invincible: 21300008
+      blue_base_armor_full: 21300034
+      red_base_cover: 21300036
+      blue_base_border_invincible: 21300020
+      blue_base_armor: 21300042
+      blue_base_blood_invincible: 21300068
+      blue_base_name_shade: 21300050
+      blue_base_blood_bottom: 21300038
+      blue_base_blood_middle: 21300030
+      base_college_icon: 21300056
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: 16cc7b48732de9249962694e79c7c72c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: crosshair_slid_circle_yellow
+  - first:
+      213: 21300002
+    second: crosshair_slid_double_bg
+  - first:
+      213: 21300004
+    second: crosshair_slid_double_white_right
+  - first:
+      213: 21300006
+    second: crosshair_slid_double_red_left
+  - first:
+      213: 21300008
+    second: crosshair_attacked_up
+  - first:
+      213: 21300010
+    second: crosshair_border_right
+  - first:
+      213: 21300012
+    second: crosshair_slid_double_red_right
+  - first:
+      213: 21300014
+    second: crosshair_middle
+  - first:
+      213: 21300016
+    second: crosshair_tip_overheart_en
+  - first:
+      213: 21300018
+    second: crosshair_border_left
+  - first:
+      213: 21300020
+    second: crosshair_attacked_down
+  - first:
+      213: 21300022
+    second: crosshair_attacked_left
+  - first:
+      213: 21300024
+    second: crosshair_slid_double_yellow_right
+  - first:
+      213: 21300026
+    second: crosshair_slid_circle_red
+  - first:
+      213: 21300028
+    second: crosshair_slid_double_white_left
+  - first:
+      213: 21300030
+    second: crosshair_attacked_right
+  - first:
+      213: 21300032
+    second: crosshair_slid_circle_white
+  - first:
+      213: 21300034
+    second: crosshair_bg_double
+  - first:
+      213: 21300036
+    second: crosshair_slid_circle_bg
+  - first:
+      213: 21300038
+    second: crosshair_slid_double_yellow_left
+  - first:
+      213: 21300040
+    second: crosshair_tip_overheart_chs
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crosshair_slid_circle_yellow
+      rect:
+        serializedVersion: 2
+        x: 1612.063
+        y: 0.06306648
+        width: 193.8739
+        height: 193.8739
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87, y: -71}
+        - {x: -97, y: -42}
+        - {x: -97, y: 27}
+        - {x: -95, y: 51}
+        - {x: -60, y: 93}
+        - {x: -30, y: 97}
+        - {x: 40, y: 97}
+        - {x: 49, y: 92}
+        - {x: 93, y: 50}
+        - {x: 97, y: 27}
+        - {x: 97, y: -38}
+        - {x: 59, y: -93}
+        - {x: 46, y: -97}
+        - {x: -36, y: -97}
+      physicsShape:
+      - - {x: 77, y: -32}
+        - {x: 82, y: -13}
+        - {x: 82, y: 3}
+        - {x: 81, y: 13}
+        - {x: 77, y: 32}
+        - {x: 66.99999, y: 48}
+        - {x: 48, y: 66.99999}
+        - {x: 31, y: 76}
+        - {x: 19, y: 81}
+        - {x: 8, y: 82}
+        - {x: -9.999999, y: 82}
+        - {x: -13, y: 81}
+        - {x: -32, y: 77}
+        - {x: -48, y: 66.99999}
+        - {x: -64, y: 51}
+        - {x: -71, y: 42}
+        - {x: -79.99999, y: 23}
+        - {x: -82, y: 9}
+        - {x: -82, y: -5}
+        - {x: -81, y: -13}
+        - {x: -77, y: -32}
+        - {x: -65, y: -52}
+        - {x: -48, y: -68}
+        - {x: -29, y: -78}
+        - {x: -18, y: -79.99999}
+        - {x: -6, y: -82}
+        - {x: 3, y: -82}
+        - {x: 13, y: -81}
+        - {x: 32, y: -77}
+        - {x: 48, y: -66.99999}
+        - {x: 68, y: -48}
+      - - {x: -19, y: -65}
+        - {x: -35, y: -59}
+        - {x: -47, y: -51}
+        - {x: -55, y: -42}
+        - {x: -63, y: -28}
+        - {x: -68, y: -9.999999}
+        - {x: -68, y: 9.999999}
+        - {x: -63, y: 28}
+        - {x: -55, y: 42}
+        - {x: -47, y: 51}
+        - {x: -35, y: 59}
+        - {x: -28, y: 63}
+        - {x: -9.999999, y: 68}
+        - {x: 9, y: 69}
+        - {x: 9.999999, y: 68}
+        - {x: 28, y: 63}
+        - {x: 42, y: 55}
+        - {x: 63, y: 30}
+        - {x: 63, y: 28}
+        - {x: 68, y: 9.999999}
+        - {x: 69, y: -9}
+        - {x: 68, y: -9.999999}
+        - {x: 63, y: -28}
+        - {x: 55, y: -42}
+        - {x: 47, y: -51}
+        - {x: 35, y: -59}
+        - {x: 28, y: -63}
+        - {x: 9.999999, y: -68}
+        - {x: -8, y: -68}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fef997dc4584dc8b5d38d32aa3e2df6
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_double_bg
+      rect:
+        serializedVersion: 2
+        x: 704.0761
+        y: 1540.027
+        width: 207.8477
+        height: 142.9465
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5034978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98.00002, y: -71.49999}
+        - {x: 64.00002, y: -71.49999}
+        - {x: 64.00002, y: 71.50001}
+        - {x: 80.00002, y: 71.50001}
+        - {x: 104, y: 60.50001}
+        - {x: 104, y: -68.49999}
+      - - {x: -92.99998, y: -71.49999}
+        - {x: -104, y: -38.49999}
+        - {x: -104, y: 53.5}
+        - {x: -78.99998, y: 71.50001}
+        - {x: -63.99998, y: 71.50001}
+        - {x: -63.99998, y: -71.49999}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112fab06ab4a4fd8a3ed5059f50b157c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_double_white_right
+      rect:
+        serializedVersion: 2
+        x: 1093.051
+        y: 1172.076
+        width: 62.87257
+        height: 164.8477
+      alignment: 9
+      pivot: {x: 0.1741409, y: 0.5030331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5124, y: -82.5}
+        - {x: -31.4876, y: -82.5}
+        - {x: -31.4876, y: 82.5}
+        - {x: 5.512402, y: 82.5}
+        - {x: 12.5124, y: 78.5}
+        - {x: 31.5124, y: 47.5}
+        - {x: 31.5124, y: -65.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029b735c33cd4a5388c30b148fe139e4
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_double_red_left
+      rect:
+        serializedVersion: 2
+        x: 902.0761
+        y: 1224.056
+        width: 64.91097
+        height: 164.8873
+      alignment: 9
+      pivot: {x: 0.8153303, y: 0.5030323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5316, y: -55.50001}
+        - {x: -32.5316, y: -34.50001}
+        - {x: -32.5316, y: 48.49999}
+        - {x: -8.531605, y: 82.49999}
+        - {x: 32.4684, y: 82.49999}
+        - {x: 32.4684, y: -81.50001}
+        - {x: 28.4684, y: -82.50001}
+        - {x: -5.531605, y: -82.50001}
+      physicsShape:
+      - - {x: -0.5316048, y: -28.50001}
+        - {x: -4.531605, y: 10.49999}
+        - {x: 0.4683971, y: 33.49999}
+        - {x: 18.4684, y: 57.49999}
+        - {x: 18.4684, y: 64.49999}
+        - {x: 15.4684, y: 69.49999}
+        - {x: 8.468395, y: 69.49999}
+        - {x: -4.531605, y: 55.49999}
+        - {x: -17.5316, y: 22.49999}
+        - {x: -17.5316, y: -17.50001}
+        - {x: -10.5316, y: -43.50001}
+        - {x: 0.4683971, y: -61.50001}
+        - {x: 10.4684, y: -69.50001}
+        - {x: 15.4684, y: -69.50001}
+        - {x: 18.4684, y: -64.50001}
+        - {x: 18.4684, y: -58.5}
+        - {x: 11.4684, y: -52.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b44abe7e06436898d2af593840ab3b
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_attacked_up
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 250
+        height: 385
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 28.5}
+        - {x: -125, y: 28.5}
+        - {x: -125, y: 66.5}
+        - {x: -61, y: 185.5}
+        - {x: -39, y: 192.5}
+        - {x: 54, y: 192.5}
+        - {x: 125, y: 78.5}
+      - - {x: -116, y: -160.5}
+        - {x: -125, y: -155.5}
+        - {x: -125, y: -127.5}
+        - {x: -123, y: -127.5}
+        - {x: -106, y: -146.5}
+        - {x: -100, y: -155.5}
+        - {x: -100, y: -159.5}
+        - {x: -103, y: -160.5}
+      - - {x: 76, y: -192.5}
+        - {x: 71, y: -191.5}
+        - {x: 71, y: -174.5}
+        - {x: 122, y: -128.5}
+        - {x: 124, y: -127.5}
+        - {x: 125, y: -127.5}
+        - {x: 125, y: -147.5}
+        - {x: 111, y: -192.5}
+      physicsShape:
+      - - {x: 13, y: 103.5}
+        - {x: -14, y: 103.5}
+        - {x: -27, y: 101.5}
+        - {x: -35, y: 99.5}
+        - {x: -38, y: 98.49999}
+        - {x: -42, y: 94.5}
+        - {x: -42, y: 91.5}
+        - {x: 42, y: 91.5}
+        - {x: 43, y: 93.5}
+        - {x: 43, y: 95.5}
+        - {x: 36, y: 100.5}
+      - - {x: -26, y: 117.5}
+        - {x: -29, y: 114.5}
+        - {x: -29, y: 111.5}
+        - {x: -27, y: 108.5}
+        - {x: 29, y: 108.5}
+        - {x: 29, y: 114.5}
+        - {x: 26, y: 117.5}
+      - - {x: -7, y: 127.5}
+        - {x: -6, y: 124.5}
+        - {x: 1, y: 123.5}
+        - {x: 5, y: 123.5}
+        - {x: 9, y: 126.5}
+        - {x: 8, y: 129.5}
+        - {x: -5, y: 129.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e8dbab26c40629956851f079f5b83
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_border_right
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1342
+        width: 192
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92, y: 68}
+        - {x: -94, y: 88}
+        - {x: -94, y: 98}
+        - {x: -96, y: 109}
+        - {x: -96, y: 122}
+        - {x: 94, y: 122}
+        - {x: 96, y: 120}
+        - {x: 96, y: -121}
+        - {x: 94, y: -122}
+        - {x: -96, y: -122}
+        - {x: -96, y: -113}
+        - {x: -95, y: -112}
+        - {x: -89, y: -39}
+        - {x: -88, y: -38}
+        - {x: -88, y: 38}
+        - {x: -89, y: 39}
+        - {x: -90, y: 56}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0eaef8b0ea49b8914a3435be04afc6
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_double_red_right
+      rect:
+        serializedVersion: 2
+        x: 971.0129
+        y: 1224.056
+        width: 64.91096
+        height: 164.8873
+      alignment: 9
+      pivot: {x: 0.1846697, y: 0.5030323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.4684, y: -82.50001}
+        - {x: -32.4684, y: -79.50001}
+        - {x: -32.4684, y: 73.49999}
+        - {x: -28.4684, y: 82.49999}
+        - {x: 22.5316, y: 82.49999}
+        - {x: 32.5316, y: 34.49999}
+        - {x: 32.5316, y: -49.50001}
+        - {x: 6.531607, y: -81.50001}
+        - {x: -2.468395, y: -82.50001}
+      physicsShape:
+      - - {x: 17.5316, y: -12.50001}
+        - {x: 17.5316, y: 14.49999}
+        - {x: 14.5316, y: 30.49999}
+        - {x: 9.531603, y: 43.49999}
+        - {x: -0.4683971, y: 60.49999}
+        - {x: -10.4684, y: 69.49999}
+        - {x: -12.4684, y: 69.49999}
+        - {x: -18.4684, y: 63.49999}
+        - {x: -18.4684, y: 61.49999}
+        - {x: -0.4683971, y: 31.49999}
+        - {x: 4.531605, y: 10.49999}
+        - {x: -0.4683971, y: -33.50001}
+        - {x: -18.4684, y: -61.50001}
+        - {x: -18.4684, y: -66.5}
+        - {x: -13.4684, y: -69.50001}
+        - {x: -7.468395, y: -69.50001}
+        - {x: -0.4683971, y: -60.50001}
+        - {x: 9.531603, y: -42.5}
+        - {x: 16.5316, y: -22.50001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd63c6c4d36948689be7f111ebcd8330
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_middle
+      rect:
+        serializedVersion: 2
+        x: 1612.076
+        y: 451.0761
+        width: 55.84776
+        height: 55.84776
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.999996, y: -28}
+        - {x: -28, y: -12}
+        - {x: -28, y: 4.000004}
+        - {x: -13, y: 28}
+        - {x: 9.000004, y: 28}
+        - {x: 28, y: 8.000004}
+        - {x: 28, y: -6.999996}
+        - {x: 27.00001, y: -8.999996}
+        - {x: 4.000004, y: -28}
+      physicsShape:
+      - - {x: -1.999996, y: -22}
+        - {x: 0.000003814697, y: -24}
+        - {x: 3.000004, y: -22.99999}
+        - {x: 3.000004, y: -7.999996}
+        - {x: 1.000004, y: -5.999996}
+        - {x: -1.999996, y: -6.999996}
+      - - {x: 0.000003814697, y: 4.000004}
+        - {x: -2.999996, y: 1.000004}
+        - {x: -2.999996, y: -0.9999962}
+        - {x: 0.000003814697, y: -3.999996}
+        - {x: 1.000004, y: -3.999996}
+        - {x: 4.000004, y: -0.9999962}
+        - {x: 4.000004, y: 1.000004}
+        - {x: 1.000004, y: 4.000004}
+      - - {x: -24, y: 3.000004}
+        - {x: -24, y: -2.999996}
+        - {x: -7.999996, y: -2.999996}
+        - {x: -5.999996, y: -1.999996}
+        - {x: -5.999996, y: 3.000004}
+      - - {x: 8.000004, y: 3.000004}
+        - {x: 7.000004, y: 1.000004}
+        - {x: 7.000004, y: -1.999996}
+        - {x: 9.000004, y: -2.999996}
+        - {x: 23, y: -2.999996}
+        - {x: 24, y: -0.9999962}
+        - {x: 24, y: 2.000004}
+        - {x: 22, y: 3.000004}
+      - - {x: -1.999996, y: 8.000004}
+        - {x: 0.000003814697, y: 6.000004}
+        - {x: 3.000004, y: 7.000004}
+        - {x: 3.000004, y: 22}
+        - {x: 1.000004, y: 24}
+        - {x: -1.999996, y: 23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a46c600c940c7aaa7769833ab93f7
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tip_overheart_en
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1088
+        width: 256
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126, y: -9}
+        - {x: -128, y: -5}
+        - {x: -128, y: 7}
+        - {x: -70, y: 40}
+        - {x: 67, y: 40}
+        - {x: 121, y: 10}
+        - {x: 128, y: 5}
+        - {x: 128, y: -11}
+        - {x: 66, y: -40}
+        - {x: -57, y: -40}
+        - {x: -111, y: -12}
+      physicsShape:
+      - - {x: 1, y: -9}
+        - {x: 4, y: -9.999999}
+        - {x: 51, y: -9.999999}
+        - {x: 53, y: -8}
+        - {x: 53, y: -5}
+        - {x: 54, y: -1}
+        - {x: 54, y: 6}
+        - {x: 49, y: 11}
+        - {x: 45, y: 11}
+        - {x: 42, y: 6}
+        - {x: 32, y: 7}
+        - {x: 13, y: 6}
+        - {x: 6, y: 11}
+        - {x: 4, y: 11}
+        - {x: 1, y: 7}
+        - {x: -33, y: 6}
+        - {x: -39, y: 11}
+        - {x: -47, y: 11}
+        - {x: -51, y: 6}
+        - {x: -51, y: -5}
+        - {x: -48, y: -9.999999}
+        - {x: -39, y: -9.999999}
+        - {x: -34, y: -9}
+        - {x: -32, y: -9.999999}
+        - {x: 0, y: -9.999999}
+      - - {x: -43, y: 3}
+        - {x: -42, y: 3}
+        - {x: -42, y: -3}
+        - {x: -43, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0d18eb57804e6c8891af4d271bee49
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_border_left
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1088
+        width: 192
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -94, y: -66}
+        - {x: -96, y: -64}
+        - {x: -96, y: 65}
+        - {x: -94, y: 66}
+        - {x: 96, y: 66}
+        - {x: 96, y: -66}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e23947a9fd4208854458ff68ab6a0e
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_attacked_down
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1088
+        width: 250
+        height: 385
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 127.5}
+        - {x: -125, y: 127.5}
+        - {x: -125, y: 148.5}
+        - {x: -117, y: 160.5}
+        - {x: -100, y: 160.5}
+        - {x: -100, y: 147.5}
+      - - {x: 123, y: 127.5}
+        - {x: 71, y: 176.5}
+        - {x: 71, y: 184.5}
+        - {x: 89, y: 192.5}
+        - {x: 104, y: 192.5}
+        - {x: 125, y: 145.5}
+        - {x: 125, y: 127.5}
+      - - {x: -82, y: -144.5}
+        - {x: -125, y: -54.5}
+        - {x: -125, y: -28.5}
+        - {x: 125, y: -28.5}
+        - {x: 125, y: -68.5}
+        - {x: 61, y: -186.5}
+        - {x: 37, y: -192.5}
+        - {x: -37, y: -192.5}
+      physicsShape:
+      - - {x: -6, y: -123.5}
+        - {x: -7, y: -126.5}
+        - {x: -6, y: -129.5}
+        - {x: 7, y: -129.5}
+        - {x: 9, y: -127.5}
+        - {x: 9, y: -126.5}
+        - {x: 6, y: -123.5}
+      - - {x: -29, y: -115.5}
+        - {x: -26, y: -117.5}
+        - {x: 23, y: -117.5}
+        - {x: 29, y: -115.5}
+        - {x: 29, y: -109.5}
+        - {x: 28, y: -108.5}
+        - {x: -28, y: -108.5}
+        - {x: -29, y: -109.5}
+      - - {x: 33, y: -91.5}
+        - {x: 12, y: -94.5}
+        - {x: -11, y: -95.5}
+        - {x: -36, y: -91.5}
+        - {x: -42, y: -91.5}
+        - {x: -42, y: -96.5}
+        - {x: -30, y: -103.5}
+        - {x: 24, y: -103.5}
+        - {x: 36, y: -100.5}
+        - {x: 43, y: -95.5}
+        - {x: 43, y: -91.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126dac68e08f492ea813ada591602303
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_attacked_left
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1088
+        width: 385
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128.5, y: 122}
+        - {x: 127.5, y: 124}
+        - {x: 127.5, y: 125}
+        - {x: 151.5, y: 125}
+        - {x: 160.5, y: 115}
+        - {x: 160.5, y: 101}
+        - {x: 156.5, y: 100}
+      - - {x: 143.5, y: -125}
+        - {x: 127.5, y: -125}
+        - {x: 127.5, y: -121}
+        - {x: 163.5, y: -71}
+        - {x: 182.5, y: -71}
+        - {x: 192.5, y: -89}
+        - {x: 192.5, y: -106}
+      - - {x: -58.5, y: -124}
+        - {x: -192.5, y: -73}
+        - {x: -192.5, y: 69}
+        - {x: -86.5, y: 125}
+        - {x: -28.5, y: 125}
+        - {x: -28.5, y: -125}
+        - {x: -48.5, y: -125}
+      physicsShape:
+      - - {x: -94.5, y: 42}
+        - {x: -98.49999, y: 39}
+        - {x: -103.5, y: 25}
+        - {x: -103.5, y: -21}
+        - {x: -100.5, y: -36}
+        - {x: -95.5, y: -43}
+        - {x: -91.5, y: -43}
+        - {x: -91.5, y: -27}
+        - {x: -95.5, y: 11}
+        - {x: -91.5, y: 38}
+        - {x: -91.5, y: 41}
+      - - {x: -115.5, y: 29}
+        - {x: -117.5, y: 25}
+        - {x: -117.5, y: -21}
+        - {x: -115.5, y: -29}
+        - {x: -109.5, y: -29}
+        - {x: -108.5, y: -28}
+        - {x: -108.5, y: 27}
+        - {x: -110.5, y: 29}
+      - - {x: -129.5, y: -7}
+        - {x: -128.5, y: -9}
+        - {x: -126.5, y: -9}
+        - {x: -123.5, y: -7}
+        - {x: -123.5, y: 1}
+        - {x: -124.5, y: 5}
+        - {x: -126.5, y: 7}
+        - {x: -129.5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2b6537f1634c5b88c6c3e4ee5ad8aa
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_double_yellow_right
+      rect:
+        serializedVersion: 2
+        x: 585.0513
+        y: 1590.051
+        width: 63.87257
+        height: 164.8726
+      alignment: 9
+      pivot: {x: 0.1714145, y: 0.5031079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.0124, y: -82.48759}
+        - {x: -31.9876, y: -82.48759}
+        - {x: -31.9876, y: 82.51241}
+        - {x: 20.0124, y: 82.51241}
+        - {x: 32.0124, y: 71.51241}
+        - {x: 32.0124, y: -36.48759}
+      physicsShape:
+      - - {x: 17.0124, y: -9.487594}
+        - {x: 17.0124, y: 15.5124}
+        - {x: 11.0124, y: 38.51241}
+        - {x: -1.987598, y: 61.51241}
+        - {x: -8.987598, y: 68.51241}
+        - {x: -13.9876, y: 68.51241}
+        - {x: -18.9876, y: 65.51241}
+        - {x: -18.9876, y: 58.51241}
+        - {x: 3.012402, y: 10.5124}
+        - {x: 4.012402, y: -11.48759}
+        - {x: 0.01240158, y: -31.48759}
+        - {x: -18.9876, y: -55.48759}
+        - {x: -18.9876, y: -63.48759}
+        - {x: -16.9876, y: -68.48759}
+        - {x: -8.987598, y: -68.48759}
+        - {x: -1.987598, y: -61.48759}
+        - {x: 11.0124, y: -37.48759}
+        - {x: 14.0124, y: -29.48759}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e40b21b27d45f78e690c6e7735f095
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_circle_red
+      rect:
+        serializedVersion: 2
+        x: 704.0761
+        y: 1342.076
+        width: 193.8477
+        height: 193.8477
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.99998, y: -84.99998}
+        - {x: -96.99998, y: -40.99998}
+        - {x: -96.99998, y: 35.00002}
+        - {x: -75.99998, y: 74.00002}
+        - {x: -30.99998, y: 97.00002}
+        - {x: 35.00002, y: 97.00002}
+        - {x: 88.00002, y: 65.00002}
+        - {x: 97.00002, y: 32.00002}
+        - {x: 97.00002, y: -44.99998}
+        - {x: 95.00002, y: -49.99998}
+        - {x: 44.00002, y: -96.99998}
+        - {x: -24.99998, y: -96.99998}
+      physicsShape:
+      - - {x: 82.00002, y: -18.99998}
+        - {x: 82.00002, y: 24.00002}
+        - {x: 67.00001, y: 52.00002}
+        - {x: 47.00002, y: 69.00002}
+        - {x: 24.00002, y: 80.00001}
+        - {x: 16.00002, y: 82.00002}
+        - {x: -16.99998, y: 82.00002}
+        - {x: -38.99998, y: 74.00002}
+        - {x: -50.99998, y: 66.00002}
+        - {x: -70.99998, y: 44.00002}
+        - {x: -81.99998, y: 21.00002}
+        - {x: -81.99998, y: -14.99998}
+        - {x: -80.99998, y: -23.99998}
+        - {x: -76.99998, y: -28.99998}
+        - {x: -69.99998, y: -43.99998}
+        - {x: -64.99998, y: -50.99998}
+        - {x: -46.99998, y: -67.99998}
+        - {x: -37.99998, y: -72.99998}
+        - {x: -22.99998, y: -79.99998}
+        - {x: -14.99998, y: -81.99998}
+        - {x: 16.00002, y: -81.99998}
+        - {x: 39.00002, y: -74.99998}
+        - {x: 66.00002, y: -50.99998}
+        - {x: 78.00002, y: -29.99998}
+      - - {x: -24.99998, y: -63.99998}
+        - {x: -42.99998, y: -53.99998}
+        - {x: -58.99998, y: -35.99998}
+        - {x: -67.99998, y: -8.999985}
+        - {x: -67.99998, y: 7.000015}
+        - {x: -65.99998, y: 14.00002}
+        - {x: -58.99998, y: 36.00002}
+        - {x: -42.99998, y: 54.00001}
+        - {x: -24.99998, y: 64.00002}
+        - {x: -8.999985, y: 68.00002}
+        - {x: 9.000015, y: 68.00002}
+        - {x: 25.00002, y: 64.00002}
+        - {x: 43.00001, y: 54.00001}
+        - {x: 59.00001, y: 36.00002}
+        - {x: 68.00002, y: 9.000015}
+        - {x: 68.00002, y: -8.999985}
+        - {x: 64.00002, y: -24.99998}
+        - {x: 54.00001, y: -42.99998}
+        - {x: 36.00002, y: -58.99998}
+        - {x: 9.000015, y: -67.99998}
+        - {x: -8.999985, y: -67.99998}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514cf92541cf448fb0fc637da95b18a4
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_double_white_left
+      rect:
+        serializedVersion: 2
+        x: 1612.076
+        y: 282.0761
+        width: 62.87257
+        height: 164.8477
+      alignment: 9
+      pivot: {x: 0.8258591, y: 0.5030331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.4876, y: -82.5}
+        - {x: 0.4875984, y: -82.5}
+        - {x: -11.5124, y: -78.5}
+        - {x: -23.5124, y: -50.5}
+        - {x: -31.5124, y: -22.5}
+        - {x: -31.5124, y: 34.5}
+        - {x: -8.512402, y: 82.5}
+        - {x: 24.4876, y: 82.5}
+        - {x: 31.4876, y: 76.5}
+        - {x: 31.4876, y: 16.5}
+        - {x: 24.4876, y: -40.5}
+        - {x: 31.4876, y: -52.5}
+        - {x: 31.4876, y: -74.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e16ea065f054e59a6b561c4b9446039
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_attacked_right
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1477
+        width: 385
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -157.5, y: 100}
+        - {x: -160.5, y: 101}
+        - {x: -160.5, y: 116}
+        - {x: -150.5, y: 125}
+        - {x: -127.5, y: 125}
+        - {x: -127.5, y: 124}
+        - {x: -154.5, y: 100}
+      - - {x: 96.5, y: -125}
+        - {x: 28.5, y: -125}
+        - {x: 28.5, y: 125}
+        - {x: 125.5, y: 125}
+        - {x: 192.5, y: 52}
+        - {x: 192.5, y: -84}
+      - - {x: -144.5, y: -125}
+        - {x: -192.5, y: -107}
+        - {x: -192.5, y: -73}
+        - {x: -190.5, y: -71}
+        - {x: -168.5, y: -71}
+        - {x: -127.5, y: -121}
+        - {x: -127.5, y: -125}
+      physicsShape:
+      - - {x: 95.5, y: 42}
+        - {x: 91.5, y: 42}
+        - {x: 91.5, y: 32}
+        - {x: 94.5, y: 12}
+        - {x: 91.5, y: -38}
+        - {x: 91.5, y: -42}
+        - {x: 92.49999, y: -43}
+        - {x: 95.5, y: -43}
+        - {x: 99.5, y: -42}
+        - {x: 103.5, y: -20}
+        - {x: 103.5, y: 18}
+        - {x: 100.5, y: 36}
+      - - {x: 109.5, y: 29}
+        - {x: 108.5, y: 28}
+        - {x: 108.5, y: -29}
+        - {x: 115.5, y: -29}
+        - {x: 117.5, y: -27}
+        - {x: 117.5, y: 29}
+      - - {x: 123.5, y: -5}
+        - {x: 126.5, y: -9}
+        - {x: 129.5, y: -8}
+        - {x: 129.5, y: 5}
+        - {x: 127.5, y: 7}
+        - {x: 124.5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d2f2672cf640fcaa8e4b0433d1da14
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_circle_white
+      rect:
+        serializedVersion: 2
+        x: 389.0761
+        y: 1590.076
+        width: 191.8477
+        height: 191.8477
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -84}
+        - {x: -96, y: -38}
+        - {x: -96, y: 34}
+        - {x: -93, y: 49}
+        - {x: -64, y: 82}
+        - {x: -29, y: 96}
+        - {x: 39, y: 96}
+        - {x: 92, y: 71}
+        - {x: 96, y: 51}
+        - {x: 96, y: -44}
+        - {x: 54, y: -96}
+        - {x: -27, y: -96}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5b905a24254292be4c5414accbedd7
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_bg_double
+      rect:
+        serializedVersion: 2
+        x: 0.0761261
+        y: 0
+        width: 1607.848
+        height: 1084
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 197.0001, y: -542}
+        - {x: 194.0001, y: -535}
+        - {x: 194.0001, y: 345}
+        - {x: 581.0001, y: 542}
+        - {x: 636.0001, y: 542}
+        - {x: 804.0001, y: 257}
+        - {x: 804.0001, y: -243}
+        - {x: 641.0001, y: -542}
+      - - {x: -750.9999, y: -316}
+        - {x: -803.9999, y: -126}
+        - {x: -803.9999, y: 372}
+        - {x: -774.9999, y: 542}
+        - {x: -373.9999, y: 542}
+        - {x: -193.9999, y: 120}
+        - {x: -193.9999, y: -395}
+        - {x: -577.9999, y: -542}
+        - {x: -600.9999, y: -542}
+        - {x: -684.9999, y: -434}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fbb186dcbc47cd9fa1eb622e6c248a
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_circle_bg
+      rect:
+        serializedVersion: 2
+        x: 0.07612228
+        y: 1731.076
+        width: 167.8477
+        height: 167.8477
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: -84}
+        - {x: -84, y: -48}
+        - {x: -84, y: 53}
+        - {x: -39, y: 84}
+        - {x: 37, y: 84}
+        - {x: 49, y: 81}
+        - {x: 73, y: 48}
+        - {x: 84, y: 33}
+        - {x: 84, y: -29}
+        - {x: 77, y: -70}
+        - {x: 42, y: -84}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a815889b86f4eb7a14783b938b860d6
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_slid_double_yellow_left
+      rect:
+        serializedVersion: 2
+        x: 172.0761
+        y: 1731.076
+        width: 63.87257
+        height: 164.8726
+      alignment: 9
+      pivot: {x: 0.8285855, y: 0.5029574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.012402, y: -82.51241}
+        - {x: -32.0124, y: -49.51241}
+        - {x: -32.0124, y: 68.48759}
+        - {x: -9.012403, y: 82.48759}
+        - {x: 31.9876, y: 82.48759}
+        - {x: 31.9876, y: -82.51241}
+      physicsShape:
+      - - {x: -4.012402, y: -11.51241}
+        - {x: -4.012402, y: 9.487595}
+        - {x: 7.987598, y: 45.48759}
+        - {x: 17.9876, y: 59.48759}
+        - {x: 18.9876, y: 63.48759}
+        - {x: 13.9876, y: 68.48759}
+        - {x: 6.987598, y: 68.48759}
+        - {x: -13.0124, y: 38.48759}
+        - {x: -17.0124, y: 15.48759}
+        - {x: -17.0124, y: -10.51241}
+        - {x: -15.0124, y: -25.51241}
+        - {x: -4.012402, y: -52.5124}
+        - {x: 8.987598, y: -68.51241}
+        - {x: 13.9876, y: -68.51241}
+        - {x: 18.9876, y: -65.51241}
+        - {x: 18.9876, y: -61.51241}
+        - {x: 8.987598, y: -45.5124}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d261c0e794eeb9bd40b4a6152350a
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crosshair_tip_overheart_chs
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 198
+        width: 256
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126, y: -9}
+        - {x: -128, y: -5}
+        - {x: -128, y: 7}
+        - {x: -70, y: 40}
+        - {x: 67, y: 40}
+        - {x: 121, y: 10}
+        - {x: 128, y: 5}
+        - {x: 128, y: -11}
+        - {x: 66, y: -40}
+        - {x: -57, y: -40}
+        - {x: -111, y: -12}
+      physicsShape:
+      - - {x: -44, y: 12}
+        - {x: -47, y: 11}
+        - {x: -47, y: -6}
+        - {x: -43, y: -14}
+        - {x: -27, y: -14}
+        - {x: -21, y: -11}
+        - {x: -21, y: 6}
+        - {x: -27, y: 12}
+      - - {x: 43, y: 12}
+        - {x: 17, y: 12}
+        - {x: 16, y: 9}
+        - {x: 3, y: 12}
+        - {x: -19, y: 9.999999}
+        - {x: -21, y: 8}
+        - {x: -21, y: -12}
+        - {x: -17, y: -14}
+        - {x: 0, y: -14}
+        - {x: 1, y: -11}
+        - {x: 3, y: -14}
+        - {x: 51, y: -14}
+        - {x: 51, y: 2}
+        - {x: 49, y: 8}
+      - - {x: 25, y: 1}
+        - {x: 28, y: 3}
+        - {x: 27, y: 4}
+        - {x: 24, y: 1}
+        - {x: 24, y: -1}
+        - {x: 26, y: -3}
+        - {x: 25, y: -5}
+      - - {x: 13, y: -6}
+        - {x: 12, y: -5}
+      - - {x: -13, y: 2}
+        - {x: -7, y: 2}
+        - {x: -7, y: -4}
+        - {x: -13, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807c47935aa64358bc360077607e2c56
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      crosshair_attacked_up: 21300008
+      crosshair_border_right: 21300010
+      crosshair_attacked_left: 21300022
+      crosshair_attacked_right: 21300030
+      crosshair_slid_circle_yellow: 21300000
+      crosshair_slid_double_yellow_right: 21300024
+      crosshair_slid_circle_red: 21300026
+      crosshair_tip_overheart_chs: 21300040
+      crosshair_slid_double_red_left: 21300006
+      crosshair_slid_circle_bg: 21300036
+      crosshair_slid_double_white_left: 21300028
+      crosshair_slid_double_white_right: 21300004
+      crosshair_attacked_down: 21300020
+      crosshair_slid_double_bg: 21300002
+      crosshair_middle: 21300014
+      crosshair_slid_circle_white: 21300032
+      crosshair_bg_double: 21300034
+      crosshair_tip_overheart_en: 21300016
+      crosshair_slid_double_yellow_left: 21300038
+      crosshair_border_left: 21300018
+      crosshair_slid_double_red_right: 21300012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

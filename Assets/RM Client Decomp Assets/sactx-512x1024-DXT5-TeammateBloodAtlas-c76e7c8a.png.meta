@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: 7fa0ebe27018df547bbd0cc3810714a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: blood_15
+  - first:
+      213: 21300002
+    second: teammate_blood_15
+  - first:
+      213: 21300004
+    second: blood_2
+  - first:
+      213: 21300006
+    second: teammate_blood_border_10
+  - first:
+      213: 21300008
+    second: teammate_blood_6
+  - first:
+      213: 21300010
+    second: blood_6
+  - first:
+      213: 21300012
+    second: teammate_blood_middle_7
+  - first:
+      213: 21300014
+    second: bluebg
+  - first:
+      213: 21300016
+    second: img_pure_white
+  - first:
+      213: 21300018
+    second: blood_5
+  - first:
+      213: 21300020
+    second: teammate_blood_2_right
+  - first:
+      213: 21300022
+    second: teammate_blood_middle_10
+  - first:
+      213: 21300024
+    second: blood_8
+  - first:
+      213: 21300026
+    second: blood_0
+  - first:
+      213: 21300028
+    second: teammate_blood_middle_5
+  - first:
+      213: 21300030
+    second: teammate_blood_middle_4
+  - first:
+      213: 21300032
+    second: blood_4
+  - first:
+      213: 21300034
+    second: blood_7
+  - first:
+      213: 21300036
+    second: blood_invincible
+  - first:
+      213: 21300038
+    second: redbg
+  - first:
+      213: 21300040
+    second: teammate_blood_middle_3
+  - first:
+      213: 21300042
+    second: teammate_blood_border_4
+  - first:
+      213: 21300044
+    second: teammate_blood_border_5
+  - first:
+      213: 21300046
+    second: teammate_blood_border_7
+  - first:
+      213: 21300048
+    second: teammate_blood_border_3
+  - first:
+      213: 21300050
+    second: blood_9
+  - first:
+      213: 21300052
+    second: blood_addbuff
+  - first:
+      213: 21300054
+    second: teammate_blood_2_left
+  - first:
+      213: 21300056
+    second: blood_3
+  - first:
+      213: 21300058
+    second: blood_10
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood_15
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 308.0268
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 214.5, y: -20}
+        - {x: -219.5, y: -20}
+        - {x: -219.5, y: 20}
+        - {x: 219.5, y: 20}
+        - {x: 219.5, y: 4.000002}
+      physicsShape:
+      - - {x: -199.5, y: 20}
+        - {x: -207.5, y: 13}
+        - {x: -218.5, y: -4.999998}
+        - {x: -218.5, y: -15}
+        - {x: -217.5, y: -20}
+        - {x: -195.5, y: -20}
+        - {x: -175.5, y: 15}
+        - {x: -175.5, y: 20}
+      - - {x: -171.5, y: 20}
+        - {x: -192.5, y: -12}
+        - {x: -192.5, y: -20}
+        - {x: -168.5, y: -20}
+        - {x: -164.5, y: -19}
+        - {x: -147.5, y: 13}
+        - {x: -147.5, y: 18}
+        - {x: -148.5, y: 20}
+      - - {x: -144.5, y: 20}
+        - {x: -147.5, y: 19}
+        - {x: -164.5, y: -14}
+        - {x: -164.5, y: -20}
+        - {x: -137.5, y: -20}
+        - {x: -120.5, y: 6.000002}
+        - {x: -118.5, y: 18}
+        - {x: -118.5, y: 20}
+      - - {x: -114.5, y: 20}
+        - {x: -117.5, y: 19}
+        - {x: -136.5, y: -16}
+        - {x: -136.5, y: -20}
+        - {x: -108.5, y: -20}
+        - {x: -94.5, y: -15}
+        - {x: -90.5, y: 13}
+        - {x: -90.5, y: 19}
+        - {x: -92.5, y: 20}
+      - - {x: -90.5, y: 20}
+        - {x: -108.5, y: -12}
+        - {x: -108.5, y: -20}
+        - {x: -83.5, y: -20}
+        - {x: -62.5, y: 11}
+        - {x: -62.5, y: 20}
+      - - {x: -63.5, y: 20}
+        - {x: -79.49999, y: -12}
+        - {x: -79.49999, y: -20}
+        - {x: -53.5, y: -20}
+        - {x: -52.5, y: -17}
+        - {x: -33.5, y: 17}
+        - {x: -33.5, y: 20}
+      - - {x: -32.5, y: 20}
+        - {x: -51.5, y: -16}
+        - {x: -51.5, y: -19}
+        - {x: -49.5, y: -20}
+        - {x: -24.5, y: -20}
+        - {x: -5.5, y: 14}
+        - {x: -5.5, y: 20}
+      - - {x: -4.5, y: 20}
+        - {x: -23.5, y: -18}
+        - {x: -21.5, y: -20}
+        - {x: 1.5, y: -20}
+        - {x: 22.5, y: 12}
+        - {x: 22.5, y: 20}
+      - - {x: 24.5, y: 20}
+        - {x: 5.5, y: -13}
+        - {x: 5.5, y: -18}
+        - {x: 6.5, y: -20}
+        - {x: 30.5, y: -20}
+        - {x: 50.5, y: 12}
+        - {x: 50.5, y: 20}
+      - - {x: 53.5, y: 20}
+        - {x: 33.5, y: -12}
+        - {x: 33.5, y: -20}
+        - {x: 60.5, y: -20}
+        - {x: 74.5, y: 7.000002}
+        - {x: 79.5, y: 18}
+        - {x: 77.5, y: 20}
+      - - {x: 80.49999, y: 20}
+        - {x: 61.5, y: -14}
+        - {x: 61.5, y: -20}
+        - {x: 88.5, y: -20}
+        - {x: 103.5, y: -14}
+        - {x: 107.5, y: 18}
+        - {x: 105.5, y: 20}
+      - - {x: 112.5, y: 20}
+        - {x: 107.5, y: 17}
+        - {x: 89.5, y: -16}
+        - {x: 89.5, y: -20}
+        - {x: 114.5, y: -20}
+        - {x: 118.5, y: -19}
+        - {x: 134.5, y: 13}
+        - {x: 135.5, y: 18}
+        - {x: 133.5, y: 20}
+      - - {x: 118.5, y: -20}
+        - {x: 144.5, y: -20}
+        - {x: 164.5, y: 16}
+        - {x: 164.5, y: 20}
+        - {x: 136.5, y: 20}
+        - {x: 118.5, y: 11}
+      - - {x: 146.5, y: -16}
+        - {x: 146.5, y: -20}
+        - {x: 176.5, y: -20}
+        - {x: 192.5, y: -11}
+        - {x: 192.5, y: 20}
+        - {x: 165.5, y: 20}
+      - - {x: 192.5, y: 20}
+        - {x: 174.5, y: -12}
+        - {x: 174.5, y: -20}
+        - {x: 198.5, y: -20}
+        - {x: 208.5, y: -19}
+        - {x: 218.5, y: 8.000002}
+        - {x: 218.5, y: 17}
+        - {x: 214.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f582881e8740e88c7762644d6e7258
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 792
+        width: 7
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -3.5, y: -7}
+        - {x: -3.5, y: 7}
+        - {x: 3.5, y: 7}
+        - {x: 3.5, y: -7}
+      physicsShape:
+      - - {x: -0.5, y: 5}
+        - {x: -3.5, y: 3}
+        - {x: -3.5, y: -5}
+        - {x: 0.5, y: -5}
+        - {x: 3.5, y: -3}
+        - {x: 3.5, y: 4}
+        - {x: 2.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350de666824d49db865e61dc32911f16
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_2
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 352.0268
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -217.5, y: -20}
+        - {x: -219.5, y: -15}
+        - {x: -219.5, y: 14}
+        - {x: -218.5, y: 20}
+        - {x: 219.5, y: 20}
+        - {x: 219.5, y: 4.000002}
+        - {x: 202.5, y: -20}
+      physicsShape:
+      - - {x: -202.5, y: 20}
+        - {x: -218.5, y: -3.999998}
+        - {x: -218.5, y: -16}
+        - {x: -214.5, y: -20}
+        - {x: -10.5, y: -20}
+        - {x: 8.5, y: 15}
+        - {x: 8.5, y: 19}
+        - {x: 6.5, y: 20}
+      - - {x: 11.5, y: 20}
+        - {x: -4.5, y: -2.999998}
+        - {x: -9.499999, y: -17}
+        - {x: -9.499999, y: -20}
+        - {x: 210.5, y: -20}
+        - {x: 218.5, y: 4.000002}
+        - {x: 218.5, y: 14}
+        - {x: 216.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae49b349d55e4c769cdb6f9dd4d7aa4e
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_border_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 722
+        width: 10
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 4, w: 0}
+      outline:
+      - - {x: -5, y: -7}
+        - {x: -5, y: 7}
+        - {x: 5, y: 7}
+        - {x: 5, y: -7}
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -5, y: 4}
+        - {x: -5, y: -5}
+        - {x: 2, y: -5}
+        - {x: 5, y: -1}
+        - {x: 5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ea82e87c04be5b87d79f114ae5eff
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 344
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -7, y: -7}
+        - {x: -7, y: 7}
+        - {x: 7, y: 7}
+        - {x: 7, y: -7}
+      physicsShape:
+      - - {x: -6, y: 5}
+        - {x: -7, y: 2}
+        - {x: -7, y: -4}
+        - {x: -6, y: -5}
+        - {x: 4, y: -5}
+        - {x: 6, y: -4}
+        - {x: 7, y: -1}
+        - {x: 7, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4735646d7a44be48221b9132f19ad3c
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_6
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 396.0268
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 215.5, y: -20}
+        - {x: -219.5, y: -20}
+        - {x: -219.5, y: 10}
+        - {x: -218.5, y: 20}
+        - {x: 219.5, y: 20}
+        - {x: 219.5, y: 2.000002}
+      physicsShape:
+      - - {x: -202.5, y: 20}
+        - {x: -218.5, y: 0.000001907349}
+        - {x: -218.5, y: -17}
+        - {x: -216.5, y: -20}
+        - {x: -153.5, y: -20}
+        - {x: -133.5, y: 12}
+        - {x: -133.5, y: 19}
+        - {x: -134.5, y: 20}
+      - - {x: -131.5, y: 20}
+        - {x: -150.5, y: -13}
+        - {x: -150.5, y: -18}
+        - {x: -149.5, y: -20}
+        - {x: -82.5, y: -20}
+        - {x: -62.5, y: 13}
+        - {x: -62.5, y: 20}
+      - - {x: -62.5, y: 20}
+        - {x: -79.49999, y: -13}
+        - {x: -79.49999, y: -18}
+        - {x: -78.5, y: -20}
+        - {x: -10.5, y: -20}
+        - {x: 8.5, y: 12}
+        - {x: 8.5, y: 20}
+      - - {x: 6.5, y: 20}
+        - {x: -9.499999, y: -17}
+        - {x: -9.499999, y: -19}
+        - {x: -7.5, y: -20}
+        - {x: 60.5, y: -20}
+        - {x: 79.5, y: 16}
+        - {x: 79.5, y: 20}
+      - - {x: 82.5, y: 20}
+        - {x: 80.49999, y: 17}
+        - {x: 61.5, y: -17}
+        - {x: 61.5, y: -19}
+        - {x: 63.5, y: -20}
+        - {x: 131.5, y: -20}
+        - {x: 150.5, y: 12}
+        - {x: 150.5, y: 20}
+      - - {x: 153.5, y: 20}
+        - {x: 142.5, y: 5.000001}
+        - {x: 132.5, y: -18}
+        - {x: 133.5, y: -20}
+        - {x: 201.5, y: -20}
+        - {x: 218.5, y: 2.000002}
+        - {x: 218.5, y: 16}
+        - {x: 215.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d1bd4a00b84b91a5c09a7748bb9421
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_middle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 868
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape:
+      - - {x: 5, y: 5}
+        - {x: -3, y: 5}
+        - {x: -5, y: 4}
+        - {x: -6, y: 1}
+        - {x: -6, y: -4}
+        - {x: -5, y: -5}
+        - {x: 3, y: -5}
+        - {x: 5, y: -4}
+        - {x: 6, y: -1}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38ac2d03f0a46548fb969876886856e
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebg
+      rect:
+        serializedVersion: 2
+        x: 0.0477047
+        y: 704.0513
+        width: 306.9046
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5016292, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147.5, y: -20}
+        - {x: -153.5, y: -18}
+        - {x: -153.5, y: 0}
+        - {x: -146.5, y: 20}
+        - {x: 152.5, y: 20}
+        - {x: 153.5, y: 19}
+        - {x: 153.5, y: 1}
+        - {x: 145.5, y: -20}
+      physicsShape:
+      - - {x: -140.5, y: 14}
+        - {x: -146.5, y: 4}
+        - {x: -146.5, y: -14}
+        - {x: 141.5, y: -14}
+        - {x: 146.5, y: -2}
+        - {x: 146.5, y: 11}
+        - {x: 143.5, y: 14}
+      - - {x: -131.5, y: 0}
+        - {x: 135.5, y: 5}
+        - {x: 129.5, y: -5}
+        - {x: -135.5, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd179ff5eb5f45b0b2630dc821502735
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_pure_white
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -27}
+        - {x: -27, y: -27}
+        - {x: -27, y: 27}
+        - {x: 27, y: 27}
+      physicsShape:
+      - - {x: -27, y: 27}
+        - {x: -27, y: -27}
+        - {x: 27, y: -27}
+        - {x: 27, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf37646b6c54bcea6a3fb4579595af0
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_5
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 440.0268
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -218.5, y: -20}
+        - {x: -219.5, y: -19}
+        - {x: -219.5, y: -7.999998}
+        - {x: -211.5, y: 15}
+        - {x: -200.5, y: 20}
+        - {x: 218.5, y: 20}
+        - {x: 219.5, y: 16}
+        - {x: 219.5, y: -1.999998}
+        - {x: 203.5, y: -20}
+      physicsShape:
+      - - {x: -204.5, y: 20}
+        - {x: -218.5, y: 1.000002}
+        - {x: -218.5, y: -20}
+        - {x: -134.5, y: -20}
+        - {x: -115.5, y: -14}
+        - {x: -115.5, y: 20}
+      - - {x: -34.5, y: 20}
+        - {x: -112.5, y: 20}
+        - {x: -132.5, y: -11}
+        - {x: -132.5, y: -19}
+        - {x: -131.5, y: -20}
+        - {x: -54.5, y: -20}
+        - {x: -51.5, y: -19}
+        - {x: -32.5, y: 16}
+        - {x: -32.5, y: 19}
+      - - {x: -31.5, y: 20}
+        - {x: -50.5, y: -13}
+        - {x: -50.5, y: -20}
+        - {x: 33.5, y: -20}
+        - {x: 49.5, y: 11}
+        - {x: 49.5, y: 20}
+      - - {x: 49.5, y: 20}
+        - {x: 32.5, y: -9.999997}
+        - {x: 32.5, y: -20}
+        - {x: 113.5, y: -20}
+        - {x: 132.5, y: 14}
+        - {x: 132.5, y: 20}
+      - - {x: 135.5, y: 20}
+        - {x: 123.5, y: 7.000002}
+        - {x: 114.5, y: -18}
+        - {x: 114.5, y: -20}
+        - {x: 202.5, y: -20}
+        - {x: 209.5, y: -19}
+        - {x: 218.5, y: 4.000002}
+        - {x: 218.5, y: 14}
+        - {x: 216.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a163f0031c6d4adb94d2da4a7f2c81f0
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_2_right
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 792
+        width: 39
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 4, w: 0}
+      outline:
+      - - {x: -19.5, y: -7}
+        - {x: -19.5, y: 7}
+        - {x: 19.5, y: 7}
+        - {x: 19.5, y: -7}
+      physicsShape:
+      - - {x: -15.5, y: 5}
+        - {x: -19.5, y: 1}
+        - {x: -19.5, y: -5}
+        - {x: 19.5, y: -5}
+        - {x: 19.5, y: 3}
+        - {x: 17.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa9980dbe664cb3b360ebb76087f841
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_middle_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 810
+        width: 9
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -4.5, y: -7}
+        - {x: -4.5, y: 7}
+        - {x: 4.5, y: 7}
+        - {x: 4.5, y: -7}
+      physicsShape:
+      - - {x: -4.5, y: 5}
+        - {x: -4.5, y: -5}
+        - {x: 2.5, y: -5}
+        - {x: 4.5, y: -2}
+        - {x: 4.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e849184a64be410bae8d91c4e018508f
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 492
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -246, y: -42}
+        - {x: -246, y: 42}
+        - {x: 246, y: 42}
+        - {x: 246, y: -42}
+      physicsShape:
+      - - {x: -198, y: 20}
+        - {x: -208, y: 13}
+        - {x: -219, y: -1}
+        - {x: -219, y: -17}
+        - {x: -217, y: -20}
+        - {x: -113, y: -20}
+        - {x: -91.99999, y: 12}
+        - {x: -91.99999, y: 20}
+      - - {x: -89, y: 20}
+        - {x: -109, y: -11}
+        - {x: -109, y: -20}
+        - {x: -60, y: -20}
+        - {x: -44, y: -16}
+        - {x: -42, y: 4}
+        - {x: -42, y: 18}
+        - {x: -43, y: 20}
+      - - {x: -39, y: 20}
+        - {x: -45, y: 19}
+        - {x: -61, y: -17}
+        - {x: -61, y: -19}
+        - {x: -59, y: -20}
+        - {x: -12, y: -20}
+        - {x: -1, y: -4}
+        - {x: 9, y: 17}
+        - {x: 9, y: 20}
+      - - {x: 11, y: 20}
+        - {x: -9, y: -12}
+        - {x: -9, y: -20}
+        - {x: 89, y: -20}
+        - {x: 108, y: 15}
+        - {x: 108, y: 20}
+      - - {x: 111, y: 20}
+        - {x: 100, y: 5}
+        - {x: 90, y: -18}
+        - {x: 90, y: -20}
+        - {x: 202, y: -20}
+        - {x: 218, y: 2}
+        - {x: 218, y: 16}
+        - {x: 215, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f4544872964b1cafba8c52e7678a9e
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_0
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 484.0268
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -217.5, y: -20}
+        - {x: -219.5, y: -15}
+        - {x: -219.5, y: -2.999998}
+        - {x: -204.5, y: 20}
+        - {x: 216.5, y: 20}
+        - {x: 219.5, y: 17}
+        - {x: 219.5, y: 4.000002}
+        - {x: 202.5, y: -20}
+      physicsShape:
+      - - {x: -200.5, y: 20}
+        - {x: -214.5, y: 4.000002}
+        - {x: -218.5, y: -7.999998}
+        - {x: -218.5, y: -18}
+        - {x: -215.5, y: -20}
+        - {x: 202.5, y: -20}
+        - {x: 218.5, y: 6.000002}
+        - {x: 218.5, y: 16}
+        - {x: 217.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcce7319a0b41b6a633649478069618
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_middle_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 326
+        width: 16
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -8, y: -7}
+        - {x: -8, y: 7}
+        - {x: 8, y: 7}
+        - {x: 8, y: -7}
+      physicsShape:
+      - - {x: -8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 8, y: -3}
+        - {x: 8, y: 5}
+        - {x: -8, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc49fe6eed246ba8c95cf1ec5711af9
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_middle_4
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 308
+        width: 19
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -9.5, y: -7}
+        - {x: -9.5, y: 7}
+        - {x: 9.5, y: 7}
+        - {x: 9.5, y: -7}
+      physicsShape:
+      - - {x: 8.5, y: 5}
+        - {x: -6.5, y: 5}
+        - {x: -8.5, y: 4}
+        - {x: -9.5, y: 1}
+        - {x: -9.5, y: -4}
+        - {x: -8.5, y: -5}
+        - {x: 6.5, y: -5}
+        - {x: 8.5, y: -4}
+        - {x: 9.5, y: -1}
+        - {x: 9.5, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e358d63a6ea74b58bd384c28913664ec
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_4
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 528.0267
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -217.5, y: -20}
+        - {x: -219.5, y: -15}
+        - {x: -219.5, y: -1.999998}
+        - {x: -207.5, y: 20}
+        - {x: 219.5, y: 20}
+        - {x: 219.5, y: 4.000002}
+        - {x: 202.5, y: -20}
+      physicsShape:
+      - - {x: -202.5, y: 20}
+        - {x: -218.5, y: -3.999998}
+        - {x: -218.5, y: -20}
+        - {x: -110.5, y: -20}
+        - {x: -91.49999, y: -16}
+        - {x: -91.49999, y: 20}
+      - - {x: -91.49999, y: 20}
+        - {x: -108.5, y: -13}
+        - {x: -108.5, y: -18}
+        - {x: -107.5, y: -20}
+        - {x: -10.5, y: -20}
+        - {x: 8.5, y: 12}
+        - {x: 8.5, y: 20}
+      - - {x: 9.5, y: 20}
+        - {x: -9.499999, y: -11}
+        - {x: -9.499999, y: -20}
+        - {x: 89.5, y: -20}
+        - {x: 108.5, y: 12}
+        - {x: 108.5, y: 20}
+      - - {x: 111.5, y: 20}
+        - {x: 100.5, y: 5.000001}
+        - {x: 90.5, y: -18}
+        - {x: 91.5, y: -20}
+        - {x: 201.5, y: -20}
+        - {x: 218.5, y: 3.000002}
+        - {x: 218.5, y: 16}
+        - {x: 216.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71eb720588747be90cf0770679f7201
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_7
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 572.0267
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -217.5, y: -20}
+        - {x: -219.5, y: -19}
+        - {x: -219.5, y: -7.999998}
+        - {x: -211.5, y: 16}
+        - {x: -202.5, y: 20}
+        - {x: 218.5, y: 20}
+        - {x: 219.5, y: 16}
+        - {x: 219.5, y: -2.999998}
+        - {x: 205.5, y: -20}
+      physicsShape:
+      - - {x: -210.5, y: 20}
+        - {x: -218.5, y: -0.9999981}
+        - {x: -218.5, y: -20}
+        - {x: -155.5, y: -20}
+        - {x: -144.5, y: -18}
+        - {x: -139.5, y: 5.000001}
+        - {x: -139.5, y: 20}
+      - - {x: -139.5, y: 20}
+        - {x: -156.5, y: -13}
+        - {x: -156.5, y: -18}
+        - {x: -155.5, y: -20}
+        - {x: -98.49999, y: -20}
+        - {x: -80.5, y: 10}
+        - {x: -80.5, y: 20}
+      - - {x: -97.49999, y: -13}
+        - {x: -97.49999, y: -20}
+        - {x: -38.5, y: -20}
+        - {x: -21.5, y: 13}
+        - {x: -21.5, y: 20}
+        - {x: -80.5, y: 20}
+      - - {x: -21.5, y: 20}
+        - {x: -38.5, y: -14}
+        - {x: -38.5, y: -20}
+        - {x: 18.5, y: -20}
+        - {x: 38.5, y: 17}
+        - {x: 38.5, y: 20}
+      - - {x: 39.5, y: 20}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -20}
+        - {x: 79.5, y: -20}
+        - {x: 92.49999, y: 7.000002}
+        - {x: 97.5, y: 18}
+        - {x: 95.5, y: 20}
+      - - {x: 154.5, y: 20}
+        - {x: 100.5, y: 20}
+        - {x: 87.5, y: 0.000001907349}
+        - {x: 79.5, y: -17}
+        - {x: 79.5, y: -19}
+        - {x: 81.5, y: -20}
+        - {x: 135.5, y: -20}
+        - {x: 151.5, y: 5.000001}
+        - {x: 156.5, y: 17}
+        - {x: 156.5, y: 19}
+      - - {x: 138.5, y: -18}
+        - {x: 139.5, y: -20}
+        - {x: 201.5, y: -20}
+        - {x: 218.5, y: 5.000001}
+        - {x: 218.5, y: 20}
+        - {x: 155.5, y: 20}
+        - {x: 138.5, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b94717c9b9d4c2a83c75d4d1274a705
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_invincible
+      rect:
+        serializedVersion: 2
+        x: 0.07612038
+        y: 88
+        width: 482.8478
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5031065, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -231.5, y: -42}
+        - {x: -241.5, y: -34}
+        - {x: -241.5, y: -7}
+        - {x: -240.5, y: 9}
+        - {x: -236.5, y: 16}
+        - {x: -225.5, y: 35}
+        - {x: -215.5, y: 42}
+        - {x: 234.5, y: 42}
+        - {x: 241.5, y: 31}
+        - {x: 241.5, y: -13}
+        - {x: 222.5, y: -40}
+        - {x: 212.5, y: -42}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7759ffeebc46cf928560e69947a0d3
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbg
+      rect:
+        serializedVersion: 2
+        x: 0.0477047
+        y: 748.0513
+        width: 306.9046
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5016292, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -146.5, y: -20}
+        - {x: -153.5, y: -3}
+        - {x: -153.5, y: 20}
+        - {x: 153.5, y: 20}
+        - {x: 153.5, y: -20}
+      physicsShape:
+      - - {x: -146.5, y: 14}
+        - {x: -146.5, y: -14}
+        - {x: 146.5, y: -14}
+        - {x: 146.5, y: 4}
+        - {x: 133.5, y: 14}
+      - - {x: -135.5, y: 5}
+        - {x: 128.5, y: 5}
+        - {x: 134.5, y: -5}
+        - {x: -129.5, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f15d0b078da42458a83bf3eb27cceee
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_middle_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 704
+        width: 24
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -12, y: -7}
+        - {x: -12, y: 7}
+        - {x: 12, y: 7}
+        - {x: 12, y: -7}
+      physicsShape:
+      - - {x: -12, y: 5}
+        - {x: -12, y: -5}
+        - {x: 9, y: -5}
+        - {x: 11, y: -4}
+        - {x: 12, y: -2}
+        - {x: 12, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6737b20b80e340eaa594e5d56d27d97d
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_border_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 792
+        width: 21
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -10.5, y: -7}
+        - {x: -10.5, y: 7}
+        - {x: 10.5, y: 7}
+        - {x: 10.5, y: -7}
+      physicsShape:
+      - - {x: -9.5, y: 5}
+        - {x: -10.5, y: 4}
+        - {x: -10.5, y: -5}
+        - {x: 8.5, y: -5}
+        - {x: 10.5, y: -2}
+        - {x: 10.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9734e8e7df246e6889a12e21b432cb7
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_border_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 704
+        width: 17
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -8.5, y: -7}
+        - {x: -8.5, y: 7}
+        - {x: 8.5, y: 7}
+        - {x: 8.5, y: -7}
+      physicsShape:
+      - - {x: -8.5, y: 5}
+        - {x: -8.5, y: -5}
+        - {x: 6.5, y: -5}
+        - {x: 8.5, y: -1}
+        - {x: 8.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba10e169d5a74e929a825b8e9c50cabc
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_border_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 792
+        width: 13
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -6.5, y: -7}
+        - {x: -6.5, y: 7}
+        - {x: 6.5, y: 7}
+        - {x: 6.5, y: -7}
+      physicsShape:
+      - - {x: -6.5, y: 5}
+        - {x: -6.5, y: -5}
+        - {x: 4.5, y: -5}
+        - {x: 6.5, y: -1}
+        - {x: 6.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1731e571a6a3436cbb784febe25efb16
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_border_3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 264
+        width: 27
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -13.5, y: -7}
+        - {x: -13.5, y: 7}
+        - {x: 13.5, y: 7}
+        - {x: 13.5, y: -7}
+      physicsShape:
+      - - {x: -13.5, y: 5}
+        - {x: -13.5, y: -5}
+        - {x: 13.5, y: -5}
+        - {x: 13.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336a7c3388a449cf827d046512893e3e
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_9
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 264.0761
+        width: 446.9528
+        height: 39.84776
+      alignment: 9
+      pivot: {x: 0.5011116, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 207.4968, y: -20}
+        - {x: -223.5032, y: -20}
+        - {x: -223.5032, y: -11}
+        - {x: -207.5032, y: 20}
+        - {x: 223.4968, y: 20}
+        - {x: 223.4968, y: 9.000002}
+      physicsShape:
+      - - {x: -200.5032, y: 20}
+        - {x: -203.5032, y: 18}
+        - {x: -222.5032, y: -13}
+        - {x: -222.5032, y: -18}
+        - {x: -221.5032, y: -20}
+        - {x: -175.5032, y: -20}
+        - {x: -157.5032, y: 13}
+        - {x: -157.5032, y: 20}
+      - - {x: -154.5032, y: 20}
+        - {x: -170.5031, y: -4.999998}
+        - {x: -175.5032, y: -17}
+        - {x: -175.5032, y: -19}
+        - {x: -173.5032, y: -20}
+        - {x: -128.5032, y: -20}
+        - {x: -110.5032, y: 12}
+        - {x: -110.5032, y: 20}
+      - - {x: -110.5032, y: 20}
+        - {x: -126.5032, y: -14}
+        - {x: -127.5032, y: -18}
+        - {x: -125.5032, y: -20}
+        - {x: -81.50316, y: -20}
+        - {x: -62.50316, y: 14}
+        - {x: -62.50316, y: 20}
+      - - {x: -61.50316, y: 20}
+        - {x: -80.50316, y: -13}
+        - {x: -80.50316, y: -20}
+        - {x: -31.50316, y: -20}
+        - {x: -15.50316, y: 16}
+        - {x: -15.50316, y: 19}
+        - {x: -17.50316, y: 20}
+      - - {x: -15.50316, y: 20}
+        - {x: -32.50316, y: -11}
+        - {x: -32.50316, y: -20}
+        - {x: 13.49684, y: -20}
+        - {x: 32.49684, y: 13}
+        - {x: 32.49684, y: 20}
+      - - {x: 32.49684, y: 20}
+        - {x: 17.49684, y: -5.999998}
+        - {x: 14.49684, y: -18}
+        - {x: 14.49684, y: -20}
+        - {x: 63.49684, y: -20}
+        - {x: 79.49684, y: 16}
+        - {x: 79.49684, y: 20}
+      - - {x: 79.49684, y: 20}
+        - {x: 62.49684, y: -9.999997}
+        - {x: 62.49684, y: -20}
+        - {x: 108.4968, y: -20}
+        - {x: 127.4968, y: 12}
+        - {x: 127.4968, y: 20}
+      - - {x: 128.4968, y: 20}
+        - {x: 109.4968, y: -18}
+        - {x: 111.4968, y: -20}
+        - {x: 154.4968, y: -20}
+        - {x: 174.4968, y: 11}
+        - {x: 174.4968, y: 20}
+      - - {x: 178.4968, y: 20}
+        - {x: 157.4968, y: -12}
+        - {x: 157.4968, y: -19}
+        - {x: 158.4968, y: -20}
+        - {x: 203.4968, y: -20}
+        - {x: 222.4968, y: 14}
+        - {x: 222.4968, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9d2c1c5976442eb908d9b0a583aa3b
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_addbuff
+      rect:
+        serializedVersion: 2
+        x: 0.07612038
+        y: 176
+        width: 482.8478
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5031065, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -231.5, y: -42}
+        - {x: -241.5, y: -34}
+        - {x: -241.5, y: -7}
+        - {x: -240.5, y: 9}
+        - {x: -236.5, y: 16}
+        - {x: -225.5, y: 35}
+        - {x: -215.5, y: 42}
+        - {x: 234.5, y: 42}
+        - {x: 241.5, y: 31}
+        - {x: 241.5, y: -13}
+        - {x: 222.5, y: -40}
+        - {x: 212.5, y: -42}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd0f11a39164c869a3349873828f0d0
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teammate_blood_2_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 39
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 4, w: 0}
+      outline:
+      - - {x: -19.5, y: -7}
+        - {x: -19.5, y: 7}
+        - {x: 19.5, y: 7}
+        - {x: 19.5, y: -7}
+      physicsShape:
+      - - {x: 17.5, y: 5}
+        - {x: -16.5, y: 5}
+        - {x: -19.5, y: 1}
+        - {x: -19.5, y: -4}
+        - {x: -17.5, y: -5}
+        - {x: 16.5, y: -5}
+        - {x: 19.5, y: 0}
+        - {x: 19.5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32761fb7cf204e85b69227cb254abef2
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_3
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 616.0267
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 206.5, y: -20}
+        - {x: -219.5, y: -20}
+        - {x: -219.5, y: -7.999998}
+        - {x: -211.5, y: 16}
+        - {x: -202.5, y: 20}
+        - {x: 218.5, y: 20}
+        - {x: 219.5, y: 16}
+        - {x: 219.5, y: -2.999998}
+      physicsShape:
+      - - {x: -203.5, y: 20}
+        - {x: -218.5, y: 0.000001907349}
+        - {x: -218.5, y: -20}
+        - {x: -72.49999, y: -20}
+        - {x: -61.5, y: 0.000001907349}
+        - {x: -55.5, y: 13}
+        - {x: -55.5, y: 20}
+      - - {x: -55.5, y: 20}
+        - {x: -72.49999, y: -13}
+        - {x: -72.49999, y: -18}
+        - {x: -71.5, y: -20}
+        - {x: 50.5, y: -20}
+        - {x: 53.5, y: -19}
+        - {x: 72.5, y: 15}
+        - {x: 72.5, y: 20}
+      - - {x: 75.5, y: 20}
+        - {x: 64.5, y: 5.000001}
+        - {x: 54.5, y: -18}
+        - {x: 55.5, y: -20}
+        - {x: 201.5, y: -20}
+        - {x: 218.5, y: 3.000002}
+        - {x: 218.5, y: 16}
+        - {x: 216.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4cb843f5384a48afb4a34eda762ad7
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_10
+      rect:
+        serializedVersion: 2
+        x: 0.02675056
+        y: 660.0267
+        width: 438.9465
+        height: 39.9465
+      alignment: 9
+      pivot: {x: 0.5011391, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -218.5, y: -20}
+        - {x: -219.5, y: -18}
+        - {x: -219.5, y: 1.000002}
+        - {x: -204.5, y: 20}
+        - {x: 219.5, y: 20}
+        - {x: 219.5, y: 3.000002}
+        - {x: 215.5, y: -20}
+      physicsShape:
+      - - {x: -195.5, y: 20}
+        - {x: -201.5, y: 19}
+        - {x: -210.5, y: 15}
+        - {x: -218.5, y: -6.999998}
+        - {x: -218.5, y: -18}
+        - {x: -215.5, y: -20}
+        - {x: -177.5, y: -20}
+        - {x: -157.5, y: 13}
+        - {x: -157.5, y: 20}
+      - - {x: -152.5, y: 20}
+        - {x: -155.5, y: 18}
+        - {x: -174.5, y: -13}
+        - {x: -174.5, y: -18}
+        - {x: -173.5, y: -20}
+        - {x: -136.5, y: -20}
+        - {x: -118.5, y: 9.000002}
+        - {x: -115.5, y: 18}
+        - {x: -117.5, y: 20}
+      - - {x: -114.5, y: 20}
+        - {x: -132.5, y: -12}
+        - {x: -133.5, y: -18}
+        - {x: -133.5, y: -20}
+        - {x: -91.49999, y: -20}
+        - {x: -74.5, y: 14}
+        - {x: -74.5, y: 20}
+      - - {x: -34.5, y: 20}
+        - {x: -69.5, y: 20}
+        - {x: -73.5, y: 18}
+        - {x: -91.49999, y: -15}
+        - {x: -91.49999, y: -20}
+        - {x: -52.5, y: -20}
+        - {x: -40.5, y: 2.000002}
+        - {x: -32.5, y: 18}
+      - - {x: -29.5, y: 20}
+        - {x: -50.5, y: -7.999998}
+        - {x: -50.5, y: -20}
+        - {x: -10.5, y: -20}
+        - {x: 8.5, y: 13}
+        - {x: 8.5, y: 20}
+      - - {x: 12.5, y: 20}
+        - {x: 6.5, y: 19}
+        - {x: -9.499999, y: -17}
+        - {x: -9.499999, y: -20}
+        - {x: 32.5, y: -20}
+        - {x: 50.5, y: 16}
+        - {x: 50.5, y: 20}
+      - - {x: 51.5, y: 20}
+        - {x: 32.5, y: -13}
+        - {x: 32.5, y: -19}
+        - {x: 33.5, y: -20}
+        - {x: 72.5, y: -20}
+        - {x: 91.5, y: 16}
+        - {x: 91.5, y: 20}
+      - - {x: 94.5, y: 20}
+        - {x: 92.49999, y: 17}
+        - {x: 73.49999, y: -17}
+        - {x: 73.49999, y: -19}
+        - {x: 75.5, y: -20}
+        - {x: 111.5, y: -20}
+        - {x: 132.5, y: 10}
+        - {x: 132.5, y: 20}
+      - - {x: 136.5, y: 20}
+        - {x: 115.5, y: -12}
+        - {x: 115.5, y: -19}
+        - {x: 116.5, y: -20}
+        - {x: 155.5, y: -20}
+        - {x: 174.5, y: 14}
+        - {x: 174.5, y: 20}
+      - - {x: 174.5, y: 20}
+        - {x: 156.5, y: 14}
+        - {x: 156.5, y: -18}
+        - {x: 157.5, y: -20}
+        - {x: 199.5, y: -20}
+        - {x: 206.5, y: -16}
+        - {x: 218.5, y: 9.000002}
+        - {x: 218.5, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1320127ad7e4348adef6ebb5ef39136
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      teammate_blood_middle_10: 21300022
+      teammate_blood_border_7: 21300046
+      teammate_blood_border_4: 21300042
+      blood_5: 21300018
+      redbg: 21300038
+      blood_invincible: 21300036
+      blood_addbuff: 21300052
+      blood_6: 21300010
+      blood_15: 21300000
+      blood_3: 21300056
+      blood_0: 21300026
+      teammate_blood_middle_5: 21300028
+      teammate_blood_6: 21300008
+      blood_10: 21300058
+      blood_7: 21300034
+      teammate_blood_2_right: 21300020
+      teammate_blood_middle_7: 21300012
+      teammate_blood_middle_3: 21300040
+      teammate_blood_15: 21300002
+      teammate_blood_border_3: 21300048
+      blood_2: 21300004
+      blood_4: 21300032
+      blood_9: 21300050
+      teammate_blood_border_10: 21300006
+      bluebg: 21300014
+      teammate_blood_2_left: 21300054
+      blood_8: 21300024
+      teammate_blood_border_5: 21300044
+      teammate_blood_middle_4: 21300030
+      img_pure_white: 21300016
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

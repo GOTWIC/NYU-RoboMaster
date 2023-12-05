@@ -1,0 +1,2828 @@
+fileFormatVersion: 2
+guid: 4fc709f536dbfb0468daf7af774ae701
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: blue_map_arrow
+  - first:
+      213: 21300002
+    second: red_map_upland_3_bluearea
+  - first:
+      213: 21300004
+    second: map_robot_id_1
+  - first:
+      213: 21300006
+    second: map_island_active
+  - first:
+      213: 21300008
+    second: map_island_blue
+  - first:
+      213: 21300010
+    second: blue_map_upland_2_bluearea
+  - first:
+      213: 21300012
+    second: map_upland_2_bluearea
+  - first:
+      213: 21300014
+    second: red_map_base_animation_3
+  - first:
+      213: 21300016
+    second: blue_map_upland_1_bluearea
+  - first:
+      213: 21300018
+    second: blue_map_guard
+  - first:
+      213: 21300020
+    second: red_map_guard
+  - first:
+      213: 21300022
+    second: red_map_outpost_2021
+  - first:
+      213: 21300024
+    second: red_map_outpost_redarea
+  - first:
+      213: 21300026
+    second: red_map_outpost_bluearea
+  - first:
+      213: 21300028
+    second: map_upland_3_bluearea
+  - first:
+      213: 21300030
+    second: red_map_upland_1_redarea
+  - first:
+      213: 21300032
+    second: red_map_base_animation_4
+  - first:
+      213: 21300034
+    second: self_map_robot
+  - first:
+      213: 21300036
+    second: blue_map_upland_1_redarea
+  - first:
+      213: 21300038
+    second: map_upland_1_bluearea
+  - first:
+      213: 21300040
+    second: blue_map_base_animation_1
+  - first:
+      213: 21300042
+    second: blue_map_upland_3_bluearea
+  - first:
+      213: 21300044
+    second: red_map_base_area
+  - first:
+      213: 21300046
+    second: blue_map_base_animation_4
+  - first:
+      213: 21300048
+    second: blue_map_robot
+  - first:
+      213: 21300050
+    second: blue_map_outpost_redarea
+  - first:
+      213: 21300052
+    second: red_map_base_animation_1
+  - first:
+      213: 21300054
+    second: red_map_upland_2_redarea
+  - first:
+      213: 21300056
+    second: red_map_arrow
+  - first:
+      213: 21300058
+    second: red_map_airplane
+  - first:
+      213: 21300060
+    second: map_robot_id_4
+  - first:
+      213: 21300062
+    second: blue_map_airplane
+  - first:
+      213: 21300064
+    second: red_map_upland_1_bluearea
+  - first:
+      213: 21300066
+    second: ic_fpv_map_cursor_custom_1
+  - first:
+      213: 21300068
+    second: ic_fpv_map_cursor_warning_1
+  - first:
+      213: 21300070
+    second: blue_map_base
+  - first:
+      213: 21300072
+    second: map_island_counting
+  - first:
+      213: 21300074
+    second: red_map_base_animation_2
+  - first:
+      213: 21300076
+    second: map_upland_2_redarea
+  - first:
+      213: 21300078
+    second: red_map_upland_3_redarea
+  - first:
+      213: 21300080
+    second: blue_map_outpost_bg
+  - first:
+      213: 21300082
+    second: blue_map_island
+  - first:
+      213: 21300084
+    second: map_upland_1_redarea
+  - first:
+      213: 21300086
+    second: blue_map_base_animation_3
+  - first:
+      213: 21300088
+    second: red_map_outpost_bg
+  - first:
+      213: 21300090
+    second: red_map_base
+  - first:
+      213: 21300092
+    second: map_outpost_redarea
+  - first:
+      213: 21300094
+    second: blue_map_outpost
+  - first:
+      213: 21300096
+    second: map_island_red
+  - first:
+      213: 21300098
+    second: red_map_upland_2_bluearea
+  - first:
+      213: 21300100
+    second: blue_map_outpost_bluearea
+  - first:
+      213: 21300102
+    second: blue_map_upland_3_redarea
+  - first:
+      213: 21300104
+    second: map_robot_id_5
+  - first:
+      213: 21300106
+    second: blue_map_base_area
+  - first:
+      213: 21300108
+    second: blue_map_upland_2_redarea
+  - first:
+      213: 21300110
+    second: blue_map_base_animation_2
+  - first:
+      213: 21300112
+    second: ic_fpv_map_cursor_defense_1
+  - first:
+      213: 21300114
+    second: self_map_arrow
+  - first:
+      213: 21300116
+    second: map_island
+  - first:
+      213: 21300118
+    second: map_robot_id_3
+  - first:
+      213: 21300120
+    second: red_map_outpost
+  - first:
+      213: 21300122
+    second: ic_fpv_map_cursor_clump_1
+  - first:
+      213: 21300124
+    second: steep_top_blue
+  - first:
+      213: 21300126
+    second: restoreicon
+  - first:
+      213: 21300128
+    second: map_outpost_bluearea
+  - first:
+      213: 21300130
+    second: red_map_robot
+  - first:
+      213: 21300132
+    second: restore_red
+  - first:
+      213: 21300134
+    second: ic_fpv_map_cursor_attack_1
+  - first:
+      213: 21300136
+    second: map_robot_id_2
+  - first:
+      213: 21300138
+    second: restore_blue
+  - first:
+      213: 21300140
+    second: red_map_island
+  - first:
+      213: 21300142
+    second: map_upland_3_redarea
+  - first:
+      213: 21300144
+    second: blue_map_outpost_2021
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue_map_arrow
+      rect:
+        serializedVersion: 2
+        x: 614.0429
+        y: 908.0761
+        width: 19.91418
+        height: 21.92388
+      alignment: 9
+      pivot: {x: 0.5, y: -0.4595958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -11.03806}
+        - {x: -10, y: -9.038061}
+        - {x: -10, y: -2.038061}
+        - {x: -3, y: 10.96194}
+        - {x: 3, y: 10.96194}
+        - {x: 6, y: 3.961939}
+        - {x: 10, y: -4.038061}
+        - {x: 10, y: -9.038061}
+        - {x: 9, y: -11.03806}
+      physicsShape:
+      - - {x: 2, y: 9.961939}
+        - {x: -2, y: 9.961939}
+        - {x: -9, y: -6.038062}
+        - {x: -9, y: -9.038061}
+        - {x: -7, y: -10.03806}
+        - {x: 6, y: -10.03806}
+        - {x: 9, y: -9.038061}
+        - {x: 9, y: -6.038062}
+        - {x: 7, y: 1.961937}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bdfdf7f90a4b629b4290d0013583fd
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_upland_3_bluearea
+      rect:
+        serializedVersion: 2
+        x: 770.0513
+        y: 581.0761
+        width: 80.87256
+        height: 62.84778
+      alignment: 9
+      pivot: {x: -2.312915, y: -1.130925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.48758, y: -28.5}
+        - {x: -40.48759, y: 24.5}
+        - {x: -40.48759, y: 29.5}
+        - {x: -39.48759, y: 31.5}
+        - {x: 38.51241, y: 31.5}
+        - {x: 40.51241, y: 29.5}
+        - {x: 40.51241, y: -31.5}
+        - {x: 1.512405, y: -31.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acede16f36474618b28c4188b0d6d8fd
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_robot_id_1
+      rect:
+        serializedVersion: 2
+        x: 379.0761
+        y: 931.0761
+        width: 10.84776
+        height: 22.84776
+      alignment: 9
+      pivot: {x: 0.5460925, y: 0.521884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: -11.5}
+        - {x: -5.5, y: -2.499999}
+        - {x: -5.5, y: 11.5}
+        - {x: 3.5, y: 11.5}
+        - {x: 5.5, y: 9.500001}
+        - {x: 5.5, y: -9.499999}
+        - {x: 3.5, y: -11.5}
+      physicsShape:
+      - - {x: -2.5, y: 10.5}
+        - {x: -5.5, y: 8.500001}
+        - {x: -5.5, y: 2.500001}
+        - {x: -2.5, y: -8.499999}
+        - {x: 0.5, y: -9.499998}
+        - {x: 3.5, y: -9.499998}
+        - {x: 4.5, y: -7.499999}
+        - {x: 4.5, y: 8.500001}
+        - {x: 2.5, y: 10.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd1a290c194efbb74f4be43942050d
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_island_active
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 702
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -40}
+        - {x: -40, y: -40}
+        - {x: -40, y: 34}
+        - {x: -23, y: 40}
+        - {x: 31, y: 40}
+        - {x: 40, y: 33}
+      physicsShape:
+      - - {x: 23, y: -36}
+        - {x: 29, y: -29}
+        - {x: 36, y: -6}
+        - {x: 36, y: 17}
+        - {x: 16, y: 19}
+        - {x: 9.999999, y: 35}
+        - {x: 8, y: 36}
+        - {x: -8, y: 36}
+        - {x: -11, y: 14}
+        - {x: -32, y: 18}
+        - {x: -36, y: 12}
+        - {x: -37, y: 7}
+        - {x: -37, y: 3}
+        - {x: -18, y: -8}
+        - {x: -29, y: -30}
+        - {x: -18, y: -36}
+        - {x: -12, y: -36}
+        - {x: 1, y: -19}
+        - {x: 7, y: -33}
+        - {x: 15, y: -36}
+      - - {x: -18, y: -26}
+        - {x: -17, y: -28}
+        - {x: -17, y: -27}
+      - - {x: 17, y: -27}
+        - {x: 18, y: -26}
+        - {x: 19, y: -27}
+        - {x: 17, y: -28}
+      - - {x: -2, y: 1}
+        - {x: 2, y: 1}
+        - {x: 3, y: -4}
+        - {x: -1, y: -5}
+      - - {x: -28, y: 9}
+        - {x: -29, y: 7}
+      - - {x: 28, y: 8}
+        - {x: 28, y: 9}
+        - {x: 29, y: 7}
+      - - {x: 0, y: 30}
+        - {x: 1, y: 30}
+        - {x: 1, y: 29}
+        - {x: -1, y: 29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fecb2fa55f46cd99d8cbce6cd08f97
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_island_blue
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 694.0267
+        width: 80
+        height: 79.89713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5003089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -39.97532}
+        - {x: -40, y: -39.97532}
+        - {x: -40, y: 29.02468}
+        - {x: -23, y: 40.02468}
+        - {x: 8, y: 40.02468}
+        - {x: 40, y: 29.02468}
+        - {x: 40, y: -8.975319}
+        - {x: 32, y: -32.97532}
+      physicsShape:
+      - - {x: 30, y: -25.97532}
+        - {x: 17, y: -7.975319}
+        - {x: 38, y: 2.024681}
+        - {x: 38, y: 7.024681}
+        - {x: 34, y: 18.02468}
+        - {x: 6, y: 36.02468}
+        - {x: -6, y: 36.02468}
+        - {x: -9, y: 31.02468}
+        - {x: -34, y: 17.02468}
+        - {x: -38, y: 7.024681}
+        - {x: -38, y: 2.024681}
+        - {x: -18, y: -8.975319}
+        - {x: -29, y: -30.97532}
+        - {x: -19, y: -35.97532}
+        - {x: -15, y: -35.97532}
+        - {x: 0, y: -18.97532}
+        - {x: 16, y: -35.97532}
+        - {x: 22, y: -35.97532}
+      - - {x: -18, y: -26.97532}
+        - {x: -19, y: -26.97532}
+      - - {x: 19, y: -26.97532}
+        - {x: 18, y: -26.97532}
+        - {x: 18, y: -27.97532}
+      - - {x: -3, y: -2.975319}
+        - {x: -1, y: 0.02468109}
+        - {x: 2, y: -1.975319}
+        - {x: 0, y: -5.975319}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248d3cac90ba46dfb4b43f1b3dcf0802
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_upland_2_bluearea
+      rect:
+        serializedVersion: 2
+        x: 0.05133057
+        y: 627.0761
+        width: 80.92194
+        height: 175.8642
+      alignment: 9
+      pivot: {x: -0.7668048, y: 0.7615189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5123, y: -88.00819}
+        - {x: -40.5123, y: -72.00819}
+        - {x: -40.5123, y: -65.00819}
+        - {x: -6.512299, y: 71.99181}
+        - {x: 11.4877, y: 87.99181}
+        - {x: 23.4877, y: 87.99181}
+        - {x: 40.4877, y: 72.99181}
+        - {x: 40.4877, y: -13.00819}
+        - {x: -6.512299, y: -80.00819}
+        - {x: -13.5123, y: -88.00819}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ba614afe6c42af9fab3d9c55e68927
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_upland_2_bluearea
+      rect:
+        serializedVersion: 2
+        x: 379.0761
+        y: 484.0513
+        width: 78.86749
+        height: 174.9289
+      alignment: 9
+      pivot: {x: -0.7997733, y: 0.7600155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.50986, y: -87.51577}
+        - {x: -39.50986, y: -73.51578}
+        - {x: -39.50986, y: -65.51577}
+        - {x: -10.50986, y: 59.48423}
+        - {x: 6.490143, y: 87.48423}
+        - {x: 22.49014, y: 87.48423}
+        - {x: 39.49014, y: 65.48423}
+        - {x: 39.49014, y: -29.51577}
+        - {x: -8.509857, y: -87.51577}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabf20bc3d3847caa118f07fe01f414d
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_base_animation_3
+      rect:
+        serializedVersion: 2
+        x: 0.07612038
+        y: 484.0268
+        width: 121.8478
+        height: 138.9465
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5035985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.99999, y: -69.5}
+        - {x: -60.99999, y: -43.5}
+        - {x: -60.99999, y: 41.5}
+        - {x: -15.99999, y: 69.5}
+        - {x: 8.000008, y: 69.5}
+        - {x: 61.00001, y: 57.5}
+        - {x: 61.00001, y: -32.5}
+        - {x: 46.00001, y: -69.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a22f2406a0434398fee277482f4415
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_upland_1_bluearea
+      rect:
+        serializedVersion: 2
+        x: 105.0564
+        y: 844.0761
+        width: 100.8675
+        height: 92.84776
+      alignment: 9
+      pivot: {x: -1.656197, y: 1.765513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.49014, y: -46.49998}
+        - {x: -50.49014, y: -44.49998}
+        - {x: -50.49014, y: -37.49998}
+        - {x: 9.509857, y: 46.50002}
+        - {x: 50.50986, y: 46.50002}
+        - {x: 50.50986, y: -44.49998}
+        - {x: 48.50986, y: -46.49998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9566cc2368414f659f06faaa33d7dc6b
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_guard
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 762
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -22}
+        - {x: -24, y: -19}
+        - {x: -24, y: 8}
+        - {x: -22, y: 22}
+        - {x: 24, y: 22}
+        - {x: 24, y: -21}
+        - {x: 23, y: -22}
+      physicsShape:
+      - - {x: -15, y: 16}
+        - {x: -18, y: -4}
+        - {x: -17, y: -9.999999}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 17, y: -13}
+        - {x: 17, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987eb985fd384063b806392705897718
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_guard
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 883
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -22}
+        - {x: -24, y: -18}
+        - {x: -24, y: 22}
+        - {x: 19, y: 22}
+        - {x: 24, y: 12}
+        - {x: 24, y: -22}
+      physicsShape:
+      - - {x: 15, y: 16}
+        - {x: -17, y: 16}
+        - {x: -17, y: -11}
+        - {x: -12, y: -16}
+        - {x: 9.999999, y: -16}
+        - {x: 18, y: -15}
+        - {x: 18, y: -2}
+        - {x: 7, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798b61887a9b482a955895d522d37f2a
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_outpost_2021
+      rect:
+        serializedVersion: 2
+        x: 692.0267
+        y: 814.0761
+        width: 66.97324
+        height: 58.84776
+      alignment: 9
+      pivot: {x: 1.821224, y: 2.972481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.51339, y: -29.5}
+        - {x: -33.51338, y: -5.5}
+        - {x: -33.51338, y: 9.5}
+        - {x: -18.51339, y: 29.5}
+        - {x: 18.48662, y: 29.5}
+        - {x: 33.48662, y: 6.5}
+        - {x: 33.48662, y: -5.5}
+        - {x: 18.48662, y: -29.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514e2db21f224385985af1f4dbba00f2
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_outpost_redarea
+      rect:
+        serializedVersion: 2
+        x: 869.0762
+        y: 810.0761
+        width: 50.89711
+        height: 36.84776
+      alignment: 9
+      pivot: {x: 3.574346, y: 4.964315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.47531, y: -18.49998}
+        - {x: -25.52469, y: -18.49998}
+        - {x: -25.52469, y: 18.50002}
+        - {x: 13.47531, y: 18.50002}
+        - {x: 25.47531, y: 0.5000153}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c131d16b6e140a786126c52910bf946
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_outpost_bluearea
+      rect:
+        serializedVersion: 2
+        x: 771.0513
+        y: 880.0762
+        width: 50.87256
+        height: 36.84778
+      alignment: 9
+      pivot: {x: -2.576071, y: -3.937174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.48761, y: -18.5}
+        - {x: -25.48761, y: -3.5}
+        - {x: -25.48761, y: 18.5}
+        - {x: 23.51239, y: 18.5}
+        - {x: 25.51239, y: 16.5}
+        - {x: 25.51239, y: -16.5}
+        - {x: 23.51239, y: -18.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b81341e3eff43208de239e5df8e5a14
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_upland_3_bluearea
+      rect:
+        serializedVersion: 2
+        x: 608.0267
+        y: 778.0762
+        width: 79.89716
+        height: 62.84778
+      alignment: 9
+      pivot: {x: -2.340843, y: -1.130925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.975311, y: -31.5}
+        - {x: -39.97531, y: 26.5}
+        - {x: -39.97531, y: 31.5}
+        - {x: 40.02469, y: 31.5}
+        - {x: 40.02469, y: -31.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a053d5c107c407a90c866ca53b96517
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_upland_1_redarea
+      rect:
+        serializedVersion: 2
+        x: 462.0761
+        y: 605.0761
+        width: 100.8478
+        height: 92.84778
+      alignment: 9
+      pivot: {x: 2.656716, y: -0.7655122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: -46.5}
+        - {x: -50.5, y: -46.5}
+        - {x: -50.5, y: 43.5}
+        - {x: -47.5, y: 46.5}
+        - {x: 49.5, y: 46.5}
+        - {x: 50.5, y: 44.5}
+        - {x: 50.5, y: 35.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73247710a27a43448f8239842f04335c
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_base_animation_4
+      rect:
+        serializedVersion: 2
+        x: 852.0761
+        y: 170.0267
+        width: 145.8477
+        height: 165.9465
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.99999, y: -83}
+        - {x: -72.99999, y: -53}
+        - {x: -72.99999, y: 47}
+        - {x: -14.99999, y: 83}
+        - {x: -4.999992, y: 83}
+        - {x: 73.00001, y: 40}
+        - {x: 73.00001, y: -40}
+        - {x: 8.000008, y: -83}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f62b5a1506456095a3b3b262a1320b
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: self_map_robot
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 877
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -24}
+        - {x: -24, y: -22}
+        - {x: -24, y: 20}
+        - {x: -17, y: 24}
+        - {x: 19, y: 24}
+        - {x: 24, y: 20}
+        - {x: 24, y: -24}
+      physicsShape:
+      - - {x: -13, y: 18}
+        - {x: -18, y: 8}
+        - {x: -18, y: -18}
+        - {x: 13, y: -18}
+        - {x: 18, y: -4}
+        - {x: 18, y: 7}
+        - {x: 13, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcb431b8e1145bb8fc58ed390288138
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_upland_1_redarea
+      rect:
+        serializedVersion: 2
+        x: 315.0761
+        y: 784.0762
+        width: 100.8478
+        height: 92.84778
+      alignment: 9
+      pivot: {x: 2.656716, y: -0.7655122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: -46.5}
+        - {x: -50.5, y: -46.5}
+        - {x: -50.5, y: 43.5}
+        - {x: -47.5, y: 46.5}
+        - {x: 49.5, y: 46.5}
+        - {x: 50.5, y: 44.5}
+        - {x: 50.5, y: 35.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d636f620d3847e18a8158b764354814
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_upland_1_bluearea
+      rect:
+        serializedVersion: 2
+        x: 420.0761
+        y: 702.0761
+        width: 99.84778
+        height: 92.84776
+      alignment: 9
+      pivot: {x: -1.683324, y: 1.765513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -46.49998}
+        - {x: -50, y: -46.49998}
+        - {x: -50, y: -36.49998}
+        - {x: 9, y: 46.50002}
+        - {x: 50, y: 46.50002}
+        - {x: 50, y: -45.49998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb71dd0367a8458e806c606757d4b163
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_base_animation_1
+      rect:
+        serializedVersion: 2
+        x: 294.0761
+        y: 948.0267
+        width: 49.84776
+        height: 54.9465
+      alignment: 9
+      pivot: {x: 0.4598778, y: 0.5090997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -27.5}
+        - {x: -25, y: -14.5}
+        - {x: -25, y: 10.5}
+        - {x: -23, y: 17.5}
+        - {x: -1, y: 27.5}
+        - {x: 13, y: 27.5}
+        - {x: 24, y: 24.5}
+        - {x: 25, y: 17.5}
+        - {x: 25, y: -22.5}
+        - {x: 15, y: -27.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074711b6841b49e8a4876c524f0ef2c3
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_upland_3_bluearea
+      rect:
+        serializedVersion: 2
+        x: 780.0513
+        y: 484.0761
+        width: 80.87256
+        height: 62.84778
+      alignment: 9
+      pivot: {x: -2.312915, y: -1.130925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.48758, y: -28.5}
+        - {x: -40.48759, y: 24.5}
+        - {x: -40.48759, y: 29.5}
+        - {x: -39.48759, y: 31.5}
+        - {x: 38.51241, y: 31.5}
+        - {x: 40.51241, y: 29.5}
+        - {x: 40.51241, y: -31.5}
+        - {x: 1.512405, y: -31.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de8a22388aa4c4085494410fb731ab6
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_base_area
+      rect:
+        serializedVersion: 2
+        x: 462.0761
+        y: 484.0513
+        width: 104.8478
+        height: 116.9219
+      alignment: 9
+      pivot: {x: 3.842942, y: 0.5041714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: -58.51227}
+        - {x: -52.50003, y: -35.51228}
+        - {x: -52.50003, y: 37.48772}
+        - {x: -11.5, y: 58.48772}
+        - {x: 5.5, y: 58.48772}
+        - {x: 52.5, y: 28.48772}
+        - {x: 52.5, y: -26.51228}
+        - {x: -0.5, y: -58.51227}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69df4e1ac0e54c348a7f01fd88e3f21c
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_base_animation_4
+      rect:
+        serializedVersion: 2
+        x: 852.0761
+        y: 0.02675104
+        width: 145.8477
+        height: 165.9673
+      alignment: 9
+      pivot: {x: 0.4862871, y: 0.4999374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.000008, y: -83.01039}
+        - {x: -72.99999, y: -43.01039}
+        - {x: -72.99999, y: 39.98961}
+        - {x: 0.000007629395, y: 82.98961}
+        - {x: 15.00001, y: 82.98961}
+        - {x: 73.00001, y: 54.98961}
+        - {x: 73.00001, y: -55.01039}
+        - {x: 17.00001, y: -83.01039}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4a9cfa6d5b4eeebb229f41e8565755
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_robot
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 618
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -24}
+        - {x: -24, y: -22}
+        - {x: -24, y: 20}
+        - {x: -17, y: 24}
+        - {x: 19, y: 24}
+        - {x: 24, y: 20}
+        - {x: 24, y: -24}
+      physicsShape:
+      - - {x: -13, y: 18}
+        - {x: -18, y: 8}
+        - {x: -18, y: -18}
+        - {x: 13, y: -18}
+        - {x: 18, y: -4}
+        - {x: 18, y: 7}
+        - {x: 13, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6cb2fb2fc941dcb6bf668c90ee47ae
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_outpost_redarea
+      rect:
+        serializedVersion: 2
+        x: 431.0761
+        y: 883.0761
+        width: 50.89711
+        height: 36.84776
+      alignment: 9
+      pivot: {x: 3.574346, y: 4.964315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.47531, y: -18.49998}
+        - {x: -25.52469, y: -18.49998}
+        - {x: -25.52469, y: 18.50002}
+        - {x: 13.47531, y: 18.50002}
+        - {x: 25.47531, y: 0.5000153}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467cf687a6cf41b9a3f110b369749995
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_base_animation_1
+      rect:
+        serializedVersion: 2
+        x: 865.0761
+        y: 483.033
+        width: 49.84776
+        height: 54.94021
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5090436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -27.50314}
+        - {x: -25, y: -18.50314}
+        - {x: -25, y: 19.49686}
+        - {x: -14, y: 27.49686}
+        - {x: -4.000002, y: 27.49686}
+        - {x: 25, y: 12.49686}
+        - {x: 25, y: -13.50314}
+        - {x: -6.000002, y: -27.50314}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c24dd54323435aa609df170a190ff2
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_upland_2_redarea
+      rect:
+        serializedVersion: 2
+        x: 211.0268
+        y: 484.0597
+        width: 80.92191
+        height: 175.8642
+      alignment: 9
+      pivot: {x: 1.766805, y: 0.2384811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.48772, y: -87.99181}
+        - {x: -40.48772, y: -77.99181}
+        - {x: -40.48772, y: 38.00819}
+        - {x: 13.51228, y: 88.00819}
+        - {x: 19.51228, y: 88.00819}
+        - {x: 40.51228, y: 72.00819}
+        - {x: 40.51228, y: 64.00819}
+        - {x: 7.512283, y: -87.99181}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729ac39fb96445a383c0f30857714188
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_arrow
+      rect:
+        serializedVersion: 2
+        x: 348.0429
+        y: 948.0761
+        width: 19.91418
+        height: 21.92388
+      alignment: 9
+      pivot: {x: 0.5, y: -0.4595958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -11.03806}
+        - {x: -10, y: -9.038061}
+        - {x: -10, y: -2.038061}
+        - {x: -3, y: 10.96194}
+        - {x: 3, y: 10.96194}
+        - {x: 6, y: 3.961939}
+        - {x: 10, y: -4.038061}
+        - {x: 10, y: -9.038061}
+        - {x: 9, y: -11.03806}
+      physicsShape:
+      - - {x: 2, y: 9.961939}
+        - {x: -2, y: 9.961939}
+        - {x: -9, y: -6.038062}
+        - {x: -9, y: -9.038061}
+        - {x: -7, y: -10.03806}
+        - {x: 6, y: -10.03806}
+        - {x: 9, y: -9.038061}
+        - {x: 9, y: -6.038062}
+        - {x: 7, y: 1.961937}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577c8c5c0ade448b9bd67b535cd657c8
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_airplane
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 860
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -26}
+        - {x: -26, y: -22}
+        - {x: -26, y: 26}
+        - {x: 26, y: 26}
+        - {x: 26, y: -25}
+        - {x: 24, y: -26}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 6, y: -20}
+        - {x: 14, y: -20}
+        - {x: 20, y: -15}
+        - {x: 20, y: -4}
+        - {x: 16, y: -1}
+        - {x: 13, y: 0}
+        - {x: 9.999999, y: 0}
+        - {x: 13, y: 0}
+        - {x: 17, y: -1}
+        - {x: 20, y: 5}
+        - {x: 20, y: 15}
+        - {x: 14, y: 20}
+        - {x: 4, y: 20}
+        - {x: 1, y: 16}
+        - {x: 0, y: 13}
+        - {x: 0, y: 9.999999}
+        - {x: 0, y: 13}
+        - {x: -3, y: 20}
+        - {x: -20, y: 20}
+        - {x: -20, y: 2}
+        - {x: -13, y: 0}
+        - {x: -9.999999, y: 0}
+        - {x: -16, y: 0}
+        - {x: -20, y: -5}
+        - {x: -20, y: -12}
+        - {x: -17, y: -18}
+        - {x: -14, y: -20}
+        - {x: -4, y: -20}
+        - {x: -1, y: -16}
+        - {x: 0, y: -13}
+        - {x: 0, y: -9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dce5471a3b143bcbba551ac44f5a73a
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_robot_id_4
+      rect:
+        serializedVersion: 2
+        x: 919.0513
+        y: 483.0761
+        width: 17.87256
+        height: 22.84776
+      alignment: 9
+      pivot: {x: 0.5006939, y: 0.521884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.987597, y: -11.5}
+        - {x: -8.987597, y: -9.499999}
+        - {x: -8.987597, y: -1.499999}
+        - {x: -5.987597, y: 6.500001}
+        - {x: -2.987597, y: 11.5}
+        - {x: 6.012403, y: 11.5}
+        - {x: 8.012403, y: 10.5}
+        - {x: 9.012403, y: 7.500001}
+        - {x: 9.012403, y: -9.499999}
+        - {x: 6.012403, y: -11.5}
+      physicsShape:
+      - - {x: -7.987597, y: 10.5}
+        - {x: -7.987597, y: -9.499998}
+        - {x: 5.012402, y: -9.499998}
+        - {x: 8.012403, y: -7.499999}
+        - {x: 8.012403, y: 5.5}
+        - {x: 7.012403, y: 10.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f1d2266484df99ec2eb2b40c1c63c
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_airplane
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 824
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -26}
+        - {x: -26, y: -22}
+        - {x: -26, y: 26}
+        - {x: 26, y: 26}
+        - {x: 26, y: -25}
+        - {x: 24, y: -26}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 6, y: -20}
+        - {x: 14, y: -20}
+        - {x: 20, y: -15}
+        - {x: 20, y: -4}
+        - {x: 16, y: -1}
+        - {x: 13, y: 0}
+        - {x: 9.999999, y: 0}
+        - {x: 13, y: 0}
+        - {x: 17, y: -1}
+        - {x: 20, y: 5}
+        - {x: 20, y: 15}
+        - {x: 14, y: 20}
+        - {x: 4, y: 20}
+        - {x: 1, y: 16}
+        - {x: 0, y: 13}
+        - {x: 0, y: 9.999999}
+        - {x: 0, y: 13}
+        - {x: -3, y: 20}
+        - {x: -20, y: 20}
+        - {x: -20, y: 2}
+        - {x: -13, y: 0}
+        - {x: -9.999999, y: 0}
+        - {x: -16, y: 0}
+        - {x: -20, y: -5}
+        - {x: -20, y: -12}
+        - {x: -17, y: -18}
+        - {x: -14, y: -20}
+        - {x: -4, y: -20}
+        - {x: -1, y: -16}
+        - {x: 0, y: -13}
+        - {x: 0, y: -9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ddb98a95664980bd35ca4fe1d28155
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_upland_1_bluearea
+      rect:
+        serializedVersion: 2
+        x: 210.0564
+        y: 784.0761
+        width: 100.8675
+        height: 92.84776
+      alignment: 9
+      pivot: {x: -1.656197, y: 1.765513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.49014, y: -46.49998}
+        - {x: -50.49014, y: -44.49998}
+        - {x: -50.49014, y: -37.49998}
+        - {x: 9.509857, y: 46.50002}
+        - {x: 50.50986, y: 46.50002}
+        - {x: 50.50986, y: -44.49998}
+        - {x: 48.50986, y: -46.49998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5f004d0da54f85aec92e34f2fe4bcd
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ic_fpv_map_cursor_custom_1
+      rect:
+        serializedVersion: 2
+        x: 919.0761
+        y: 670.0761
+        width: 35.84776
+        height: 35.84776
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -18, y: -11}
+        - {x: -18, y: 16}
+        - {x: -11, y: 18}
+        - {x: 18, y: 18}
+        - {x: 18, y: -13}
+        - {x: 16, y: -18}
+      physicsShape:
+      - - {x: -9.999997, y: 18}
+        - {x: -18, y: 10}
+        - {x: -18, y: -9.999997}
+        - {x: -9.999997, y: -18}
+        - {x: 10, y: -18}
+        - {x: 18, y: -9.999997}
+        - {x: 18, y: 10}
+        - {x: 10, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceee9449adc8467f9f6b2d1683ff3b03
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ic_fpv_map_cursor_warning_1
+      rect:
+        serializedVersion: 2
+        x: 911.0513
+        y: 710.0761
+        width: 35.92193
+        height: 31.84776
+      alignment: 9
+      pivot: {x: 0.499658, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.98772, y: -16}
+        - {x: -18.01228, y: -16}
+        - {x: -18.01228, y: 1.000002}
+        - {x: -9.012283, y: 16}
+        - {x: 6.987717, y: 16}
+        - {x: 17.98772, y: 1.000002}
+        - {x: 17.98772, y: -8.999998}
+      physicsShape:
+      - - {x: -7.012283, y: 16}
+        - {x: -18.01228, y: -1.999998}
+        - {x: -18.01228, y: -8.999998}
+        - {x: -12.01228, y: -15}
+        - {x: 13.98772, y: -15}
+        - {x: 16.98772, y: -11}
+        - {x: 16.98772, y: 3.000002}
+        - {x: 5.987717, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e865f779914bd4b60909155ca9c41f
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_base
+      rect:
+        serializedVersion: 2
+        x: 0.07612038
+        y: 948
+        width: 57.88097
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4824362, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.01661, y: -32}
+        - {x: -29.01661, y: -19}
+        - {x: -29.01661, y: 20}
+        - {x: -7.016607, y: 32}
+        - {x: 14.98339, y: 32}
+        - {x: 28.98339, y: 23}
+        - {x: 28.98339, y: -25}
+        - {x: 12.98339, y: -32}
+      physicsShape:
+      - - {x: -15.01661, y: 29}
+        - {x: -25.01661, y: 15}
+        - {x: -27.01661, y: 13}
+        - {x: -27.01661, y: -14}
+        - {x: -9.016607, y: -29}
+        - {x: 12.98339, y: -29}
+        - {x: 26.98339, y: -17}
+        - {x: 26.98339, y: 24}
+        - {x: 9.983393, y: 29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bc17f9941e42e7b480f590d504a8eb
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_island_counting
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 881
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -40}
+        - {x: -40, y: -40}
+        - {x: -40, y: 34}
+        - {x: -23, y: 40}
+        - {x: 31, y: 40}
+        - {x: 40, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2636a08902044c79a77a1ff299734ed
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_base_animation_2
+      rect:
+        serializedVersion: 2
+        x: 571.0761
+        y: 589.0267
+        width: 89.84775
+        height: 100.9465
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5049531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -50.5}
+        - {x: -45, y: -42.5}
+        - {x: -45, y: 35.5}
+        - {x: -17, y: 50.5}
+        - {x: -3.999996, y: 50.5}
+        - {x: 44, y: 27.5}
+        - {x: 45, y: 21.5}
+        - {x: 45, y: -25.5}
+        - {x: 8.000004, y: -50.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8532a5cf814379952a4f968b090551
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_upland_2_redarea
+      rect:
+        serializedVersion: 2
+        x: 296.0564
+        y: 484.0198
+        width: 78.86752
+        height: 174.9289
+      alignment: 9
+      pivot: {x: 1.799773, y: 0.2399844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.49013, y: -86.48423}
+        - {x: -39.49013, y: -84.48423}
+        - {x: -39.49013, y: 18.51577}
+        - {x: -20.49013, y: 87.51577}
+        - {x: 24.50987, y: 87.51577}
+        - {x: 39.50987, y: 75.51577}
+        - {x: 39.50987, y: 55.51577}
+        - {x: 6.509872, y: -87.48423}
+        - {x: -33.49013, y: -87.48423}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cc5cc713b249a6a7cf9b490251fee3
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_upland_3_redarea
+      rect:
+        serializedVersion: 2
+        x: 294.0761
+        y: 881.0761
+        width: 80.87256
+        height: 62.84776
+      alignment: 9
+      pivot: {x: 3.312915, y: 2.130926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.48761, y: -31.49998}
+        - {x: -40.51239, y: -31.49998}
+        - {x: -40.51239, y: 31.50002}
+        - {x: -0.5123901, y: 31.50002}
+        - {x: 40.48761, y: -24.49998}
+        - {x: 40.48761, y: -30.49998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88883a39773849f3b72739454acd0dc0
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_outpost_bg
+      rect:
+        serializedVersion: 2
+        x: 692.0762
+        y: 686.0762
+        width: 88.91095
+        height: 56.84778
+      alignment: 9
+      pivot: {x: -0.8331495, y: -2.235375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.53159, y: -28.5}
+        - {x: -44.53159, y: 2.5}
+        - {x: -44.53159, y: 28.5}
+        - {x: 3.468414, y: 28.5}
+        - {x: 44.46841, y: -13.5}
+        - {x: 44.46841, y: -28.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc387c1304c47a9affc4fd2b528b6a5
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_island
+      rect:
+        serializedVersion: 2
+        x: 571.0761
+        y: 484.0429
+        width: 100.8675
+        height: 100.881
+      alignment: 9
+      pivot: {x: 0.5048591, y: 0.5051209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.49013, y: -50.4834}
+        - {x: -50.50987, y: -50.4834}
+        - {x: -50.50987, y: 31.5166}
+        - {x: -40.50987, y: 50.5166}
+        - {x: 50.49013, y: 50.5166}
+        - {x: 50.49013, y: -33.4834}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0957ae778654608a2b44bbfc05398d5
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_upland_1_redarea
+      rect:
+        serializedVersion: 2
+        x: 676.0761
+        y: 484.0761
+        width: 99.84776
+        height: 92.84778
+      alignment: 9
+      pivot: {x: 2.673309, y: -0.7655122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -46.5}
+        - {x: -50, y: -46.5}
+        - {x: -50, y: 45.5}
+        - {x: -38, y: 46.5}
+        - {x: 50, y: 46.5}
+        - {x: 50, y: 39.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d433d084d3c84a77b1dc845f43f7dc4e
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_base_animation_3
+      rect:
+        serializedVersion: 2
+        x: 852.0761
+        y: 340.006
+        width: 121.8478
+        height: 138.9673
+      alignment: 9
+      pivot: {x: 0.4835861, y: 0.5036727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.000004, y: -69.48962}
+        - {x: -60.99999, y: -32.48962}
+        - {x: -60.99999, y: 32.51038}
+        - {x: 1.000004, y: 69.51038}
+        - {x: 12, y: 69.51038}
+        - {x: 60, y: 46.51038}
+        - {x: 61, y: 38.51038}
+        - {x: 61, y: -44.48962}
+        - {x: 13, y: -69.48962}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c8f363aa5d4e41a8e9ff5ae944ada4
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_outpost_bg
+      rect:
+        serializedVersion: 2
+        x: 504.0267
+        y: 799.0761
+        width: 87.92191
+        height: 56.84776
+      alignment: 9
+      pivot: {x: 1.853614, y: 3.252967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.98772, y: 3.5}
+        - {x: -43.98772, y: 18.5}
+        - {x: -43.98772, y: 28.5}
+        - {x: 19.01228, y: 28.5}
+        - {x: 43.01228, y: -0.5}
+        - {x: 44.01228, y: -6.5}
+        - {x: 44.01228, y: -28.5}
+        - {x: -3.987717, y: -28.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1199935675e456d84f7d27b1c0d5240
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_base
+      rect:
+        serializedVersion: 2
+        x: 849.0429
+        y: 694
+        width: 57.88097
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4830101, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.983393, y: -32}
+        - {x: -28.98339, y: -24}
+        - {x: -28.98339, y: 25}
+        - {x: -8.983393, y: 32}
+        - {x: 9.016607, y: 32}
+        - {x: 29.01661, y: 17}
+        - {x: 29.01661, y: -18}
+        - {x: 12.01661, y: -32}
+      physicsShape:
+      - - {x: 26.01661, y: 16}
+        - {x: 8.016607, y: 29}
+        - {x: -3.983393, y: 29}
+        - {x: -23.98339, y: 19}
+        - {x: -26.98339, y: 11}
+        - {x: -26.98339, y: -13}
+        - {x: -23.98339, y: -19}
+        - {x: -3.983393, y: -29}
+        - {x: 4.016607, y: -29}
+        - {x: 8.016607, y: -28}
+        - {x: 27.01661, y: -16}
+        - {x: 27.01661, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e1caf5598406e9a0f9c1d75471481
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_outpost_redarea
+      rect:
+        serializedVersion: 2
+        x: 486.0761
+        y: 916.0761
+        width: 49.86415
+        height: 36.84776
+      alignment: 9
+      pivot: {x: 3.64839, y: 4.964315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.99179, y: -18.49998}
+        - {x: -25.00821, y: -18.49998}
+        - {x: -25.00821, y: 18.50002}
+        - {x: 9.991791, y: 18.50002}
+        - {x: 24.99179, y: 2.500015}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713dcb6461fd40ce9a0b9fd6cc31c829
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_outpost
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 618
+        width: 60
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -36}
+        - {x: -30, y: -35}
+        - {x: -30, y: 35}
+        - {x: -27, y: 36}
+        - {x: 27, y: 36}
+        - {x: 30, y: 32}
+        - {x: 30, y: -34}
+        - {x: 28, y: -36}
+      physicsShape:
+      - - {x: -8, y: 18}
+        - {x: -9.999999, y: 17}
+        - {x: -14, y: -2}
+        - {x: -14, y: -18}
+        - {x: 14, y: -18}
+        - {x: 14, y: -7}
+        - {x: 9, y: 18}
+      - - {x: 0, y: -9}
+        - {x: 0, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61a9d9a15a84eee8020a2144b783294
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_island_red
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 799.0267
+        width: 80
+        height: 79.89713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5003089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -39.97532}
+        - {x: -40, y: -39.97532}
+        - {x: -40, y: 29.02468}
+        - {x: -23, y: 40.02468}
+        - {x: 8, y: 40.02468}
+        - {x: 40, y: 29.02468}
+        - {x: 40, y: -8.975319}
+        - {x: 32, y: -32.97532}
+      physicsShape:
+      - - {x: 30, y: -25.97532}
+        - {x: 17, y: -7.975319}
+        - {x: 38, y: 2.024681}
+        - {x: 38, y: 7.024681}
+        - {x: 34, y: 18.02468}
+        - {x: 6, y: 36.02468}
+        - {x: -6, y: 36.02468}
+        - {x: -9, y: 31.02468}
+        - {x: -34, y: 17.02468}
+        - {x: -38, y: 7.024681}
+        - {x: -38, y: 2.024681}
+        - {x: -18, y: -8.975319}
+        - {x: -29, y: -30.97532}
+        - {x: -19, y: -35.97532}
+        - {x: -15, y: -35.97532}
+        - {x: 0, y: -18.97532}
+        - {x: 16, y: -35.97532}
+        - {x: 22, y: -35.97532}
+      - - {x: -18, y: -26.97532}
+        - {x: -19, y: -26.97532}
+      - - {x: 19, y: -26.97532}
+        - {x: 18, y: -26.97532}
+        - {x: 18, y: -27.97532}
+      - - {x: -3, y: -2.975319}
+        - {x: -1, y: 0.02468109}
+        - {x: 2, y: -1.975319}
+        - {x: 0, y: -5.975319}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3c3fb0347d40da91b7926ceab0bc37
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_upland_2_bluearea
+      rect:
+        serializedVersion: 2
+        x: 126.0513
+        y: 484.0761
+        width: 80.92194
+        height: 175.8642
+      alignment: 9
+      pivot: {x: -0.7668048, y: 0.7615189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5123, y: -88.00819}
+        - {x: -40.5123, y: -72.00819}
+        - {x: -40.5123, y: -65.00819}
+        - {x: -6.512299, y: 71.99181}
+        - {x: 11.4877, y: 87.99181}
+        - {x: 23.4877, y: 87.99181}
+        - {x: 40.4877, y: 72.99181}
+        - {x: 40.4877, y: -13.00819}
+        - {x: -6.512299, y: -80.00819}
+        - {x: -13.5123, y: -88.00819}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131463fd30f44dc7b0cda0ff8fdbdcfb
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_outpost_bluearea
+      rect:
+        serializedVersion: 2
+        x: 826.0513
+        y: 862.0762
+        width: 50.87256
+        height: 36.84778
+      alignment: 9
+      pivot: {x: -2.576071, y: -3.937174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.48761, y: -18.5}
+        - {x: -25.48761, y: -3.5}
+        - {x: -25.48761, y: 18.5}
+        - {x: 23.51239, y: 18.5}
+        - {x: 25.51239, y: 16.5}
+        - {x: 25.51239, y: -16.5}
+        - {x: 23.51239, y: -18.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa45b42f680b46e8bdb9ce3271c36856
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_upland_3_redarea
+      rect:
+        serializedVersion: 2
+        x: 855.0761
+        y: 551.0761
+        width: 80.87256
+        height: 62.84776
+      alignment: 9
+      pivot: {x: 3.312915, y: 2.130926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.48761, y: -31.49998}
+        - {x: -40.51239, y: -31.49998}
+        - {x: -40.51239, y: 31.50002}
+        - {x: -0.5123901, y: 31.50002}
+        - {x: 40.48761, y: -24.49998}
+        - {x: 40.48761, y: -30.49998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d9013d87534ead956d58bb331547a7
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_robot_id_5
+      rect:
+        serializedVersion: 2
+        x: 170.0761
+        y: 769.0267
+        width: 15.84776
+        height: 23.89713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.542879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -11.97531}
+        - {x: -8, y: -11.97531}
+        - {x: -8, y: 11.02469}
+        - {x: -6, y: 12.02469}
+        - {x: 8, y: 12.02469}
+      physicsShape:
+      - - {x: -7, y: 11.02468}
+        - {x: -7, y: 1.024686}
+        - {x: -5, y: -0.9753141}
+        - {x: 1, y: -0.9753141}
+        - {x: -4, y: -0.9753141}
+        - {x: -7, y: -2.975314}
+        - {x: -7, y: -4.975314}
+        - {x: -6, y: -8.975313}
+        - {x: 5, y: -8.975313}
+        - {x: 8, y: -7.975314}
+        - {x: 8, y: 11.02468}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86fcf9686194ddf8611f4305a5f2767
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_base_area
+      rect:
+        serializedVersion: 2
+        x: 296.0761
+        y: 663.0267
+        width: 104.8478
+        height: 116.9465
+      alignment: 9
+      pivot: {x: -2.833404, y: 0.5042755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: -58.49999}
+        - {x: -52.5, y: -30.5}
+        - {x: -52.5, y: 28.5}
+        - {x: -4.5, y: 58.5}
+        - {x: 19.5, y: 58.5}
+        - {x: 52.5, y: 33.5}
+        - {x: 52.5, y: -32.5}
+        - {x: 18.5, y: -58.49999}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb161aa8f1b491bbf4fe785fe9453b9
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_upland_2_redarea
+      rect:
+        serializedVersion: 2
+        x: 85.02676
+        y: 664.0597
+        width: 80.92191
+        height: 175.8642
+      alignment: 9
+      pivot: {x: 1.766805, y: 0.2384811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.48772, y: -87.99181}
+        - {x: -40.48772, y: -77.99181}
+        - {x: -40.48772, y: 38.00819}
+        - {x: 13.51228, y: 88.00819}
+        - {x: 19.51228, y: 88.00819}
+        - {x: 40.51228, y: 72.00819}
+        - {x: 40.51228, y: 64.00819}
+        - {x: 7.512283, y: -87.99181}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d1001b87bd4d158e182ce38f5c4fef
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_base_animation_2
+      rect:
+        serializedVersion: 2
+        x: 676.0761
+        y: 581.0267
+        width: 89.84775
+        height: 100.9465
+      alignment: 9
+      pivot: {x: 0.4777402, y: 0.5049531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: -23.5}
+        - {x: -45, y: -20.5}
+        - {x: -45, y: 20.5}
+        - {x: -43, y: 25.5}
+        - {x: 3.000004, y: 50.5}
+        - {x: 18, y: 50.5}
+        - {x: 45, y: 32.5}
+        - {x: 45, y: -36.5}
+        - {x: 17, y: -50.5}
+        - {x: -5.999996, y: -50.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7386b04484ca4092bda17a403e4dda19
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ic_fpv_map_cursor_defense_1
+      rect:
+        serializedVersion: 2
+        x: 915.0761
+        y: 851.0267
+        width: 29.84776
+        height: 36.89713
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5142202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.999998, y: -18.47531}
+        - {x: -15, y: -8.475313}
+        - {x: -15, y: 13.52469}
+        - {x: -7.999998, y: 18.52469}
+        - {x: 6.000002, y: 18.52469}
+        - {x: 14, y: 16.52469}
+        - {x: 15, y: 12.52469}
+        - {x: 15, y: -8.475313}
+        - {x: 3.000002, y: -18.47531}
+      physicsShape:
+      - - {x: -4.999998, y: 18.52469}
+        - {x: -15, y: 13.52469}
+        - {x: -15, y: -7.475313}
+        - {x: -11, y: -17.47531}
+        - {x: 5.000001, y: -17.47531}
+        - {x: 15, y: -13.47531}
+        - {x: 15, y: 13.52469}
+        - {x: 3.000002, y: 18.52469}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c899606e03ba47af87770666c6359269
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: self_map_arrow
+      rect:
+        serializedVersion: 2
+        x: 921.0429
+        y: 746.0761
+        width: 19.91418
+        height: 21.92388
+      alignment: 9
+      pivot: {x: 0.5, y: -0.4595958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -11.03806}
+        - {x: -10, y: -9.038061}
+        - {x: -10, y: -2.038061}
+        - {x: -3, y: 10.96194}
+        - {x: 3, y: 10.96194}
+        - {x: 6, y: 3.961939}
+        - {x: 10, y: -4.038061}
+        - {x: 10, y: -9.038061}
+        - {x: 9, y: -11.03806}
+      physicsShape:
+      - - {x: 2, y: 10.96194}
+        - {x: -1, y: 10.96194}
+        - {x: -4, y: 9.961939}
+        - {x: -9, y: -3.038061}
+        - {x: -9, y: -10.03806}
+        - {x: 9, y: -10.03806}
+        - {x: 9, y: -6.038062}
+        - {x: 7, y: -1.038063}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569e840ac9b64444aaf6d15bc664aa48
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_island
+      rect:
+        serializedVersion: 2
+        x: 0.02676392
+        y: 844.0762
+        width: 100.9219
+        height: 99.84776
+      alignment: 9
+      pivot: {x: 0.5050761, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.51228, y: -50.00001}
+        - {x: -50.48772, y: -50.00001}
+        - {x: -50.48772, y: 31.99999}
+        - {x: -38.48772, y: 49.99999}
+        - {x: 50.51228, y: 49.99999}
+        - {x: 50.51228, y: -33.00001}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37916c5d82ca40948e6557bf9c83db1d
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_robot_id_3
+      rect:
+        serializedVersion: 2
+        x: 638.0761
+        y: 908.0267
+        width: 15.84776
+        height: 23.89713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.542879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -11.97531}
+        - {x: -8, y: -6.975314}
+        - {x: -8, y: 8.024686}
+        - {x: -6, y: 12.02469}
+        - {x: 4, y: 12.02469}
+        - {x: 8, y: 8.024686}
+        - {x: 8, y: -9.975314}
+        - {x: 3, y: -11.97531}
+      physicsShape:
+      - - {x: -3, y: 12.02469}
+        - {x: -7, y: 10.02469}
+        - {x: -7, y: -4.975314}
+        - {x: -5, y: -8.975313}
+        - {x: 5, y: -8.975313}
+        - {x: 8, y: -7.975314}
+        - {x: 8, y: 8.024686}
+        - {x: 5, y: 12.02469}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c67b580909c4781ae5a7e91cbc8c4e0
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_outpost
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 648
+        width: 60
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -36}
+        - {x: -30, y: -35}
+        - {x: -30, y: 35}
+        - {x: -27, y: 36}
+        - {x: 27, y: 36}
+        - {x: 30, y: 32}
+        - {x: 30, y: -34}
+        - {x: 28, y: -36}
+      physicsShape:
+      - - {x: -8, y: 18}
+        - {x: -9.999999, y: 17}
+        - {x: -14, y: -2}
+        - {x: -14, y: -18}
+        - {x: 14, y: -18}
+        - {x: 14, y: -7}
+        - {x: 9, y: 18}
+      - - {x: 0, y: -9}
+        - {x: 0, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1204023735a4df48e1ffb44c82ff8a8
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ic_fpv_map_cursor_clump_1
+      rect:
+        serializedVersion: 2
+        x: 881.0761
+        y: 851
+        width: 29.84776
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4329933, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.999999, y: -24}
+        - {x: -15, y: -24}
+        - {x: -15, y: 24}
+        - {x: 15, y: 24}
+        - {x: 15, y: 7}
+        - {x: -1.999999, y: -17}
+      physicsShape:
+      - - {x: -14, y: 24}
+        - {x: -14, y: -22}
+        - {x: -13, y: -24}
+        - {x: -8.999999, y: -24}
+        - {x: -5.999999, y: -23}
+        - {x: 14, y: 1}
+        - {x: 14, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f009512e3d942d5a788bb8f22daf11e
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steep_top_blue
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 848
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -424, y: -240}
+        - {x: -424, y: 240}
+        - {x: 424, y: 240}
+        - {x: 424, y: -240}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d6f63b5f3d46609c7150e1bf18544c
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restoreicon
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 941
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -16}
+        - {x: -16, y: -12}
+        - {x: -16, y: 12}
+        - {x: -12, y: 16}
+        - {x: 12, y: 16}
+        - {x: 16, y: 12}
+        - {x: 16, y: -12}
+        - {x: 12, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f69d0c45e549f487d483c8fbe69f99
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_outpost_bluearea
+      rect:
+        serializedVersion: 2
+        x: 560.0762
+        y: 908.0762
+        width: 49.84778
+        height: 36.84778
+      alignment: 9
+      pivot: {x: -2.629528, y: -3.937174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18.5}
+        - {x: -25, y: -15.5}
+        - {x: -25, y: 16.5}
+        - {x: -23, y: 18.5}
+        - {x: 23, y: 18.5}
+        - {x: 25, y: 16.5}
+        - {x: 25, y: -18.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c58727f3ba24db297eb20e3fa6f929d
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_robot
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 880
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -24}
+        - {x: -24, y: -22}
+        - {x: -24, y: 20}
+        - {x: -17, y: 24}
+        - {x: 19, y: 24}
+        - {x: 24, y: 20}
+        - {x: 24, y: -24}
+      physicsShape:
+      - - {x: -13, y: 18}
+        - {x: -18, y: 8}
+        - {x: -18, y: -18}
+        - {x: 13, y: -18}
+        - {x: 18, y: -4}
+        - {x: 18, y: 7}
+        - {x: 13, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf7a7f0f1fc438ca7c4b922904fbe54
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restore_red
+      rect:
+        serializedVersion: 2
+        x: 827.0761
+        y: 762.0761
+        width: 37.84776
+        height: 95.84776
+      alignment: 9
+      pivot: {x: 9.536202, y: 2.211047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -47.99998}
+        - {x: -19, y: -47.99998}
+        - {x: -19, y: 48}
+        - {x: 19, y: 48}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57a61f9f15648e985b4212c578c9d6b
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ic_fpv_map_cursor_attack_1
+      rect:
+        serializedVersion: 2
+        x: 105.0129
+        y: 941.0761
+        width: 31.92181
+        height: 36.84776
+      alignment: 9
+      pivot: {x: 0.5008202, y: 0.5135694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.02618, y: -18.5}
+        - {x: -15.97382, y: -18.5}
+        - {x: -15.97382, y: 17.5}
+        - {x: -14.97382, y: 18.5}
+        - {x: 16.02618, y: 18.5}
+      physicsShape:
+      - - {x: 7.026183, y: 17.5}
+        - {x: 6.026183, y: 17.5}
+        - {x: 2.026183, y: 12.5}
+        - {x: 0.02618313, y: 17.5}
+        - {x: -9.973816, y: 17.5}
+        - {x: -10.97382, y: 16.5}
+        - {x: -13.97382, y: 0.5000019}
+        - {x: -13.97382, y: -17.5}
+        - {x: 14.02618, y: -17.5}
+        - {x: 14.02618, y: 2.500002}
+        - {x: 11.02618, y: 15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8251e911e14bda9d60ac891a5f208b
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_robot_id_2
+      rect:
+        serializedVersion: 2
+        x: 0.07612038
+        y: 807.0761
+        width: 16.87256
+        height: 22.84776
+      alignment: 9
+      pivot: {x: 0.469631, y: 0.521884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.512403, y: -11.5}
+        - {x: -8.512403, y: -8.499999}
+        - {x: -8.512403, y: 8.500001}
+        - {x: -6.512403, y: 11.5}
+        - {x: 4.487597, y: 11.5}
+        - {x: 8.487597, y: 10.5}
+        - {x: 8.487597, y: -11.5}
+      physicsShape:
+      - - {x: 1.487597, y: -2.499999}
+        - {x: 3.487597, y: -2.499999}
+        - {x: 7.487597, y: 2.500001}
+        - {x: 7.487597, y: 6.500001}
+        - {x: 4.487597, y: 10.5}
+        - {x: 1.487597, y: 11.5}
+        - {x: -3.512403, y: 11.5}
+        - {x: -7.512403, y: 8.500001}
+        - {x: -7.512403, y: -9.499998}
+        - {x: 5.487597, y: -9.499998}
+        - {x: 7.487597, y: -7.499999}
+        - {x: 7.487597, y: -5.499999}
+        - {x: 4.487597, y: -2.499999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec541edfde114a87a5bd86c18ca2b280
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restore_blue
+      rect:
+        serializedVersion: 2
+        x: 785.0762
+        y: 724.0762
+        width: 37.84778
+        height: 95.84778
+      alignment: 9
+      pivot: {x: -8.536198, y: -1.211046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -48}
+        - {x: -19, y: -46.00001}
+        - {x: -19, y: 45.99998}
+        - {x: -17, y: 47.99998}
+        - {x: 17, y: 47.99998}
+        - {x: 19, y: 45.99998}
+        - {x: 19, y: -46.00001}
+        - {x: 17, y: -48}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8879b6006071420691b5714790d4535b
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_map_island
+      rect:
+        serializedVersion: 2
+        x: 170.0761
+        y: 664.0429
+        width: 100.8675
+        height: 100.881
+      alignment: 9
+      pivot: {x: 0.5048591, y: 0.5051209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.49013, y: -50.4834}
+        - {x: -50.50987, y: -50.4834}
+        - {x: -50.50987, y: 31.5166}
+        - {x: -40.50987, y: 50.5166}
+        - {x: 50.49013, y: 50.5166}
+        - {x: 50.49013, y: -33.4834}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aa9188d40b4bc5996293373338f71e
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_upland_3_redarea
+      rect:
+        serializedVersion: 2
+        x: 692.0761
+        y: 747.0761
+        width: 79.89713
+        height: 62.84776
+      alignment: 9
+      pivot: {x: 3.340845, y: 2.130926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.97533, y: -31.49998}
+        - {x: -40.02467, y: -31.49998}
+        - {x: -40.02467, y: 31.50002}
+        - {x: -1.024673, y: 31.50002}
+        - {x: 39.97533, y: -22.49998}
+        - {x: 39.97533, y: -29.49998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4af5b8881624fc7affa452f38a6962d
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_map_outpost_2021
+      rect:
+        serializedVersion: 2
+        x: 596.0267
+        y: 845.0762
+        width: 66.97324
+        height: 58.84778
+      alignment: 9
+      pivot: {x: -0.8365545, y: -1.972481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.51338, y: -29.5}
+        - {x: -33.51338, y: -9.5}
+        - {x: -33.51338, y: 5.5}
+        - {x: -21.51338, y: 29.5}
+        - {x: 17.48663, y: 29.5}
+        - {x: 33.48662, y: 5.5}
+        - {x: 33.48662, y: -5.5}
+        - {x: 18.48663, y: -29.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bc88c17bc145cd825c30570babc602
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ic_fpv_map_cursor_attack_1: 21300134
+      ic_fpv_map_cursor_custom_1: 21300066
+      restoreicon: 21300126
+      red_map_upland_2_bluearea: 21300098
+      map_robot_id_5: 21300104
+      self_map_arrow: 21300114
+      map_robot_id_4: 21300060
+      red_map_island: 21300140
+      red_map_arrow: 21300056
+      red_map_outpost_2021: 21300022
+      blue_map_outpost_redarea: 21300050
+      map_upland_3_redarea: 21300142
+      red_map_base_animation_4: 21300032
+      red_map_upland_1_bluearea: 21300064
+      red_map_outpost: 21300120
+      blue_map_outpost_bg: 21300080
+      map_upland_1_redarea: 21300084
+      red_map_base_animation_3: 21300014
+      blue_map_base_animation_1: 21300040
+      red_map_upland_2_redarea: 21300054
+      ic_fpv_map_cursor_clump_1: 21300122
+      map_upland_2_redarea: 21300076
+      blue_map_base_animation_4: 21300046
+      map_robot_id_3: 21300118
+      blue_map_upland_1_bluearea: 21300016
+      blue_map_base: 21300070
+      restore_red: 21300132
+      blue_map_island: 21300082
+      red_map_upland_3_redarea: 21300078
+      blue_map_upland_3_bluearea: 21300042
+      map_island: 21300116
+      blue_map_outpost: 21300094
+      blue_map_upland_2_bluearea: 21300010
+      map_upland_1_bluearea: 21300038
+      map_outpost_redarea: 21300092
+      blue_map_outpost_2021: 21300144
+      blue_map_airplane: 21300062
+      red_map_outpost_bluearea: 21300026
+      red_map_guard: 21300020
+      blue_map_arrow: 21300000
+      red_map_outpost_redarea: 21300024
+      ic_fpv_map_cursor_warning_1: 21300068
+      blue_map_guard: 21300018
+      red_map_outpost_bg: 21300088
+      red_map_robot: 21300130
+      ic_fpv_map_cursor_defense_1: 21300112
+      red_map_upland_1_redarea: 21300030
+      red_map_airplane: 21300058
+      map_island_active: 21300006
+      red_map_base_area: 21300044
+      red_map_base_animation_1: 21300052
+      blue_map_outpost_bluearea: 21300100
+      blue_map_upland_1_redarea: 21300036
+      blue_map_base_animation_3: 21300086
+      blue_map_upland_3_redarea: 21300102
+      blue_map_base_animation_2: 21300110
+      blue_map_upland_2_redarea: 21300108
+      blue_map_base_area: 21300106
+      blue_map_robot: 21300048
+      map_outpost_bluearea: 21300128
+      map_robot_id_2: 21300136
+      map_upland_3_bluearea: 21300028
+      steep_top_blue: 21300124
+      map_upland_2_bluearea: 21300012
+      red_map_base: 21300090
+      red_map_base_animation_2: 21300074
+      restore_blue: 21300138
+      map_island_blue: 21300008
+      map_robot_id_1: 21300004
+      self_map_robot: 21300034
+      map_island_red: 21300096
+      map_island_counting: 21300072
+      red_map_upland_3_bluearea: 21300002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1022 @@
+fileFormatVersion: 2
+guid: 30e8dc0233e62924a88d2af1fa2805f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: red_island_middle_bg
+  - first:
+      213: 21300002
+    second: blue_island_middle_bg
+  - first:
+      213: 21300004
+    second: blue_island_slid_bg
+  - first:
+      213: 21300006
+    second: blue_island_slid_temp_2
+  - first:
+      213: 21300008
+    second: blue_island_slid_fix_3
+  - first:
+      213: 21300010
+    second: blue_island_border
+  - first:
+      213: 21300012
+    second: red_island_slid_fix_4
+  - first:
+      213: 21300014
+    second: red_island_slid_temp_3
+  - first:
+      213: 21300016
+    second: red_island_slid_temp_4
+  - first:
+      213: 21300018
+    second: red_island_slid_fix_2
+  - first:
+      213: 21300020
+    second: island_icon_self
+  - first:
+      213: 21300022
+    second: blue_island_slid_fix_1
+  - first:
+      213: 21300024
+    second: red_island_slid_temp_1
+  - first:
+      213: 21300026
+    second: island_minddle_bg
+  - first:
+      213: 21300028
+    second: island_icon
+  - first:
+      213: 21300030
+    second: blue_island_slid_fix_4
+  - first:
+      213: 21300032
+    second: blue_island_slid_temp_1
+  - first:
+      213: 21300034
+    second: blue_island_icon
+  - first:
+      213: 21300036
+    second: blue_island_slid_temp_4
+  - first:
+      213: 21300038
+    second: red_island_slid_bg
+  - first:
+      213: 21300040
+    second: red_island_icon
+  - first:
+      213: 21300042
+    second: blue_island_slid_temp_3
+  - first:
+      213: 21300044
+    second: red_island_slid_temp_2
+  - first:
+      213: 21300046
+    second: blue_island_slid_fix_2
+  - first:
+      213: 21300048
+    second: red_island_slid_fix_3
+  - first:
+      213: 21300050
+    second: red_island_slid_fix_1
+  - first:
+      213: 21300052
+    second: red_island_border
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 256
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red_island_middle_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -30}
+        - {x: -30, y: -30}
+        - {x: -30, y: 30}
+        - {x: 30, y: 30}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49deb8e21cc435da089b6c45a4724e0
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_middle_bg
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -30}
+        - {x: -30, y: -30}
+        - {x: -30, y: 30}
+        - {x: 25, y: 30}
+        - {x: 30, y: 27}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8164e653aa7b46b28676894783bc711f
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 120
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: -6}
+        - {x: -60, y: 6}
+        - {x: 60, y: 6}
+        - {x: 60, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb650126f9b340bf948db92f5b6c3095
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_temp_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 6, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6b206c1382435aa1b9694ece9a332c
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_fix_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 0, z: 7, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -17, y: 6}
+        - {x: -17, y: 4}
+        - {x: -16, y: 0}
+        - {x: -11, y: -6}
+        - {x: 16, y: -6}
+        - {x: 17, y: -4}
+        - {x: 17, y: 5}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205f160e39f2464893345037361be7d9
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_border
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -14}
+        - {x: -32, y: 14}
+        - {x: 32, y: 14}
+        - {x: 32, y: -14}
+      physicsShape:
+      - - {x: 25, y: 14}
+        - {x: 25, y: -14}
+        - {x: 32, y: -14}
+        - {x: 32, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c61e20341f745c88126ea18e44a9561
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_fix_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 8, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -18, y: 6}
+        - {x: -18, y: 4}
+        - {x: -17, y: 0}
+        - {x: -12, y: -6}
+        - {x: 15, y: -6}
+        - {x: 16, y: -4}
+        - {x: 16, y: 5}
+        - {x: 11, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22d0bcf00144242905ab6cf01c3bba6
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_temp_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 6, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd15d6601114d21892b79cd0f8ce7d4
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_temp_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 224
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 8, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1424c654494e0ab1e7af6edc3347dc
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_fix_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 0, z: 7, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -17, y: 6}
+        - {x: -17, y: 4}
+        - {x: -16, y: 0}
+        - {x: -11, y: -6}
+        - {x: 16, y: -6}
+        - {x: 17, y: -4}
+        - {x: 17, y: 5}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f145f89a7ea146198dd681aa8be68439
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: island_icon_self
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -14}
+        - {x: -14, y: 14}
+        - {x: 14, y: 14}
+        - {x: 14, y: -14}
+      physicsShape:
+      - - {x: -6, y: 11}
+        - {x: -11, y: 9.999999}
+        - {x: -11, y: -11}
+        - {x: 11, y: -11}
+        - {x: 11, y: 9}
+        - {x: 8, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe53f52ebcf4d65906ceb8ccf358369
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_fix_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 9, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -16, y: 6}
+        - {x: -18, y: 4}
+        - {x: -18, y: -4}
+        - {x: -16, y: -6}
+        - {x: 13, y: -6}
+        - {x: 15, y: -5}
+        - {x: 15, y: -2}
+        - {x: 11, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9305f3fd2714654aa0b309bf060317f
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_temp_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 0, z: 3, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: 15, y: -6}
+        - {x: 18, y: -5}
+        - {x: 18, y: -2}
+        - {x: 15, y: -1}
+        - {x: 13, y: -3}
+      - - {x: 15, y: 1}
+        - {x: 18, y: 2}
+        - {x: 18, y: 5}
+        - {x: 15, y: 6}
+        - {x: 13, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab0ed39b93846929bf214dae60c8141
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: island_minddle_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -30}
+        - {x: -30, y: -30}
+        - {x: -30, y: 30}
+        - {x: 30, y: 30}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaf9219171a4d7a81de5792c41dcacc
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: island_icon
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -14}
+        - {x: -14, y: 14}
+        - {x: 14, y: 14}
+        - {x: 14, y: -14}
+      physicsShape:
+      - - {x: -6, y: 11}
+        - {x: -11, y: 9.999999}
+        - {x: -11, y: -11}
+        - {x: 11, y: -11}
+        - {x: 11, y: 9}
+        - {x: 8, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc13499bfca146cb98e784dfaa7d20d9
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_fix_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 240
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 0, z: 6, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -16, y: 6}
+        - {x: -16, y: 4}
+        - {x: -15, y: 0}
+        - {x: -9.999999, y: -6}
+        - {x: 17, y: -6}
+        - {x: 18, y: -4}
+        - {x: 18, y: 5}
+        - {x: 13, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c19b5dc0e54fe2bceb4b65a35f4b03
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_temp_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 9, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -16, y: -6}
+        - {x: -13, y: -5}
+        - {x: -13, y: -2}
+        - {x: -16, y: -1}
+        - {x: -18, y: -3}
+      - - {x: -16, y: 1}
+        - {x: -13, y: 2}
+        - {x: -13, y: 5}
+        - {x: -16, y: 6}
+        - {x: -18, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85746094e6c4f9093fc0d30f6684dda
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_icon
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -14}
+        - {x: -14, y: 14}
+        - {x: 14, y: 14}
+        - {x: 14, y: -14}
+      physicsShape:
+      - - {x: -6, y: 11}
+        - {x: -11, y: 9.999999}
+        - {x: -11, y: -11}
+        - {x: 11, y: -11}
+        - {x: 11, y: 9}
+        - {x: 8, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8154874a074ade89065b2c2425b766
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_temp_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 160
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 0, z: 6, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb480d507cb4af3be672ce1119f1f4d
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 120
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: -6}
+        - {x: -60, y: 6}
+        - {x: 60, y: 6}
+        - {x: 60, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab30ad22b38e49578683d16507663265
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_icon
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -14}
+        - {x: -14, y: 14}
+        - {x: 14, y: 14}
+        - {x: 14, y: -14}
+      physicsShape:
+      - - {x: -6, y: 11}
+        - {x: -11, y: 9.999999}
+        - {x: -11, y: -11}
+        - {x: 11, y: -11}
+        - {x: 11, y: 9}
+        - {x: 8, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb8529330884309a54b162978049dbb
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_temp_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 6, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c562dc37f8974ce0878201979ef5bcab
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_temp_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 176
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 6, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6397c0239dc04e53bef6f8f4e5705b02
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_island_slid_fix_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 0, z: 7, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -17, y: 6}
+        - {x: -17, y: 4}
+        - {x: -16, y: 0}
+        - {x: -11, y: -6}
+        - {x: 16, y: -6}
+        - {x: 17, y: -4}
+        - {x: 17, y: 5}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d36dd6d4d4450298dcfd09aa14d4b6
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_fix_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 192
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 0, z: 7, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -17, y: 6}
+        - {x: -17, y: 4}
+        - {x: -16, y: 0}
+        - {x: -11, y: -6}
+        - {x: 16, y: -6}
+        - {x: 17, y: -4}
+        - {x: 17, y: 5}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a65d5f78904ddca40e039a06c84259
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_slid_fix_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 36
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 0, z: 2, w: 0}
+      outline:
+      - - {x: -18, y: -6}
+        - {x: -18, y: 6}
+        - {x: 18, y: 6}
+        - {x: 18, y: -6}
+      physicsShape:
+      - - {x: -13, y: 6}
+        - {x: -15, y: 5}
+        - {x: -15, y: 2}
+        - {x: -11, y: -6}
+        - {x: 18, y: -6}
+        - {x: 18, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e587d610f834cf7bdb4547d83ab07cd
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_island_border
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -14}
+        - {x: -32, y: 14}
+        - {x: 32, y: 14}
+        - {x: 32, y: -14}
+      physicsShape:
+      - - {x: -32, y: 14}
+        - {x: -32, y: -14}
+        - {x: -25, y: -14}
+        - {x: -25, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98372aa854449b2bae5c8b7434f88ee
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      island_minddle_bg: 21300026
+      red_island_slid_temp_1: 21300024
+      blue_island_border: 21300010
+      red_island_slid_temp_2: 21300044
+      island_icon_self: 21300020
+      red_island_slid_fix_3: 21300048
+      red_island_slid_temp_4: 21300016
+      blue_island_slid_temp_2: 21300006
+      blue_island_slid_temp_4: 21300036
+      red_island_slid_temp_3: 21300014
+      red_island_slid_fix_2: 21300018
+      blue_island_slid_fix_3: 21300008
+      blue_island_icon: 21300034
+      red_island_middle_bg: 21300000
+      blue_island_slid_temp_3: 21300042
+      red_island_border: 21300052
+      blue_island_slid_fix_2: 21300046
+      red_island_slid_fix_1: 21300050
+      blue_island_middle_bg: 21300002
+      red_island_icon: 21300040
+      blue_island_slid_temp_1: 21300032
+      blue_island_slid_fix_4: 21300030
+      blue_island_slid_bg: 21300004
+      blue_island_slid_fix_1: 21300022
+      red_island_slid_bg: 21300038
+      red_island_slid_fix_4: 21300012
+      island_icon: 21300028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

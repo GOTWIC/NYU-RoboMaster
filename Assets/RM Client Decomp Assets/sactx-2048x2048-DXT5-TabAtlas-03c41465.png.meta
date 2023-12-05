@@ -1,0 +1,2660 @@
+fileFormatVersion: 2
+guid: 5d6c11fa6ea449f4cabc0fc3441c73c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: blue_tab_infantry
+  - first:
+      213: 21300002
+    second: red_tab_hero_dead
+  - first:
+      213: 21300004
+    second: red_tab_id_5
+  - first:
+      213: 21300006
+    second: red_tab_bar
+  - first:
+      213: 21300008
+    second: red_tab_guard
+  - first:
+      213: 21300010
+    second: tab_header_kill
+  - first:
+      213: 21300012
+    second: blue_tab_guard
+  - first:
+      213: 21300014
+    second: blue_tab_id_2
+  - first:
+      213: 21300016
+    second: blue_tab_sapper
+  - first:
+      213: 21300018
+    second: tab_blood_bg
+  - first:
+      213: 21300020
+    second: tab_level_2
+  - first:
+      213: 21300022
+    second: blue_tab_guard_dead
+  - first:
+      213: 21300024
+    second: red_tab_id_1
+  - first:
+      213: 21300026
+    second: red_tab_id_4
+  - first:
+      213: 21300028
+    second: red_tab_id_6
+  - first:
+      213: 21300030
+    second: red_tab_sapper
+  - first:
+      213: 21300032
+    second: blue_tab_blood
+  - first:
+      213: 21300034
+    second: blue_tab_infantry_dead
+  - first:
+      213: 21300036
+    second: blue_tab_hero
+  - first:
+      213: 21300038
+    second: red_tab_id_2
+  - first:
+      213: 21300040
+    second: red_tab_blood
+  - first:
+      213: 21300042
+    second: red_tab_infantry_dead
+  - first:
+      213: 21300044
+    second: tab_level_3
+  - first:
+      213: 21300046
+    second: blue_tab_id_4
+  - first:
+      213: 21300048
+    second: blue_tab_sapper_dead
+  - first:
+      213: 21300050
+    second: red_tab_infantry
+  - first:
+      213: 21300052
+    second: red_tab_sapper_dead
+  - first:
+      213: 21300054
+    second: tab_level_1
+  - first:
+      213: 21300056
+    second: red_tab_guard_dead
+  - first:
+      213: 21300058
+    second: blue_tab_hero_dead
+  - first:
+      213: 21300060
+    second: blue_tab_id_6
+  - first:
+      213: 21300062
+    second: blue_tab_bar
+  - first:
+      213: 21300064
+    second: tab_background
+  - first:
+      213: 21300066
+    second: blue_tab_id_1
+  - first:
+      213: 21300068
+    second: red_tab_id_3
+  - first:
+      213: 21300070
+    second: tab_icon_silo
+  - first:
+      213: 21300072
+    second: tab_header_hurt
+  - first:
+      213: 21300074
+    second: red_tab_hero
+  - first:
+      213: 21300076
+    second: blue_tab_id_3
+  - first:
+      213: 21300078
+    second: tab_icon_shield
+  - first:
+      213: 21300080
+    second: blue_tab_id_5
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue_tab_infantry
+      rect:
+        serializedVersion: 2
+        x: 1004.076
+        y: 728.0761
+        width: 257.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4573391, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124, y: -48.00001}
+        - {x: -129, y: -17.00001}
+        - {x: -129, y: 43.99999}
+        - {x: -89.00002, y: 101}
+        - {x: -47.00002, y: 117}
+        - {x: -26.00002, y: 119}
+        - {x: 10.99998, y: 119}
+        - {x: 28.99998, y: 116}
+        - {x: 70.99998, y: 92.99999}
+        - {x: 96.99999, y: 58.99999}
+        - {x: 129, y: 41.99999}
+        - {x: 129, y: 14.99999}
+        - {x: 106, y: -40.00001}
+        - {x: 88.99998, y: -75.00001}
+        - {x: 42.99999, y: -112}
+        - {x: 7.999985, y: -119}
+        - {x: -24.00002, y: -119}
+        - {x: -43.00002, y: -118}
+        - {x: -77.00002, y: -102}
+        - {x: -105, y: -75.00001}
+      physicsShape:
+      - - {x: 78.99998, y: -80}
+        - {x: 92.99998, y: -60}
+        - {x: 102, y: -40}
+        - {x: 106, y: -26.00001}
+        - {x: 108, y: -14.00001}
+        - {x: 109, y: 9.999991}
+        - {x: 114, y: 9.999991}
+        - {x: 122, y: 11.99999}
+        - {x: 128, y: 20.99999}
+        - {x: 128, y: 30.99999}
+        - {x: 124, y: 34.99999}
+        - {x: 107, y: 36.99999}
+        - {x: 99.99998, y: 44.99999}
+        - {x: 90.99998, y: 62.99999}
+        - {x: 83.99998, y: 72.99998}
+        - {x: 68.99998, y: 88.99999}
+        - {x: 58.99998, y: 97.99998}
+        - {x: 37.99998, y: 110}
+        - {x: 18.99998, y: 115}
+        - {x: 4.999985, y: 118}
+        - {x: -23.00002, y: 118}
+        - {x: -35.00002, y: 116}
+        - {x: -44.00002, y: 115}
+        - {x: -66.00002, y: 106}
+        - {x: -76.00002, y: 99.99999}
+        - {x: -98.00002, y: 80.99999}
+        - {x: -109, y: 65.99999}
+        - {x: -119, y: 49.99999}
+        - {x: -127, y: 25.99999}
+        - {x: -128, y: 11.99999}
+        - {x: -128, y: -14.00001}
+        - {x: -125, y: -31.00001}
+        - {x: -120, y: -45.00001}
+        - {x: -112, y: -63.00001}
+        - {x: -99.00002, y: -79.00001}
+        - {x: -90.00002, y: -88.00001}
+        - {x: -73.00002, y: -101}
+        - {x: -57.00001, y: -109}
+        - {x: -43.00002, y: -115}
+        - {x: -27.00002, y: -118}
+        - {x: 4.999985, y: -118}
+        - {x: 19.99998, y: -115}
+        - {x: 32.99998, y: -112}
+        - {x: 58.99998, y: -98}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afad4f3c7f1245a9b580195ff30d8b29
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_hero_dead
+      rect:
+        serializedVersion: 2
+        x: 1630.076
+        y: 726.0761
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117, y: -33.00001}
+        - {x: -119, y: -16.00001}
+        - {x: -119, y: 21.99999}
+        - {x: -110, y: 67.99999}
+        - {x: -67.00001, y: 102}
+        - {x: -37.00001, y: 118}
+        - {x: -21.00001, y: 119}
+        - {x: 27.99999, y: 119}
+        - {x: 61.99999, y: 105}
+        - {x: 105, y: 68.99999}
+        - {x: 119, y: 34.99999}
+        - {x: 119, y: -20.00001}
+        - {x: 115, y: -46.00001}
+        - {x: 105, y: -62.00001}
+        - {x: 74.99999, y: -96.00001}
+        - {x: 52.99999, y: -113}
+        - {x: 21.99999, y: -119}
+        - {x: -29.00001, y: -119}
+        - {x: -45.00001, y: -114}
+        - {x: -80.00001, y: -90.00001}
+        - {x: -102, y: -67.00001}
+      physicsShape:
+      - - {x: 94.99999, y: -72.00001}
+        - {x: 103, y: -60}
+        - {x: 112, y: -40}
+        - {x: 117, y: -26.00001}
+        - {x: 118, y: -17.00001}
+        - {x: 118, y: 12.99999}
+        - {x: 117, y: 25.99999}
+        - {x: 110, y: 47.99999}
+        - {x: 101, y: 62.99999}
+        - {x: 93.99999, y: 72.99998}
+        - {x: 79.99998, y: 88.99999}
+        - {x: 57.99999, y: 105}
+        - {x: 42.99999, y: 112}
+        - {x: 19.99999, y: 117}
+        - {x: 14.99999, y: 118}
+        - {x: -21.00001, y: 118}
+        - {x: -34.00001, y: 115}
+        - {x: -50.00001, y: 109}
+        - {x: -66.00001, y: 98.99998}
+        - {x: -79.00001, y: 87.99999}
+        - {x: -88.00001, y: 78.99999}
+        - {x: -98, y: 67.99999}
+        - {x: -105, y: 67.99999}
+        - {x: -110, y: 58.99999}
+        - {x: -109, y: 47.99999}
+        - {x: -117, y: 25.99999}
+        - {x: -118, y: 19.99999}
+        - {x: -118, y: -21.00001}
+        - {x: -111, y: -46}
+        - {x: -104, y: -58.00001}
+        - {x: -95.00001, y: -73}
+        - {x: -81.00001, y: -87.00001}
+        - {x: -66.00001, y: -99}
+        - {x: -43, y: -112}
+        - {x: -25.00001, y: -117}
+        - {x: -19.00001, y: -118}
+        - {x: 21.99999, y: -118}
+        - {x: 45.99999, y: -111}
+        - {x: 68.99999, y: -98}
+        - {x: 76.99999, y: -91.00001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6538cfc494d7b85123788f179517c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_id_5
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 998
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7f4e011a1742b189a4e0f31e40102c
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_bar
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1242
+        width: 660
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -330, y: -12}
+        - {x: -330, y: 12}
+        - {x: 330, y: 12}
+        - {x: 330, y: -12}
+      physicsShape:
+      - - {x: 322, y: -4}
+        - {x: 322, y: 4}
+        - {x: -322, y: 4}
+        - {x: -322, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4c017ffc21473781f3a12dd7403813
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_guard
+      rect:
+        serializedVersion: 2
+        x: 0.07612228
+        y: 1000.076
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: -69.00001}
+        - {x: -119, y: -34.00001}
+        - {x: -119, y: 29.99999}
+        - {x: -106, y: 62.99999}
+        - {x: -67.00001, y: 102}
+        - {x: -37.00001, y: 118}
+        - {x: -24.00001, y: 119}
+        - {x: 28.99999, y: 119}
+        - {x: 61.99999, y: 105}
+        - {x: 79.99999, y: 89.99999}
+        - {x: 103, y: 67.99999}
+        - {x: 119, y: 32.99999}
+        - {x: 119, y: -20.00001}
+        - {x: 115, y: -46.00001}
+        - {x: 108, y: -64.00001}
+        - {x: 54.99999, y: -116}
+        - {x: 34.99999, y: -119}
+        - {x: -40.00001, y: -119}
+        - {x: -47.00001, y: -117}
+      physicsShape:
+      - - {x: 89.99999, y: -77.00001}
+        - {x: 101, y: -63.00001}
+        - {x: 109, y: -47.00001}
+        - {x: 111, y: -42.00001}
+        - {x: 115, y: -30.00001}
+        - {x: 118, y: -20.00001}
+        - {x: 118, y: 15.99999}
+        - {x: 114, y: 33.99999}
+        - {x: 110, y: 45.99999}
+        - {x: 101, y: 62.99999}
+        - {x: 93.99999, y: 72.99998}
+        - {x: 79.99998, y: 87.99999}
+        - {x: 65.99999, y: 98.99998}
+        - {x: 48.99999, y: 109}
+        - {x: 28.99999, y: 115}
+        - {x: 19.99999, y: 117}
+        - {x: 13.99999, y: 118}
+        - {x: -21.00001, y: 118}
+        - {x: -34.00001, y: 115}
+        - {x: -50.00001, y: 109}
+        - {x: -66.00001, y: 99.99999}
+        - {x: -89.00001, y: 79.99998}
+        - {x: -97.00001, y: 67.99999}
+        - {x: -103, y: 59.99999}
+        - {x: -114, y: 36.99999}
+        - {x: -118, y: 21.99999}
+        - {x: -118, y: -16.00001}
+        - {x: -114, y: -34.00001}
+        - {x: -108, y: -49}
+        - {x: -100, y: -66.00001}
+        - {x: -81.00001, y: -87.00001}
+        - {x: -66.00001, y: -99}
+        - {x: -49, y: -109}
+        - {x: -30.00001, y: -116}
+        - {x: -16.00001, y: -118}
+        - {x: 20.99999, y: -118}
+        - {x: 42.99999, y: -112}
+        - {x: 57.99999, y: -104}
+        - {x: 72.99998, y: -94.00001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cd0386fd9e425aa6530dc0adf25838
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_header_kill
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 1000
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -494, y: -32}
+        - {x: -500, y: -24}
+        - {x: -500, y: 22}
+        - {x: -488, y: 41}
+        - {x: -458, y: 52}
+        - {x: -438, y: 54}
+        - {x: -388, y: 56}
+        - {x: -386, y: 57}
+        - {x: -296, y: 59}
+        - {x: -294, y: 60}
+        - {x: -205, y: 60}
+        - {x: -204, y: 62}
+        - {x: -202, y: 63}
+        - {x: -130, y: 65}
+        - {x: -128, y: 66}
+        - {x: 129, y: 66}
+        - {x: 203, y: 63}
+        - {x: 439, y: 55}
+        - {x: 476, y: 47}
+        - {x: 489, y: 36}
+        - {x: 500, y: 23}
+        - {x: 500, y: -22}
+        - {x: 487, y: -41}
+        - {x: 458, y: -53}
+        - {x: 439, y: -54}
+        - {x: 386, y: -54}
+        - {x: 384, y: -57}
+        - {x: 296, y: -59}
+        - {x: 294, y: -60}
+        - {x: 205, y: -60}
+        - {x: 203, y: -63}
+        - {x: 131, y: -63}
+        - {x: 129, y: -66}
+        - {x: -129, y: -66}
+        - {x: -203, y: -63}
+        - {x: -295, y: -60}
+        - {x: -384, y: -57}
+        - {x: -439, y: -54}
+        - {x: -458, y: -51}
+        - {x: -476, y: -46}
+      physicsShape:
+      - - {x: 27, y: 26}
+        - {x: 17, y: 33}
+        - {x: 9.999999, y: 34}
+        - {x: -14, y: 34}
+        - {x: -20, y: 30}
+        - {x: -27, y: 20}
+        - {x: -29, y: 12}
+        - {x: -29, y: -11}
+        - {x: -11, y: -30}
+        - {x: 9, y: -30}
+        - {x: 26, y: -12}
+        - {x: 29, y: -6}
+        - {x: 29, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0e991257d7434b8c5d8572193169e1
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_guard
+      rect:
+        serializedVersion: 2
+        x: 242.0761
+        y: 1000.076
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4873869, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112, y: -47.00001}
+        - {x: -119, y: -20.00001}
+        - {x: -119, y: 28.99999}
+        - {x: -118, y: 38.99999}
+        - {x: -89.00001, y: 84.99999}
+        - {x: -66.00001, y: 104}
+        - {x: -28.00001, y: 119}
+        - {x: 23.99999, y: 119}
+        - {x: 58.99999, y: 108}
+        - {x: 93.99999, y: 77.99999}
+        - {x: 112, y: 47.99999}
+        - {x: 119, y: 24.99999}
+        - {x: 119, y: -22.00001}
+        - {x: 117, y: -44.00001}
+        - {x: 96.99999, y: -81.00001}
+        - {x: 40.99999, y: -119}
+        - {x: -26.00001, y: -119}
+        - {x: -63.00001, y: -112}
+        - {x: -95.00001, y: -76.00001}
+      physicsShape:
+      - - {x: 77.99999, y: -91.00001}
+        - {x: 97.99999, y: -69.00001}
+        - {x: 103, y: -60}
+        - {x: 112, y: -40}
+        - {x: 116, y: -26.00001}
+        - {x: 118, y: -18.00001}
+        - {x: 118, y: 14.99999}
+        - {x: 117, y: 21.99999}
+        - {x: 114, y: 34.99999}
+        - {x: 110, y: 48.99999}
+        - {x: 102, y: 61.99999}
+        - {x: 91.99999, y: 74.99999}
+        - {x: 76.99998, y: 90.99999}
+        - {x: 57.99999, y: 105}
+        - {x: 39.99999, y: 112}
+        - {x: 28.99999, y: 115}
+        - {x: 14.99999, y: 118}
+        - {x: -15.00001, y: 118}
+        - {x: -29.00001, y: 116}
+        - {x: -52, y: 107}
+        - {x: -74.00001, y: 93.99999}
+        - {x: -94.00001, y: 73.99999}
+        - {x: -109, y: 49.99999}
+        - {x: -117, y: 25.99999}
+        - {x: -118, y: 11.99999}
+        - {x: -118, y: -13.00001}
+        - {x: -115, y: -33.00001}
+        - {x: -108, y: -52.00001}
+        - {x: -100, y: -66.00001}
+        - {x: -81.00001, y: -87.00001}
+        - {x: -74.00001, y: -93.00001}
+        - {x: -56, y: -105}
+        - {x: -49, y: -108}
+        - {x: -34.00001, y: -115}
+        - {x: -25.00001, y: -116}
+        - {x: -12.00001, y: -118}
+        - {x: 20.99999, y: -118}
+        - {x: 47.99999, y: -110}
+        - {x: 62.99999, y: -101}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c96f311c64e05bd1e610b74c3852b
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_id_2
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1270
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efbb29163b642229e8cb879c04fa6df
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_sapper
+      rect:
+        serializedVersion: 2
+        x: 1368.076
+        y: 0.07612228
+        width: 278.9239
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4263667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.5381, y: -69.00001}
+        - {x: -139.5381, y: -34.00001}
+        - {x: -139.5381, y: 29.99999}
+        - {x: -125.5381, y: 61.99999}
+        - {x: -88.53807, y: 104}
+        - {x: -47.53807, y: 119}
+        - {x: 2.461929, y: 119}
+        - {x: 64.46193, y: 104}
+        - {x: 79.46193, y: 86.99999}
+        - {x: 113.4619, y: 84.99999}
+        - {x: 139.4619, y: 62.99999}
+        - {x: 139.4619, y: 23.99999}
+        - {x: 112.4619, y: 19.99999}
+        - {x: 100.4619, y: -19.00001}
+        - {x: 85.46192, y: -63.00001}
+        - {x: 56.46193, y: -98.00001}
+        - {x: 13.46193, y: -119}
+        - {x: -68.53807, y: -119}
+      physicsShape:
+      - - {x: 69.46193, y: -79.00001}
+        - {x: 84.46192, y: -58.00001}
+        - {x: 93.46193, y: -37.00001}
+        - {x: 97.46192, y: -22.00001}
+        - {x: 98.46192, y: 12.99999}
+        - {x: 111.4619, y: 23.99999}
+        - {x: 116.4619, y: 37.99999}
+        - {x: 115.4619, y: 40.99999}
+        - {x: 112.4619, y: 44.99999}
+        - {x: 109.4619, y: 45.99999}
+        - {x: 116.4619, y: 43.99999}
+        - {x: 126.4619, y: 35.99999}
+        - {x: 133.4619, y: 31.99999}
+        - {x: 137.4619, y: 30.99999}
+        - {x: 139.4619, y: 33.99999}
+        - {x: 139.4619, y: 56.99999}
+        - {x: 113.4619, y: 79.99998}
+        - {x: 100.4619, y: 79.99998}
+        - {x: 92.46193, y: 83.99999}
+        - {x: 78.46192, y: 82.99999}
+        - {x: 69.46193, y: 94.99999}
+        - {x: 57.46193, y: 102}
+        - {x: 46.46192, y: 102}
+        - {x: 28.46193, y: 108}
+        - {x: 13.46193, y: 115}
+        - {x: 5.461929, y: 117}
+        - {x: -4.538071, y: 118}
+        - {x: -36.53807, y: 118}
+        - {x: -54.53807, y: 115}
+        - {x: -70.53807, y: 109}
+        - {x: -93.53806, y: 94.99999}
+        - {x: -108.5381, y: 79.99998}
+        - {x: -117.5381, y: 68.99999}
+        - {x: -130.5381, y: 47.99999}
+        - {x: -137.5381, y: 25.99999}
+        - {x: -138.5381, y: 12.99999}
+        - {x: -138.5381, y: -16.00001}
+        - {x: -135.5381, y: -35.00001}
+        - {x: -131.5381, y: -46}
+        - {x: -118.5381, y: -69.00001}
+        - {x: -111.5381, y: -78.00001}
+        - {x: -89.53807, y: -98}
+        - {x: -78.53807, y: -104}
+        - {x: -65.53807, y: -110}
+        - {x: -50.53807, y: -115}
+        - {x: -35.53807, y: -118}
+        - {x: -5.538072, y: -118}
+        - {x: 9.461927, y: -116}
+        - {x: 27.46193, y: -110}
+        - {x: 49.46193, y: -98}
+      - - {x: 107.4619, y: 51.99999}
+        - {x: 108.4619, y: 51.99999}
+        - {x: 107.4619, y: 52.99999}
+      - - {x: 101.4619, y: 70.99999}
+        - {x: 103.4619, y: 69.99999}
+        - {x: 104.4619, y: 69.99999}
+        - {x: 103.4619, y: 70.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dc6255c2cc4ef089887db71de82660
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_blood_bg
+      rect:
+        serializedVersion: 2
+        x: 242.0761
+        y: 1484.076
+        width: 203.8477
+        height: 19.84776
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98.99998, y: -9.999999}
+        - {x: -102, y: -6.999999}
+        - {x: -102, y: 7.000001}
+        - {x: -98.99998, y: 10}
+        - {x: 99.00002, y: 10}
+        - {x: 102, y: 9.000001}
+        - {x: 102, y: -6.999999}
+        - {x: 101, y: -9.999999}
+      physicsShape:
+      - - {x: -101, y: 10}
+        - {x: -102, y: 8.000001}
+        - {x: -102, y: -7.999999}
+        - {x: -99.99998, y: -9.999998}
+        - {x: 102, y: -9.999998}
+        - {x: 102, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a587a8c24d94fefab4d3b1efed01d00
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_level_2
+      rect:
+        serializedVersion: 2
+        x: 242.0761
+        y: 1508.027
+        width: 26.84776
+        height: 27.91352
+      alignment: 9
+      pivot: {x: 0.5186236, y: 0.6438904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.499998, y: -13.98351}
+        - {x: -13.5, y: -9.983511}
+        - {x: -13.5, y: 14.01649}
+        - {x: 13.5, y: 14.01649}
+        - {x: 13.5, y: -8.983511}
+        - {x: 8.500002, y: -13.98351}
+      physicsShape:
+      - - {x: 10.5, y: 14.01649}
+        - {x: -11.5, y: 14.01649}
+        - {x: -11.5, y: -4.983511}
+        - {x: -1.499998, y: -9.983511}
+        - {x: 4.500002, y: -9.983511}
+        - {x: 11.5, y: -1.983511}
+        - {x: 11.5, y: 13.01649}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86343ad4a876489792ae89bc044ca174
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_guard_dead
+      rect:
+        serializedVersion: 2
+        x: 0.07612228
+        y: 1242.076
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4873869, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112, y: -47.00001}
+        - {x: -119, y: -20.00001}
+        - {x: -119, y: 28.99999}
+        - {x: -118, y: 38.99999}
+        - {x: -89.00001, y: 84.99999}
+        - {x: -66.00001, y: 104}
+        - {x: -28.00001, y: 119}
+        - {x: 23.99999, y: 119}
+        - {x: 58.99999, y: 108}
+        - {x: 93.99999, y: 77.99999}
+        - {x: 112, y: 47.99999}
+        - {x: 119, y: 24.99999}
+        - {x: 119, y: -22.00001}
+        - {x: 117, y: -44.00001}
+        - {x: 96.99999, y: -81.00001}
+        - {x: 40.99999, y: -119}
+        - {x: -26.00001, y: -119}
+        - {x: -63.00001, y: -112}
+        - {x: -95.00001, y: -76.00001}
+      physicsShape:
+      - - {x: 77.99999, y: -91.00001}
+        - {x: 97.99999, y: -69.00001}
+        - {x: 103, y: -60}
+        - {x: 112, y: -40}
+        - {x: 116, y: -26.00001}
+        - {x: 118, y: -18.00001}
+        - {x: 118, y: 14.99999}
+        - {x: 117, y: 21.99999}
+        - {x: 114, y: 34.99999}
+        - {x: 110, y: 48.99999}
+        - {x: 102, y: 61.99999}
+        - {x: 91.99999, y: 74.99999}
+        - {x: 76.99998, y: 90.99999}
+        - {x: 57.99999, y: 105}
+        - {x: 39.99999, y: 112}
+        - {x: 28.99999, y: 115}
+        - {x: 14.99999, y: 118}
+        - {x: -15.00001, y: 118}
+        - {x: -29.00001, y: 116}
+        - {x: -52, y: 107}
+        - {x: -74.00001, y: 93.99999}
+        - {x: -94.00001, y: 73.99999}
+        - {x: -109, y: 49.99999}
+        - {x: -117, y: 25.99999}
+        - {x: -118, y: 11.99999}
+        - {x: -118, y: -13.00001}
+        - {x: -115, y: -33.00001}
+        - {x: -108, y: -52.00001}
+        - {x: -100, y: -66.00001}
+        - {x: -81.00001, y: -87.00001}
+        - {x: -74.00001, y: -93.00001}
+        - {x: -56, y: -105}
+        - {x: -49, y: -108}
+        - {x: -34.00001, y: -115}
+        - {x: -25.00001, y: -116}
+        - {x: -12.00001, y: -118}
+        - {x: 20.99999, y: -118}
+        - {x: 47.99999, y: -110}
+        - {x: 62.99999, y: -101}
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaa988b9ab84609bdc3395c54dbe231
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_id_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1330
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a3a495bdec4bcca7643d177210af9b
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_id_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1726
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7047fbda5f3405481c87e11d050d93f
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_id_6
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1270
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedd23cc62fa43b5b243784ef29605a3
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_sapper
+      rect:
+        serializedVersion: 2
+        x: 1368.076
+        y: 242.0761
+        width: 278.9239
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4263667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.5381, y: -69.00001}
+        - {x: -139.5381, y: -34.00001}
+        - {x: -139.5381, y: 29.99999}
+        - {x: -125.5381, y: 61.99999}
+        - {x: -88.53807, y: 104}
+        - {x: -53.53807, y: 119}
+        - {x: 2.461929, y: 119}
+        - {x: 25.46193, y: 116}
+        - {x: 107.4619, y: 83.99999}
+        - {x: 139.4619, y: 57.99999}
+        - {x: 139.4619, y: 40.99999}
+        - {x: 136.4619, y: 32.99999}
+        - {x: 132.4619, y: 23.99999}
+        - {x: 114.4619, y: 36.99999}
+        - {x: 100.4619, y: -19.00001}
+        - {x: 85.46192, y: -62.00001}
+        - {x: 56.46193, y: -98.00001}
+        - {x: 9.461931, y: -119}
+        - {x: -53.53807, y: -119}
+        - {x: -67.53807, y: -117}
+      physicsShape:
+      - - {x: 48.46193, y: -98}
+        - {x: 70.46193, y: -77.00001}
+        - {x: 82.46193, y: -60}
+        - {x: 92.46193, y: -40}
+        - {x: 95.46193, y: -26.00001}
+        - {x: 97.46192, y: -14.00001}
+        - {x: 97.46192, y: 19.99999}
+        - {x: 107.4619, y: 22.99999}
+        - {x: 110.4619, y: 41.99999}
+        - {x: 106.4619, y: 44.99999}
+        - {x: 103.4619, y: 45.99999}
+        - {x: 121.4619, y: 38.99999}
+        - {x: 120.4619, y: 35.99999}
+        - {x: 127.4619, y: 30.99999}
+        - {x: 131.4619, y: 30.99999}
+        - {x: 136.4619, y: 37.99999}
+        - {x: 139.4619, y: 48.99999}
+        - {x: 139.4619, y: 52.99999}
+        - {x: 130.4619, y: 60.99999}
+        - {x: 114.4619, y: 75.99999}
+        - {x: 108.4619, y: 79.99998}
+        - {x: 94.46193, y: 79.99998}
+        - {x: 86.46192, y: 83.99999}
+        - {x: 70.46193, y: 83.99999}
+        - {x: 66.46193, y: 90.99999}
+        - {x: 57.46193, y: 98.99998}
+        - {x: 51.46193, y: 102}
+        - {x: 45.46193, y: 102}
+        - {x: 21.46193, y: 112}
+        - {x: 5.461929, y: 117}
+        - {x: -3.538071, y: 118}
+        - {x: -34.53807, y: 118}
+        - {x: -45.53807, y: 116}
+        - {x: -53.53807, y: 114}
+        - {x: -70.53807, y: 109}
+        - {x: -86.53807, y: 98.99998}
+        - {x: -93.53806, y: 93.99999}
+        - {x: -109.5381, y: 79.99998}
+        - {x: -125.5381, y: 57.99999}
+        - {x: -130.5381, y: 47.99999}
+        - {x: -137.5381, y: 25.99999}
+        - {x: -138.5381, y: 19.99999}
+        - {x: -138.5381, y: -21.00001}
+        - {x: -130.5381, y: -46}
+        - {x: -119.5381, y: -66.00001}
+        - {x: -114.5381, y: -74.00001}
+        - {x: -94.53807, y: -93.00001}
+        - {x: -81.53807, y: -103}
+        - {x: -57.53807, y: -114}
+        - {x: -39.53807, y: -118}
+        - {x: 0.4619293, y: -118}
+        - {x: 13.46193, y: -114}
+        - {x: 25.46193, y: -110}
+        - {x: 39.46193, y: -103}
+      - - {x: 102.4619, y: 51.99999}
+        - {x: 101.4619, y: 52.99999}
+      - - {x: 95.46193, y: 70.99999}
+        - {x: 97.46192, y: 69.99999}
+        - {x: 98.46192, y: 69.99999}
+        - {x: 97.46192, y: 70.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5fd6c385bb43778464c25a78910ecc
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_blood
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1212
+        width: 240
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: -28}
+        - {x: -120, y: -28}
+        - {x: -120, y: 21}
+        - {x: -115, y: 28}
+        - {x: 119, y: 28}
+        - {x: 120, y: 24}
+      physicsShape:
+      - - {x: -101, y: 9.999999}
+        - {x: -102, y: 8}
+        - {x: -102, y: -8}
+        - {x: -100, y: -9.999999}
+        - {x: 102, y: -9.999999}
+        - {x: 102, y: 9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cc1b1fea7840618b17da37129a4fac
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_infantry_dead
+      rect:
+        serializedVersion: 2
+        x: 1368.076
+        y: 726.0761
+        width: 257.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4573391, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124, y: -48.00001}
+        - {x: -129, y: -17.00001}
+        - {x: -129, y: 43.99999}
+        - {x: -89.00002, y: 101}
+        - {x: -47.00002, y: 117}
+        - {x: -26.00002, y: 119}
+        - {x: 10.99998, y: 119}
+        - {x: 28.99998, y: 116}
+        - {x: 70.99998, y: 92.99999}
+        - {x: 96.99999, y: 58.99999}
+        - {x: 129, y: 41.99999}
+        - {x: 129, y: 14.99999}
+        - {x: 106, y: -40.00001}
+        - {x: 88.99998, y: -75.00001}
+        - {x: 42.99999, y: -112}
+        - {x: 7.999985, y: -119}
+        - {x: -24.00002, y: -119}
+        - {x: -43.00002, y: -118}
+        - {x: -77.00002, y: -102}
+        - {x: -105, y: -75.00001}
+      physicsShape:
+      - - {x: 78.99998, y: -80}
+        - {x: 92.99998, y: -60}
+        - {x: 102, y: -40}
+        - {x: 106, y: -26.00001}
+        - {x: 108, y: -14.00001}
+        - {x: 109, y: 9.999991}
+        - {x: 114, y: 9.999991}
+        - {x: 122, y: 11.99999}
+        - {x: 128, y: 20.99999}
+        - {x: 128, y: 30.99999}
+        - {x: 124, y: 34.99999}
+        - {x: 107, y: 36.99999}
+        - {x: 99.99998, y: 44.99999}
+        - {x: 90.99998, y: 62.99999}
+        - {x: 83.99998, y: 72.99998}
+        - {x: 68.99998, y: 88.99999}
+        - {x: 58.99998, y: 97.99998}
+        - {x: 37.99998, y: 110}
+        - {x: 18.99998, y: 115}
+        - {x: 4.999985, y: 118}
+        - {x: -23.00002, y: 118}
+        - {x: -35.00002, y: 116}
+        - {x: -44.00002, y: 115}
+        - {x: -66.00002, y: 106}
+        - {x: -76.00002, y: 99.99999}
+        - {x: -98.00002, y: 80.99999}
+        - {x: -109, y: 65.99999}
+        - {x: -119, y: 49.99999}
+        - {x: -127, y: 25.99999}
+        - {x: -128, y: 11.99999}
+        - {x: -128, y: -14.00001}
+        - {x: -125, y: -31.00001}
+        - {x: -120, y: -45.00001}
+        - {x: -112, y: -63.00001}
+        - {x: -99.00002, y: -79.00001}
+        - {x: -90.00002, y: -88.00001}
+        - {x: -73.00002, y: -101}
+        - {x: -57.00001, y: -109}
+        - {x: -43.00002, y: -115}
+        - {x: -27.00002, y: -118}
+        - {x: 4.999985, y: -118}
+        - {x: 19.99998, y: -115}
+        - {x: 32.99998, y: -112}
+        - {x: 58.99998, y: -98}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefe7a0c09204fbab34e4ca9ce7afd4f
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_hero
+      rect:
+        serializedVersion: 2
+        x: 484.0761
+        y: 1000.076
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4957956, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: -62.00001}
+        - {x: -119, y: -35.00001}
+        - {x: -119, y: 36.99999}
+        - {x: -105, y: 63.99999}
+        - {x: -75.00001, y: 95.99999}
+        - {x: -36.00001, y: 116}
+        - {x: -27.00001, y: 119}
+        - {x: 21.99999, y: 119}
+        - {x: 39.99999, y: 118}
+        - {x: 80.99999, y: 92.99999}
+        - {x: 108, y: 58.99999}
+        - {x: 119, y: 26.99999}
+        - {x: 119, y: -22.00001}
+        - {x: 117, y: -47.00001}
+        - {x: 80.99999, y: -94.00001}
+        - {x: 51.99999, y: -110}
+        - {x: 19.99999, y: -119}
+        - {x: -19.00001, y: -119}
+        - {x: -33.00001, y: -118}
+        - {x: -68.00001, y: -103}
+      physicsShape:
+      - - {x: 68.99999, y: -97.00001}
+        - {x: 77.99999, y: -90.00001}
+        - {x: 93.99999, y: -73}
+        - {x: 103, y: -60}
+        - {x: 112, y: -40}
+        - {x: 117, y: -26.00001}
+        - {x: 118, y: -17.00001}
+        - {x: 118, y: 13.99999}
+        - {x: 117, y: 20.99999}
+        - {x: 113, y: 36.99999}
+        - {x: 110, y: 44.99999}
+        - {x: 101, y: 62.99999}
+        - {x: 93.99999, y: 72.99998}
+        - {x: 78.99998, y: 88.99999}
+        - {x: 68.99999, y: 97.99998}
+        - {x: 47.99999, y: 110}
+        - {x: 28.99999, y: 115}
+        - {x: 14.99999, y: 118}
+        - {x: -13.00001, y: 118}
+        - {x: -25.00001, y: 116}
+        - {x: -34.00001, y: 115}
+        - {x: -56.00001, y: 106}
+        - {x: -74, y: 92.99999}
+        - {x: -87, y: 80.99999}
+        - {x: -103, y: 62.99999}
+        - {x: -111, y: 44.99999}
+        - {x: -117, y: 25.99999}
+        - {x: -118, y: 17.99999}
+        - {x: -118, y: -22.00001}
+        - {x: -111, y: -46}
+        - {x: -101, y: -63.00001}
+        - {x: -94.00001, y: -73}
+        - {x: -80.00001, y: -88.00001}
+        - {x: -69.00001, y: -97.00001}
+        - {x: -48.00001, y: -110}
+        - {x: -26.00001, y: -116}
+        - {x: -18.00001, y: -118}
+        - {x: 14.99999, y: -118}
+        - {x: 30.99999, y: -116}
+        - {x: 44.99999, y: -110}
+        - {x: 57.99999, y: -104}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21fe0e83e964d4a8ca00dfb6a1cc61e
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_id_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1000
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889eb9aafd634153b31f4d2af0732736
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_blood
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1270
+        width: 240
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: -28}
+        - {x: -120, y: -28}
+        - {x: -120, y: 21}
+        - {x: -115, y: 28}
+        - {x: 119, y: 28}
+        - {x: 120, y: 24}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f8f28e061542f8a15e21af8c0db6d4
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_infantry_dead
+      rect:
+        serializedVersion: 2
+        x: 1651.076
+        y: 242.0761
+        width: 251.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4722054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118, y: -53}
+        - {x: -126, y: -20.00001}
+        - {x: -126, y: 32.99999}
+        - {x: -110, y: 80.99999}
+        - {x: -44.00001, y: 119}
+        - {x: 27.99999, y: 119}
+        - {x: 69.99999, y: 98.99999}
+        - {x: 110, y: 45.99999}
+        - {x: 126, y: 34.99999}
+        - {x: 126, y: 14.99999}
+        - {x: 112, y: -25.00001}
+        - {x: 98.99998, y: -63.00001}
+        - {x: 69.99999, y: -98.00001}
+        - {x: 22.99999, y: -119}
+        - {x: -26.00001, y: -119}
+        - {x: -52.00001, y: -113}
+        - {x: -89.00001, y: -92.00001}
+      physicsShape:
+      - - {x: 65.99998, y: -94.00001}
+        - {x: 82.99999, y: -78.00001}
+        - {x: 95.99999, y: -60}
+        - {x: 106, y: -41.00001}
+        - {x: 110, y: -21.00001}
+        - {x: 119, y: 12.99999}
+        - {x: 125, y: 20.99999}
+        - {x: 125, y: 30.99999}
+        - {x: 122, y: 33.99999}
+        - {x: 105, y: 39.99999}
+        - {x: 103, y: 47.99999}
+        - {x: 87.99999, y: 72.99998}
+        - {x: 72.99998, y: 88.99999}
+        - {x: 50.99999, y: 105}
+        - {x: 35.99999, y: 112}
+        - {x: 12.99999, y: 117}
+        - {x: 7.999991, y: 118}
+        - {x: -28.00001, y: 118}
+        - {x: -41.00001, y: 115}
+        - {x: -57.00001, y: 109}
+        - {x: -73.00001, y: 98.99998}
+        - {x: -79.00001, y: 93.99999}
+        - {x: -86.00001, y: 87.99999}
+        - {x: -105, y: 74.99999}
+        - {x: -117, y: 46.99999}
+        - {x: -124, y: 25.99999}
+        - {x: -125, y: 16.99999}
+        - {x: -125, y: -14.00001}
+        - {x: -123, y: -26.00001}
+        - {x: -118, y: -42.00001}
+        - {x: -115, y: -49}
+        - {x: -106, y: -66.00001}
+        - {x: -100, y: -74.00001}
+        - {x: -88.00001, y: -87.00001}
+        - {x: -73.00001, y: -99}
+        - {x: -63.00001, y: -105}
+        - {x: -47, y: -112}
+        - {x: -36.00001, y: -115}
+        - {x: -22.00001, y: -118}
+        - {x: 12.99999, y: -118}
+        - {x: 35.99999, y: -112}
+        - {x: 50.99999, y: -104}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05213db6ae8141499cd2575b1e60fd80
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_level_3
+      rect:
+        serializedVersion: 2
+        x: 1330.076
+        y: 998.0267
+        width: 26.84776
+        height: 30.91352
+      alignment: 9
+      pivot: {x: 0.5186236, y: 0.6137525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.499998, y: -15.48351}
+        - {x: -13.5, y: -10.48351}
+        - {x: -13.5, y: 15.51649}
+        - {x: 13.5, y: 15.51649}
+        - {x: 13.5, y: -8.483511}
+        - {x: 7.500002, y: -15.48351}
+      physicsShape:
+      - - {x: -11.5, y: 15.51649}
+        - {x: -11.5, y: -5.483511}
+        - {x: -1.499998, y: -11.48351}
+        - {x: 9.500002, y: -11.48351}
+        - {x: 11.5, y: -6.48351}
+        - {x: 11.5, y: 15.51649}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2079044e81f647cd851cb1d4896bb97f
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_id_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1330
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fddc183846f4ac09919f37d48449c35
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_sapper_dead
+      rect:
+        serializedVersion: 2
+        x: 1368.076
+        y: 484.0761
+        width: 278.9239
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4263667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.5381, y: -69.00001}
+        - {x: -139.5381, y: -34.00001}
+        - {x: -139.5381, y: 29.99999}
+        - {x: -125.5381, y: 61.99999}
+        - {x: -88.53807, y: 104}
+        - {x: -47.53807, y: 119}
+        - {x: 2.461929, y: 119}
+        - {x: 64.46193, y: 104}
+        - {x: 79.46193, y: 86.99999}
+        - {x: 113.4619, y: 84.99999}
+        - {x: 139.4619, y: 62.99999}
+        - {x: 139.4619, y: 23.99999}
+        - {x: 112.4619, y: 19.99999}
+        - {x: 100.4619, y: -19.00001}
+        - {x: 85.46192, y: -63.00001}
+        - {x: 56.46193, y: -98.00001}
+        - {x: 13.46193, y: -119}
+        - {x: -68.53807, y: -119}
+      physicsShape:
+      - - {x: 69.46193, y: -79.00001}
+        - {x: 84.46192, y: -58.00001}
+        - {x: 93.46193, y: -37.00001}
+        - {x: 97.46192, y: -22.00001}
+        - {x: 98.46192, y: 12.99999}
+        - {x: 111.4619, y: 23.99999}
+        - {x: 116.4619, y: 37.99999}
+        - {x: 115.4619, y: 40.99999}
+        - {x: 112.4619, y: 44.99999}
+        - {x: 109.4619, y: 45.99999}
+        - {x: 116.4619, y: 43.99999}
+        - {x: 126.4619, y: 35.99999}
+        - {x: 133.4619, y: 31.99999}
+        - {x: 137.4619, y: 30.99999}
+        - {x: 139.4619, y: 33.99999}
+        - {x: 139.4619, y: 56.99999}
+        - {x: 113.4619, y: 79.99998}
+        - {x: 100.4619, y: 79.99998}
+        - {x: 92.46193, y: 83.99999}
+        - {x: 78.46192, y: 82.99999}
+        - {x: 69.46193, y: 94.99999}
+        - {x: 57.46193, y: 102}
+        - {x: 46.46192, y: 102}
+        - {x: 28.46193, y: 108}
+        - {x: 13.46193, y: 115}
+        - {x: 5.461929, y: 117}
+        - {x: -4.538071, y: 118}
+        - {x: -36.53807, y: 118}
+        - {x: -54.53807, y: 115}
+        - {x: -70.53807, y: 109}
+        - {x: -93.53806, y: 94.99999}
+        - {x: -108.5381, y: 79.99998}
+        - {x: -117.5381, y: 68.99999}
+        - {x: -130.5381, y: 47.99999}
+        - {x: -137.5381, y: 25.99999}
+        - {x: -138.5381, y: 12.99999}
+        - {x: -138.5381, y: -16.00001}
+        - {x: -135.5381, y: -35.00001}
+        - {x: -131.5381, y: -46}
+        - {x: -118.5381, y: -69.00001}
+        - {x: -111.5381, y: -78.00001}
+        - {x: -89.53807, y: -98}
+        - {x: -78.53807, y: -104}
+        - {x: -65.53807, y: -110}
+        - {x: -50.53807, y: -115}
+        - {x: -35.53807, y: -118}
+        - {x: -5.538072, y: -118}
+        - {x: 9.461927, y: -116}
+        - {x: 27.46193, y: -110}
+        - {x: 49.46193, y: -98}
+      - - {x: 107.4619, y: 51.99999}
+        - {x: 108.4619, y: 51.99999}
+        - {x: 107.4619, y: 52.99999}
+      - - {x: 101.4619, y: 70.99999}
+        - {x: 103.4619, y: 69.99999}
+        - {x: 104.4619, y: 69.99999}
+        - {x: 103.4619, y: 70.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a572eb51b02b4f7f8d841858c89569c8
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_infantry
+      rect:
+        serializedVersion: 2
+        x: 1651.076
+        y: 484.0761
+        width: 251.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4722054, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118, y: -53}
+        - {x: -126, y: -20.00001}
+        - {x: -126, y: 32.99999}
+        - {x: -110, y: 80.99999}
+        - {x: -44.00001, y: 119}
+        - {x: 27.99999, y: 119}
+        - {x: 69.99999, y: 98.99999}
+        - {x: 110, y: 45.99999}
+        - {x: 126, y: 34.99999}
+        - {x: 126, y: 14.99999}
+        - {x: 112, y: -25.00001}
+        - {x: 98.99998, y: -63.00001}
+        - {x: 69.99999, y: -98.00001}
+        - {x: 22.99999, y: -119}
+        - {x: -26.00001, y: -119}
+        - {x: -52.00001, y: -113}
+        - {x: -89.00001, y: -92.00001}
+      physicsShape:
+      - - {x: 65.99998, y: -94.00001}
+        - {x: 82.99999, y: -78.00001}
+        - {x: 95.99999, y: -60}
+        - {x: 106, y: -41.00001}
+        - {x: 110, y: -21.00001}
+        - {x: 119, y: 12.99999}
+        - {x: 125, y: 20.99999}
+        - {x: 125, y: 30.99999}
+        - {x: 122, y: 33.99999}
+        - {x: 105, y: 39.99999}
+        - {x: 103, y: 47.99999}
+        - {x: 87.99999, y: 72.99998}
+        - {x: 72.99998, y: 88.99999}
+        - {x: 50.99999, y: 105}
+        - {x: 35.99999, y: 112}
+        - {x: 12.99999, y: 117}
+        - {x: 7.999991, y: 118}
+        - {x: -28.00001, y: 118}
+        - {x: -41.00001, y: 115}
+        - {x: -57.00001, y: 109}
+        - {x: -73.00001, y: 98.99998}
+        - {x: -79.00001, y: 93.99999}
+        - {x: -86.00001, y: 87.99999}
+        - {x: -105, y: 74.99999}
+        - {x: -117, y: 46.99999}
+        - {x: -124, y: 25.99999}
+        - {x: -125, y: 16.99999}
+        - {x: -125, y: -14.00001}
+        - {x: -123, y: -26.00001}
+        - {x: -118, y: -42.00001}
+        - {x: -115, y: -49}
+        - {x: -106, y: -66.00001}
+        - {x: -100, y: -74.00001}
+        - {x: -88.00001, y: -87.00001}
+        - {x: -73.00001, y: -99}
+        - {x: -63.00001, y: -105}
+        - {x: -47, y: -112}
+        - {x: -36.00001, y: -115}
+        - {x: -22.00001, y: -118}
+        - {x: 12.99999, y: -118}
+        - {x: 35.99999, y: -112}
+        - {x: 50.99999, y: -104}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba463eb4853440e3b6da9e458ec53e91
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_sapper_dead
+      rect:
+        serializedVersion: 2
+        x: 1651.076
+        y: 0.07612228
+        width: 278.9239
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4263667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.5381, y: -69.00001}
+        - {x: -139.5381, y: -34.00001}
+        - {x: -139.5381, y: 29.99999}
+        - {x: -125.5381, y: 61.99999}
+        - {x: -88.53807, y: 104}
+        - {x: -53.53807, y: 119}
+        - {x: 2.461929, y: 119}
+        - {x: 25.46193, y: 116}
+        - {x: 107.4619, y: 83.99999}
+        - {x: 139.4619, y: 57.99999}
+        - {x: 139.4619, y: 40.99999}
+        - {x: 136.4619, y: 32.99999}
+        - {x: 132.4619, y: 23.99999}
+        - {x: 114.4619, y: 36.99999}
+        - {x: 100.4619, y: -19.00001}
+        - {x: 85.46192, y: -62.00001}
+        - {x: 56.46193, y: -98.00001}
+        - {x: 9.461931, y: -119}
+        - {x: -53.53807, y: -119}
+        - {x: -67.53807, y: -117}
+      physicsShape:
+      - - {x: 48.46193, y: -98}
+        - {x: 70.46193, y: -77.00001}
+        - {x: 82.46193, y: -60}
+        - {x: 92.46193, y: -40}
+        - {x: 95.46193, y: -26.00001}
+        - {x: 97.46192, y: -14.00001}
+        - {x: 97.46192, y: 19.99999}
+        - {x: 107.4619, y: 22.99999}
+        - {x: 110.4619, y: 41.99999}
+        - {x: 106.4619, y: 44.99999}
+        - {x: 103.4619, y: 45.99999}
+        - {x: 121.4619, y: 38.99999}
+        - {x: 120.4619, y: 35.99999}
+        - {x: 127.4619, y: 30.99999}
+        - {x: 131.4619, y: 30.99999}
+        - {x: 136.4619, y: 37.99999}
+        - {x: 139.4619, y: 48.99999}
+        - {x: 139.4619, y: 52.99999}
+        - {x: 130.4619, y: 60.99999}
+        - {x: 114.4619, y: 75.99999}
+        - {x: 108.4619, y: 79.99998}
+        - {x: 94.46193, y: 79.99998}
+        - {x: 86.46192, y: 83.99999}
+        - {x: 70.46193, y: 83.99999}
+        - {x: 66.46193, y: 90.99999}
+        - {x: 57.46193, y: 98.99998}
+        - {x: 51.46193, y: 102}
+        - {x: 45.46193, y: 102}
+        - {x: 21.46193, y: 112}
+        - {x: 5.461929, y: 117}
+        - {x: -3.538071, y: 118}
+        - {x: -34.53807, y: 118}
+        - {x: -45.53807, y: 116}
+        - {x: -53.53807, y: 114}
+        - {x: -70.53807, y: 109}
+        - {x: -86.53807, y: 98.99998}
+        - {x: -93.53806, y: 93.99999}
+        - {x: -109.5381, y: 79.99998}
+        - {x: -125.5381, y: 57.99999}
+        - {x: -130.5381, y: 47.99999}
+        - {x: -137.5381, y: 25.99999}
+        - {x: -138.5381, y: 19.99999}
+        - {x: -138.5381, y: -21.00001}
+        - {x: -130.5381, y: -46}
+        - {x: -119.5381, y: -66.00001}
+        - {x: -114.5381, y: -74.00001}
+        - {x: -94.53807, y: -93.00001}
+        - {x: -81.53807, y: -103}
+        - {x: -57.53807, y: -114}
+        - {x: -39.53807, y: -118}
+        - {x: 0.4619293, y: -118}
+        - {x: 13.46193, y: -114}
+        - {x: 25.46193, y: -110}
+        - {x: 39.46193, y: -103}
+      - - {x: 102.4619, y: 51.99999}
+        - {x: 101.4619, y: 52.99999}
+      - - {x: 95.46193, y: 70.99999}
+        - {x: 97.46192, y: 69.99999}
+        - {x: 98.46192, y: 69.99999}
+        - {x: 97.46192, y: 70.99999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f57f038b4e24882a004d2b7ae3b835f
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_level_1
+      rect:
+        serializedVersion: 2
+        x: 242.0761
+        y: 1540.06
+        width: 26.84776
+        height: 20.88054
+      alignment: 9
+      pivot: {x: 0.5186236, y: 0.6197287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.499998, y: -10.5}
+        - {x: -13.5, y: -6.5}
+        - {x: -13.5, y: 10.5}
+        - {x: 13.5, y: 10.5}
+        - {x: 13.5, y: -4.5}
+        - {x: 8.500002, y: -10.5}
+      physicsShape:
+      - - {x: -11.5, y: 10.5}
+        - {x: -11.5, y: -1.5}
+        - {x: -5.499998, y: -6.5}
+        - {x: 2.500002, y: -6.5}
+        - {x: 11.5, y: -1.5}
+        - {x: 11.5, y: 10.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7b026ce633403eb7bfd00046d9e77c
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_guard_dead
+      rect:
+        serializedVersion: 2
+        x: 242.0761
+        y: 1242.076
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: -69.00001}
+        - {x: -119, y: -34.00001}
+        - {x: -119, y: 29.99999}
+        - {x: -106, y: 62.99999}
+        - {x: -67.00001, y: 102}
+        - {x: -37.00001, y: 118}
+        - {x: -24.00001, y: 119}
+        - {x: 28.99999, y: 119}
+        - {x: 61.99999, y: 105}
+        - {x: 79.99999, y: 89.99999}
+        - {x: 103, y: 67.99999}
+        - {x: 119, y: 32.99999}
+        - {x: 119, y: -20.00001}
+        - {x: 115, y: -46.00001}
+        - {x: 108, y: -64.00001}
+        - {x: 54.99999, y: -116}
+        - {x: 34.99999, y: -119}
+        - {x: -40.00001, y: -119}
+        - {x: -47.00001, y: -117}
+      physicsShape:
+      - - {x: 89.99999, y: -77.00001}
+        - {x: 101, y: -63.00001}
+        - {x: 109, y: -47.00001}
+        - {x: 111, y: -42.00001}
+        - {x: 115, y: -30.00001}
+        - {x: 118, y: -20.00001}
+        - {x: 118, y: 15.99999}
+        - {x: 114, y: 33.99999}
+        - {x: 110, y: 45.99999}
+        - {x: 101, y: 62.99999}
+        - {x: 93.99999, y: 72.99998}
+        - {x: 79.99998, y: 87.99999}
+        - {x: 65.99999, y: 98.99998}
+        - {x: 48.99999, y: 109}
+        - {x: 28.99999, y: 115}
+        - {x: 19.99999, y: 117}
+        - {x: 13.99999, y: 118}
+        - {x: -21.00001, y: 118}
+        - {x: -34.00001, y: 115}
+        - {x: -50.00001, y: 109}
+        - {x: -66.00001, y: 99.99999}
+        - {x: -89.00001, y: 79.99998}
+        - {x: -97.00001, y: 67.99999}
+        - {x: -103, y: 59.99999}
+        - {x: -114, y: 36.99999}
+        - {x: -118, y: 21.99999}
+        - {x: -118, y: -16.00001}
+        - {x: -114, y: -34.00001}
+        - {x: -108, y: -49}
+        - {x: -100, y: -66.00001}
+        - {x: -81.00001, y: -87.00001}
+        - {x: -66.00001, y: -99}
+        - {x: -49, y: -109}
+        - {x: -30.00001, y: -116}
+        - {x: -16.00001, y: -118}
+        - {x: 20.99999, y: -118}
+        - {x: 42.99999, y: -112}
+        - {x: 57.99999, y: -104}
+        - {x: 72.99998, y: -94.00001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0ad9fde98e4e64a81a8428ac139ddc
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_hero_dead
+      rect:
+        serializedVersion: 2
+        x: 1004.076
+        y: 970.0761
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.4957956, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: -62.00001}
+        - {x: -119, y: -35.00001}
+        - {x: -119, y: 36.99999}
+        - {x: -105, y: 63.99999}
+        - {x: -75.00001, y: 95.99999}
+        - {x: -36.00001, y: 116}
+        - {x: -27.00001, y: 119}
+        - {x: 21.99999, y: 119}
+        - {x: 39.99999, y: 118}
+        - {x: 80.99999, y: 92.99999}
+        - {x: 108, y: 58.99999}
+        - {x: 119, y: 26.99999}
+        - {x: 119, y: -22.00001}
+        - {x: 117, y: -47.00001}
+        - {x: 80.99999, y: -94.00001}
+        - {x: 51.99999, y: -110}
+        - {x: 19.99999, y: -119}
+        - {x: -19.00001, y: -119}
+        - {x: -33.00001, y: -118}
+        - {x: -68.00001, y: -103}
+      physicsShape:
+      - - {x: 68.99999, y: -97.00001}
+        - {x: 77.99999, y: -90.00001}
+        - {x: 93.99999, y: -73}
+        - {x: 103, y: -60}
+        - {x: 112, y: -40}
+        - {x: 117, y: -26.00001}
+        - {x: 118, y: -17.00001}
+        - {x: 118, y: 13.99999}
+        - {x: 117, y: 20.99999}
+        - {x: 113, y: 36.99999}
+        - {x: 110, y: 44.99999}
+        - {x: 101, y: 62.99999}
+        - {x: 93.99999, y: 72.99998}
+        - {x: 78.99998, y: 88.99999}
+        - {x: 68.99999, y: 97.99998}
+        - {x: 47.99999, y: 110}
+        - {x: 28.99999, y: 115}
+        - {x: 14.99999, y: 118}
+        - {x: -13.00001, y: 118}
+        - {x: -25.00001, y: 116}
+        - {x: -34.00001, y: 115}
+        - {x: -56.00001, y: 106}
+        - {x: -74, y: 92.99999}
+        - {x: -87, y: 80.99999}
+        - {x: -103, y: 62.99999}
+        - {x: -111, y: 44.99999}
+        - {x: -117, y: 25.99999}
+        - {x: -118, y: 17.99999}
+        - {x: -118, y: -22.00001}
+        - {x: -111, y: -46}
+        - {x: -101, y: -63.00001}
+        - {x: -94.00001, y: -73}
+        - {x: -80.00001, y: -88.00001}
+        - {x: -69.00001, y: -97.00001}
+        - {x: -48.00001, y: -110}
+        - {x: -26.00001, y: -116}
+        - {x: -18.00001, y: -118}
+        - {x: 14.99999, y: -118}
+        - {x: 30.99999, y: -116}
+        - {x: 44.99999, y: -110}
+        - {x: 57.99999, y: -104}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98802580e83c48158048c2bcf56163dc
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_id_6
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1084
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067f2024bbc44367947861f96128891d
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_bar
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 970
+        width: 660
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -330, y: -12}
+        - {x: -330, y: 12}
+        - {x: 330, y: 12}
+        - {x: 330, y: -12}
+      physicsShape:
+      - - {x: 322, y: -4}
+        - {x: 322, y: 4}
+        - {x: -322, y: 4}
+        - {x: -322, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a689cb5f0c54d9b84819a62c0bfc12d
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_background
+      rect:
+        serializedVersion: 2
+        x: 0.02675247
+        y: 0.02675247
+        width: 1363.947
+        height: 723.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -679, y: -361}
+        - {x: -682, y: -356}
+        - {x: -682, y: 356}
+        - {x: -681, y: 359}
+        - {x: -676, y: 362}
+        - {x: 676, y: 362}
+        - {x: 679, y: 361}
+        - {x: 682, y: 358}
+        - {x: 682, y: -360}
+        - {x: 676, y: -362}
+        - {x: -676, y: -362}
+      physicsShape:
+      - - {x: -682, y: -360}
+        - {x: -680, y: -362}
+        - {x: 679, y: -362}
+        - {x: 682, y: -359}
+        - {x: 682, y: 362}
+        - {x: -682, y: 362}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e394dd492d41487fa3cbecb045fb9752
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_id_1
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1270
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5ef96882814333ba7dab305c992ac2
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_id_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1000
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1273c062594c43b030ef576d9d9857
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_icon_silo
+      rect:
+        serializedVersion: 2
+        x: 736.0761
+        y: 1354.051
+        width: 55.87257
+        height: 55.87256
+      alignment: 9
+      pivot: {x: 0.5355737, y: 0.4644262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.987595, y: -27.9876}
+        - {x: -28.01241, y: 0.01240158}
+        - {x: -28.01241, y: 18.0124}
+        - {x: -14.01241, y: 28.0124}
+        - {x: 2.987595, y: 28.0124}
+        - {x: 27.98759, y: -13.9876}
+        - {x: 27.98759, y: -27.9876}
+      physicsShape:
+      - - {x: -3.012405, y: 15.0124}
+        - {x: -13.0124, y: 15.0124}
+        - {x: -15.01241, y: 14.0124}
+        - {x: -15.01241, y: 6.012402}
+        - {x: 4.987595, y: -23.9876}
+        - {x: 17.98759, y: -27.9876}
+        - {x: 27.98759, y: -27.9876}
+        - {x: 27.98759, y: -15.9876}
+        - {x: 8.987595, y: 12.0124}
+      - - {x: -28.0124, y: 9.012402}
+        - {x: -28.0124, y: 6.012402}
+        - {x: -17.01241, y: -4.987598}
+        - {x: -7.012405, y: -4.987598}
+        - {x: -5.012405, y: -3.987598}
+        - {x: -5.012405, y: 5.012402}
+        - {x: -15.01241, y: 9.012402}
+      - - {x: -9.012405, y: 15.0124}
+        - {x: -1.012405, y: 5.012402}
+        - {x: 2.987595, y: 5.012402}
+        - {x: 4.987595, y: 6.012402}
+        - {x: 4.987595, y: 17.0124}
+        - {x: -6.012405, y: 28.0124}
+        - {x: -9.012405, y: 27.0124}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062f77f1afc43cc9dd9a387418f99d1
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_header_hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 1000
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -494, y: -32}
+        - {x: -500, y: -24}
+        - {x: -500, y: 22}
+        - {x: -488, y: 41}
+        - {x: -458, y: 52}
+        - {x: -438, y: 54}
+        - {x: -388, y: 56}
+        - {x: -386, y: 57}
+        - {x: -296, y: 59}
+        - {x: -294, y: 60}
+        - {x: -205, y: 60}
+        - {x: -204, y: 62}
+        - {x: -202, y: 63}
+        - {x: -130, y: 65}
+        - {x: -128, y: 66}
+        - {x: 129, y: 66}
+        - {x: 203, y: 63}
+        - {x: 439, y: 55}
+        - {x: 476, y: 47}
+        - {x: 489, y: 36}
+        - {x: 500, y: 23}
+        - {x: 500, y: -22}
+        - {x: 487, y: -41}
+        - {x: 458, y: -53}
+        - {x: 439, y: -54}
+        - {x: 386, y: -54}
+        - {x: 384, y: -57}
+        - {x: 296, y: -59}
+        - {x: 294, y: -60}
+        - {x: 205, y: -60}
+        - {x: 203, y: -63}
+        - {x: 131, y: -63}
+        - {x: 129, y: -66}
+        - {x: -129, y: -66}
+        - {x: -203, y: -63}
+        - {x: -295, y: -60}
+        - {x: -384, y: -57}
+        - {x: -439, y: -54}
+        - {x: -458, y: -51}
+        - {x: -476, y: -46}
+      physicsShape:
+      - - {x: 29, y: -16}
+        - {x: 29, y: -7}
+        - {x: 25, y: 0}
+        - {x: 20, y: 3}
+        - {x: 19, y: 3}
+        - {x: -13, y: 28}
+        - {x: -22, y: 28}
+        - {x: -24, y: 26}
+        - {x: -23, y: 17}
+        - {x: -23, y: 4}
+        - {x: -29, y: -8}
+        - {x: -29, y: -22}
+        - {x: -27, y: -23}
+        - {x: 24, y: -23}
+      - - {x: 12, y: 28}
+        - {x: 2, y: 21}
+        - {x: 2, y: 15}
+        - {x: 7, y: 7}
+        - {x: 13, y: 7}
+        - {x: 24, y: 16}
+        - {x: 24, y: 26}
+        - {x: 22, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fbeb2f85cc44a6b4b479a784563ad3
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_tab_hero
+      rect:
+        serializedVersion: 2
+        x: 0.07612228
+        y: 1484.076
+        width: 237.8478
+        height: 237.8478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117, y: -33.00001}
+        - {x: -119, y: -16.00001}
+        - {x: -119, y: 21.99999}
+        - {x: -110, y: 67.99999}
+        - {x: -67.00001, y: 102}
+        - {x: -37.00001, y: 118}
+        - {x: -21.00001, y: 119}
+        - {x: 27.99999, y: 119}
+        - {x: 61.99999, y: 105}
+        - {x: 105, y: 68.99999}
+        - {x: 119, y: 34.99999}
+        - {x: 119, y: -20.00001}
+        - {x: 115, y: -46.00001}
+        - {x: 105, y: -62.00001}
+        - {x: 74.99999, y: -96.00001}
+        - {x: 52.99999, y: -113}
+        - {x: 21.99999, y: -119}
+        - {x: -29.00001, y: -119}
+        - {x: -45.00001, y: -114}
+        - {x: -80.00001, y: -90.00001}
+        - {x: -102, y: -67.00001}
+      physicsShape:
+      - - {x: 94.99999, y: -72.00001}
+        - {x: 103, y: -60}
+        - {x: 112, y: -40}
+        - {x: 117, y: -26.00001}
+        - {x: 118, y: -17.00001}
+        - {x: 118, y: 12.99999}
+        - {x: 117, y: 25.99999}
+        - {x: 110, y: 47.99999}
+        - {x: 101, y: 62.99999}
+        - {x: 93.99999, y: 72.99998}
+        - {x: 79.99998, y: 88.99999}
+        - {x: 57.99999, y: 105}
+        - {x: 42.99999, y: 112}
+        - {x: 19.99999, y: 117}
+        - {x: 14.99999, y: 118}
+        - {x: -21.00001, y: 118}
+        - {x: -34.00001, y: 115}
+        - {x: -50.00001, y: 109}
+        - {x: -66.00001, y: 98.99998}
+        - {x: -79.00001, y: 87.99999}
+        - {x: -88.00001, y: 78.99999}
+        - {x: -98, y: 67.99999}
+        - {x: -105, y: 67.99999}
+        - {x: -110, y: 58.99999}
+        - {x: -109, y: 47.99999}
+        - {x: -117, y: 25.99999}
+        - {x: -118, y: 19.99999}
+        - {x: -118, y: -21.00001}
+        - {x: -111, y: -46}
+        - {x: -104, y: -58.00001}
+        - {x: -95.00001, y: -73}
+        - {x: -81.00001, y: -87.00001}
+        - {x: -66.00001, y: -99}
+        - {x: -43, y: -112}
+        - {x: -25.00001, y: -117}
+        - {x: -19.00001, y: -118}
+        - {x: 21.99999, y: -118}
+        - {x: 45.99999, y: -111}
+        - {x: 68.99999, y: -98}
+        - {x: 76.99999, y: -91.00001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d178123aac8f4426bfed00f06c8df38d
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_id_3
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 242
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92833abd6950492195b0be360de38142
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tab_icon_shield
+      rect:
+        serializedVersion: 2
+        x: 1266.027
+        y: 728.0513
+        width: 43.9465
+        height: 51.90578
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.499919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -26.00421}
+        - {x: -22, y: -17.00421}
+        - {x: -22, y: 24.99579}
+        - {x: -13, y: 25.99579}
+        - {x: 8.000002, y: 25.99579}
+        - {x: 22, y: 19.99579}
+        - {x: 22, y: -15.00421}
+        - {x: 7.000002, y: -26.00421}
+      physicsShape:
+      - - {x: 14, y: 24.99579}
+        - {x: -8.999998, y: 24.99579}
+        - {x: -22, y: 19.99579}
+        - {x: -22, y: -11.00421}
+        - {x: -6.999998, y: -25.00421}
+        - {x: 9.000002, y: -25.00421}
+        - {x: 22, y: -12.00421}
+        - {x: 22, y: 21.99579}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22043e526b904491bc39805e900accd5
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_tab_id_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1354
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -40}
+        - {x: -40, y: -36}
+        - {x: -40, y: 35}
+        - {x: -30, y: 40}
+        - {x: 33, y: 40}
+        - {x: 39, y: 31}
+        - {x: 40, y: 24}
+        - {x: 40, y: -28}
+        - {x: 32, y: -40}
+      physicsShape:
+      - - {x: -22, y: 26}
+        - {x: -26, y: 14}
+        - {x: -26, y: -9}
+        - {x: -17, y: -25}
+        - {x: -9.999999, y: -26}
+        - {x: 13, y: -26}
+        - {x: 26, y: -14}
+        - {x: 26, y: 13}
+        - {x: 22, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7c15f538a24933a7528b0baf100a4b
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blue_tab_sapper: 21300016
+      tab_background: 21300064
+      red_tab_id_2: 21300038
+      red_tab_hero_dead: 21300002
+      red_tab_id_4: 21300026
+      blue_tab_hero_dead: 21300058
+      blue_tab_id_4: 21300046
+      red_tab_id_5: 21300004
+      red_tab_id_6: 21300028
+      blue_tab_hero: 21300036
+      tab_blood_bg: 21300018
+      tab_icon_shield: 21300078
+      blue_tab_infantry: 21300000
+      red_tab_sapper_dead: 21300052
+      blue_tab_infantry_dead: 21300034
+      blue_tab_id_1: 21300066
+      red_tab_infantry: 21300050
+      blue_tab_bar: 21300062
+      red_tab_guard_dead: 21300056
+      blue_tab_id_3: 21300076
+      red_tab_id_1: 21300024
+      blue_tab_id_2: 21300014
+      tab_level_2: 21300020
+      blue_tab_id_5: 21300080
+      red_tab_sapper: 21300030
+      blue_tab_blood: 21300032
+      tab_header_kill: 21300010
+      blue_tab_guard_dead: 21300022
+      red_tab_infantry_dead: 21300042
+      tab_level_3: 21300044
+      blue_tab_id_6: 21300060
+      red_tab_id_3: 21300068
+      red_tab_hero: 21300074
+      blue_tab_guard: 21300012
+      tab_header_hurt: 21300072
+      red_tab_bar: 21300006
+      red_tab_blood: 21300040
+      tab_level_1: 21300054
+      red_tab_guard: 21300008
+      tab_icon_silo: 21300070
+      blue_tab_sapper_dead: 21300048
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

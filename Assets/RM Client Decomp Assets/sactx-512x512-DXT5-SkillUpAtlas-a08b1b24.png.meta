@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 38431cc113d67fa4a9c4abe07c308a67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: SkillUp-Tips-Base
+  - first:
+      213: 21300002
+    second: skillup_background
+  - first:
+      213: 21300004
+    second: skillup_icon_chasis
+  - first:
+      213: 21300006
+    second: skillup_point_light
+  - first:
+      213: 21300008
+    second: skillup_icon_blood
+  - first:
+      213: 21300010
+    second: skillup_point_dark
+  - first:
+      213: 21300012
+    second: skillup_icon_speedup
+  - first:
+      213: 21300014
+    second: skillup_bottom_bg
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkillUp-Tips-Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 128
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -24}
+        - {x: -64, y: -23}
+        - {x: -64, y: 23}
+        - {x: -63, y: 24}
+        - {x: 63, y: 24}
+        - {x: 64, y: 23}
+        - {x: 64, y: -23}
+        - {x: 63, y: -24}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a5433ee15948ca956394434c017b72
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillup_background
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 330
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 165, y: -119}
+        - {x: -165, y: -119}
+        - {x: -165, y: 115}
+        - {x: -162, y: 119}
+        - {x: 161, y: 119}
+        - {x: 165, y: 116}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4808f65c565343e6928030b395c3e996
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillup_icon_chasis
+      rect:
+        serializedVersion: 2
+        x: 334.0268
+        y: 0.01291257
+        width: 55.89713
+        height: 55.96033
+      alignment: 9
+      pivot: {x: 0.5004417, y: 0.5001237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.97531, y: -27.99308}
+        - {x: -27.97531, y: -12.99308}
+        - {x: -27.97531, y: 17.00692}
+        - {x: -13.97531, y: 28.00692}
+        - {x: 19.02469, y: 28.00692}
+        - {x: 28.02469, y: 17.00692}
+        - {x: 28.02469, y: -11.99308}
+        - {x: 21.02469, y: -26.99308}
+        - {x: 19.02469, y: -27.99308}
+      physicsShape:
+      - - {x: -25.97531, y: -8.993078}
+        - {x: -16.97531, y: -24.99308}
+        - {x: -2.975311, y: -24.99308}
+        - {x: -0.9753113, y: -23.99308}
+        - {x: -0.9753113, y: -17.99308}
+        - {x: -16.97531, y: -0.9930782}
+        - {x: -25.97531, y: -0.9930782}
+      - - {x: 24.02469, y: -0.9930782}
+        - {x: 15.02469, y: -0.9930782}
+        - {x: 1.024689, y: -13.99308}
+        - {x: 1.024689, y: -24.99308}
+        - {x: 10.02469, y: -24.99308}
+        - {x: 22.02469, y: -15.99308}
+        - {x: 25.02469, y: -10.99308}
+        - {x: 25.02469, y: -1.993078}
+      - - {x: -7.975311, y: 12.00692}
+        - {x: -7.975311, y: -10.99308}
+        - {x: -5.975311, y: -11.99308}
+        - {x: 2.024689, y: -11.99308}
+        - {x: 10.02469, y: -2.993078}
+        - {x: 10.02469, y: 7.006922}
+        - {x: 8.024689, y: 12.00692}
+      - - {x: -8.975311, y: 26.00692}
+        - {x: -22.97531, y: 18.00692}
+        - {x: -25.97531, y: 8.006922}
+        - {x: -25.97531, y: 1.006922}
+        - {x: -17.97531, y: 1.006922}
+        - {x: -14.97531, y: 2.006922}
+        - {x: -2.975311, y: 13.00692}
+        - {x: -0.9753113, y: 18.00692}
+        - {x: -0.9753113, y: 26.00692}
+      - - {x: 1.024689, y: 26.00692}
+        - {x: 1.024689, y: 16.00692}
+        - {x: 13.02469, y: 2.006922}
+        - {x: 16.02469, y: 1.006922}
+        - {x: 25.02469, y: 1.006922}
+        - {x: 25.02469, y: 18.00692}
+        - {x: 9.024689, y: 26.00692}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3332978df7479385f2f2a92d5012a7
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillup_point_light
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: 5, y: 6}
+        - {x: 2, y: 7}
+        - {x: -4, y: 7}
+        - {x: -6, y: 5}
+        - {x: -7, y: 2}
+        - {x: -7, y: -3}
+        - {x: -5, y: -6}
+        - {x: -2, y: -7}
+        - {x: 2, y: -7}
+        - {x: 6, y: -5}
+        - {x: 7, y: -2}
+        - {x: 7, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614e709494aa402ba805032d71c6377a
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillup_icon_blood
+      rect:
+        serializedVersion: 2
+        x: 334.0268
+        y: 60.02675
+        width: 39.9465
+        height: 55.89713
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5004417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -27.97531}
+        - {x: -20, y: -27.97531}
+        - {x: -20, y: 13.02469}
+        - {x: -16, y: 28.02469}
+        - {x: 11, y: 28.02469}
+        - {x: 20, y: 12.02469}
+      physicsShape:
+      - - {x: -9.999997, y: 25.02469}
+        - {x: -18, y: 8.024689}
+        - {x: -18, y: -21.97531}
+        - {x: -13, y: -25.97531}
+        - {x: 14, y: -25.97531}
+        - {x: 18, y: -16.97531}
+        - {x: 18, y: 7.024689}
+        - {x: 4.000002, y: 25.02469}
+      - - {x: -2.999998, y: -5.975311}
+        - {x: 0.000001907349, y: -2.975311}
+        - {x: 3.000002, y: -5.975311}
+        - {x: 0.000001907349, y: -8.975311}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0820733920d44bc5a36a5cbb70a4e075
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillup_point_dark
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 352
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4559fa9136f348d7a68dab23a21cc32b
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillup_icon_speedup
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 300.0761
+        width: 55.92388
+        height: 43.84776
+      alignment: 9
+      pivot: {x: 0.5006806, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.96194, y: 0.000001907349}
+        - {x: -27.96194, y: 0.000001907349}
+        - {x: -27.96194, y: 21}
+        - {x: -25.96194, y: 22}
+        - {x: 25.03806, y: 22}
+        - {x: 26.03806, y: 20}
+        - {x: 28.03806, y: 14}
+        - {x: 28.03806, y: 4.000002}
+        - {x: 25.03806, y: 0.000001907349}
+        - {x: 22.03806, y: 0.000001907349}
+        - {x: 26.03806, y: -1.999998}
+        - {x: 28.03806, y: -6.999998}
+        - {x: 28.03806, y: -19}
+        - {x: 25.03806, y: -22}
+        - {x: -22.96194, y: -22}
+        - {x: -27.96194, y: -21}
+        - {x: -27.96194, y: -0.9999981}
+      physicsShape:
+      - - {x: -20.96194, y: -1.999998}
+        - {x: -20.96194, y: -20}
+        - {x: 18.03806, y: -20}
+        - {x: 26.03806, y: -15}
+        - {x: 26.03806, y: -7.999998}
+        - {x: 20.03806, y: -1.999998}
+      - - {x: -20.96194, y: 20}
+        - {x: -20.96194, y: 5.000001}
+        - {x: -14.96194, y: 2.000002}
+        - {x: 19.03806, y: 2.000002}
+        - {x: 26.03806, y: 6.000002}
+        - {x: 26.03806, y: 14}
+        - {x: 21.03806, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f40837a4cd94b4892fa025de01eef3f
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillup_bottom_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 330
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 165, y: -27}
+        - {x: -165, y: -27}
+        - {x: -165, y: 22}
+        - {x: -164, y: 23}
+        - {x: -161, y: 27}
+        - {x: 162, y: 27}
+        - {x: 165, y: 24}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c64bb49f24c54a2f40bef30af0d5a
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      skillup_background: 21300002
+      skillup_bottom_bg: 21300014
+      SkillUp-Tips-Base: 21300000
+      skillup_icon_chasis: 21300004
+      skillup_icon_speedup: 21300012
+      skillup_icon_blood: 21300008
+      skillup_point_light: 21300006
+      skillup_point_dark: 21300010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
