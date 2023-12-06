@@ -14,14 +14,20 @@ public class RefereeSystem : NetworkBehaviour
     [Header("Red")]
     [SerializeField] private Health redBaseHealth = null;
     [SerializeField] private Image redBaseHealthBarImage = null;
-    [SerializeField] private Image redRobot1HealthBarImage = null;
-    [SerializeField] private Image redRobot2HealthBarImage = null;
-    [SerializeField] private TMP_Text redScoreText = null;
 
-    [SerializeField]
-    private Health redRobot1Health = null;
-    [SerializeField]
-    private Health redRobot2Health = null;
+    //[SerializeField] private Image redRobot1HealthBarImage = null;
+    //[SerializeField] private Image redRobot2HealthBarImage = null;
+    //[SerializeField] private Health redRobot1Health = null;
+    //[SerializeField] private Health redRobot2Health = null;
+
+
+    [SerializeField] private List<Image> redRobotHealthImgs = new List<Image>();
+    [SerializeField] private List<Health> redRobotHealth = new List<Health>();
+
+    [SerializeField] private TMP_Text redScoreText = null;
+    [SerializeField] private GameObject redHealthGroup = null;
+
+    
 
     [Header("Blue")]
     [SerializeField] private Health blueBaseHealth = null;
@@ -41,6 +47,9 @@ public class RefereeSystem : NetworkBehaviour
     [SerializeField] private GameObject pause = null;
     [SerializeField] private TMP_Text resultText = null;
     [SerializeField] private TMP_Text matchTimer = null;
+    [SerializeField] private GameObject RedRobotHealthUI = null;
+    [SerializeField] private GameObject BlueRobotHealthUI = null;
+
     private MyNetworkManager networkManager = null;
 
     [SyncVar] private bool transitioning = false;
@@ -85,8 +94,15 @@ public class RefereeSystem : NetworkBehaviour
 
         redBaseHealthBarImage.rectTransform.sizeDelta = new Vector2(840 * redBaseHealth.getCurrentHealth() / redBaseHealth.getMaxHealth(), 84);
         blueBaseHealthBarImage.rectTransform.sizeDelta = new Vector2(840 * blueBaseHealth.getCurrentHealth() / blueBaseHealth.getMaxHealth(), 84);
-        if (redRobot1Health != null) redRobot1HealthBarImage.rectTransform.sizeDelta = new Vector3(840 * redRobot1Health.getCurrentHealth() / redRobot1Health.getMaxHealth(), 84);
-        if (redRobot2Health != null) redRobot2HealthBarImage.fillAmount = redRobot2Health.getCurrentHealth() / redRobot2Health.getMaxHealth();
+        
+        //if (redRobot1Health != null) redRobot1HealthBarImage.rectTransform.sizeDelta = new Vector3(840 * redRobot1Health.getCurrentHealth() / redRobot1Health.getMaxHealth(), 84);
+        //if (redRobot2Health != null) redRobot2HealthBarImage.fillAmount = redRobot2Health.getCurrentHealth() / redRobot2Health.getMaxHealth();
+
+        for(int i = 0; i < redRobotHealthImgs.Count; i++)
+        {
+            redRobotHealthImgs[i].rectTransform.sizeDelta = new Vector3(125 * redRobotHealth[i].getCurrentHealth() / redRobotHealth[i].getMaxHealth(), 10);
+        }
+        
         if (blueRobot1Health != null) blueRobot1HealthBarImage.fillAmount = blueRobot1Health.getCurrentHealth() / blueRobot1Health.getMaxHealth();
         if (blueRobot2Health != null) blueRobot2HealthBarImage.fillAmount = blueRobot2Health.getCurrentHealth() / blueRobot2Health.getMaxHealth();
 
@@ -194,21 +210,15 @@ public class RefereeSystem : NetworkBehaviour
         matchStartTime = Time.fixedTime;
     }
 
-    public void setRobotHealthDisplayLink(int team, Health health)
+    public void addRobotHealthDisplayLink(int team, Health health)
     {
         Image healthBarImage = null;
 
         if (team == 1) {
-            if (redRobot1Health == null) {
-                redRobot1Health = health;
-                healthBarImage = redRobot1HealthBarImage;
-            }
-            else {
-                if (redRobot2Health == null) {
-                    redRobot2Health = health;
-                    healthBarImage = redRobot2HealthBarImage;
-                }
-            }
+
+            GameObject redRobotHealthInst = Instantiate<GameObject>(RedRobotHealthUI, redHealthGroup.transform);
+            redRobotHealthImgs.Add(redRobotHealthInst.transform.GetChild(3).GetComponent<Image>());                 //Add the bar image from the new UI element to the list of images
+            redRobotHealth.Add(health);                                                                             //Link the robot's health to the UI
         }
 
         else if (team == 0)
@@ -228,7 +238,7 @@ public class RefereeSystem : NetworkBehaviour
             }
         }
 
-        updateRobotHealthDisplay(healthBarImage);
+        //updateRobotHealthDisplay(healthBarImage);
     }
 
 

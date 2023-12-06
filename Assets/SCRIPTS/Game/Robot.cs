@@ -24,8 +24,8 @@ public class Robot : NetworkBehaviour
         if (setData) { return; }
         
         if(team != -1 && type != -1){
-            GameObject.FindWithTag("RefereeSystem").GetComponent<RefereeSystem>().setRobotHealthDisplayLink(team, health);
             setData = true;
+            //GameObject.FindWithTag("RefereeSystem").GetComponent<RefereeSystem>().addRobotHealthDisplayLink(team, health);
         }
     }
 
