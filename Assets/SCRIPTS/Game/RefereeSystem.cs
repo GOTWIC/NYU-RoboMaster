@@ -26,20 +26,25 @@ public class RefereeSystem : NetworkBehaviour
 
     [SerializeField] private TMP_Text redScoreText = null;
     [SerializeField] private GameObject redHealthGroup = null;
+    [SerializeField] private GameObject RedRobotHealthUI = null;
 
-    
+
 
     [Header("Blue")]
     [SerializeField] private Health blueBaseHealth = null;
     [SerializeField] private Image blueBaseHealthBarImage = null;
-    [SerializeField] private Image blueRobot1HealthBarImage = null;
-    [SerializeField] private Image blueRobot2HealthBarImage = null;
-    [SerializeField] private TMP_Text blueScoreText = null;
 
-    [SerializeField]
-    private Health blueRobot1Health = null;
-    [SerializeField]
-    private Health blueRobot2Health = null;
+    //[SerializeField] private Image blueRobot1HealthBarImage = null;
+    //[SerializeField] private Image blueRobot2HealthBarImage = null;
+    //[SerializeField] private Health blueRobot1Health = null;
+    //[SerializeField] private Health blueRobot2Health = null;
+
+    [SerializeField] private List<Image> blueRobotHealthImgs = new List<Image>();
+    [SerializeField] private List<Health> blueRobotHealth = new List<Health>();
+
+    [SerializeField] private TMP_Text blueScoreText = null;
+    [SerializeField] private GameObject blueHealthGroup = null;
+    [SerializeField] private GameObject BlueRobotHealthUI = null;
 
     [Header("Misc")]
     [SerializeField] private GameObject roundEnd = null;
@@ -47,8 +52,6 @@ public class RefereeSystem : NetworkBehaviour
     [SerializeField] private GameObject pause = null;
     [SerializeField] private TMP_Text resultText = null;
     [SerializeField] private TMP_Text matchTimer = null;
-    [SerializeField] private GameObject RedRobotHealthUI = null;
-    [SerializeField] private GameObject BlueRobotHealthUI = null;
 
     private MyNetworkManager networkManager = null;
 
@@ -102,9 +105,14 @@ public class RefereeSystem : NetworkBehaviour
         {
             redRobotHealthImgs[i].rectTransform.sizeDelta = new Vector3(125 * redRobotHealth[i].getCurrentHealth() / redRobotHealth[i].getMaxHealth(), 10);
         }
-        
-        if (blueRobot1Health != null) blueRobot1HealthBarImage.fillAmount = blueRobot1Health.getCurrentHealth() / blueRobot1Health.getMaxHealth();
-        if (blueRobot2Health != null) blueRobot2HealthBarImage.fillAmount = blueRobot2Health.getCurrentHealth() / blueRobot2Health.getMaxHealth();
+
+        for (int i = 0; i < blueRobotHealthImgs.Count; i++)
+        {
+            blueRobotHealthImgs[i].rectTransform.sizeDelta = new Vector3(125 * redRobotHealth[i].getCurrentHealth() / redRobotHealth[i].getMaxHealth(), 10);
+        }
+
+        //if (blueRobot1Health != null) blueRobot1HealthBarImage.fillAmount = blueRobot1Health.getCurrentHealth() / blueRobot1Health.getMaxHealth();
+        //if (blueRobot2Health != null) blueRobot2HealthBarImage.fillAmount = blueRobot2Health.getCurrentHealth() / blueRobot2Health.getMaxHealth();
 
         int min = (int)(matchTimeMin*60 - (Time.fixedTime - matchStartTime)+1) /60;
         int sec = (int)(matchTimeMin*60 - (Time.fixedTime - matchStartTime)+1) % 60;
@@ -223,19 +231,9 @@ public class RefereeSystem : NetworkBehaviour
 
         else if (team == 0)
         {
-            if (blueRobot1Health == null)
-            {
-                blueRobot1Health = health;
-                healthBarImage = blueRobot1HealthBarImage;
-            }
-            else
-            {
-                if (blueRobot2Health == null)
-                {
-                    blueRobot2Health = health;
-                    healthBarImage = blueRobot2HealthBarImage;
-                }
-            }
+            GameObject blueRobotHealthInst = Instantiate<GameObject>(BlueRobotHealthUI, blueHealthGroup.transform);
+            redRobotHealthImgs.Add(blueRobotHealthInst.transform.GetChild(3).GetComponent<Image>());                 //Add the bar image from the new UI element to the list of images
+            redRobotHealth.Add(health);                                                                             //Link the robot's health to the UI
         }
 
         //updateRobotHealthDisplay(healthBarImage);
