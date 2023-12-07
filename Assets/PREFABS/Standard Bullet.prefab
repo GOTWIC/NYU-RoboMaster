@@ -168,7 +168,7 @@ MonoBehaviour:
   syncInterval: 0.1
   bulletSpeed: 300
   destroyAfterSeconds: 20
-  damage: 10
+  damage: 1000
   Robot1: {fileID: 8024595417304967709, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
   Robot2: {fileID: 8024595417304967709, guid: 56d0d22b0f92d0e478a2882ec4165b63, type: 3}
   ignoredColliders:

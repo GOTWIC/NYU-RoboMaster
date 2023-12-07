@@ -30,7 +30,7 @@ public class PlayerScript : NetworkBehaviour
         }
 
         if (refereeSystem.isTransitioning()) {
-            Time.timeScale = 0.5f;
+            Time.timeScale = 0.3f;
         }
 
         if (refereeSystem.isEndOfGame()) {
