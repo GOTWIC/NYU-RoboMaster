@@ -11,6 +11,7 @@ public class PlayerCamera : NetworkBehaviour
 
     float cameraVerticalRotation = 0f;
 
+    [SerializeField] Vector3 camAxis = new Vector3(0, 1, 0);
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,6 @@ public class PlayerCamera : NetworkBehaviour
 
         cameraVerticalRotation += inputY;
         cameraVerticalRotation = Mathf.Clamp(cameraVerticalRotation, -25f, 25f);
-        pivot.transform.localEulerAngles = Vector3.up * cameraVerticalRotation;
+        pivot.transform.localEulerAngles = camAxis * cameraVerticalRotation;
     }
 }
