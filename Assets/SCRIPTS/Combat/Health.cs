@@ -99,7 +99,11 @@ public class Health : NetworkBehaviour
 
         if (isInvulnerable) { return; }
 
-        currentHealth = Mathf.Max(currentHealth - damage, 0);
+        int dmg_multiplier = 1;
+
+        if (entityType == "base") { dmg_multiplier = 2; }
+
+        currentHealth = Mathf.Max(currentHealth - damage * dmg_multiplier, 0);
 
         if (currentHealth > 0) { return; }
 

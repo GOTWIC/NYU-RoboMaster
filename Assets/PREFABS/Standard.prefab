@@ -1530,11 +1530,12 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 3199103666294955082}
   playerCamera: {fileID: 7393935947392811880}
   ammoCount: {fileID: 513978574494919676}
-  fireRate: 100
+  fireRate: 10
   ammo: 200
-  heatDissipationRate: 30
+  fireMode: auto
+  heatDissipationRate: 10
   heatAccretion: 0
-  heatThreshold: 100
+  heatThreshold: 50
   heatAccretionImage: {fileID: 1910409111934018546}
   health: {fileID: 472417514688017149}
 --- !u!114 &472417514688017149
