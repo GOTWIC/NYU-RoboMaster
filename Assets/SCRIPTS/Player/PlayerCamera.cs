@@ -6,6 +6,7 @@ using Mirror;
 public class PlayerCamera : NetworkBehaviour
 {
     [SerializeField] Camera playerCamera = null;
+    [SerializeField] GameObject pivot = null;
     [SerializeField] float mouseSensitivityY = 60f;
 
     float cameraVerticalRotation = 0f;
@@ -27,8 +28,8 @@ public class PlayerCamera : NetworkBehaviour
 
         float inputY = Input.GetAxis("Mouse Y") * mouseSensitivityY;
 
-        cameraVerticalRotation -= inputY;
+        cameraVerticalRotation += inputY;
         cameraVerticalRotation = Mathf.Clamp(cameraVerticalRotation, -25f, 25f);
-        playerCamera.transform.localEulerAngles = Vector3.right * cameraVerticalRotation;
+        pivot.transform.localEulerAngles = Vector3.up * cameraVerticalRotation;
     }
 }

@@ -305,7 +305,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0262934, y: 1.5635809, z: 1.0389531}
+  m_Size: {x: 1.0262934, y: 2, z: 1.0389531}
   m_Center: {x: -0.0014606476, y: -0.010354992, z: 0.0048689446}
 --- !u!54 &8582073329389887255
 Rigidbody:
@@ -360,7 +360,7 @@ Transform:
   m_GameObject: {fileID: 5696871688232954391}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2014154, y: 0.11968618, z: 0.19074747}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6705499398412270040}
@@ -369,7 +369,7 @@ Transform:
   - {fileID: 8808169058392143992}
   - {fileID: 2005853080903367336}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2077618695079181172
 MonoBehaviour:
@@ -386,7 +386,7 @@ MonoBehaviour:
   parentEntityHealth: {fileID: 0}
   selfColider: {fileID: 7184817400948981700}
   ignoredColliders:
-  - {fileID: 1714853886132737125, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
+  - {fileID: 0}
   - {fileID: 1714853886132737125, guid: 56d0d22b0f92d0e478a2882ec4165b63, type: 3}
   light1: {fileID: 1143894472374079879}
   light2: {fileID: 4726297892816362951}
