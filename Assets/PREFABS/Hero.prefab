@@ -2309,9 +2309,10 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 9187360926829232016}
   playerCamera: {fileID: 566318693793135121}
   ammoCount: {fileID: 8772090033646407721}
-  fireRate: 100
+  fireRate: 2
   ammo: 200
-  heatDissipationRate: 10
+  fireMode: semi
+  heatDissipationRate: 20
   heatAccretion: 0
   heatThreshold: 100
   heatAccretionImage: {fileID: 2545241940235662623}
@@ -2330,7 +2331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  maxHealth: 200
+  maxHealth: 150
   baseCooldownTime: 10
   entityType: robot
   team: -1
