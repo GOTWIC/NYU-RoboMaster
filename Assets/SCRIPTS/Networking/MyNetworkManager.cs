@@ -9,12 +9,19 @@ public class MyNetworkManager : NetworkRoomManager
     [SerializeField] private GameObject standard = null;
     [SerializeField] private GameObject hero = null;
 
-
     [SerializeField] List<GameObject> redSpawnPoints = new List<GameObject>();
     [SerializeField] List<GameObject> blueSpawnPoints = new List<GameObject>();
 
     [SerializeField] private List<GameObject> roomPlayers = new List<GameObject>();
     [SerializeField] private List<GameObject> gamePlayers = new List<GameObject>();
+
+    [SerializeField] private int mapSelection = -1;
+
+    [Scene]
+    [SerializeField] public string Scene_3v3;
+
+    [Scene]
+    [SerializeField] public string Scene_BobOmb;
 
     public int redMemberCount = 0;
     public int blueMemberCount = 0;
@@ -114,4 +121,12 @@ public class MyNetworkManager : NetworkRoomManager
             gamePlayers[i].GetComponent<PlayerScript>().getRobot().GetComponent<UnitFiring>().resetFiringSystem();
         }
     }
+
+    
+    override public void OnRoomServerPlayersReady() {
+        Switch mapSelectionSwitch = GameObject.Find("/UI/MapSelection").GetComponent(typeof(Switch)) as Switch;
+        if (mapSelectionSwitch.getIndex() == 0) { GameplayScene = Scene_3v3; }
+        else if (mapSelectionSwitch.getIndex() == 1) { GameplayScene = Scene_BobOmb; }
+        base.OnRoomServerPlayersReady();
+    }  
 }

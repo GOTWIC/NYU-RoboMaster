@@ -2,11 +2,13 @@ using Mirror.Discovery;
 using System.Diagnostics.Tracing;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Mirror;
 
-public class UIManager : MonoBehaviour
+public class UIManager : NetworkBehaviour
 {
     [SerializeField] private GameObject teamSelection = null;
     [SerializeField] private GameObject robotSelection = null;
+    [SerializeField] private GameObject mapSelection = null;
     [SerializeField] private GameObject hostingJoining = null;
     [SerializeField] private GameObject playerName = null;
     [SerializeField] private GameObject background = null;
@@ -38,13 +40,13 @@ public class UIManager : MonoBehaviour
 
         if (sceneOnPrevFrame == null) { sceneOnPrevFrame = scene; }
 
-        if(scene.name == "Main")
+        if(scene.name != "Room")
         {
             goToMain();
         }
 
         // Check if scene changed, can change this to an event system later, linked to the room controls in the network manager
-        if(scene.name == "Room" && sceneOnPrevFrame.name == "Main")
+        if(scene.name == "Room" && (sceneOnPrevFrame.name == "Main" || sceneOnPrevFrame.name == "BobOmb"))
         {
             goToRoom();
         }
@@ -61,6 +63,13 @@ public class UIManager : MonoBehaviour
         background.SetActive(true);
         logo.SetActive(true);
 
+        Debug.Log("1");
+
+        if (isServer) {
+            Debug.Log("2");
+            mapSelection.SetActive(true);
+        }
+
     }
 
     public void goToServerFinder()
@@ -69,6 +78,7 @@ public class UIManager : MonoBehaviour
         playerName.SetActive(false);
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
+        mapSelection.SetActive(false);
         background.SetActive(true);
         logo.SetActive(true);
     }
@@ -80,6 +90,7 @@ public class UIManager : MonoBehaviour
         playerName.SetActive(true);
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
+        mapSelection.SetActive(false);
         background.SetActive(true);
         logo.SetActive(true);
     }
@@ -91,6 +102,7 @@ public class UIManager : MonoBehaviour
         playerName.SetActive(false);
         teamSelection.SetActive(false);
         robotSelection.SetActive(false);
+        mapSelection.SetActive(false);
         background.SetActive(false);
         logo.SetActive(false);
     }
