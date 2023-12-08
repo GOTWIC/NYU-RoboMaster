@@ -23,20 +23,36 @@ public class PlayerScript : NetworkBehaviour
         
         if (SceneManager.GetActiveScene().name == "Room") { return; }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !refereeSystem.isGameEndActive()) { togglePause(); }
+        if (Input.GetKeyDown(KeyCode.Escape) && !refereeSystem.isEndOfGame()) { togglePause(); }
+
+        if (refereeSystem.isPaused()) {
+            Time.timeScale = 0.0f;
+        }
+
+        if (refereeSystem.isTransitioning()) {
+            Time.timeScale = 0.5f;
+        }
+
+        if (refereeSystem.isEndOfGame()) {
+            Time.timeScale = 0.0f;
+        }
+
+        if (!refereeSystem.isPaused() && !refereeSystem.isTransitioning() && !refereeSystem.isEndOfGame()) {
+            Time.timeScale = 1.0f;
+        }
 
         if (Input.GetKeyDown(KeyCode.Delete)) {
             Debug.Log("Quitting");
             Application.Quit();
         }
 
-        /*
-        if (refereeSystem.isPaused()) {
+        
+        if (refereeSystem.isEndOfGame()) {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             return;
         }
-        */
+        
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

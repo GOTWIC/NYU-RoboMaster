@@ -5,17 +5,21 @@ using UnityEngine.UI;
 
 public class DeathScreen : NetworkBehaviour
 {
-    [SerializeField] Health health = null;
-    [SerializeField] Image background = null;
-    [SerializeField] Image crosshair = null;
-    [SerializeField] TMP_Text text = null;
+    [SerializeField] Health health;
+    [SerializeField] Image background;
+    [SerializeField] GameObject crosshair;
+    [SerializeField] TMP_Text text;
+    [SerializeField] RefereeSystem refereeSystem;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
+        refereeSystem = GameObject.FindGameObjectWithTag("RefereeSystem").GetComponent<RefereeSystem>();
         background.enabled = false;
         text.enabled = false;
-        crosshair.enabled = true;
+        crosshair.SetActive(true);
     }
 
     // Update is called once per frame
@@ -23,11 +27,15 @@ public class DeathScreen : NetworkBehaviour
     {
         if (!hasAuthority) { return; }
 
-        if (health.inDeathState() == true)
+        if (!refereeSystem.isInPlay()) {
+            crosshair.SetActive(false);
+        }
+
+        if (health.inDeathState())
         {
             background.enabled = true;
             text.enabled = true;
-            crosshair.enabled = false;
+            crosshair.SetActive(false);
 
             int timeToRespawn = health.timeToRespawn;
             string s = "s";
@@ -41,7 +49,7 @@ public class DeathScreen : NetworkBehaviour
         {
             background.enabled = false;
             text.enabled = false;
-            crosshair.enabled = true;
+            if (refereeSystem.isInPlay()) { crosshair.SetActive(true); }
         }
     }
 }

@@ -16,6 +16,7 @@ public class UnitFiring : NetworkBehaviour
     [SerializeField][SyncVar] public int ammo = 200;
     private float lastFireTime = 0f;
     private float ammoCountDisplay; // This is basically the same as ammo, but it updates with lag to create a cool effect
+    [SerializeField] string fireMode = "";
 
 
     // Heat System
@@ -48,13 +49,12 @@ public class UnitFiring : NetworkBehaviour
     {
         if (!hasAuthority) { return; }
         
-        if (Input.GetMouseButtonDown(0)) { tryToFire(playerCamera.transform.rotation); }
+        if (Input.GetMouseButton(0) && fireMode == "auto") { tryToFire(playerCamera.transform.rotation); }
+        if (Input.GetMouseButtonDown(0) && fireMode == "semi") { tryToFire(playerCamera.transform.rotation); }
 
         dissipateHeat();
 
         updateAmmoCount();
-
-        if (heatAccretion > heatThreshold) { Debug.Log("Overheated"); }
 
         heatAccretionImage.fillAmount = Math.Min(heatAccretion / heatThreshold, 1f);
     }
@@ -83,8 +83,8 @@ public class UnitFiring : NetworkBehaviour
         // Cannot fire if the robot is dead
         if (health.inDeathState()) { return; }
         
-        // Cannot fire if the robot is overheated
-        if (heatAccretion > heatThreshold) { return; }
+        // Cannot fire if the robot is overheated or if shooting surpasses heat threshold
+        if (heatAccretion + projectilePrefab.GetComponent<Bullet>().getHeatAccretion() > heatThreshold) { return; }
 
         // Cannot fire if the robot is out of ammo
         if (ammo <= 0) { return; }
