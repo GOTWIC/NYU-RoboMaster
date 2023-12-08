@@ -2247,6 +2247,7 @@ MonoBehaviour:
   playerCamera: {fileID: 566318693793135121}
   pivot: {fileID: 6235855787235439438}
   mouseSensitivityY: 10
+  refereeSystem: {fileID: 0}
   camAxis: {x: 1, y: 0, z: 0}
 --- !u!114 &4019489129176596173
 MonoBehaviour:
@@ -2318,7 +2319,7 @@ MonoBehaviour:
   background: {fileID: 4013800171841422837}
   crosshair: {fileID: 714776540125948285}
   text: {fileID: 5629568617593500322}
-  playerScript: {fileID: 0}
+  refereeSystem: {fileID: 0}
 --- !u!114 &3497370628486519107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2389,7 +2390,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!65 &1714853886132737125
 BoxCollider:
