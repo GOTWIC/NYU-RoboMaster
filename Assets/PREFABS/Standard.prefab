@@ -2115,9 +2115,9 @@ GameObject:
   - component: {fileID: 3497370628486519107}
   - component: {fileID: 2593390320360624239}
   - component: {fileID: 7102198354787089527}
-  - component: {fileID: 1714853886132737125}
   - component: {fileID: 5053571166404927011}
-  m_Layer: 0
+  - component: {fileID: 1992680461376391286}
+  m_Layer: 10
   m_Name: Standard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2367,34 +2367,13 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 1
+  m_ImplicitCom: 0
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!65 &1714853886132737125
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8024595417304967709}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.1, z: 1}
-  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!114 &5053571166404927011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2430,6 +2409,28 @@ MonoBehaviour:
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   target: {fileID: 8022788720851114803}
+--- !u!64 &1992680461376391286
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8024595417304967709}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2432090755550338912, guid: 33771665a3a201f4488033e9a45d0a27, type: 3}
 --- !u!1 &8328847624285478862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,22 +2977,10 @@ PrefabInstance:
     - target: {fileID: 2077618695079181172, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: ignoredColliders.Array.data[0]
       value: 
-      objectReference: {fileID: 1714853886132737125}
+      objectReference: {fileID: 1992680461376391286}
     - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: m_RootOrder
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2014154
-      objectReference: {fileID: 0}
-    - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.11968618
-      objectReference: {fileID: 0}
-    - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.19074747
       objectReference: {fileID: 0}
     - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3062,7 +3051,7 @@ PrefabInstance:
     - target: {fileID: 2077618695079181172, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: ignoredColliders.Array.data[0]
       value: 
-      objectReference: {fileID: 1714853886132737125}
+      objectReference: {fileID: 1992680461376391286}
     - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3136,7 +3125,7 @@ PrefabInstance:
     - target: {fileID: 2077618695079181172, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: ignoredColliders.Array.data[0]
       value: 
-      objectReference: {fileID: 1714853886132737125}
+      objectReference: {fileID: 1992680461376391286}
     - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3317,7 +3306,7 @@ PrefabInstance:
     - target: {fileID: 2077618695079181172, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: ignoredColliders.Array.data[0]
       value: 
-      objectReference: {fileID: 1714853886132737125}
+      objectReference: {fileID: 1992680461376391286}
     - target: {fileID: 2362780729034931618, guid: 50922fb5f41249a44922d88bcdc47644, type: 3}
       propertyPath: m_RootOrder
       value: -1
