@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8808169058392143992}
   - component: {fileID: 1143894472374079879}
   - component: {fileID: 218582514453748549}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Light1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 359808107488353973}
   - component: {fileID: 4275691099199227602}
   - component: {fileID: 5171735059490983001}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: LightBar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 913167952171316100}
   - component: {fileID: 7184817400948981700}
   - component: {fileID: 8582073329389887255}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2362780729034931618}
   - component: {fileID: 2077618695079181172}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Armor Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 2005853080903367336}
   - component: {fileID: 4726297892816362951}
   - component: {fileID: 5856581429212391997}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Light2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -519,7 +519,7 @@ GameObject:
   - component: {fileID: 7347826705173866994}
   - component: {fileID: 8527626950556638483}
   - component: {fileID: 2047705063827921262}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: LightBar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

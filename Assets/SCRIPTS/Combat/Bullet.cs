@@ -13,7 +13,7 @@ public class Bullet : NetworkBehaviour
     [SerializeField] GameObject Robot1;
     [SerializeField] GameObject Robot2;
 
-    [SerializeField] List<Collider> ignoredColliders = new List<Collider>();
+    //[SerializeField] List<Collider> ignoredColliders = new List<Collider>();
 
     [SerializeField] private float heatAccretion = 10;
 
@@ -29,7 +29,7 @@ public class Bullet : NetworkBehaviour
     [Command]
     void Initialization()
     {
-        foreach (Collider col in ignoredColliders) { Physics.IgnoreCollision(col, GetComponent<Collider>()); }  
+        //foreach (Collider col in ignoredColliders) { Physics.IgnoreCollision(col, GetComponent<Collider>()); }  
         Invoke(nameof(destroySelf), destroyAfterSeconds);
     }
 
@@ -37,11 +37,13 @@ public class Bullet : NetworkBehaviour
     [ServerCallback]
     void OnCollisionEnter(Collision other)
     {
+        Debug.Log("HIT DETECTED");
         // Check if bullet collided with an armor plate
         ArmorPlate armorPlate = other.collider.GetComponentInParent<ArmorPlate>();
 
         // If hit armor plate, deal damage
         if (armorPlate) {
+            Debug.Log("ARMORPLATE HIT");
             armorPlate.dealDamage(damage);
         }
 

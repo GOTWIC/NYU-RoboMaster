@@ -6806,14 +6806,14 @@ MonoBehaviour:
   syncInterval: 0.1
   matchTimeMin: 5
   EoRDuration: 4
-  redBaseHealth: {fileID: 0}
+  redBaseHealth: {fileID: 249975366}
   redBaseHealthBarImage: {fileID: 1951333285}
   redRobotHealthImgs: []
   redRobotHealth: []
   redScoreText: {fileID: 1629091957}
   redHealthGroup: {fileID: 1431447513}
   RedRobotHealthUI: {fileID: 2787860919493956132, guid: b90bfe4a395c90a4389c1f1c8d38dbdd, type: 3}
-  blueBaseHealth: {fileID: 0}
+  blueBaseHealth: {fileID: 277141626}
   blueBaseHealthBarImage: {fileID: 1223844972}
   blueRobotHealthImgs: []
   blueRobotHealth: []

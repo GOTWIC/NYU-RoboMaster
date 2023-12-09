@@ -8,6 +8,7 @@ public class PlayerMovement : NetworkBehaviour
     [SerializeField] float topSpeed = 10f;
     [SerializeField] float mouseSensitivityX = 60f;
     [SerializeField] Health health = null;
+    [SerializeField] LayerMask layerMask;
 
     void Update()
     {
@@ -51,7 +52,14 @@ public class PlayerMovement : NetworkBehaviour
 
         if (gameObject.GetComponent<Rigidbody>().velocity.magnitude > topSpeed) { return; }
 
-        gameObject.GetComponent<Rigidbody>().AddForce(vec * acceleration * Time.deltaTime * 10000000);
+        RaycastHit hit;
+        // Does the ray intersect any objects excluding the player layer
+        if (Physics.Raycast(transform.position, transform.TransformDirection(-transform.up), out hit, 1, layerMask))
+        {
+            gameObject.GetComponent<Rigidbody>().AddForce(vec * acceleration * Time.deltaTime * 10000000);
+        }
+        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1, Color.yellow);
+
     }
 
     private void ClientRotate(float inp)

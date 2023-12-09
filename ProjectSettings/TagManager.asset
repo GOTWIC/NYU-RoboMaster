@@ -18,9 +18,9 @@ TagManager:
   - Base
   - LightBar
   - Chassis
-  - Treads
-  - 
-  - 
+  - EnvironmentCollider
+  - Hurtbox
+  - Hitbox
   - 
   - 
   - 
