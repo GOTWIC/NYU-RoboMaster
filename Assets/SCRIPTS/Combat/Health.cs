@@ -37,7 +37,15 @@ public class Health : NetworkBehaviour
     [SerializeField] public GameObject lazer;
     [SerializeField] public GameObject despawn;
 
+    [SerializeField] public Robot robot;
+    [SerializeField] public GameObject camera;
+
     [SerializeField] public bool increaseRespawnTime = true;
+    [SerializeField] public bool invulnAfterRespawn = true;
+
+    [SerializeField] public float healthPercentageAfterRespawn = 0.2f;
+
+    private Transform defaultCamTransform;
 
 
     public event Action ServerOnRobotDie;
@@ -75,8 +83,16 @@ public class Health : NetworkBehaviour
         // If the robot is dead and the respawn timer has expired, revive the robot, else update respawn timer.
         if (isDead) {
             if(Time.time > nextRespawnTime) {
+
+                resetHealth();
+                robot.resetRobot();
+
+                //Debug.Log(transform.position);
+                //Debug.Log(camera.transform.position);
+                //Debug.Log(camera.transform.localPosition);
+
                 isDead = false;
-                currentHealth = maxHealth * 0.2f;
+                currentHealth = maxHealth * healthPercentageAfterRespawn;
 
                 // Invoke Invulnerability
                 invulnerabilityEndTime = Time.time + 10f;
@@ -94,7 +110,7 @@ public class Health : NetworkBehaviour
     {
         // Don't show shield for self because it blocks view
         if (hasAuthority) { return; }
-        if (isInvulnerable) { shield.SetActive(true); }
+        if (isInvulnerable && invulnAfterRespawn) { shield.SetActive(true); }
         else { shield.SetActive(false); }
     }
 
@@ -103,7 +119,7 @@ public class Health : NetworkBehaviour
     {
         if (currentHealth <= 0) { return; }
 
-        if (isInvulnerable) { return; }
+        if (isInvulnerable && invulnAfterRespawn) { return; }
 
         int dmg_multiplier = 1;
 
@@ -116,6 +132,10 @@ public class Health : NetworkBehaviour
         spawnLazer();
         handleDeath();
 
+        Vector3 heaven = new Vector3(transform.position.x, transform.position.y+10000, transform.position.z);
+
+        // Send to heaven temporarily
+        robot.resetRobot(heaven);
         
     }
 
@@ -140,6 +160,11 @@ public class Health : NetworkBehaviour
         isDead = true;
 
         Debug.Log("Object was destroyed");
+
+        //defaultCamTransform = camera.transform;
+        //Transform currentCamTransform = camera.transform;
+        
+        
     }
 
     [Server]

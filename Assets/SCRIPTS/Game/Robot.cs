@@ -12,11 +12,15 @@ public class Robot : NetworkBehaviour
 
     [SerializeField] List<Collider> ignoredColliders = new List<Collider>();
 
+    [SyncVar] public Vector3 defaultPosition;
+    [SyncVar] public Quaternion defaultRotation;
+
     bool setData = false;
 
     private void Start()
     {
-        //foreach (Collider col in ignoredColliders) { Physics.IgnoreCollision(col, GetComponent<Collider>()); }
+        defaultPosition = transform.position;
+        defaultRotation = transform.rotation;
     }
 
     private void Update()
@@ -46,4 +50,21 @@ public class Robot : NetworkBehaviour
         gameObject.transform.position = transform.position;
         gameObject.transform.rotation = transform.rotation;
     }
+
+    [ClientRpc]
+    public void resetRobot()
+    {
+        Debug.Log("Resetting Robot Position");
+        gameObject.transform.position = defaultPosition;
+        gameObject.transform.rotation = defaultRotation;
+    }
+
+    [ClientRpc]
+    public void resetRobot(Vector3 position)
+    {
+        Debug.Log("Resetting Robot Position");
+        gameObject.transform.position = position;
+        gameObject.transform.rotation = defaultRotation;
+    }
+
 }

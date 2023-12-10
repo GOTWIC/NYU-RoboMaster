@@ -2233,7 +2233,7 @@ MonoBehaviour:
   health: {fileID: 472417514688017149}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16392
 --- !u!114 &3445961397802990197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2305,6 +2305,10 @@ MonoBehaviour:
   invulnerabilityEndTime: 0
   timeToRespawn: 0
   shield: {fileID: 1365778960573302399}
+  lazer: {fileID: 7450565688633752725, guid: 41aa3e0dade92ec4e98f764f3294d8ab, type: 3}
+  despawn: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  increaseRespawnTime: 0
+  invulnAfterRespawn: 0
 --- !u!114 &1290113087207514565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2668,7 +2672,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 24575
   m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

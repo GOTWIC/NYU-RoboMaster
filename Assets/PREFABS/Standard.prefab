@@ -2022,7 +2022,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   maxHealth: 100
-  baseCooldownTime: 2
+  baseCooldownTime: 4
   entityType: robot
   team: -1
   currentHealth: 0
@@ -2035,7 +2035,11 @@ MonoBehaviour:
   shield: {fileID: 8482785545842282336}
   lazer: {fileID: 7450565688633752725, guid: 41aa3e0dade92ec4e98f764f3294d8ab, type: 3}
   despawn: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  robot: {fileID: 3497370628486519107}
+  camera: {fileID: 1180075696115516651}
   increaseRespawnTime: 0
+  invulnAfterRespawn: 0
+  healthPercentageAfterRespawn: 0.2
 --- !u!114 &1290113087207514565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2075,6 +2079,8 @@ MonoBehaviour:
   ignoredColliders:
   - {fileID: 8849906937740052863, guid: 95cf8566e42ab4f4db6fafa6ae611134, type: 3}
   - {fileID: 8849906937740052863, guid: 5bb1990fca2b18244a432ac0d6ec2bc9, type: 3}
+  defaultPosition: {x: 0, y: 0, z: 0}
+  defaultRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2593390320360624239
 MonoBehaviour:
   m_ObjectHideFlags: 0
