@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 97115599063889532}
   - component: {fileID: -8591957503122315081}
   - component: {fileID: -8616152821483333042}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Standard Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,12 +166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  bulletSpeed: 300
+  bulletSpeed: 100
   destroyAfterSeconds: 20
   damage: 1000
   Robot1: {fileID: 8024595417304967709, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
   Robot2: {fileID: 8024595417304967709, guid: 56d0d22b0f92d0e478a2882ec4165b63, type: 3}
-  ignoredColliders:
-  - {fileID: 1714853886132737125, guid: 55e6ff0d6aed1634eb9dcdeab5745d46, type: 3}
-  - {fileID: 1714853886132737125, guid: 56d0d22b0f92d0e478a2882ec4165b63, type: 3}
   heatAccretion: 10
