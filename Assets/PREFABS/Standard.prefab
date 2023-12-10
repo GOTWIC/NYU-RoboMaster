@@ -1862,6 +1862,7 @@ GameObject:
   - component: {fileID: 7102198354787089527}
   - component: {fileID: 5053571166404927011}
   - component: {fileID: 1992680461376391286}
+  - component: {fileID: 651597594907144741}
   m_Layer: 10
   m_Name: Standard
   m_TagString: Untagged
@@ -1955,12 +1956,12 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   acceleration: 3
-  topSpeed: 20
+  topSpeed: 30
   mouseSensitivityX: 40
   health: {fileID: 472417514688017149}
   layerMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 16392
 --- !u!114 &3445961397802990197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1998,12 +1999,12 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 3199103666294955082}
   playerCamera: {fileID: 7393935947392811880}
   ammoCount: {fileID: 513978574494919676}
-  fireRate: 10
+  fireRate: 20
   ammo: 200
   fireMode: auto
-  heatDissipationRate: 10
+  heatDissipationRate: 200
   heatAccretion: 0
-  heatThreshold: 50
+  heatThreshold: 200
   heatAccretionImage: {fileID: 1910409111934018546}
   health: {fileID: 472417514688017149}
 --- !u!114 &472417514688017149
@@ -2180,6 +2181,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 33771665a3a201f4488033e9a45d0a27, type: 3}
+--- !u!114 &651597594907144741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8024595417304967709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e825dff429aaf247a62ab9dec890992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temp: 0
 --- !u!1 &8328847624285478862
 GameObject:
   m_ObjectHideFlags: 0
