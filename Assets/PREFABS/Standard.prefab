@@ -2033,8 +2033,10 @@ MonoBehaviour:
   invulnerabilityEndTime: 0
   timeToRespawn: 0
   shield: {fileID: 8482785545842282336}
-  lazer: {fileID: 7450565688633752725, guid: 41aa3e0dade92ec4e98f764f3294d8ab, type: 3}
-  despawn: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  lazer1: {fileID: 7450565688633752725, guid: 41aa3e0dade92ec4e98f764f3294d8ab, type: 3}
+  despawn1: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  lazer2: {fileID: 0}
+  despawn2: {fileID: 0}
   robot: {fileID: 3497370628486519107}
   camera: {fileID: 1180075696115516651}
   increaseRespawnTime: 0

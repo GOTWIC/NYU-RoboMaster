@@ -34,8 +34,10 @@ public class Health : NetworkBehaviour
 
     [SerializeField] public GameObject shield;
 
-    [SerializeField] public GameObject lazer;
-    [SerializeField] public GameObject despawn;
+    [SerializeField] public GameObject lazer1;
+    [SerializeField] public GameObject despawn1;
+    [SerializeField] public GameObject lazer2;
+    [SerializeField] public GameObject despawn2;
 
     [SerializeField] public Robot robot;
     [SerializeField] public GameObject camera;
@@ -176,9 +178,16 @@ public class Health : NetworkBehaviour
     [ClientRpc]
     public void spawnLazer()
     {
-        GameObject lazer_inst = Instantiate(lazer, new Vector3(transform.position.x, transform.position.y+250, transform.position.z), lazer.transform.rotation);
-        GameObject despawn_inst = Instantiate(despawn, new Vector3(transform.position.x, transform.position.y, transform.position.z), despawn.transform.rotation);
-        //NetworkServer.Spawn(lazer_inst);
+        if (entityType != "base") {
+            GameObject lazer_inst = Instantiate(lazer1, new Vector3(transform.position.x, transform.position.y + 250, transform.position.z), lazer1.transform.rotation);
+            GameObject despawn_inst = Instantiate(despawn1, new Vector3(transform.position.x, transform.position.y, transform.position.z), despawn1.transform.rotation);
+        }
+
+        else
+        {
+            GameObject lazer_inst = Instantiate(lazer2, new Vector3(transform.position.x, transform.position.y + 250, transform.position.z), lazer2.transform.rotation);
+            GameObject despawn_inst = Instantiate(despawn2, new Vector3(transform.position.x, transform.position.y, transform.position.z), despawn2.transform.rotation);
+        }
     }
 
     #endregion

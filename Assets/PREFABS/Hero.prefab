@@ -2305,10 +2305,15 @@ MonoBehaviour:
   invulnerabilityEndTime: 0
   timeToRespawn: 0
   shield: {fileID: 1365778960573302399}
-  lazer: {fileID: 7450565688633752725, guid: 41aa3e0dade92ec4e98f764f3294d8ab, type: 3}
-  despawn: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  lazer1: {fileID: 7450565688633752725, guid: 41aa3e0dade92ec4e98f764f3294d8ab, type: 3}
+  despawn1: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  lazer2: {fileID: 0}
+  despawn2: {fileID: 0}
+  robot: {fileID: 0}
+  camera: {fileID: 0}
   increaseRespawnTime: 0
   invulnAfterRespawn: 0
+  healthPercentageAfterRespawn: 0.2
 --- !u!114 &1290113087207514565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2348,6 +2353,8 @@ MonoBehaviour:
   ignoredColliders:
   - {fileID: 8849906937740052863, guid: 95cf8566e42ab4f4db6fafa6ae611134, type: 3}
   - {fileID: 8849906937740052863, guid: 5bb1990fca2b18244a432ac0d6ec2bc9, type: 3}
+  defaultPosition: {x: 0, y: 0, z: 0}
+  defaultRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &3420795508592203060
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -37,10 +37,10 @@ public class MyNetworkManager : NetworkRoomManager
     {
         GameObject[] spawnPoints = GameObject.FindGameObjectsWithTag("Spawn Point");        
 
-        foreach (GameObject spawnpoint in spawnPoints)
+        foreach (GameObject spawnPoint in spawnPoints)
         {
-            if (Int32.Parse(spawnpoint.name.Remove(0, 5)) % 2 == 1) { redSpawnPoints.Add(spawnpoint); }
-            else { blueSpawnPoints.Add(spawnpoint); }
+            if (spawnPoint.transform.parent.name == "Blue") { blueSpawnPoints.Add(spawnPoint); }
+            if (spawnPoint.transform.parent.name == "Red") { redSpawnPoints.Add(spawnPoint); }
         }
     }
 
