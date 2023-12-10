@@ -151,7 +151,7 @@ public class Health : NetworkBehaviour
     [ClientRpc]
     public void spawnLazer()
     {
-        GameObject lazer_inst = Instantiate(lazer, new Vector3(transform.position.x, transform.position.y+100, transform.position.z), lazer.transform.rotation);
+        GameObject lazer_inst = Instantiate(lazer, new Vector3(transform.position.x, transform.position.y+250, transform.position.z), lazer.transform.rotation);
         GameObject despawn_inst = Instantiate(despawn, new Vector3(transform.position.x, transform.position.y, transform.position.z), despawn.transform.rotation);
         //NetworkServer.Spawn(lazer_inst);
     }
