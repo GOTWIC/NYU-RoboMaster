@@ -16,7 +16,7 @@ public class Robot : NetworkBehaviour
 
     private void Start()
     {
-        foreach (Collider col in ignoredColliders) { Physics.IgnoreCollision(col, GetComponent<Collider>()); }
+        //foreach (Collider col in ignoredColliders) { Physics.IgnoreCollision(col, GetComponent<Collider>()); }
     }
 
     private void Update()

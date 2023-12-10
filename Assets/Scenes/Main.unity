@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0062388764, g: 0.032074764, b: 0.154628, a: 1}
+  m_IndirectSpecularColor: {r: 0.0062388694, g: 0.03207421, b: 0.15462595, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4965,7 +4965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1744072144}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6215,7 +6215,7 @@ GameObject:
   - component: {fileID: 2828258332622060463}
   - component: {fileID: 2828258332622060462}
   - component: {fileID: 2828258332622060461}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6526,7 +6526,7 @@ GameObject:
   - component: {fileID: 2828258333739568920}
   - component: {fileID: 2828258333739568923}
   - component: {fileID: 2828258333739568926}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6792,7 +6792,7 @@ GameObject:
   - component: {fileID: 2828258334503863983}
   - component: {fileID: 2828258334503863982}
   - component: {fileID: 2828258334503863981}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6925,7 +6925,7 @@ GameObject:
   - component: {fileID: 2828258334610632155}
   - component: {fileID: 2828258334610632154}
   - component: {fileID: 2828258334610632153}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
