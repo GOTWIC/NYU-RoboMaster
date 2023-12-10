@@ -1,6 +1,7 @@
 using UnityEngine;
 using Mirror;
 using System;
+using Unity.VisualScripting;
 
 public class Health : NetworkBehaviour
 {
@@ -32,6 +33,11 @@ public class Health : NetworkBehaviour
     [SerializeField] public int timeToRespawn;
 
     [SerializeField] public GameObject shield;
+
+    [SerializeField] public GameObject lazer;
+    [SerializeField] public GameObject despawn;
+
+    [SerializeField] public bool increaseRespawnTime = true;
 
 
     public event Action ServerOnRobotDie;
@@ -107,7 +113,10 @@ public class Health : NetworkBehaviour
 
         if (currentHealth > 0) { return; }
 
+        spawnLazer();
         handleDeath();
+
+        
     }
 
     [Server]
@@ -126,7 +135,7 @@ public class Health : NetworkBehaviour
 
         numDeaths += 1;
 
-        nextRespawnTime = Time.time + baseCooldownTime + (numDeaths-1)*5;
+        nextRespawnTime = Time.time + baseCooldownTime + (numDeaths-1)*5* Convert.ToInt32(increaseRespawnTime);
 
         isDead = true;
 
@@ -137,6 +146,14 @@ public class Health : NetworkBehaviour
     public void resetHealth()
     {
         currentHealth = maxHealth;
+    }
+
+    [ClientRpc]
+    public void spawnLazer()
+    {
+        GameObject lazer_inst = Instantiate(lazer, new Vector3(transform.position.x, transform.position.y+100, transform.position.z), lazer.transform.rotation);
+        GameObject despawn_inst = Instantiate(despawn, new Vector3(transform.position.x, transform.position.y, transform.position.z), despawn.transform.rotation);
+        //NetworkServer.Spawn(lazer_inst);
     }
 
     #endregion

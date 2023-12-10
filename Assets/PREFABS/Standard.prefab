@@ -2022,7 +2022,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   maxHealth: 100
-  baseCooldownTime: 5
+  baseCooldownTime: 2
   entityType: robot
   team: -1
   currentHealth: 0
@@ -2033,6 +2033,9 @@ MonoBehaviour:
   invulnerabilityEndTime: 0
   timeToRespawn: 0
   shield: {fileID: 8482785545842282336}
+  lazer: {fileID: 7450565688633752725, guid: 41aa3e0dade92ec4e98f764f3294d8ab, type: 3}
+  despawn: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+  increaseRespawnTime: 0
 --- !u!114 &1290113087207514565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2193,6 +2196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e825dff429aaf247a62ab9dec890992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bridges: []
   temp: 0
 --- !u!1 &8328847624285478862
 GameObject:
