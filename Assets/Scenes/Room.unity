@@ -4535,6 +4535,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3b363fe0f31b240862170db84572d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1696566980 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1617484701863278474, guid: 78d1f6400260fe8498d9026baa754255, type: 3}
+  m_PrefabInstance: {fileID: 499322735}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e43b63be676574d83ff9e81d1d3818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1776040988
 GameObject:
   m_ObjectHideFlags: 0
@@ -5105,7 +5116,6 @@ GameObject:
   - component: {fileID: 1981443655}
   - component: {fileID: 1981443654}
   - component: {fileID: 1981443658}
-  - component: {fileID: 1981443659}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -5215,8 +5225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e0771c9f244da646a797a8dbd3921bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   teamSelection: {fileID: 338956800}
   robotSelection: {fileID: 1629134153}
   mapSelection: {fileID: 313331231}
@@ -5224,23 +5232,8 @@ MonoBehaviour:
   playerName: {fileID: 41643804}
   background: {fileID: 1479756819}
   logo: {fileID: 2058493417}
---- !u!114 &1981443659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981443653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneId: 1655984873
-  serverOnly: 0
-  visible: 0
-  m_AssetId: 
-  hasSpawned: 0
+  text: {fileID: 0}
+  nwm: {fileID: 1696566980}
 --- !u!1 &2004085570
 GameObject:
   m_ObjectHideFlags: 0

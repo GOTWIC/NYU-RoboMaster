@@ -129,4 +129,11 @@ public class MyNetworkManager : NetworkRoomManager
         else if (mapSelectionSwitch.getIndex() == 1) { GameplayScene = Scene_BobOmb; }
         base.OnRoomServerPlayersReady();
     }  
+
+    public bool nonNetworkedIsServer()
+    {
+        if(mode == NetworkManagerMode.ClientOnly) { return false; }
+
+        else { return true; }
+    }
 }

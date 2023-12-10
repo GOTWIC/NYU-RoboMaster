@@ -3,8 +3,9 @@ using System.Diagnostics.Tracing;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Mirror;
+using TMPro;
 
-public class UIManager : NetworkBehaviour
+public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject teamSelection = null;
     [SerializeField] private GameObject robotSelection = null;
@@ -13,6 +14,8 @@ public class UIManager : NetworkBehaviour
     [SerializeField] private GameObject playerName = null;
     [SerializeField] private GameObject background = null;
     [SerializeField] private GameObject logo = null;
+
+    [SerializeField] public MyNetworkManager nwm;
 
 
     private static UIManager uiManagerInstance;
@@ -23,8 +26,8 @@ public class UIManager : NetworkBehaviour
     private void Awake()
     {
         int numMusicPlayers = FindObjectsOfType<UIManager>().Length;
-        if (numMusicPlayers != 1) { Destroy(this.gameObject); }
-        else { DontDestroyOnLoad(gameObject); }
+        //if (numMusicPlayers != 1) { Destroy(this.gameObject); }
+        //else { DontDestroyOnLoad(gameObject); }
     }
 
     void Start()
@@ -65,9 +68,9 @@ public class UIManager : NetworkBehaviour
 
         Debug.Log("1");
 
-        if (isServer) {
+        if (nwm.nonNetworkedIsServer()) {
             Debug.Log("2");
-            mapSelection.SetActive(true);
+           mapSelection.SetActive(true);
         }
 
     }
