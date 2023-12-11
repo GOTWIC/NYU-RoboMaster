@@ -39,7 +39,7 @@ public class PlayerCamera : NetworkBehaviour
         float inputY = Input.GetAxis("Mouse Y") * mouseSensitivityY;
 
         cameraVerticalRotation += inputY;
-        cameraVerticalRotation = Mathf.Clamp(cameraVerticalRotation, -25f, 25f);
+        cameraVerticalRotation = Mathf.Clamp(cameraVerticalRotation, -35f, 35f);
         pivot.transform.localEulerAngles = camAxis * cameraVerticalRotation;
     }
 }

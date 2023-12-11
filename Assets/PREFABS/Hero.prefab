@@ -2135,6 +2135,7 @@ GameObject:
   - component: {fileID: 7102198354787089527}
   - component: {fileID: 1714853886132737125}
   - component: {fileID: 1346510675444110628}
+  - component: {fileID: 3851100401218595492}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -2463,6 +2464,22 @@ MonoBehaviour:
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   target: {fileID: 6722436626879504445}
+--- !u!114 &3851100401218595492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8024595417304967709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e825dff429aaf247a62ab9dec890992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bridges: []
+  playerMovement: {fileID: 5015520812311679637}
+  topSpeedMultiplier: 2
+  accelMultiplier: 2
 --- !u!1 &8336641178895534118
 GameObject:
   m_ObjectHideFlags: 0

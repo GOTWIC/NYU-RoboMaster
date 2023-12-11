@@ -75,6 +75,9 @@ public class Health : NetworkBehaviour
         // For now, if this script is attached to a base, then don't do anything
         if (entityType == "base") { return; }
 
+
+        if (transform.position.y < -130) { dealDamage(maxHealth); }
+
         // Invulnerability logic
         if (Time.time > invulnerabilityEndTime) { isInvulnerable = false; }
         else { isInvulnerable = true; }

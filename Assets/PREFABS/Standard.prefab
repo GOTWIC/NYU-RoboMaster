@@ -2205,7 +2205,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bridges: []
-  temp: 0
+  playerMovement: {fileID: 5015520812311679637}
+  topSpeedMultiplier: 2
+  accelMultiplier: 2
 --- !u!1 &8328847624285478862
 GameObject:
   m_ObjectHideFlags: 0

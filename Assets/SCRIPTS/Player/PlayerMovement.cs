@@ -10,6 +10,9 @@ public class PlayerMovement : NetworkBehaviour
     [SerializeField] Health health = null;
     [SerializeField] LayerMask layerMask;
 
+    private float topSpeedMulti = 1f;
+    private float accelMulti = 1f;
+
     void Update()
     {
         if (hasAuthority)
@@ -50,13 +53,13 @@ public class PlayerMovement : NetworkBehaviour
         // If the robot is dead, it cannot translate (but can rotate)
         if (health.inDeathState()) { return; }
 
-        if (gameObject.GetComponent<Rigidbody>().velocity.magnitude > topSpeed) { return; }
+        if (gameObject.GetComponent<Rigidbody>().velocity.magnitude > topSpeed * topSpeedMulti) { return; }
 
         RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.TransformDirection(-transform.up), out hit, 1, layerMask))
         {
-            gameObject.GetComponent<Rigidbody>().AddForce(vec * acceleration * Time.deltaTime * 10000000);
+            gameObject.GetComponent<Rigidbody>().AddForce(vec * acceleration * accelMulti * Time.deltaTime * 10000000);
         }
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1, Color.yellow);
 
@@ -65,5 +68,14 @@ public class PlayerMovement : NetworkBehaviour
     private void ClientRotate(float inp)
     {
         this.transform.Rotate(Vector3.up * inp);
+    }
+    public void setTopSpeedMulti(float multi)
+    {
+        topSpeedMulti = multi;
+    }
+
+    public void setAccelMulti(float multi)
+    {
+        accelMulti = multi;
     }
 }

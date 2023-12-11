@@ -8,9 +8,14 @@ public class BridgeVisibility : MonoBehaviour
     // Create list of GameObjects
     [SerializeField] private List<Transform> bridges = new List<Transform>();
 
-    [SerializeField] public bool temp = false;
-
     List<GameObject> currentCollisions = new List<GameObject>();
+
+    [SerializeField] public PlayerMovement playerMovement;
+
+    [SerializeField] public float topSpeedMultiplier = 1.3f;
+    [SerializeField] public float accelMultiplier = 1.5f;
+
+
 
     private void Start()
     {
@@ -26,11 +31,16 @@ public class BridgeVisibility : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
+
+        bool onBridgeFlag = false;
+
         foreach (Transform bridge in bridges) {
             if (onBridge(bridge)) {
                 foreach(Transform child in bridge) {
                     child.gameObject.GetComponent<MeshRenderer>().enabled = true;
                 }
+
+                onBridgeFlag = true;
             }
 
             else {
@@ -38,7 +48,18 @@ public class BridgeVisibility : MonoBehaviour
                     child.gameObject.GetComponent<MeshRenderer>().enabled = false;
                 }
             }
-        }       
+        }
+
+        if (onBridgeFlag) {
+            playerMovement.setTopSpeedMulti(topSpeedMultiplier);
+            playerMovement.setAccelMulti(accelMultiplier);
+        }
+
+        else
+        {
+            playerMovement.setTopSpeedMulti(1f);
+            playerMovement.setAccelMulti(1f);
+        }
     }
 
     private bool onBridge(Transform bridge)
