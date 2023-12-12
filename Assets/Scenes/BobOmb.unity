@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0062388694, g: 0.03207421, b: 0.15462595, a: 1}
+  m_IndirectSpecularColor: {r: 0.0062388764, g: 0.032074764, b: 0.154628, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1108,14 +1108,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145709955}
-  m_LocalRotation: {x: 0.45464987, y: -0.07818781, z: 0.5110783, w: 0.7252442}
-  m_LocalPosition: {x: 3923, y: -1924, z: -5524}
+  m_LocalRotation: {x: 0.50071037, y: -0, z: -0, w: 0.8656149}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 107999553}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 47.679, y: 31.452, z: 84.53}
+  m_LocalEulerAnglesHint: {x: 60.094, y: 0, z: 0}
 --- !u!114 &145709958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1875,7 +1875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  maxHealth: 2000
+  maxHealth: 10000
   baseCooldownTime: 0
   entityType: base
   team: 1
@@ -1987,7 +1987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  maxHealth: 2000
+  maxHealth: 10000
   baseCooldownTime: 0
   entityType: base
   team: 0
@@ -7761,7 +7761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1487080213
 Light:
   m_ObjectHideFlags: 0
@@ -7831,14 +7831,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487080212}
-  m_LocalRotation: {x: 0.15210232, y: -0.83823293, z: 0.49496576, w: 0.17099537}
-  m_LocalPosition: {x: -75.39526, y: 93.39315, z: -108.89792}
+  m_LocalRotation: {x: 0.8645729, y: -0, z: -0, w: 0.50250757}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 107999553}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 61.862, y: 196.773, z: 349.527}
+  m_LocalEulerAnglesHint: {x: 119.668, y: 0, z: 0}
 --- !u!114 &1487080215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7862,37 +7862,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1 &1495682363
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1495682364}
-  m_Layer: 14
-  m_Name: TestBridge
-  m_TagString: Bridge
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1495682364
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1495682363}
-  m_LocalRotation: {x: -0, y: -0, z: 0.23357907, w: 0.97233784}
-  m_LocalPosition: {x: 224.4, y: 337.4, z: -77}
-  m_LocalScale: {x: 40, y: 1, z: 20}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1836763230}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 27.016}
 --- !u!1 &1507432478
 GameObject:
   m_ObjectHideFlags: 0
@@ -9982,7 +9951,6 @@ Transform:
   - {fileID: 2034846114}
   - {fileID: 537967033}
   - {fileID: 1123317421}
-  - {fileID: 1495682364}
   - {fileID: 966725267}
   m_Father: {fileID: 0}
   m_RootOrder: 8

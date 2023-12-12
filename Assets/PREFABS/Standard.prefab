@@ -451,7 +451,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 2560
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
@@ -689,7 +689,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 2560
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
@@ -925,7 +925,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 2560
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
@@ -1235,7 +1235,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 2560
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
@@ -1633,7 +1633,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 2560
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
@@ -1957,7 +1957,7 @@ MonoBehaviour:
   syncInterval: 0.1
   acceleration: 3
   topSpeed: 30
-  mouseSensitivityX: 40
+  mouseSensitivityX: 20
   health: {fileID: 472417514688017149}
   layerMask:
     serializedVersion: 2
@@ -1978,7 +1978,7 @@ MonoBehaviour:
   syncInterval: 0.1
   playerCamera: {fileID: 7393935947392811880}
   pivot: {fileID: 4371928454056456317}
-  mouseSensitivityY: 10
+  mouseSensitivityY: 5
   refereeSystem: {fileID: 0}
   camAxis: {x: 0, y: 1, z: 0}
 --- !u!114 &4019489129176596173
@@ -2000,11 +2000,11 @@ MonoBehaviour:
   playerCamera: {fileID: 7393935947392811880}
   ammoCount: {fileID: 513978574494919676}
   fireRate: 20
-  ammo: 200
+  ammo: 2000
   fireMode: auto
-  heatDissipationRate: 200
+  heatDissipationRate: 30
   heatAccretion: 0
-  heatThreshold: 200
+  heatThreshold: 150
   heatAccretionImage: {fileID: 1910409111934018546}
   health: {fileID: 472417514688017149}
 --- !u!114 &472417514688017149
@@ -2021,7 +2021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  maxHealth: 100
+  maxHealth: 400
   baseCooldownTime: 4
   entityType: robot
   team: -1
@@ -2041,7 +2041,7 @@ MonoBehaviour:
   camera: {fileID: 1180075696115516651}
   increaseRespawnTime: 0
   invulnAfterRespawn: 0
-  healthPercentageAfterRespawn: 0.2
+  healthPercentageAfterRespawn: 1
 --- !u!114 &1290113087207514565
 MonoBehaviour:
   m_ObjectHideFlags: 0

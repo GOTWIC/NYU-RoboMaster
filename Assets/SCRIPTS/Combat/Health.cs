@@ -128,7 +128,7 @@ public class Health : NetworkBehaviour
 
         int dmg_multiplier = 1;
 
-        if (entityType == "base") { dmg_multiplier = 2; }
+        if (entityType == "base") { dmg_multiplier = 1; }
 
         currentHealth = Mathf.Max(currentHealth - damage * dmg_multiplier, 0);
 

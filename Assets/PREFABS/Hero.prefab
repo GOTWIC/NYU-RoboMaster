@@ -1924,7 +1924,7 @@ MonoBehaviour:
   syncInterval: 0.1
   acceleration: 2.5
   topSpeed: 15
-  mouseSensitivityX: 40
+  mouseSensitivityX: 20
   health: {fileID: 472417514688017149}
   layerMask:
     serializedVersion: 2
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   syncInterval: 0.1
   playerCamera: {fileID: 566318693793135121}
   pivot: {fileID: 6235855787235439438}
-  mouseSensitivityY: 10
+  mouseSensitivityY: 5
   refereeSystem: {fileID: 0}
   camAxis: {x: 1, y: 0, z: 0}
 --- !u!114 &4019489129176596173
@@ -1966,10 +1966,10 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 9187360926829232016}
   playerCamera: {fileID: 566318693793135121}
   ammoCount: {fileID: 8772090033646407721}
-  fireRate: 2
-  ammo: 200
+  fireRate: 1
+  ammo: 2000
   fireMode: semi
-  heatDissipationRate: 20
+  heatDissipationRate: 40
   heatAccretion: 0
   heatThreshold: 100
   heatAccretionImage: {fileID: 2545241940235662623}
@@ -1988,7 +1988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  maxHealth: 150
+  maxHealth: 1100
   baseCooldownTime: 10
   entityType: robot
   team: -1
@@ -2004,11 +2004,11 @@ MonoBehaviour:
   despawn1: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
   lazer2: {fileID: 0}
   despawn2: {fileID: 0}
-  robot: {fileID: 0}
-  camera: {fileID: 0}
+  robot: {fileID: 3497370628486519107}
+  camera: {fileID: 8667059023413997500}
   increaseRespawnTime: 0
   invulnAfterRespawn: 0
-  healthPercentageAfterRespawn: 0.2
+  healthPercentageAfterRespawn: 1
 --- !u!114 &1290113087207514565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,7 +2084,7 @@ Rigidbody:
   m_GameObject: {fileID: 8024595417304967709}
   serializedVersion: 4
   m_Mass: 4000
-  m_Drag: 2
+  m_Drag: 0.1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2095,7 +2095,7 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 1
+  m_ImplicitCom: 0
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
