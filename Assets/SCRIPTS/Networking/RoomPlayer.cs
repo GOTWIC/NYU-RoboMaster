@@ -54,4 +54,9 @@ public class RoomPlayer : NetworkBehaviour
     {
         return robotSelection;
     }
+
+    public string getName()
+    {
+        return playerName;
+    }
 }

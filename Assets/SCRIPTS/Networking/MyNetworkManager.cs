@@ -68,6 +68,7 @@ public class MyNetworkManager : NetworkRoomManager
 
         int robotType = rp.getRobot();
         int teamSelection = rp.getTeam();
+        string robotName = rp.getName();
 
         if(robotType == 0)
         {
@@ -100,6 +101,7 @@ public class MyNetworkManager : NetworkRoomManager
 
         spawnerInstance.GetComponent<Robot>().setTeam(teamSelection);
         spawnerInstance.GetComponent<Robot>().setType(robotType);
+        spawnerInstance.GetComponent<Robot>().setName(robotName);
 
         //Spawns on Network
         NetworkServer.Spawn(spawnerInstance, conn);

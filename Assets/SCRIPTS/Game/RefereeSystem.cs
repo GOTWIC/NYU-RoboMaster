@@ -49,6 +49,7 @@ public class RefereeSystem : NetworkBehaviour {
     [SerializeField] private Image authorityPlayerBar;
     [SerializeField] private Image authorityPlayerBG;
     [SerializeField] private TextMeshProUGUI authorityPlayerNumber;
+    [SerializeField] private TextMeshProUGUI authorityPlayerName;
 
 
     private MyNetworkManager networkManager = null;
@@ -262,7 +263,7 @@ public class RefereeSystem : NetworkBehaviour {
         gameEnd.SetActive(false);
     }
 
-    public int addRobotHealthDisplayLink(int team, Health health, bool authority) {
+    public int addRobotHealthDisplayLink(int team, Health health, bool authority, string name) {
         Image healthBarImage = null;
 
         if(authority)
@@ -281,9 +282,11 @@ public class RefereeSystem : NetworkBehaviour {
             redRobotHealthImgs.Add(redRobotHealthInst.transform.GetChild(3).GetComponent<Image>());                 //Add the bar image from the new UI element to the list of images
             redRobotHealth.Add(health);
             redRobotHealthInst.transform.GetChild(4).GetComponent<TextMeshProUGUI>().text = redRobotHealth.Count.ToString();
-            if(authority)
+            redRobotHealthInst.transform.GetChild(5).GetComponent<TextMeshProUGUI>().text = name;
+            if (authority)
             {
                 authorityPlayerNumber.text = redRobotHealth.Count.ToString();
+                authorityPlayerName.text = name;
 
             }
             return redRobotHealth.Count;//Link the robot's health to the UI
@@ -294,9 +297,11 @@ public class RefereeSystem : NetworkBehaviour {
             blueRobotHealthImgs.Add(blueRobotHealthInst.transform.GetChild(3).GetComponent<Image>());                 //Add the bar image from the new UI element to the list of images
             blueRobotHealth.Add(health);
             blueRobotHealthInst.transform.GetChild(4).GetComponent<TextMeshProUGUI>().text = blueRobotHealth.Count.ToString();
+            blueRobotHealthInst.transform.GetChild(5).GetComponent<TextMeshProUGUI>().text = name;
             if (authority)
             {
                 authorityPlayerNumber.text = blueRobotHealth.Count.ToString();
+                authorityPlayerName.text = name;
 
             }
             return blueRobotHealth.Count;//Link the robot's health to the UI

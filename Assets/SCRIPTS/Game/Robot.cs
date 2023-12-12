@@ -8,6 +8,9 @@ public class Robot : NetworkBehaviour
     [SerializeField] private int team = -1;
     [SyncVar]
     [SerializeField] private int type = -1;
+    [SyncVar]
+    [SerializeField] private string playerName = "Player";
+
     [SerializeField] private Health health = null;
     [SyncVar]
     [SerializeField] private int robotNumber;
@@ -30,7 +33,7 @@ public class Robot : NetworkBehaviour
         if (setData) { return; }
         
         if(team != -1 && type != -1){
-            robotNumber = GameObject.FindWithTag("RefereeSystem").GetComponent<RefereeSystem>().addRobotHealthDisplayLink(team, health, hasAuthority);
+            robotNumber = GameObject.FindWithTag("RefereeSystem").GetComponent<RefereeSystem>().addRobotHealthDisplayLink(team, health, hasAuthority, playerName);
             setData = true;
         }
     }
@@ -42,6 +45,11 @@ public class Robot : NetworkBehaviour
 
     public void setType(int type){
         this.type = type;
+    }
+
+    public void setName(string name)
+    {
+        this.playerName = name;
     }
 
     public int getTeam() { return team; }

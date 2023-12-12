@@ -2125,7 +2125,7 @@ MonoBehaviour:
   fireRate: 20
   ammo: 2000
   fireMode: auto
-  heatDissipationRate: 30
+  heatDissipationRate: 45
   heatAccretion: 0
   heatThreshold: 150
   heatAccretionImage: {fileID: 1910409111934018546}
@@ -2200,6 +2200,7 @@ MonoBehaviour:
   syncInterval: 0.1
   team: -1
   type: -1
+  playerName: Player
   health: {fileID: 472417514688017149}
   robotNumber: 0
   ignoredColliders:
