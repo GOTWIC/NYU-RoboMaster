@@ -42,6 +42,15 @@ public class RefereeSystem : NetworkBehaviour {
     [SerializeField] private TMP_Text resultText = null;
     [SerializeField] private TMP_Text matchTimer = null;
 
+    [SerializeField] private Image authorityPlayerHealthBar = null;
+    [SerializeField] private Health authorityPlayerHealth;
+    [SerializeField] private Sprite authorityPlayerBarIfBlue;
+    [SerializeField] private Sprite authorityPlayerBGIfBlue;
+    [SerializeField] private Image authorityPlayerBar;
+    [SerializeField] private Image authorityPlayerBG;
+    [SerializeField] private TextMeshProUGUI authorityPlayerNumber;
+
+
     private MyNetworkManager networkManager = null;
 
     [SyncVar] public bool transitioning = false;
@@ -95,12 +104,14 @@ public class RefereeSystem : NetworkBehaviour {
         redBaseHealthBarImage.rectTransform.sizeDelta = new Vector2(840 * redBaseHealth.getCurrentHealth() / redBaseHealth.getMaxHealth(), 84);
         blueBaseHealthBarImage.rectTransform.sizeDelta = new Vector2(840 * blueBaseHealth.getCurrentHealth() / blueBaseHealth.getMaxHealth(), 84);
 
+        authorityPlayerHealthBar.rectTransform.sizeDelta = new Vector2(840 * authorityPlayerHealth.getCurrentHealth() / authorityPlayerHealth.getMaxHealth(), 150);
+
         for (int i = 0; i < redRobotHealthImgs.Count; i++) {
             redRobotHealthImgs[i].rectTransform.sizeDelta = new Vector3(125 * redRobotHealth[i].getCurrentHealth() / redRobotHealth[i].getMaxHealth(), 10);
         }
 
         for (int i = 0; i < blueRobotHealthImgs.Count; i++) {
-            blueRobotHealthImgs[i].rectTransform.sizeDelta = new Vector3(125 * redRobotHealth[i].getCurrentHealth() / redRobotHealth[i].getMaxHealth(), 10);
+            blueRobotHealthImgs[i].rectTransform.sizeDelta = new Vector3(125 * blueRobotHealth[i].getCurrentHealth() / blueRobotHealth[i].getMaxHealth(), 10);
         }
 
         // Server - Timer
@@ -251,22 +262,47 @@ public class RefereeSystem : NetworkBehaviour {
         gameEnd.SetActive(false);
     }
 
-    public void addRobotHealthDisplayLink(int team, Health health) {
+    public int addRobotHealthDisplayLink(int team, Health health, bool authority) {
         Image healthBarImage = null;
+
+        if(authority)
+        {
+            authorityPlayerHealth = health;
+            if(team == 0)
+            {
+                authorityPlayerBar.sprite = authorityPlayerBarIfBlue;
+                authorityPlayerBG.sprite = authorityPlayerBGIfBlue;
+            }
+        }
 
         if (team == 1) {
 
             GameObject redRobotHealthInst = Instantiate<GameObject>(RedRobotHealthUI, redHealthGroup.transform);
             redRobotHealthImgs.Add(redRobotHealthInst.transform.GetChild(3).GetComponent<Image>());                 //Add the bar image from the new UI element to the list of images
-            redRobotHealth.Add(health);                                                                             //Link the robot's health to the UI
+            redRobotHealth.Add(health);
+            redRobotHealthInst.transform.GetChild(4).GetComponent<TextMeshProUGUI>().text = redRobotHealth.Count.ToString();
+            if(authority)
+            {
+                authorityPlayerNumber.text = redRobotHealth.Count.ToString();
+
+            }
+            return redRobotHealth.Count;//Link the robot's health to the UI
         }
 
         else if (team == 0) {
             GameObject blueRobotHealthInst = Instantiate<GameObject>(BlueRobotHealthUI, blueHealthGroup.transform);
-            redRobotHealthImgs.Add(blueRobotHealthInst.transform.GetChild(3).GetComponent<Image>());                 //Add the bar image from the new UI element to the list of images
-            redRobotHealth.Add(health);                                                                             //Link the robot's health to the UI
+            blueRobotHealthImgs.Add(blueRobotHealthInst.transform.GetChild(3).GetComponent<Image>());                 //Add the bar image from the new UI element to the list of images
+            blueRobotHealth.Add(health);
+            blueRobotHealthInst.transform.GetChild(4).GetComponent<TextMeshProUGUI>().text = blueRobotHealth.Count.ToString();
+            if (authority)
+            {
+                authorityPlayerNumber.text = blueRobotHealth.Count.ToString();
+
+            }
+            return blueRobotHealth.Count;//Link the robot's health to the UI
         }
 
+        return 0;
         //updateRobotHealthDisplay(healthBarImage);
     }
 

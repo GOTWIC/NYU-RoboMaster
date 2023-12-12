@@ -24,7 +24,15 @@ public class PlayerMovement : NetworkBehaviour
     private void move()
     {
         tryToRotate();
-        tryToTranslate();
+        
+    }
+
+    public void OnCollisionStay(Collision collision)
+    {
+        if (hasAuthority)
+        {
+            tryToTranslate();
+        }
     }
 
     private void tryToRotate()
@@ -46,6 +54,9 @@ public class PlayerMovement : NetworkBehaviour
 
         if (Input.GetKey(KeyCode.D))
         { ClientTranslate(transform.right); }
+
+        if (Input.GetKey(KeyCode.Q))
+        { health.dealDamage(1000); }
     }
 
     private void ClientTranslate(Vector3 vec)
@@ -55,14 +66,16 @@ public class PlayerMovement : NetworkBehaviour
 
         if (gameObject.GetComponent<Rigidbody>().velocity.magnitude > topSpeed * topSpeedMulti) { return; }
 
+        gameObject.GetComponent<Rigidbody>().AddForce(vec * acceleration * accelMulti * Time.deltaTime * 10000000);
+
+        /*
         RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.TransformDirection(-transform.up), out hit, 1, layerMask))
         {
-            gameObject.GetComponent<Rigidbody>().AddForce(vec * acceleration * accelMulti * Time.deltaTime * 10000000);
         }
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1, Color.yellow);
-
+        */
     }
 
     private void ClientRotate(float inp)
@@ -78,4 +91,5 @@ public class PlayerMovement : NetworkBehaviour
     {
         accelMulti = multi;
     }
+    
 }
