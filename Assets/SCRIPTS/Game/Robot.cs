@@ -9,6 +9,8 @@ public class Robot : NetworkBehaviour
     [SyncVar]
     [SerializeField] private int type = -1;
     [SerializeField] private Health health = null;
+    [SyncVar]
+    [SerializeField] private int robotNumber;
 
     [SerializeField] List<Collider> ignoredColliders = new List<Collider>();
 
@@ -28,7 +30,7 @@ public class Robot : NetworkBehaviour
         if (setData) { return; }
         
         if(team != -1 && type != -1){
-            GameObject.FindWithTag("RefereeSystem").GetComponent<RefereeSystem>().addRobotHealthDisplayLink(team, health);
+            robotNumber = GameObject.FindWithTag("RefereeSystem").GetComponent<RefereeSystem>().addRobotHealthDisplayLink(team, health, hasAuthority);
             setData = true;
         }
     }
