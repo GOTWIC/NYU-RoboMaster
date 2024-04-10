@@ -107,6 +107,22 @@ public class MyNetworkManager : NetworkRoomManager
         NetworkServer.Spawn(spawnerInstance, conn);
 
         gamePlayer.GetComponent<PlayerScript>().setRobot(spawnerInstance);
+
+        /*if(mode == NetworkManagerMode.Host)
+        {
+            Debug.Log("Spawned AI Player");
+            spawnerInstance = Instantiate(robot, gamePlayer.transform.position + new Vector3(4, 0, 0), gamePlayer.transform.rotation);
+
+            spawnerInstance.GetComponent<Robot>().setTeam(teamSelection);
+            spawnerInstance.GetComponent<Robot>().setType(robotType);
+            spawnerInstance.GetComponent<Robot>().setName(robotName);
+            spawnerInstance.GetComponent<Robot>().setAIControlled(true);
+
+            //Spawns on Network
+            NetworkServer.Spawn(spawnerInstance, conn);
+
+            gamePlayer.GetComponent<PlayerScript>().setRobot(spawnerInstance);
+        }*/
     }
 
     public void resetGame()

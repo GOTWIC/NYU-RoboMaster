@@ -12,6 +12,7 @@ public class UnitFiring : NetworkBehaviour
     [SerializeField] private TMP_Text ammoCount = null;
 
     // Firing
+    [SyncVar] bool firePressed = false;
     [SerializeField] private float fireRate = 1f;
     [SerializeField][SyncVar] public int ammo = 200;
     private float lastFireTime = 0f;
@@ -27,6 +28,7 @@ public class UnitFiring : NetworkBehaviour
 
     // Misc
     [SerializeField] Health health = null;
+    
 
 
     private void Start()
@@ -49,8 +51,8 @@ public class UnitFiring : NetworkBehaviour
     {
         if (!hasAuthority) { return; }
         
-        if (Input.GetMouseButton(0) && fireMode == "auto") { tryToFire(playerCamera.transform.rotation); }
-        if (Input.GetMouseButtonDown(0) && fireMode == "semi") { tryToFire(playerCamera.transform.rotation); }
+        if (firePressed && fireMode == "auto") { tryToFire(playerCamera.transform.rotation); }
+        if (firePressed && fireMode == "semi") { tryToFire(playerCamera.transform.rotation); firePressed = false; }
 
         dissipateHeat();
 
@@ -113,5 +115,16 @@ public class UnitFiring : NetworkBehaviour
     {
         ammo = 200;
         heatAccretion = 0;
+    }
+
+    [Command]
+    public void SendFire()
+    {
+        firePressed = true;
+    }
+    [Command]
+    public void CancelFire()
+    {
+        firePressed = false;
     }
 }

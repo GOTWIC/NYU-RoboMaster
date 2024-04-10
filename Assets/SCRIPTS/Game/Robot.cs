@@ -20,6 +20,8 @@ public class Robot : NetworkBehaviour
     [SyncVar] public Vector3 defaultPosition;
     [SyncVar] public Quaternion defaultRotation;
 
+    [SyncVar] public bool AIControlled;
+
     bool setData = false;
 
     private void Start()
@@ -50,6 +52,10 @@ public class Robot : NetworkBehaviour
     public void setName(string name)
     {
         this.playerName = name;
+    }
+    public void setAIControlled(bool aiControlled)
+    {
+        this.AIControlled = aiControlled;
     }
 
     public int getTeam() { return team; }

@@ -1977,6 +1977,7 @@ GameObject:
   - component: {fileID: 5015520812311679637}
   - component: {fileID: 3445961397802990197}
   - component: {fileID: 4019489129176596173}
+  - component: {fileID: 4389860863630755330}
   - component: {fileID: 472417514688017149}
   - component: {fileID: 1290113087207514565}
   - component: {fileID: 3497370628486519107}
@@ -2130,6 +2131,20 @@ MonoBehaviour:
   heatThreshold: 150
   heatAccretionImage: {fileID: 1910409111934018546}
   health: {fileID: 472417514688017149}
+--- !u!114 &4389860863630755330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8024595417304967709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e48683b03c8744b8f9a262834aa3c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
 --- !u!114 &472417514688017149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2208,6 +2223,7 @@ MonoBehaviour:
   - {fileID: 8849906937740052863, guid: 5bb1990fca2b18244a432ac0d6ec2bc9, type: 3}
   defaultPosition: {x: 0, y: 0, z: 0}
   defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+  AIControlled: 0
 --- !u!114 &2593390320360624239
 MonoBehaviour:
   m_ObjectHideFlags: 0
