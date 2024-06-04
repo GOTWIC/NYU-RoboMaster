@@ -1197,7 +1197,7 @@ GameObject:
   - component: {fileID: 624299356}
   - component: {fileID: 6833200523145919008}
   - component: {fileID: 6833200523145919009}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1867,7 @@ GameObject:
   - component: {fileID: 1036568767}
   - component: {fileID: 31}
   - component: {fileID: 24}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3339,6 +3339,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16392
   target: {fileID: 6833200524481574294}
+  elapsed: 0
 --- !u!1001 &1968455449
 PrefabInstance:
   m_ObjectHideFlags: 0
